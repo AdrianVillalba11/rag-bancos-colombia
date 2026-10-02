@@ -18,8 +18,7 @@ htmlcov/
 build/
 dist/
 
-# Índices y volúmenes locales (regenerables)
-data/chroma/
+# Volúmenes locales de servicios (no se versionan)
 data/postgres/
 data/models/
 
