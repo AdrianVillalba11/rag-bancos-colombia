@@ -81,6 +81,12 @@ class Chunk:
         """ID determinista: reindexar el mismo contenido no crea duplicados."""
         return content_hash(f"{self.document_id}|{self.position}|{self.text}")[:24]
 
+    @property
+    def embedding_text(self) -> str:
+        """Texto que se vectoriza e indexa: el contenido precedido por su contexto."""
+        contexto = " — ".join(p for p in (self.title, self.heading) if p)
+        return f"{contexto}\n{self.text}" if contexto else self.text
+
     def metadata(self) -> dict[str, Any]:
         return {
             "document_id": self.document_id,
