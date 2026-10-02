@@ -1,0 +1,88 @@
+name: rag-bancos
+
+services:
+  ollama:
+    image: ollama/ollama:0.35.1
+    container_name: rag-bancos-ollama
+    restart: unless-stopped
+    volumes:
+      - ollama_models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  ollama-init:
+    image: ollama/ollama:0.35.1
+    container_name: rag-bancos-ollama-init
+    restart: "no"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - ./docker/ollama-init.sh:/init.sh:ro
+    entrypoint: ["/bin/sh", "/init.sh"]
+    command: ["${LLM_MODEL:-llama3}", "${EMBEDDING_MODEL:-bge-m3}"]
+
+  chroma:
+    image: chromadb/chroma:0.5.20
+    container_name: rag-bancos-chroma
+    restart: unless-stopped
+    environment:
+      IS_PERSISTENT: "TRUE"
+      ANONYMIZED_TELEMETRY: "FALSE"
+    volumes:
+      - chroma_data:/chroma/chroma
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/localhost/8000' || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  # Herramientas de línea de comandos (ingesta, informes): docker compose run --rm ingest
+  ingest:
+    build:
+      context: .
+      args:
+        TORCH_INDEX: ${TORCH_INDEX:-https://download.pytorch.org/whl/cpu}
+    image: rag-bancos-app:latest
+    container_name: rag-bancos-ingest
+    profiles: ["tools"]
+    env_file: .env
+    depends_on:
+      chroma:
+        condition: service_healthy
+      ollama-init:
+        condition: service_completed_successfully
+    volumes:
+      - ./data:/app/data
+      - hf_cache:/models/huggingface
+
+  # Pruebas unitarias dentro de Docker: docker compose run --rm tests
+  tests:
+    build:
+      context: .
+      target: dev
+      args:
+        TORCH_INDEX: ${TORCH_INDEX:-https://download.pytorch.org/whl/cpu}
+    image: rag-bancos-tests:latest
+    container_name: rag-bancos-tests
+    profiles: ["tools"]
+    env_file: .env
+    environment:
+      CHROMA_HOST: chroma
+      PYTHONPATH: /app/src
+    depends_on:
+      chroma:
+        condition: service_healthy
+    volumes:
+      - ./tests:/app/tests
+      - ./src:/app/src
+
+volumes:
+  ollama_models:
+  chroma_data:
+  hf_cache:

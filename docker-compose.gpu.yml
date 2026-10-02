@@ -1,0 +1,20 @@
+# Activa la GPU NVIDIA (Ollama y reranker). Requiere NVIDIA Container Toolkit o Docker Desktop
+# con WSL2. En .env:
+#   COMPOSE_PATH_SEPARATOR=,
+#   COMPOSE_FILE=docker-compose.yml,docker-compose.gpu.yml
+#   TORCH_INDEX=https://download.pytorch.org/whl/cu126
+#   RERANKER_DEVICE=cuda
+x-gpu: &gpu
+  deploy:
+    resources:
+      reservations:
+        devices:
+          - driver: nvidia
+            count: 1
+            capabilities: [gpu]
+
+services:
+  ollama:
+    <<: *gpu
+  ingest:
+    <<: *gpu
