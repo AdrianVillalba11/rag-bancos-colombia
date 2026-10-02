@@ -23,6 +23,10 @@ class InputValidationError(RagError):
     code = "invalid_input"
 
 
+class UnknownBankError(InputValidationError):
+    code = "unknown_bank"
+
+
 class RateLimitExceededError(RagError):
     code = "rate_limit_exceeded"
 
@@ -38,6 +42,28 @@ class RobotsDisallowedError(ScrapingError):
 
     code = "robots_disallowed"
     retryable = False
+
+
+class HttpStatusError(ScrapingError):
+    """Respuesta HTTP no exitosa. Solo es reintentable si el fallo parece transitorio."""
+
+    code = "http_status_error"
+
+    def __init__(self, status_code: int, url: str) -> None:
+        super().__init__(f"HTTP {status_code} al solicitar {url}")
+        self.status_code = status_code
+        self.url = url
+        self.retryable = status_code == 429 or status_code >= 500
+
+
+class ScrapingBlockedError(HttpStatusError):
+    """El sitio rechaza el acceso automatizado (401/403). No se intenta evadir el bloqueo."""
+
+    code = "scraping_blocked"
+
+    def __init__(self, status_code: int, url: str) -> None:
+        super().__init__(status_code, url)
+        self.retryable = False
 
 
 class CleaningError(RagError):
