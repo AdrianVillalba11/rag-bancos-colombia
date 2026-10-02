@@ -1,0 +1,22 @@
+{
+  "id": "5ffbf75dcb710289",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/gestor-tarifarios-nuevo",
+  "title": "gestor tarifarios nuevo",
+  "fetched_at": "2026-10-02T22:03:01.302449+00:00",
+  "source_hash": "dc41e9985fc592e667821a6ffb57a37c2911d6595ba476047b964cd67e998574",
+  "sections": [
+    {
+      "heading": "Titulo de Landing Tarifarios",
+      "text": "Tarifario Empresas"
+    },
+    {
+      "heading": "Tarifario 01",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos aut ipsa voluptatem porro mollitia voluptate. Totam dolorem atque optio, sequi impedit mollitia a dolorum animi ad. Cum, dolorem quos.\ndescarga de pdf"
+    },
+    {
+      "heading": "Servicios Financieros",
+      "text": "sin costo\nAhora tus cuentas de ahorro, tarjetas débito y tarjetas de crédito te ofrecen más beneficios sin costo adicional*.\nCONÓCELOS"
+    }
+  ]
+}

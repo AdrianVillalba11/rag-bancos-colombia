@@ -1,0 +1,38 @@
+{
+  "id": "634f30a86bd92348",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/oportunidades/tramites-diarios.html",
+  "title": "Tus trámites diarios | Empresas",
+  "fetched_at": "2026-10-02T21:59:36.445376+00:00",
+  "source_hash": "7573af7f335940980e25f35bb18cc0b1c05c26856d636f374eca2b3ac6c83a0d",
+  "sections": [
+    {
+      "heading": "Tus trámites diarios",
+      "text": "Gestiona productos como cuentas y capital de trabajo para tu empresa"
+    },
+    {
+      "heading": "CDT",
+      "text": "Ahorra e invierte en tu empresa de forma segura con nuestros CDT."
+    },
+    {
+      "heading": "Mesa de dinero | BBVA Colombia",
+      "text": "Satisface tus necesidades de cobertura de riesgos e inversión con BBVA."
+    },
+    {
+      "heading": "Factoring",
+      "text": "Haz frente a las necesidades financieras y desarrolla los proyectos de tu empresa."
+    },
+    {
+      "heading": "¿Qué oficinas pueden realizar la apertura de cuentas empresariales?",
+      "text": "Tenemos oficinas especializadas para atender las necesidades de tu empresa."
+    },
+    {
+      "heading": "¿Por el ingreso de divisas, el beneficiario del giro debe firmar algún documento?",
+      "text": "Debe firmar el formulario de declaración de cambio por servicios, transferencias y otros conceptos, el cuál contiene la información correspondiente a la operación cambiaria."
+    },
+    {
+      "heading": "¿Es posible timbrar recaudo con títulos de la tesorería nacional (tidis)?",
+      "text": "Para timbrar un recaudo recibimos únicamente pagos en efectivo y cheque ya que los títulos de tesorería no están habilitados para esta operación."
+    }
+  ]
+}

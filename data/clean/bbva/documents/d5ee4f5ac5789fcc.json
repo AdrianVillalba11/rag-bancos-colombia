@@ -1,0 +1,30 @@
+{
+  "id": "d5ee4f5ac5789fcc",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/ayuda-urgente.html",
+  "title": "Ayuda urgente",
+  "fetched_at": "2026-10-02T21:57:51.606086+00:00",
+  "source_hash": "59b1378fa71d126d05f9a00f414cc6f1d6c8bea98e8314ff885bc198c3d1ceda",
+  "sections": [
+    {
+      "heading": "Líneas Nacionales",
+      "text": "Resuelve tus dudas, consulta sobre operaciones o productos y recibe la atención especializada que necesitas a través de nuestros canales de atención al cliente.\nLínea BBVA 01 8000 912 227\nBogotá 601 401 00 00\nMedellín 604 493 83 00\nBucaramanga 607 630 40 00\nCali 602 889 20 20\nBarranquilla 605 350 35 00\nChat"
+    },
+    {
+      "heading": "¿Qué horario atiende el chat?",
+      "text": "Nuestro chat atiende las 24 horas del día los 7 días de la semana"
+    },
+    {
+      "heading": "¿ Qué tipo de consultas puedo hacerle a Blue?",
+      "text": "Puedes preguntarle cómo acceder a tus canales, cómo crear las contraseñas, como realizar transferencias o la ubicación de nuestras oficinas y muchas más preguntas."
+    },
+    {
+      "heading": "¿Dónde puedo solicitar mi asistencia para un viaje internacional?",
+      "text": "Marca desde tu celular al #267 ó al fijo 6463214 y en todo Colombia el 018000930214., allí podrás solicitar la asistencia internacional que requieres, que se encuentre vigente y dentro de las ofrecidas para la categoría de tu tarjeta. Conoce los términos y condiciones de esta asistencia internacional.\nRecuerda que este beneficio está disponible para tarjetas de crédito titulares y amparadas vigentes y no tiene ningún costo adicional."
+    },
+    {
+      "heading": "¿El chat me puede indicar que significa un error en BBVA móvil o Net?",
+      "text": "Si, te ayudaremos a identificar el error y cómo se puede solucionar"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "c034d1ff0eb3fce7",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/tus-pagos/transacciones-pse.html",
+  "title": "Transacciones PSE | Empresas",
+  "fetched_at": "2026-10-02T21:57:47.598155+00:00",
+  "source_hash": "7c3727df7d6d3bf44ab6a3cc2803abfa3c4ab4fa348d8485891d7dbc6fc26af9",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Transacciones por PSE"
+    },
+    {
+      "heading": "Paga tus productos a través de PSE",
+      "text": "¿Qué operaciones puedes hacer?\nEl botón PSE es la forma más simple y rápida de pagar tus créditos en BBVA, ya sean los tuyos o de otros clientes. Solo ten en cuenta que esta opción aplica a créditos que no estén judicializados.\nLínea comercial (Empresas)\nAgrocrédito"
+    }
+  ]
+}

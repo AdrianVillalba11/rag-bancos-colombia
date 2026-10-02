@@ -1,0 +1,22 @@
+{
+  "id": "fdbb400d7b5c32a2",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/documentos-legales/gmf-iva",
+  "title": "GMF e IVA Personas",
+  "fetched_at": "2026-10-02T22:03:36.963507+00:00",
+  "source_hash": "39ae3c8e2bbf5af88cb830e0a0a30eb02cf7873030e3f442179e16a08ed534d2",
+  "sections": [
+    {
+      "heading": "GMF e IVA",
+      "text": "En el Grupo Bancolombia te entregamos información actualizada para que tomes tus decisiones financieras. Por eso te compartimos lo que necesitas saber sobre el Gravamen a los Movimientos Financieros."
+    },
+    {
+      "heading": "GMF",
+      "text": "El Gravamen a los Movimientos Financieros es un impuesto nacional. Se causa al momento de la realización de transacciones financieras de acuerdo con lo establecido en las normas que regulan este tributo."
+    },
+    {
+      "heading": "IVA",
+      "text": "Bancolombia como entidad financiera liquida el impuesto a las ventas, aplicando la tarifa general a comisiones y remuneraciones con las excepciones definidas por ley.\nGravados con IVA son las comisiones y remuneraciones por servicios bancarios, la venta de chequeras.\nExcluidas de IVA están las comisión por utilización de tarjetas débito y crédito, los intereses de los créditos y compra y venta de divisas, operaciones cambiarias sobre instrumentos derivados financieros.\ndiv id=\"layoutContainers\" class=\"wpthemeLayoutContainers wpthemeLayoutContainersHidden\" > <div class=\"wpthemeInner\"> <div class=\"wpthemeClear\"></div> </div> </div"
+    }
+  ]
+}

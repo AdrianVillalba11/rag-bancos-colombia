@@ -1,0 +1,18 @@
+{
+  "id": "97ef6c2e55d6e901",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/comparador",
+  "title": "Comparador de Tarjetas de Crédito Bancolombia",
+  "fetched_at": "2026-10-02T22:06:09.134524+00:00",
+  "source_hash": "3f47fbe8220b98188ba2bddc0a6e5c935ea13a32b9093187ecbe895b67e42467",
+  "sections": [
+    {
+      "heading": "Comparador de tarjeta de crédito",
+      "text": "Selecciona hasta tres tarjetas diferentes, compara sus características y solicita la que más se adapte a tus necesidades."
+    },
+    {
+      "heading": "Descuentos",
+      "text": "Paga menos usando productos Bancolombia en tus comercios favoritos."
+    }
+  ]
+}

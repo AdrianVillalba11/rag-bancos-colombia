@@ -1,0 +1,46 @@
+{
+  "id": "c578c4c94505fb56",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/necesidades/documentos",
+  "title": "Solicita documentos para personas",
+  "fetched_at": "2026-10-02T22:04:46.550363+00:00",
+  "source_hash": "22132945c73eaa6d74e6135c8db2942e82fe7cb3a4f8a648ea5db12136d53305",
+  "sections": [
+    {
+      "heading": "Solicitud de documentos para personas",
+      "text": "Aquí podrás encontrar los documentos necesarios de los productos que tienes con nosotros. Solicítalos de una forma fácil y rápida sin necesidad de desplazarte a una de nuestras sucursales."
+    },
+    {
+      "heading": "Certificaciones bancarias",
+      "text": "Solicítalas cuando necesites un certificado sobre los productos que tienes con Bancolombia. Puedes solicitar certificaciones bancarias sobre tus cuentas de ahorro y corriente, CDT, créditos, fondos de inversión, entre otros.\nSolicítalo aquí"
+    },
+    {
+      "heading": "Paz y salvos",
+      "text": "Solicítalos cuando necesites la constancia de que estás a paz y salvo con los productos del banco. Este documento certifica que estás al día con los pagos de las obligaciones que tienes con Bancolombia.\nChat\nLlamada\nDéjanos tus datos"
+    },
+    {
+      "heading": "Consulta de movimientos",
+      "text": "Solicítalos cuando necesites los movimientos de las cuentas de depósito, fondos de inversión, tarjetas de crédito, créditos comerciales y de consumo que no pueden ser visualizados a través de la opción de movimientos de la Sucursal Virtual."
+    },
+    {
+      "heading": "Copia de transacciones",
+      "text": "Solicítalas cuando necesites copia de los documentos de las transacciones que realizas en una sucursal, como copias de consignaciones, copias de cheques o formatos de recaudos."
+    },
+    {
+      "heading": "Extractos",
+      "text": "Solicítalos cuando necesites consultar las copias de los extractos de las cuentas de ahorro o corriente, fondos de inversión, créditos y tarjetas de crédito. Recuerda, que también puedes consultarlo de una manera rápida en la Sucursal Virtual Personas opción Documentos."
+    },
+    {
+      "heading": "Solicitudes Leasing",
+      "text": "Solicita documentos para trámites, soportes de la operación y novedades de la operación o el activo\n*no aplica para Leasing Habitacional"
+    },
+    {
+      "heading": "Gestiona tu información documental",
+      "text": "Descarga los documentos que debes diligenciar para el proceso que vas a realizar y cárgalos de forma digital.\nHazlo ahora"
+    },
+    {
+      "heading": "Documentos Sufi",
+      "text": "Aquí podrás encontrar los boletines y las certificaciones de Sufi, una marca Bancolombia.\nMás información\ndiv id=\"layoutContainers\" class=\"wpthemeLayoutContainers wpthemeLayoutContainersHidden\" > <div class=\"wpthemeInner\"> <div class=\"wpthemeClear\"></div> </div> </div"
+    }
+  ]
+}

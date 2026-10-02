@@ -1,0 +1,30 @@
+{
+  "id": "c589ae87a357e2bb",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones.html",
+  "title": "Banca de inversión | Empresas",
+  "fetched_at": "2026-10-02T22:00:22.941454+00:00",
+  "source_hash": "58d1c82982d0d38b1a966fed9adab41fd4dfd9cd3e76c026e95a9a830e3f7769",
+  "sections": [
+    {
+      "heading": "Banca de inversión para empresas",
+      "text": "BIBEC"
+    },
+    {
+      "heading": "Consigue financiación en mercados de deuda o de renta variable",
+      "text": "Accede a los beneficios de la Banca de Inversión de Empresas y Corporaciones\nTrabaja con BBVA en la estructuración y desarrollo de soluciones de pago.\nSatisface tus necesidades de intermediación bursátil.\nReinvierte el dividendo.\nAccede al mercado de capitales para cubrir tus necesidades de financiación a medio y largo plazo.\nMejora tus activos."
+    },
+    {
+      "heading": "¿Qué tipos de inversionistas existen en los fondos de inversión?",
+      "text": "Básicamente existen dos tipos de inversionistas que son:"
+    },
+    {
+      "heading": "¿El Fondo de Inversión una vez abierto, se puede consultar a través del BBVA net cash?",
+      "text": "No, el cliente \"EMPRESA\" debe solicitar asociar Fondo de inversión (formato establecido) ante la linea corporativa de BBVA, una vez asociado, se debe parametrizar cn ayuda del banco. Una vez realizado lo anterior se podrá realizar consultas y además transacciones."
+    },
+    {
+      "heading": "¿Que es una firma digital?",
+      "text": "Es un mecanismo equivalente a la firma manuscrita que garantiza la integridad de un documento o transacción electrónica. Una Entidad Certificadora avala la firma, que permite realizar transacciones 100% en el mundo electrónico, con las mismas implicaciones jurídicas a las realizadas por medios físicos tradicionales."
+    }
+  ]
+}

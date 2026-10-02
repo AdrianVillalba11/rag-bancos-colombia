@@ -1,0 +1,50 @@
+{
+  "id": "cdca11e982ab21ff",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/giros/internacionales/remesas",
+  "title": "Remesas Bancolombia y Zaswin",
+  "fetched_at": "2026-10-02T22:04:46.293991+00:00",
+  "source_hash": "e3ea683b1cecff42909083974dad52c48a073a028619fb86446fe6433768255e",
+  "sections": [
+    {
+      "heading": "Remesas",
+      "text": "Recibe en Colombia la plata que tu familia o amigos te envían desde el exterior, con los aliados que tenemos en diferentes países. Cuéntale a quien te envía, cómo hacerlo."
+    },
+    {
+      "heading": "Características",
+      "text": "users"
+    },
+    {
+      "heading": "No necesitas ser cliente",
+      "text": "Recibe tu remesa con Bancolombia, incluso si no tienes productos con nosotros."
+    },
+    {
+      "heading": "Sin cobros sorpresa",
+      "text": "Recibe exactamente el monto que te envían, sin comisiones ocultas ni descuentos inesperados."
+    },
+    {
+      "heading": "Disponible desde USD 1",
+      "text": "Envía y recibe remesas desde USD 1, sin montos mínimos elevados."
+    },
+    {
+      "heading": "Con Zaswin desde EE.UU",
+      "text": "Envía tu remesa por WhatsApp desde tu cuenta en EE. UU. a una cuenta Bancolombia o Nequi.\nEscribir a Zaswin"
+    },
+    {
+      "heading": "Otros aliados",
+      "text": "Envía dinero desde cualquier parte del mundo en oficinas o por canales digitales.\nConocer los aliados"
+    },
+    {
+      "heading": "Conoce los aliados a nivel mundial",
+      "text": "Desde diferentes países:\nMoneyGram\nRemitly\nDesde Estados Unidos:\nZaswin\nRia\nSouth Exchange\nTransfast\nWells Fargo\nWorldRemit\nXoom\nDesde España:\nDolEx\nCaixa\nWise\nDesde Latinoamérica:\nUno\nMore\nTambién tenemos otros aliados como Viaméricas, Uniteller, PNC Global Transfers y TerraPay\nque facilitan la conexión entre remesadoras y Bancolombia para el envío la plata.\nDocumentos"
+    },
+    {
+      "heading": "Recibir transferencias internacionales",
+      "text": "Disfruta la plata que te envían desde afuera de Colombia."
+    },
+    {
+      "heading": "Enviar transferencias internacionales",
+      "text": "Manda plata a otros bancos afuera de Colombia."
+    }
+  ]
+}

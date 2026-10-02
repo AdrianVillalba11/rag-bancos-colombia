@@ -1,0 +1,54 @@
+{
+  "id": "200b3fe9a5656f80",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/productos/banca-personal/prestamos.html",
+  "title": "Préstamos Banca Personal",
+  "fetched_at": "2026-10-02T21:59:16.948608+00:00",
+  "source_hash": "b46a5cb5dd2d0be1e8c45ae8649ef6fe6fa2d1258a854e94765cd52c9d6d1885",
+  "sections": [
+    {
+      "heading": "¿Qué es un préstamo personal?",
+      "text": "Un préstamo personal es una cantidad de dinero que una entidad financiera, en este caso nosotros como BBVA, te otorgamos con la promesa de que devolverás el dinero en un plazo determinado y acordado entre ambas partes."
+    },
+    {
+      "heading": "Cupo Rotativo Premium",
+      "text": "Tasas preferenciales para clientes Banca Personal y Premium\nUtiliza tu cupo a través de nuestros canales digitales"
+    },
+    {
+      "heading": "Crédito Hipotecario",
+      "text": "Financia la adquisición de vivienda nueva o usada y escoge el sistema de amortización que más se adecue a tus necesidades."
+    },
+    {
+      "heading": "Simulador Credito de Vehículo",
+      "text": "Con el Simulador Crédito de Vehículo calcula el valor aproximado de tu cuota y los intereses."
+    },
+    {
+      "heading": "Créditos de Vehículo",
+      "text": "Para decidir tu próxima aventura estrenando vehículo.\nÚsalo para financiar tu vehículo nuevo, usado, híbrido o moto.\nDisfruta una tasa preferencial."
+    },
+    {
+      "heading": "BBVA net",
+      "text": "Realiza tus transacciones de manera fácil, rápida y segura."
+    },
+    {
+      "heading": "App BBVA",
+      "text": "Aprende cómo funciona la app, cómo transferir dinero, cómo hacer inicio de sesión, cómo registrarte en la app del banco y más."
+    },
+    {
+      "heading": "Cuenta Digital",
+      "text": "Para manejar tu dinero desde tu celular mientras estudias o emprendes.\nTransacciones gratis\nTransferencias a costo $0 usando Bre-B a cualquier banco\nAbrir cuenta"
+    },
+    {
+      "heading": "¿Cómo puedo solicitar un préstamo?",
+      "text": "Puedes solicitar un prestamo pre aprobado a través de BBVA móvil, validando si tienes uno en la sección \"Productos para ti\" o puedes solicitar un prestamo en nuestra Red de Oficinas a nivel nacional, adjuntando los documentos requeridos y el Formulario de Vinculación debidamente diligenciado.\nUna vez evaluada la operación, el asesor de tu oficina te contactará para informarte el resultado de la solicitud."
+    },
+    {
+      "heading": "¿Dónde y cómo puedo consultar el estado de mi préstamo?",
+      "text": "Lo puedes revisar a través de BBVA móvil, BBVA net o mediante los extractos del crédito ya sean en medio físico o en PDF en tu correo electrónico."
+    },
+    {
+      "heading": "¿Cuáles son los canales para atención y reclamos?",
+      "text": "Para radicar tus reclamaciones se encuentran disponibles los siguientes canales:\nLínea BBVA\nPuedes contactarte desde Bogotá al 4010000 - Medellín al 4938300 - Barranquilla al 3503500 - Cali al 8892020 - Bucaramanga al 6304000 - Otras Ciudades al 018000912227.\nInternet\nA través de www.bbva.com.co e ingresa a nuestra página transaccional BBVA Net o BBVA Net Cash, encontrarás en el extremo superior de la página la pestaña ATENCIÓN AL CLIENTE"
+    }
+  ]
+}

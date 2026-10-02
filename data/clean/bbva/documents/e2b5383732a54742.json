@@ -1,0 +1,18 @@
+{
+  "id": "e2b5383732a54742",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/reglamentos-externos.html",
+  "title": "Reglamentos Externos Central de Riesgos CIFIN",
+  "fetched_at": "2026-10-02T21:58:19.327794+00:00",
+  "source_hash": "b929ae450f31a8332dc49615d0db00e52d1ccedde4d5bd727c7cbfb42f608a8e",
+  "sections": [
+    {
+      "heading": "Reglamentos Externos Central de Riesgos CIFIN",
+      "text": "CIFIN"
+    },
+    {
+      "heading": "CENTRAL DE INFORMACION FINANCIERA",
+      "text": "Convenios\nLa única Central de Riesgos con la cual el BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA S.A. \"BBVA COLOMBIA\", ha celebrado convenios para el reporte y consulta de información comercial de sus clientes es la \"CIFIN\".\nDefinición\nLa \"CIFIN\" está conformada por las bases de datos que contienen la información comercial de los clientes que han sido reportados por una o varias entidades financieras, cuyo propósito es servir de elemento de juicio para la evaluación de riesgos en las operaciones activas de crédito, dentro de los parámetros Constitucionales, legales y los previstos en el respectivo reglamento.\nLa información comercial de los clientes contiene datos sobre cuentas corrientes, tarjetas de crédito, cartera total, endeudamiento global, validación del documento de identidad y procesos especiales.\nEfectos generales que conlleva el reporte a la Central de Riesgos\nEl reporte positivo de los clientes facilita el acceso al crédito. Sin embargo, cuando el reporte es negativo, la entidad financiera -sin desconocer sus obligaciones respecto de la evaluación y calificación de su cartera de créditos- puede analizar otros aspectos que le permitan establecer la real capacidad de pago del solicitante del crédito, la idoneidad, cobertura y liquidez de la garantía ofrecida y demás elementos que estime conveniente con el fin de establecer el riesgo crediticio de ese potencial cliente.\nReglas sobre la permanencia del dato establecidas por la Corte Constitucional. Sentencia de unificación 082-95\nCuando un cliente incurre en mora, la CIFIN conserva dicha información por periodos históricos, contados a partir del pago de la obligación, así:\nPERIODO DE INCUMPLIMIENTO | CADUCIDAD DEL DATOInferior a un (1) año | El doble de la mora, si el pago ha sido voluntario (*)Superior a un (1) año | El doble de la mora, si el pago ha sido voluntario (*)Si el pago es consecuencia de Un proceso ejecutivo | Cinco (5) años (*)Si el pago se produce luego de la notificación del mandamiento ejecutivo y sin que se hubieren propuesto excepciones | Dos (2) años (*)Si prosperan las excepciones invocadas por el demandado en proceso ejecutivo | Se excluye el dato de la CIFINSi la excepción que prospera es la de \"prescripción\" o la de \"caducidad\" | El dato no se excluye en ningún tiempoProductos cancelados por mal manejo | Dos (2) años (*)\n(*) Las reglas anteriores se aplican siempre y cuando no se hubieren reportado nuevos incumplimientos del mismo deudor durante el término de caducidad inicial de un dato histórico."
+    }
+  ]
+}

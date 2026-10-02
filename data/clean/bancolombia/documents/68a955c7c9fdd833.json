@@ -1,0 +1,62 @@
+{
+  "id": "68a955c7c9fdd833",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-corriente",
+  "title": "Cuenta corriente para persona natural",
+  "fetched_at": "2026-10-02T22:04:29.099711+00:00",
+  "source_hash": "a30781a9b2b29a21dbfb49cba2380df8627096e5fe7ee7ce2af7847903c92ccf",
+  "sections": [
+    {
+      "heading": "Cuenta corriente",
+      "text": "Maneja tu plata sin afanes. Con esta cuenta pagas, usas tu chequera y cuentas con un cupo de sobregiro cuando lo necesites."
+    },
+    {
+      "heading": "Manejo virtual",
+      "text": "Consulta movimientos, paga y transfiere por app Mi Bancolombia y Sucursal Virtual Personas."
+    },
+    {
+      "heading": "Retiros ilimitados gratis",
+      "text": "Disponibles todo el mes en cajeros y oficinas con tu tarjeta débito.\nchecks"
+    },
+    {
+      "heading": "Chequera disponible",
+      "text": "Elige entre presentaciones de 10, 40 o 100 unidades, según tus necesidades.\ncoins"
+    },
+    {
+      "heading": "Sobregiro",
+      "text": "Disfruta de un cupo adicional para cuando necesites plata de más."
+    },
+    {
+      "heading": "Pago y consignación de cheques",
+      "text": "Maneja tus cheques propios, locales o de otras ciudades."
+    },
+    {
+      "heading": "Lo que necesitas para abrir tu cuenta",
+      "text": "Ven a una oficina cuando tengas todo listo."
+    },
+    {
+      "heading": "Documento de identidad",
+      "text": "Tu cédula de ciudadanía o cédula de extranjería."
+    },
+    {
+      "heading": "Declaración de renta",
+      "text": "Del último período gravable, o certificado de no declarante."
+    },
+    {
+      "heading": "Si eres empleado",
+      "text": "Carta laboral y certificado de ingresos y retenciones, ambos con máximo tres meses de expedidos.\ninvoice"
+    },
+    {
+      "heading": "Si eres independiente",
+      "text": "Certificado de ingresos expedido por un contador público.\nDocumentos"
+    },
+    {
+      "heading": "Cuenta de ahorros",
+      "text": "Ábrela en minutos y empieza a manejar tu plata desde el celular."
+    },
+    {
+      "heading": "Cuenta Preferencial",
+      "text": "Sácale más provecho a tus ahorros con tasas preferenciales."
+    }
+  ]
+}

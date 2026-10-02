@@ -1,0 +1,58 @@
+{
+  "id": "9ff518376783760a",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/giros/internacionales/desde-el-exterior",
+  "title": "Recibir dinero con Bancolombia",
+  "fetched_at": "2026-10-02T22:04:17.715922+00:00",
+  "source_hash": "8a717d492917e478d52e3e276244c94de1922bb82267cefe52a1e4423461c4c2",
+  "sections": [
+    {
+      "heading": "Recibir transferencias internacionales",
+      "text": "Disfruta la plata que te envían desde afuera de Colombia, en efectivo, cheque o consignación. Cuéntale a quien te envía, cómo hacerlo y compártele nuestro código Swift: COLOCOBM"
+    },
+    {
+      "heading": "Posibles cargos",
+      "text": "Recibir transferencias no tiene costo, pero pueden existir cargos de otros bancos."
+    },
+    {
+      "heading": "Conocimiento de la tasa de cambio",
+      "text": "Acepta el valor de la moneda antes de recibir tu transferencia.\ncoins"
+    },
+    {
+      "heading": "Amplios montos",
+      "text": "Hasta $249.999 USD por SVP, hasta $1.000 USD por SVN o más por teléfono."
+    },
+    {
+      "heading": "Tú eliges cómo recibirlo",
+      "text": "Activa el abono automático o acepta la transferencia en 30 días."
+    },
+    {
+      "heading": "Cómo recibir tu plata",
+      "text": "Asegúrate de entregar tus datos a quien te envíe plata: código swift: COLOCOBM, tus nombres y apellidos completos y número de cuenta:"
+    },
+    {
+      "heading": "Sucursales virtuales",
+      "text": "Según el tipo de registro que tengas: persona natural o empresa, entra en cada sucursal y sigue los pasos.\nSeguir los pasos"
+    },
+    {
+      "heading": "Llámanos",
+      "text": "Contacta a nuestro equipo especialista de la Línea de comercio internacional, según el lugar donde te encuentres.\nConsultar líneas"
+    },
+    {
+      "heading": "Visítanos",
+      "text": "Busca la oficina más cerca de ti y recibe efectivo o cheque.\nBuscar oficinas"
+    },
+    {
+      "heading": "Monedas en las que te pueden enviar la plata",
+      "text": "Por transferencia:\n(USD)\nDólar americano\n(EUR)\nEuro\n(GBP)\nLibra esterlina\n(JPY)\nYen japonés\n(CAD)\nDólar canadiense\n(MXN)\nPeso mexicano\n(CHF)\nFranco suizo\nPor cheque:\nDocumentos"
+    },
+    {
+      "heading": "Enviar transferencias internacionales",
+      "text": "Manda plata a otros bancos afuera de Colombia."
+    },
+    {
+      "heading": "Remesas",
+      "text": "Envía plata desde donde estés en el mundo, hacia Colombia."
+    }
+  ]
+}

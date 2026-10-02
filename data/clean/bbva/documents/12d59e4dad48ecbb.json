@@ -1,0 +1,34 @@
+{
+  "id": "12d59e4dad48ecbb",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/informacion-financiera.html",
+  "title": "Información Financiera",
+  "fetched_at": "2026-10-02T22:01:19.426523+00:00",
+  "source_hash": "9a337bc48c1adddd46ad151395de47d46b6a8a28e71b58e41407044555f39d45",
+  "sections": [
+    {
+      "heading": "Información Financiera",
+      "text": "Estado Financieros BBVA\nAcceda a los documentos que BBVA ha creado para mantener informados a sus inversionistas sobre los estados financieros e informes anuales."
+    },
+    {
+      "heading": "¿Cúal es la diferencia entre Estados Financieros Individuales y Estados Financieros Consolidados?",
+      "text": "Los Estados Financieros Individuales representan el resultado de BBVA Colombia en su operación individual. Los Estados Financieros Consolidados representan el resultado de BBVA Colombia y las filiales BBVA Asset Management y BBVA Valores."
+    },
+    {
+      "heading": "¿Qué son los fondos de inversión?",
+      "text": "Se entiende por fondo de inversión colectiva a todo mecanismo o vehículo de captación o administración de sumas de dinero u otros activos, integrado con el aporte de un número plural de personas determinables una vez el fondo entre en operación, recursos que serán gestionados de manera colectiva para obtener resultados económicos también colectivos."
+    },
+    {
+      "heading": "¿Qué significa la volatilidad en un fondo de inversión?",
+      "text": "La volatilidad es un indicador que mide la variación de los precios de un título, y se traduce como una medida del riesgo: cuanto más volátil es un título, mayor riesgo implica invertir en él. Por lo cual, la Volatilidad se utiliza para establecer qué tanto varia la rentabilidad en un fondo de inversión."
+    },
+    {
+      "heading": "¿Bajo cuales normas contables se elaboran los Estados Financieros?",
+      "text": "Los Estados Financieros individuales y consolidados se elaboran bajo Full IFRS de acuerdo a los lineamientos de la Superintendencia Financiera de Colombia entidad que vigila a BBVA Colombia y sus filiales."
+    },
+    {
+      "heading": "¿Dónde puedo encontrar las presentaciones trimestrales de BBVA Colombia?",
+      "text": "Usted puede encontrar a través de la pagina www.bbva.com.co en el Site de Atención al Inversionistas y en el link “Agenda de Eventos Corp.” la presentación de resultados de cada trimestre, el audio y transcripción correspondiente."
+    }
+  ]
+}

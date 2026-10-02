@@ -1,0 +1,46 @@
+{
+  "id": "2e5986ed21eae8ff",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/landing/30-aniversario.html",
+  "title": "30 años - Aniversario BBVA",
+  "fetched_at": "2026-10-02T21:58:06.133610+00:00",
+  "source_hash": "8056de851bff32faa42bfff8f8cefb0efd70e800e2870a54c767bf3351aa5fd7",
+  "sections": [
+    {
+      "heading": "Cuando hay un motivo, el día empieza antes",
+      "text": "Y cuando tienes el control de tu dinero, puedes llegar más lejos. Llevamos 30 años acompañándote con soluciones que te acerquen a donde quieres llegar."
+    },
+    {
+      "heading": "Todos tenemos un por qué",
+      "text": "Por lo que quieres lograr. Por lo que viene. Por lo que estás construyendo.\nCards are populated here from .card-list-desktop through dynamicanimationcards.component.js"
+    },
+    {
+      "heading": "Lucas y Cata se despiertan",
+      "text": "Por su negocio. Nosotros por Lucas y Cata"
+    },
+    {
+      "heading": "Ana se despierta",
+      "text": "Por los que aman su sazón. Nosotros por Ana."
+    },
+    {
+      "heading": "Juan se despierta",
+      "text": "Por Isa. Nosotros por Juan e Isa."
+    },
+    {
+      "heading": "Llevamos 30 años a tu lado",
+      "text": "Te ayudamos a gestionar tu dinero desde el día a día. Cobra con tu móvil como datáfono, con QR o con Llave y gestiona tus cuentas desde un solo lugar para avanzar con más seguridad."
+    },
+    {
+      "heading": "Avanzar es hacer todo más fácil",
+      "text": "Y cada avance ha sido pensado para darte más control,\nmás seguridad y más libertad."
+    },
+    {
+      "heading": "Tenemos $2.000 millones de premios para celebrar contigo",
+      "text": "Abre uno o varios productos participantes (Ahorro Fijo, Cuenta Meta, Cuenta Nómina, Cuenta Pensional, Fondo Digital y CDT).\nAsegúrate de cumplir con el saldo mínimo el 28 de cada mes\n¡Recuerda! Si recibes tu nómina o pensión en BBVA antes del 6 de abril de 2026, tus oportunidades se multiplican por tres.\nCada producto suma oportunidades de ganar. Al siguiente mes empiezas de nuevo desde cero a sumar oportunidades.\nAplican términos y condiciones."
+    },
+    {
+      "heading": "Ahora, vamos juntos por lo que vendrá",
+      "text": "Porque lo que empieza hoy puede llegar tan lejos como te lo propongas. Y ahí estaremos, acompañándote en cada paso.\nAbrir cuenta"
+    }
+  ]
+}

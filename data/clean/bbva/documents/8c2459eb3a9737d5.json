@@ -1,0 +1,38 @@
+{
+  "id": "8c2459eb3a9737d5",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados/forward.html",
+  "title": "Forward - Coberturas y derivados | Empresas",
+  "fetched_at": "2026-10-02T22:01:34.869811+00:00",
+  "source_hash": "649ca68d6f8fde153ecb4599455055b2d39ed0c5804fb8372e0f4a378e4fc501",
+  "sections": [
+    {
+      "heading": "¿Que es Forward y para que sirve?",
+      "text": "Los forward son derivados financieros que permiten asegurar un tipo de cambio a futuro\nDe este modo el cliente se encuentre cubierto ante los movimientos de la tasa de cambio."
+    },
+    {
+      "heading": "Características",
+      "text": "Los Forward son instrumentos financieros creados a la medida de las necesidades del cliente:\nMonto y plazo.\nModalidades\nDelivery: Se realiza para operaciones obligatoriamente canalizables por un IMC, en esta modalidad se realiza la entrega total del subyacente en la fecha de vencimiento pactada al momento de la celebración del contrato.\nNon delivery: En esta modalidad se realiza un cumplimiento financiero es decir que el día del vencimiento de la operación se realiza una compensación de entre la tasa pacta de la operación y la TRM de ese día."
+    },
+    {
+      "heading": "Beneficios",
+      "text": "Conoce las ventajas de Forward\nPrincipales\nNo se debe hacer un desembolso inicial para contratar este producto, por lo tanto tiene un alto nivel de apalancamiento.\nConocer con anticipación cual va a ser tu flujo de caja.\nEste tipo de productos puedes anticipar, fraccionar o prorrogar dependiendo de las condiciones de mercado."
+    },
+    {
+      "heading": "Opciones",
+      "text": "El comprador de la opción tiene el derecho de ejercer o no la opción, por lo cual no es obligatorio.\nObtener beneficio en caso de que el mercado tenga un comportamiento contrario al de la cobertura\nEn cuanto al comprador de la opción call, va a estar cubierto cuando el mercado este a la baja y tendrá beneficios cuando el mercado se encuentre al alza"
+    },
+    {
+      "heading": "Swaps",
+      "text": "IRS: Eliminar incertidumbre de las tasas de tipo de interés al intercambiar flujos de tasa variable a tasa fija. Por lo tanto desde la contratación de Swap puede saber sus flujos fijos sin depender de una variable.\nCCSW: Permite fijar por adelantado el intercambio futuro de flujos de pagos en distintas monedas"
+    },
+    {
+      "heading": "¿Necesitas enviar dinero al exterior?",
+      "text": "Realiza tus giros empresariales desde y hacia el exterior con nosotros"
+    },
+    {
+      "heading": "Atención al cliente",
+      "text": "Resuelve tus dudas, consultas sobre operaciones o productos y recibe la atención especializada que necesitas a través de nuestros canales de atención al cliente.\nBogotá 401 00 00\nMedellín 493 83 00\nCalí 889 20 20\nBarranquilla 350 35 00\nContactar\nLínea BBVA 01 8000 912 227\nIr a app BBVA"
+    }
+  ]
+}

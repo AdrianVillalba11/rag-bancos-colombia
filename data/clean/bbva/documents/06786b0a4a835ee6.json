@@ -1,0 +1,38 @@
+{
+  "id": "06786b0a4a835ee6",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados/swaps.html",
+  "title": "Swaps - Coberturas y derivados | Empresas",
+  "fetched_at": "2026-10-02T22:01:52.236129+00:00",
+  "source_hash": "bb891bcedfc163df7d3e6cfc26cbc6de06264206ff67d16e65942c160e41470a",
+  "sections": [
+    {
+      "heading": "¿Qué es y para qué sirve?",
+      "text": "Es un derivado financiero en que las partes acuerdan intercambiar una serie de flujos futuros."
+    },
+    {
+      "heading": "Características",
+      "text": "Hay dos tipos de coberturas con swaps:\nCoberturas sobre tasa de interés IRS\nEs un contrato de intercambio de flujos en fechas futuras entre dos partes. El objetivo es cubrir las posibles variaciones de la tasa de interés. En este caso, una de las partes entrega pagos en tasa fija y recibe pagos en tasa variable.\nCoberturas sobre tipos de cambio CCSW\nEsta modalidad permite al cliente intercambiar flujos futuros en diferentes monedas, eliminando la incertidumbre de los tipos de cambio futuros."
+    },
+    {
+      "heading": "Beneficios",
+      "text": "Conoce los beneficios de los Swaps\nIRS\nEliminar incertidumbre de las tasas de tipo de interés al intercambiar flujos de tasa variable a tasa fija. Por lo tanto desde la contratación de Swap puede saber sus flujos fijos sin depender de una variable.\nAprovechar un escenario favorable de las tasas de interés al convertir flujos de tasa fija a tasa variable .\nCCSW\nPermite fijar por adelantado el intercambio futuro de flujos de pagos en distintas monedas\nPosibilidad de aprovechar mejores condiciones de financiamiento en una moneda determinada, intercambiando los flujos de la deuda por otros con la moneda deseada.\nPara contratar un swap no se necesita hacer ningún tipo de desembolso."
+    },
+    {
+      "heading": "¿Necesitas enviar dinero al exterior?",
+      "text": "Realiza tus giros empresariales desde y hacia el exterior con nosotros"
+    },
+    {
+      "heading": "Opciones",
+      "text": "El comprador de la opción tiene el derecho de ejercer o no la opción, por lo cual no es obligatorio.\nObtener beneficio en caso de que el mercado tenga un comportamiento contrario al de la cobertura\nEn cuanto al comprador de la opción call, va a estar cubierto cuando el mercado este a la baja y tendrá beneficios cuando el mercado se encuentre al alza"
+    },
+    {
+      "heading": "Forward",
+      "text": "No se debe hacer un desembolso inicial para contratar este producto, por lo tanto tiene un alto nivel de apalancamiento.\nPermite conocer con anticipación cual va a ser tu flujo de caja.\nSe pueden anticipar, fraccionar o prorrogar dependiendo de las condiciones de mercado."
+    },
+    {
+      "heading": "Atención al cliente",
+      "text": "Resuelve tus dudas, consultas sobre operaciones o productos y recibe la atención especializada que necesitas a través de nuestros canales de atención al cliente.\nBogotá 401 00 00\nMedellín 493 83 00\nCalí 889 20 20\nBarranquilla 350 35 00\nContactar\nLínea BBVA 01 8000 912 227\nIr a app BBVA"
+    }
+  ]
+}

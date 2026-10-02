@@ -1,0 +1,98 @@
+{
+  "id": "cd996c06f615d679",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/hazte-cliente.html",
+  "title": "Hazte cliente",
+  "fetched_at": "2026-10-02T21:57:59.692723+00:00",
+  "source_hash": "6bdc678669f72d9701162452f76e01e91a41a798dea888129ab79f6b1db9b8d8",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Bienvenido."
+    },
+    {
+      "heading": "Cuenta de ahorros",
+      "text": "Si estás buscando una manera de administrar tu dinero y mantenerlo a la vista solicíta una cuenta de ahorros en línea\nSolicita la Cuenta de nómina\nSolicita la Cuenta Digital para independientes\nSolicita la Cuenta para pensionados"
+    },
+    {
+      "heading": "Tarjeta de Crédito Aqua BBVA",
+      "text": "Si lo que buscas es comprar en línea más seguro y acumular Puntos BBVA para canjear en cientos de comercios aliados. ¡Esta es la tuya!\nQuiero mi tarjeta"
+    },
+    {
+      "heading": "Conoce más razones para escogernos",
+      "text": "Tecnología\nSeguridad\nExclusividad"
+    },
+    {
+      "heading": "Descubre cómo es llevar el banco en tu bolsillo.",
+      "text": "Con la nueva App BBVA realiza todas tus operaciones del banco de forma más rápida y sencilla."
+    },
+    {
+      "heading": "Prende y apaga tu tarjeta cuando más lo necesites.",
+      "text": "Con la opción ON/OFF apagas temporalmente tu tarjeta para que nadie haga uso de ella."
+    },
+    {
+      "heading": "Puntos que valen más que el resto.",
+      "text": "Compra con tus Tarjetas BBVA y recibe puntos que son como dinero que puedes canjear por viajes, cenas, outfits y cientos de experiencias más.\nAprende cómo hacer compras gratis con tus Puntos BBVA"
+    },
+    {
+      "heading": "Tarjeta de Crédito",
+      "text": "Para contratar tu Tarjeta de Crédito BBVA sigue estos pasos:"
+    },
+    {
+      "heading": "Cuenta de ahorros",
+      "text": "Para contratar una Cuenta de ahorros en línea realiza lo siguiente"
+    },
+    {
+      "heading": "Llena el Formulario",
+      "text": "Espera la mejor tarjeta para ti"
+    },
+    {
+      "heading": "Verifica",
+      "text": "Recibiendo el mensaje de confirmación o espera la llamada del asesor"
+    },
+    {
+      "heading": "Disfruta",
+      "text": "Ves por tu tarjeta en la oficina asignada.\nSolicíta tu tarjeta"
+    },
+    {
+      "heading": "Escoge el tipo de cuenta",
+      "text": "Selecciona entre la cuenta de ahorros o la cuenta de nómina."
+    },
+    {
+      "heading": "Ten tu documento a la mano",
+      "text": "Sigue los pasos del formulario"
+    },
+    {
+      "heading": "Espera la confirmación",
+      "text": "Te llegará un mensaje a tu celular o correo\nAbre tu cuenta"
+    },
+    {
+      "heading": "Si buscas otro tipo de producto, encuentra aquí el que más necesites.",
+      "text": "Crédito de vivienda\nCrédito de vehículo\nCrédito de consumo\nCDT Online\nFondos de inversión"
+    },
+    {
+      "heading": "¡Casa propia con tasas bajas!",
+      "text": "Con el crédito hipotecario BBVA puedes tener tu vivienda propia.\nSimula tu crédito"
+    },
+    {
+      "heading": "Crédito de vehículo para poner a rodar tus sueños",
+      "text": "Te prestamos para comprar tu carro nuevo, usado o moto sin prenda."
+    },
+    {
+      "heading": "¿Quieres tener mayor flujo de caja? Pide ya tu Crédito de Libranza BBVA.",
+      "text": "Recuerda que se descuenta de tu nómina y lo puedes solicitar desde $600.000 con plazos de hasta 120 meses.\nSolicítalo"
+    },
+    {
+      "heading": "CDT Online para hacer crecer tu dinero.",
+      "text": "Invierte de forma fácil desde tu celular y ve crecer tus ahorros con una rentabilidad fija.\nAbre tu CDT online"
+    },
+    {
+      "heading": "Fondos de inversión para rentabilizar tu dinero",
+      "text": "Obtén rentabilidad según las condiciones del mercado y de acuerdo a la inversión que hayas realizado.\nAbre tu fondo"
+    },
+    {
+      "heading": "Fondo Digital",
+      "text": "Fresco, comienza a invertir desde tu celular, sin papeleo y sin tener cuenta BBVA.\nVinculación 100% digital sin papeleo.\nInvierte desde tan solo $20.000.\nRealiza aportes de manera ágil y segura a través de PSE.\nÁbrelo sin ser cliente\nHelper template to render CTA links/buttons without repeating link vs button logic. Used for app stores and secondary link.\nGeneral CTA: use <a> for plain URL, <button> for modal/CTA/JS/YouTube\nSecondary link: reuse storeButton helper (no icon)\nApp download links (Android / HarmonyOS / iOS): reuse storeButton helper to avoid repeating link vs button logic"
+    }
+  ]
+}

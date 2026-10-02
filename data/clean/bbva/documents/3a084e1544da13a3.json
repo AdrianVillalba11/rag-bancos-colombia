@@ -1,0 +1,14 @@
+{
+  "id": "3a084e1544da13a3",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/landing/formulario-cuenta-nomina.html",
+  "title": "Abrir Cuenta de Nómina",
+  "fetched_at": "2026-10-02T21:59:30.560953+00:00",
+  "source_hash": "56a4ad5e9e0eb07e263af28dfd2f2abf4bcfb0abf0c8316b35b60a03e404b4c9",
+  "sections": [
+    {
+      "heading": "Abre tu Cuenta en Línea de Nómina en pocos minutos",
+      "text": "Recibe tu sueldo, honorarios u otros servicios. Todo sin papeleo y sin ir a una oficina.\nBeneficios:\n$0 en cuota de manejo de tarjeta débito.\nPuedes realizar un adelanto de nómina sin trámites ni papeleos.\nNo es necesario que tu empresa empleadora tenga convenio con BBVA.\nTan solo necesitas:\nTener a la mano tu cédula de ciudadanía.\nAbrir cuenta\nPuedes consultar las tarifas de productos y tasas de interés en bbva.com.co\nDirección General Bogotá: Carrera 9 No. 72-21\nHelper template to render CTA links/buttons without repeating link vs button logic. Used for app stores and secondary link.\nGeneral CTA: use <a> for plain URL, <button> for modal/CTA/JS/YouTube\nSecondary link: reuse storeButton helper (no icon)\nApp download links (Android / HarmonyOS / iOS): reuse storeButton helper to avoid repeating link vs button logic"
+    }
+  ]
+}

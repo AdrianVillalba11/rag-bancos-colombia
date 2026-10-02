@@ -1,0 +1,38 @@
+{
+  "id": "3d55444c09f03248",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/solicitud-de-productos",
+  "title": "Personas: Solicitud y descarga de documentos Bancolombia",
+  "fetched_at": "2026-10-02T22:03:14.955425+00:00",
+  "source_hash": "d43396e307b3cf2fa3aa139f3f887ca75d1b8da5e008d2595ba8267084969d87",
+  "sections": [
+    {
+      "heading": "100% digitales",
+      "text": "Los productos que necesitas del banco. Tómalos por internet en cualquier momento, fácil y seguro."
+    },
+    {
+      "heading": "Quiero una casa",
+      "text": "Cuenta AFC\nCrédito Hipotecario\nLeasing Habitacional"
+    },
+    {
+      "heading": "Quiero ahorrar",
+      "text": "Cuenta de Ahorros\nInversión Virtual"
+    },
+    {
+      "heading": "Quiero estudiar",
+      "text": "Crédito educativo Sufi\nCrédito Libre Inversión"
+    },
+    {
+      "heading": "Necesito dinero",
+      "text": "Libranza\nCrediágil"
+    },
+    {
+      "heading": "Quiero invertir",
+      "text": "Fiducuenta\nPlan Semilla"
+    },
+    {
+      "heading": "Quiero vehículo",
+      "text": "Crédito de vehiculo Sufi\nLeasing para Vehículo"
+    }
+  ]
+}

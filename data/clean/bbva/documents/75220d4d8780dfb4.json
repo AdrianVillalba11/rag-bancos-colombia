@@ -1,0 +1,74 @@
+{
+  "id": "75220d4d8780dfb4",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/servicios-digitales/preaprobado.html",
+  "title": "Crédito Preaprobado",
+  "fetched_at": "2026-10-02T22:00:02.858168+00:00",
+  "source_hash": "3a930f92bbc54ff432007c4fd086cdfc08988f2cea99f62315a1a283c0fac637",
+  "sections": [
+    {
+      "heading": "Crédito preaprobado",
+      "text": "Con el monto que tú decides usar\nIngresa a BBVA móvil\nIngresa a BBVA net"
+    },
+    {
+      "heading": "Crédito preaprobado BBVA",
+      "text": "Es un crédito que le ofrecemos a nuestros clientes por tener un buen comportamiento financiero, y que pueden activar a través de BBVA móvil, BBVA net y en nuestras oficinas. Según el tipo de crédito y las condiciones pactadas, el desembolso del dinero en la cuenta BBVA se hará en pocas horas."
+    },
+    {
+      "heading": "¿Cuáles son las ventajas de un preaprobado?",
+      "text": "Lo activas desde tu celular o computador\nEscoges el monto que quieres aceptar\nDecides cuándo lo aceptas\nEscoges el número de cuotas"
+    },
+    {
+      "heading": "¿Cómo puedo verificar si tengo un Préstamo en Línea?",
+      "text": "Ingresa a BBVA móvil o BBVA net con tu usuario y contraseña\nVerifica si tienes un Preaprobado en la sección Productos para ti en BBVA móvil o Mis Ofertas en BBVA net\nHaz clic en Activar lee los términos y condiciones y acéptalos.\nActivar\nAgendar"
+    },
+    {
+      "heading": "¿Cómo activar un crédito preaprobado?",
+      "text": "Activa tu preaprobado en solo 5 pasos:"
+    },
+    {
+      "heading": "¿Cómo agendar una cita para un preaprobado en BBVA móvil?",
+      "text": "Agenda tu preaprobado"
+    },
+    {
+      "heading": "Anímate, haz este test",
+      "text": "Descubre si es un buen momento para que asumas un crédito"
+    },
+    {
+      "heading": "BBVA móvil",
+      "text": "Tu banco está ahí, en tu celular."
+    },
+    {
+      "heading": "El banco esta ahí, en tu celular",
+      "text": "Hazte cliente\nPaga facturas\nRealiza transferencias"
+    },
+    {
+      "heading": "Abre una cuenta de ahorros desde BBVA móvil",
+      "text": "Solo necesitas cinco minutos\nÚnicamente con tu cédula"
+    },
+    {
+      "heading": "Rentabiliza tu dinero en un fondo de inversión",
+      "text": "Contrátalo desde $200.000\nHaz abonos y retiros cuando quieras"
+    },
+    {
+      "heading": "Ábrelo sin costo desde tu celular",
+      "text": "Comienza el ahorro para tus proyectos\nInvierte en una tasa fija\nRecibe los intereses en tu cuenta BBVA"
+    },
+    {
+      "heading": "¿Cómo ingresar a BBVA net?",
+      "text": "Haz clic en el botón \"Regístrate\"\nIngresa tipo y número de documento de identidad\nAsigna una clave máximo de 8 caracteres\nDescubre lo fácil que será realizar tus trámites y transacciones."
+    },
+    {
+      "heading": "¿Cómo ingresar a BBVA móvil?",
+      "text": "Atento al siguiente paso a paso."
+    },
+    {
+      "heading": "¿Cuál es la diferencia entre activar y agendar?",
+      "text": "Dependiendo del crédito preaprobado que tengas disponible, puedes activarlo o agendarlo. Las tarjetas de crédito y crédito de consumo se activan, es decir, en pocas horas ya tendrás el dinero en tu cuenta o estará la solicitud de la tarjeta de crédito sin que debas hacer nada más."
+    },
+    {
+      "heading": "Fondos de inversión",
+      "text": "Helper template to render CTA links/buttons without repeating link vs button logic. Used for app stores and secondary link.\nGeneral CTA: use <a> for plain URL, <button> for modal/CTA/JS/YouTube\nSecondary link: reuse storeButton helper (no icon)\nApp download links (Android / HarmonyOS / iOS): reuse storeButton helper to avoid repeating link vs button logic\nDescarga BBVA móvil Descarga BBVA móvil"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "0ea8672e1131eda2",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/solicitud-documentos/estudio-credito",
+  "title": "Portal de documentos digitales",
+  "fetched_at": "2026-10-02T22:04:04.026717+00:00",
+  "source_hash": "820d996fd25ed4d6b3de7e977844807d76db67505ae431a32a9c80fd3e950076",
+  "sections": [
+    {
+      "heading": "Conoce las etapas de tu estudio de crédito:",
+      "text": "Un asesor se contactó contigo para ofrecerte el estudio del crédito.\nPara adjuntar los documentos solicitados, debes dar clic al botón “Ingresa ahora” ubicado en la parte superior de esta página.\nTu caso entra en estudio de crédito y una vez tengamos respuesta te contactaremos para darte más información."
+    },
+    {
+      "heading": "Agilidad",
+      "text": "Deberás esperar menos tiempo para el estudio de solicitud del Crédito."
+    },
+    {
+      "heading": "Seguridad",
+      "text": "La información que adjuntas en tus documentos está respaldada por nosotros mientras navegas de forma segura."
+    },
+    {
+      "heading": "Autonomía",
+      "text": "El trámite depende de tu disponibilidad y no de terceros."
+    }
+  ]
+}

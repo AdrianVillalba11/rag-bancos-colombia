@@ -1,0 +1,30 @@
+{
+  "id": "efd96f265f44020f",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/solicitud-documentos",
+  "title": "Solicitud de Documentos",
+  "fetched_at": "2026-10-02T22:03:16.992054+00:00",
+  "source_hash": "1b4a88b9deb55ca6d9a5b2a0e153caf52a16fac0e0120dc250c31366c16f621e",
+  "sections": [
+    {
+      "heading": "Solicitud de documentos",
+      "text": "Aquí podrás encontrar los documentos necesarios de los productos que tienes con nosotros. Solicítalos de una forma fácil y rápida sin necesidad de desplazarte a una de nuestras sucursales.​"
+    },
+    {
+      "heading": "Paz y salvos",
+      "text": "Chat en línea\nTe llamamos\nsmartphone\nLlámanos"
+    },
+    {
+      "heading": "Solicitudes Leasing",
+      "text": "Solicitar"
+    },
+    {
+      "heading": "Gestiona tu información documental",
+      "text": "Descarga los documentos que debes diligenciar para el trámite que vas a realizar y cárgalos de forma digital.\nHazlo ahora"
+    },
+    {
+      "heading": "Envía tus documentos para estudio de crédito",
+      "text": "Continúa tu proceso de estudio de crédito de una forma fácil y segura. Te estaremos acompañando durante todo el proceso."
+    }
+  ]
+}

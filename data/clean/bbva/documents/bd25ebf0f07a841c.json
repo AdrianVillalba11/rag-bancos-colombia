@@ -1,0 +1,22 @@
+{
+  "id": "bd25ebf0f07a841c",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/landing/formulario-cuenta-digital.html",
+  "title": "Abrir Cuenta de Ahorro Digital",
+  "fetched_at": "2026-10-02T21:59:14.725199+00:00",
+  "source_hash": "7eb3757a8e66802ab62e10b59394ce29ba38ae2ed7b8382f038dfe6fc5126236",
+  "sections": [
+    {
+      "heading": "Cuenta Digital",
+      "text": "Elige el plan perfecto para tu cuenta de ahorros y tarjeta débito"
+    },
+    {
+      "heading": "Plan Cero Costo",
+      "text": "Disfruta de tu cuenta y tarjeta débito con un costo $0 si la utilizas 100% digital."
+    },
+    {
+      "heading": "Plan Ilimitado",
+      "text": "Paga con tu tarjeta débito en cualquier lugar y haz retiros ilimitados por una cuota única mensual.\nDirección General Bogotá: Carrera 9 No. 72-21"
+    }
+  ]
+}

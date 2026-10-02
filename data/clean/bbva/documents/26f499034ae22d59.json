@@ -1,0 +1,14 @@
+{
+  "id": "26f499034ae22d59",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/landing/formulario-cuenta-pensional.html",
+  "title": "Abrir Cuenta de Pensión",
+  "fetched_at": "2026-10-02T21:59:46.653648+00:00",
+  "source_hash": "40bf70d0f61a8a24b1cc6d78f4f27bb8fc0e06d9d71d44e3d3bce4222a541a7a",
+  "sections": [
+    {
+      "heading": "Abre tu Cuenta Pensional en pocos minutos",
+      "text": "Administra tu pensión y obtén rendimientos por tus ahorros\nBeneficios:\n$0 en cuota de manejo de tarjeta débito.\nPodrás consultar el saldo de tu pensión cuando quieras en la App BBVA.\nNo es necesario que tu empresa empleadora tenga convenio con BBVA.\nTan solo necesitas:\nTener a la mano tu cédula de ciudadanía.\nSi eres empleado, NIT y datos básicos de contacto de tu empresa.\nAbrir cuenta\nPuedes consultar las tarifas de productos y tasas de interés en bbva.com.co\nDirección General Bogotá: Carrera 9 No. 72-21\nHelper template to render CTA links/buttons without repeating link vs button logic. Used for app stores and secondary link.\nGeneral CTA: use <a> for plain URL, <button> for modal/CTA/JS/YouTube\nSecondary link: reuse storeButton helper (no icon)\nApp download links (Android / HarmonyOS / iOS): reuse storeButton helper to avoid repeating link vs button logic"
+    }
+  ]
+}

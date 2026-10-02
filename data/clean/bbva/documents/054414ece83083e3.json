@@ -1,0 +1,18 @@
+{
+  "id": "054414ece83083e3",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/tus-pagos/transacciones.html",
+  "title": "transacciones",
+  "fetched_at": "2026-10-02T21:59:21.212576+00:00",
+  "source_hash": "db65b38f2b7527d79ab7ca8be7c086481ec16024819f889ec1cb264f14a0c421",
+  "sections": [
+    {
+      "heading": "¡Más opciones para pagar en línea de manera segura!",
+      "text": "Con PSE BBVA podrás realizar pagos a convenios de manera segura y en línea a través de Zonapagos. Recauda y paga tus: Impuestos, servicios publicos, convenios privados, administraciones, colegios y mucho más.\nIngresa a las opciones: Zona pagos o Impuesto\nFiltra y busca el convenio en el que vas a realizar tu transacción\nSelecciona y paga de manera segura usando PSE"
+    },
+    {
+      "heading": "Pago de impuestos",
+      "text": "Ver"
+    }
+  ]
+}

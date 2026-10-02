@@ -1,0 +1,38 @@
+{
+  "id": "a35a82c6647b995d",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/oportunidades/tu-dia-a-dia.html",
+  "title": "Productos para tu día a día",
+  "fetched_at": "2026-10-02T21:59:31.439977+00:00",
+  "source_hash": "c873b406ed6065ccc84e613d7e9bef32b91f34dc30b8cf0f37feb2dfeeac2c15",
+  "sections": [
+    {
+      "heading": "¿Cómo lo puedes hacer?",
+      "text": "Hazte cliente\nGestiona tu dinero\nEncuentra tu crédito"
+    },
+    {
+      "heading": "Cuenta Corriente",
+      "text": "Accede a los beneficios que la Cuenta Corriente BBVA ofrece."
+    },
+    {
+      "heading": "Cuenta de Nómina",
+      "text": "Para recibir tu sueldo en una cuenta con más beneficios a $0:\nTransacciones gratis.\nTransferencias gratis usando Bre-B desde tu App.\nRetiros en cajeros BBVA y corresponsales bancarios.\nAbrir cuenta"
+    },
+    {
+      "heading": "Préstamos BBVA",
+      "text": "Tú decides la próxima aventura. Tal vez es un carro nuevo, un nuevo proyecto o tu próxima vivienda. ¡Vamos por lo que sigue!"
+    },
+    {
+      "heading": "¿Cómo puedo solicitar un préstamo?",
+      "text": "Puedes solicitar un prestamo pre aprobado a través de BBVA móvil, validando si tienes uno en la sección \"Productos para ti\" o puedes solicitar un prestamo en nuestra Red de Oficinas a nivel nacional, adjuntando los documentos requeridos y el Formulario de Vinculación debidamente diligenciado.\nUna vez evaluada la operación, el asesor de tu oficina te contactará para informarte el resultado de la solicitud."
+    },
+    {
+      "heading": "¿Cómo puedo pagar la cuota mensual de mi préstamo?",
+      "text": "Puedes pagar tienes las siguientes alternativas:\n1. Autoriza el débito automático mensual de tu cuenta, lo cual puedes hacer a través de BBVA móvil, BBVA net y Cajeros Automáticos BBVA a nivel nacional. Este procedimiento se conoce como domiciliar tu pago.\n2. A través de BBVA móvil, BBVA net o PSE tambien puedes pagar la cuota de tu crédito.\n3. Acercándote directamente a una de nuestras oficinas."
+    },
+    {
+      "heading": "¿Dónde y cómo puedo consultar el estado de mi préstamo?",
+      "text": "Lo puedes revisar a través de BBVA móvil, BBVA net o mediante los extractos del crédito ya sean en medio físico o en PDF en tu correo electrónico.\nHazte cliente BBVA\nEmpieza a usar tu dinero como necesitas."
+    }
+  ]
+}

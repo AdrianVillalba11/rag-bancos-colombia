@@ -1,0 +1,22 @@
+{
+  "id": "ade29f673ffcd87d",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/promocion/donacion.html",
+  "title": "donacion",
+  "fetched_at": "2026-10-02T22:00:54.919444+00:00",
+  "source_hash": "a0048ceda765c284b82712e15e59445e3c3b83778e44ae101802df18c4796edf",
+  "sections": [
+    {
+      "heading": "Únete a BBVA y Solidaridad por Colombia",
+      "text": "Dona aquí"
+    },
+    {
+      "heading": "Apoya a las familias más vulnerables con alimentos",
+      "text": "Es por ello que nos hemos unido a la campaña de la FUNDACIÓN SOLIDARIDAD POR COLOMBIA, #AyudarNosHaceBien poniendo a disposición la red de 1.300 cajeros automáticos en el país, acceso para pagar via PSE en la página web y la opción de transferencias en BBVA móvil desde el celular, para hacer donaciones que permitan llevar alimentos a las familias más necesitadas."
+    },
+    {
+      "heading": "Para hacer tus donaciones a La Fundación Solidaridad por Colombia es muy fácil",
+      "text": "Lo puedes hacer por PSE o a través de los cajeros automáticos de la red BBVA\nSi deseas donar por PSE BBVA ten en cuenta que\nTienes la facilidad para realizar las transacciones\nSeguridad para realizar sus pagos desde la entidad financiera de su preferencia.\nAtención 24 horas del día. 7 días de la semana, todos los días del año.\nConfirmación en línea de la transacción.\nPuede realizar sus pagos directamente desde la comodidad de su casa u oficina sin necesidad de desplazarse.\nMayor control de tiempo y dinero."
+    }
+  ]
+}

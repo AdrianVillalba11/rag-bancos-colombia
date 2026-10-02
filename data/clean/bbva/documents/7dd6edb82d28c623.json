@@ -1,0 +1,62 @@
+{
+  "id": "7dd6edb82d28c623",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/calculo-interes.html",
+  "title": "Cálculo de intereses",
+  "fetched_at": "2026-10-02T22:00:51.834180+00:00",
+  "source_hash": "2595930579e12e22e795e0eab20048ce7559cf9008140eb1a930ba771d2cb284",
+  "sections": [
+    {
+      "heading": "Cálculo de intereses",
+      "text": "Aprende cómo calcularlos en tu cuenta de ahorros"
+    },
+    {
+      "heading": "¿Cómo calcular el interés de una Cuenta de Ahorros BBVA?",
+      "text": "Si eres nuevo en el mundo de las finanzas o simplemente te preguntas cómo funcionan los intereses en una cuenta de ahorros, ¡has llegado al lugar indicado!\nVamos a desmitificar el cálculo de intereses bancarios, específicamente en el contexto de las cuentas de ahorros de BBVA Colombia."
+    },
+    {
+      "heading": "¿Qué es el cálculo de intereses y cómo afecta tu cuenta de ahorros?",
+      "text": "El cálculo de intereses es como una receta secreta en la cocina financiera que determina cuánto dinero extra ganas en tu cuenta de ahorros.\nEn términos sencillos, los intereses son la recompensa que recibes por dejar tu dinero en el banco. Pero ¿cómo se calculan estos intereses?"
+    },
+    {
+      "heading": "Pasos para calcular los intereses",
+      "text": "Paso 1\nPaso 2"
+    },
+    {
+      "heading": "Paso 1: Conoce tu tasa de interés",
+      "text": "En el mundo de las finanzas, cada cuenta de ahorros tiene una tasa de interés. En el caso de las Cuentas de Ahorro BBVA en Colombia, esta tasa puede variar.\nLa tasa es básicamente el porcentaje de interés que se aplica a la cantidad de dinero que tienes en tu cuenta. ¿Cómo encontrarla? Fácil, solo dirígete a la página de Cuenta Ahorro BBVA y busca la información sobre la tasa de interés de la cuenta que te interesa, sea nómina, pensional o digital.\nConoce tu tasa de interés"
+    },
+    {
+      "heading": "Paso 2: Calcula la tasa de interés",
+      "text": "Ejemplo de Cálculo para una Cuenta de Ahorro Fijo BBVA:\nMonto inicial: $300,000\nPlazo: 1 año (365 días)\nTasa de interés anual*: 9.35%\nPara calcular los intereses generados durante el año, utilizamos la fórmula del interés simple:\nIntereses (I) = Capital inicial (P) * Tasa de interés (r) * Tiempo (t)\nReemplazando con los valores del ejemplo:\nIntereses (I) = 300,000 * 0.0935 * 1\nIntereses (I) = 28,050\nAl cabo de un año, los intereses generados serán $28,050. Por lo tanto, al final del año, el saldo total de la cuenta será:\n$300,000 + $28,050 = $328,050\nEste cálculo muestra cómo crecen los ahorros en una cuenta de ahorro fijo de BBVA con una tasa fija y sin agregar ni retirar dinero durante el plazo acordado.\n*Tasa de interes vigente al momento de realizar el calculo."
+    },
+    {
+      "heading": "Cálculo de intereses de forma diario o mensual",
+      "text": "En algunos casos, las cuentas de ahorros pueden calcular los intereses de forma diaria o mensual. En estos casos, la fórmula del interés simple se modifica para reflejar el período de tiempo más corto:\nI = (P * r * t) / 365\nPor ejemplo, si una cuenta de ahorros calcula los intereses de forma diaria y tiene una tasa de interés anual del 3%, los intereses generados al cabo de un día serán:\nI = (1000 * 0.03 / 365)\nI = $0.008\nEn este caso, los intereses generados al cabo de un año serán de $2.86."
+    },
+    {
+      "heading": "¿Cuánto interés genera una cuenta de ahorros en Colombia?",
+      "text": "Es importante tener en cuenta que las entidades financieras suelen ofrecer diferentes tipos de cuentas de ahorros, cada una con sus propias características y condiciones.\nEl caso BBVA te ofrece cuentas de ahorro nómina, pensional y digital con beneficios exclusivos o la Cuenta de Ahorro fijo BBVA que te genera intereses. Además, recuerda que al abrir cualquiera de nuestras Cuentas de Ahorro BBVA tienes un doble ahorro porque no tiene costo."
+    },
+    {
+      "heading": "¿Por qué elegir un Ahorro Fijo desde la App BBVA?",
+      "text": "Haz que tu dinero trabaje por ti con BBVA. Activa tu ahorro fijo desde nuestra App y disfruta de beneficios increíbles:\nAccede a tus intereses mensuales sin complicaciones.\nTen la seguridad y confianza de que tu dinero estará en buenas manos.\nEn pocos pasos, podrás activar tu cuenta.\nPlanificación financiera sostenible. Construye un futuro sólido y seguro.\nConsulta la tasa de interés actual aquí"
+    },
+    {
+      "heading": "Comparte el Conocimiento Financiero",
+      "text": "Si este artículo te ha resultado útil, compártelo con amigos y familiares. Todos merecen entender cómo sacar el máximo provecho de sus cuentas de ahorros digitales.\n¡Juntos construyamos un camino financiero más sólido!\nLee más"
+    },
+    {
+      "heading": "4 x 1000 en Colombia: qué es, cuándo se cobra y su exención",
+      "text": "Conoce qué es el 4 x 1000, como se calcula y cuáles cuentas de ahorro de BBVA están exentas de este impuesto."
+    },
+    {
+      "heading": "Cuenta Digital",
+      "text": "Para manejar tu dinero desde tu celular mientras estudias o emprendes.\nTransacciones gratis\nTransferencias a costo $0 usando Bre-B a cualquier banco\nAbrir cuenta"
+    },
+    {
+      "heading": "Cuenta de Nómina",
+      "text": "Para recibir tu sueldo en una cuenta con más beneficios a $0:\nTransferencias gratis usando Bre-B desde tu App.\nRetiros en cajeros BBVA y corresponsales bancarios."
+    }
+  ]
+}

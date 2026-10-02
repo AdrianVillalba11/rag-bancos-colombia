@@ -1,0 +1,22 @@
+{
+  "id": "9c5c3d3a6f9fd1b3",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados.html",
+  "title": "Mesa de Dinero: Coberturas y Derivados | BBVA Colombia | Empresas",
+  "fetched_at": "2026-10-02T22:01:26.492055+00:00",
+  "source_hash": "da9fe3ffc0a3b3766ae35812989e1d21afe60d9ba69aeecae3893081cf0c5978",
+  "sections": [
+    {
+      "heading": "¡Cubre los riesgos de tus intercambios con BBVA!",
+      "text": "Siéntete seguro con nuestros alternativas en coberturas y derivados\nForward: Garantiza tipo de cambio a futuro limitando el riesgo cambiario, sin que se vea afectado el flujo de efectivo en el momento de la contratación del producto.\nOpciones : Garantiza tipo de cambio limitando riesgo cambiario\nSwaps : Coberturas de tasa de cambio y de tipos de interés.\nRecuerda que debes tener contrato marco con el BBVA y un cupo de derivados para acceder a estas alternativas."
+    },
+    {
+      "heading": "¿Por el ingreso de divisas, el beneficiario del giro debe firmar algún documento?",
+      "text": "Debe firmar el formulario de declaración de cambio por servicios, transferencias y otros conceptos, el cuál contiene la información correspondiente a la operación cambiaria."
+    },
+    {
+      "heading": "¿Es posible timbrar recaudo con títulos de la tesorería nacional (tidis)?",
+      "text": "Para timbrar un recaudo recibimos únicamente pagos en efectivo y cheque ya que los títulos de tesorería no están habilitados para esta operación."
+    }
+  ]
+}

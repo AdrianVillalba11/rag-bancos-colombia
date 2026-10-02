@@ -1,0 +1,58 @@
+{
+  "id": "dbbe28d684ee7a2f",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/tarifario",
+  "title": "Tarifario",
+  "fetched_at": "2026-10-02T22:03:18.977412+00:00",
+  "source_hash": "24fef0947fe4eeb63168c210b2e374e6ac40a4ff67597697c1e503db1de69dfa",
+  "sections": [
+    {
+      "heading": "Tasas y tarifas",
+      "text": "Ser claros y transparentes es importante para nosotros, por eso siempre brindamos toda la información a nuestros clientes."
+    },
+    {
+      "heading": "Cuentas y depósitos",
+      "text": "Tarifas asociadas a cuentas de ahorro y corriente, tarjeta débito y prepago, Bancolombia a la mano, libreta de ahorros."
+    },
+    {
+      "heading": "Créditos",
+      "text": "Tarifas asociadas a créditos de consumo, microcrédito, cupos rotativos de cartera comercial, solución inmobiliaria y constructor."
+    },
+    {
+      "heading": "Servicios transaccionales para tu empresa",
+      "text": "Tarifas asociadas a soluciones de cuentas por cobrar y pagar de tu empresa."
+    },
+    {
+      "heading": "Seguros",
+      "text": "Tarifas asociadas a seguros voluntarios de vida, salud, mascotas, desempleo, entre otros."
+    },
+    {
+      "heading": "Moneda extranjera",
+      "text": "Tarifas asociadas a cartas de crédito, cobranzas, giros financiados y garantías bancarias locales ME."
+    },
+    {
+      "heading": "Inversiones",
+      "text": "Tarifas asociadas a fondos de inversión colectiva, acciones, derivados, divisas, mercado monetario y renta fija."
+    },
+    {
+      "heading": "Otros servicios",
+      "text": "Tarifas asociadas a giros nacionales, retiros con tarjetas de otros países y garantías bancarias locales ML."
+    },
+    {
+      "heading": "Leasing",
+      "text": "Tarifas asociadas a leasing de importación, arrendamiento operativo y leasing financiero de vehículo."
+    },
+    {
+      "heading": "Paquete Mínimo Servicios Financieros",
+      "text": "Consulta los servicios sin costo por el pago de la cuota de manejo de tarjetas débito y/o tarjetas crédito."
+    },
+    {
+      "heading": "Tasas",
+      "text": "Encuentra los intereses de los productos del mes actual.\ntasas mes Septiembre 2026"
+    },
+    {
+      "heading": "Simulador de Valor Total Unificado (VTU)",
+      "text": "Es una proyección del total que tendrás que pagar con nuestros productos."
+    }
+  ]
+}

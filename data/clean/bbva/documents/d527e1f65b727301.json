@@ -1,0 +1,22 @@
+{
+  "id": "d527e1f65b727301",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/informacion-practica/formatos-comercio-exterior.html",
+  "title": "Formatos Comercio Exterior | Empresas",
+  "fetched_at": "2026-10-02T21:58:03.959741+00:00",
+  "source_hash": "2f5787968f38f5504b751a17c6c0dc063e86c8d05fa860ef9b42b49da7186215",
+  "sections": [
+    {
+      "heading": "Encuentra los formatos necesarios para las operaciones de comercio exterior",
+      "text": "Hemos rediseñado los formatos para hacerlos más cercanos y los dividimos para operaciones por primera vez y para devoluciones, modificaciones o cambio de concepto\nSolicita operaciones cuando es por primera vez, ya sean concepto por servicio, importaciones, exportaciones, endeudamiento externo o inversiones internacionales.\nObtén modificaciones a las operaciones ya tramitadas."
+    },
+    {
+      "heading": "Operaciones iniciales",
+      "text": "Con estos formatos puedes solicitar operaciones cuando es por primera vez, ya sean concepto por servicio, Importaciones, Exportaciones, Endeudamiento externo o Inversiones internacionales."
+    },
+    {
+      "heading": "Modificación a operaciones ya tramitadas",
+      "text": "Con estos formatos puedes solicitar modificaciones a las operaciones ya tramitadas y que ya sean por concepto de servicio, Importaciones, Exportaciones, Endeudamiento externo o Inversiones internacionales"
+    }
+  ]
+}

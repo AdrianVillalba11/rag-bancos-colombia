@@ -1,0 +1,26 @@
+{
+  "id": "abae0b707c665d70",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/giros",
+  "title": "Transferencias Internacionales con Bancolombia",
+  "fetched_at": "2026-10-02T22:03:02.248518+00:00",
+  "source_hash": "9cd7363dc8cb89631cb92f51eeb4a92a0e4036d5606ebcea3a369d43023401da",
+  "sections": [
+    {
+      "heading": "Transferencias internacionales",
+      "text": "Acércate a familiares y amigos, enviando giros de plata desde el exterior del país hacia Colombia y viceversa."
+    },
+    {
+      "heading": "Enviar transferencias internacionales",
+      "text": "Manda plata a otros bancos afuera de Colombia."
+    },
+    {
+      "heading": "Remesas",
+      "text": "Envía plata del exterior hacia Colombia con nuestros aliados."
+    },
+    {
+      "heading": "Recibir transferencias internacionales",
+      "text": "Disfruta la plata que te envían desde afuera del país."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "056326f5123846fc",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/servicios-digitales/nfc.html",
+  "title": "NFC : ¿Qué es y para que sirve?",
+  "fetched_at": "2026-10-02T21:59:50.718865+00:00",
+  "source_hash": "aa2b9a27df642f70792eaae0fe2c974afefdbca0dcf9e25a3f39527b353d2a85",
+  "sections": [
+    {
+      "heading": "NFC: Pagos sin contacto",
+      "text": "Ahora lo tienes todo en tu billetera móvil"
+    },
+    {
+      "heading": "Sigue los siguientes pasos",
+      "text": "Así podrás pagar desde tu celular Android con NFC\n1. Asegúrate de tener un teléfono celular Android que en su menú desplegable de funciones, tenga NFC. Esta funcionalidad NFC no aplica para celulares IOS.\n2. Descarga e ingresa a la última versión de la aplicación BBVA Wallet Colombia Pago Móvil y usar la misma clave de BBVA móvil. En caso de no tener BBVA Móvil debes bajar primero BBVA móvil, activarla y luego descargar la aplicación de BBVA Wallet Colombia Pago Movil.\n3. Activa la aplicación.\n4. En la pantalla de seguridad de BBVA Wallet, acepta el envío del mensaje de texto.\n5. Ingresa el código recibido por SMS\n6. Lee las instrucciones seleccionando ¿Cómo pagar desde mi celular?.\n7. Regresa a la pantalla anterior y selecciona el botón Conectar dispositivo, para así asociar tu tarjeta débito o crédito a pagos NFC\n8. Ingresa el nuevo código recibido por SMS.\n9. Recuerda que debe estar prendida la función NFC en tu celular, de lo contrario la puedes activar seleccionando NFC apagado\nTen presente que para realizar pagos con NFC no necesitas el sticker, si lo tienes, antes de retirarlo o desactivarlo, debes verificar que NFC funciona perfectamente.\n¡Felicitaciones! ahora puedes hacer pagos desde tu celular con NFC, recuerda que BBVA Wallet continúa con las mismas funcionalidades adicionando en el menú la opción Pago Móvil"
+    },
+    {
+      "heading": "Pide tu Tarjeta de Crédito BBVA",
+      "text": "Estás a un clic de acceder a todos los beneficios de la Tarjeta Aqua BBVA.\nSolicita tu tarjeta"
+    },
+    {
+      "heading": "Tarjetas de Crédito BBVA",
+      "text": "Para los que hoy buscan alternativas para comprar lo que necesitan.\nTodas las tarjetas Visa y Mastercard tienen beneficios para ti. Descúbrelos aquí y encuentra la tuya.\nSolicitar tarjeta"
+    }
+  ]
+}

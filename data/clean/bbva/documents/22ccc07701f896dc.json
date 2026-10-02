@@ -1,0 +1,38 @@
+{
+  "id": "22ccc07701f896dc",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/servicios-digitales/factura-electronica.html",
+  "title": "¿Qué es la Factura Electrónica en Colombia? | Empresas",
+  "fetched_at": "2026-10-02T21:59:53.791623+00:00",
+  "source_hash": "674d707340287a74a0b296a0a64691667ac7ac72632cc5f0edb844a6a0539af0",
+  "sections": [
+    {
+      "heading": "Tu negocio no es seguir haciendo facturas a mano.",
+      "text": "Nuestro servicio de facturación electrónica lo hace por ti."
+    },
+    {
+      "heading": "Con nuestra alianza BBVA-PTESA",
+      "text": "Optimizas la cadena de suministros y flujos de tesorería, a través de la facturación electrónica."
+    },
+    {
+      "heading": "¿Qué es una factura electrónica?",
+      "text": "Son documentos que soportan las transacciones de venta de bienes y/o servicios de tu negocio, y se manejan a través de sistemas computacionales que cumplen las condiciones establecidas por el Decreto 2242 de 2015 de la DIAN en cuanto a expedición, recibo, aceptación o rechazo y conservación de las mismas."
+    },
+    {
+      "heading": "¿Quien es PTESA?",
+      "text": "Es una empresa con más de 30 años de experiencia con la que ofrecemos las soluciones y servicios para el procesamiento de transacciones electrónicas, como factura electrónica, con un altísimo estándar de calidad.\n¿Cómo se integra la factura electrónica con los servicios financieros de BBVA?"
+    },
+    {
+      "heading": "¿Cómo obtengo una nueva contraseña de BBVA net cash?",
+      "text": "Puedes obtener tu contraseña nuevamente a través del link \"olvido su clave”, situado en nuestra pagina de acceso a BBVA net cash, en este link el sistema te va a solicitar una serie datos con el fin de validar tu autenticidad. posterior a esto recibiras un e-mail."
+    },
+    {
+      "heading": "¿Cómo pagar facturas a través de BBVA net?",
+      "text": "Ingresa a BBVA net.\nAccede con tu número de cédula y contraseña.\nSelecciona en la parte superior derecha “Pagar facturas”.\nSelecciona el producto del cual deseas pagar la factura.\nSelecciona el tipo de pago y la empresa.\nConfirma el monto.\nConfirma tu operación."
+    },
+    {
+      "heading": "¿Que es una firma digital?",
+      "text": "Es un mecanismo equivalente a la firma manuscrita que garantiza la integridad de un documento o transacción electrónica. Una Entidad Certificadora avala la firma, que permite realizar transacciones 100% en el mundo electrónico, con las mismas implicaciones jurídicas a las realizadas por medios físicos tradicionales."
+    }
+  ]
+}

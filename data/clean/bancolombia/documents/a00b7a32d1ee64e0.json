@@ -1,0 +1,22 @@
+{
+  "id": "a00b7a32d1ee64e0",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/fatca-crs",
+  "title": "FATCA-CRS",
+  "fetched_at": "2026-10-02T22:02:59.042048+00:00",
+  "source_hash": "ca9d98995223a2f782a7c70c909a2a05433a30c3f76a4b09d7352b14deed19f9",
+  "sections": [
+    {
+      "heading": "Haz tu certificación FATCA y CRS",
+      "text": "Si tienes una residencia fiscal en Estados Unidos u otros países, necesitas este certificado."
+    },
+    {
+      "heading": "Conoce los pasos para auto certificarte",
+      "text": "MENU TAB\nMenu cards\nPaso 1\nHaz clic en el botón Ir al formulario\nPaso 2\nEscribe tus datos correctamente y haz clic en el botón Enviar\nPaso 3\n¡Listo! Así de fácil gestionaste tu certificación FATCA o CRS.\nBancolombia es tu aliado para auto certificarte, actualiza tu información tributaria y ayúdanos a cumplir con la normativa FATCA CRS.\nIr al formulario\nHaz clic en el botón Leer guía, te ayudaremos.\nDescarga el formulario, completa los datos y envíalo al correo autocertfatcacrs@bancolombia.com.co\nLeer guía\nDescargar formulario"
+    },
+    {
+      "heading": "¿Tienes más dudas?",
+      "text": "Es la ley de cumplimiento fiscal de cuentas extranjeras de los Estados Unidos (“FATCA”, por sus siglas en inglés - Foreign Account Tax Compliance Act), la cual establece que las instituciones financieras extranjeras y algunas instituciones no financieras extranjeras, deben reportar la información correspondiente a las cuentas financieras de titularidad de ciudadanos o residentes fiscales de Estados Unidos a la autoridad tributaria competente.\nEs el acuerdo multilateral para el intercambio automático de información financiera con fines fiscales suscrito por diferentes jurisdicciones (“CRS”, por sus siglas en inglés – Common Reporting Standard). Dicho acuerdo requiere que las instituciones financieras de las jurisdicciones signatarias intercambien la información correspondiente a las cuentas financieras de titularidad de los residentes fiscales de dichos países a la autoridad tributaria competente.\nBancolombia S.A., Valores Bancolombia S.A. y Fiduciaria Bancolombia S.A. son consideradas instituciones financieras sujetas a reportar la información requerida de los residentes fiscales de Estados Unidos en el caso de FATCA y los residentes fiscales de los países signatarios del acuerdo CRS, que sean titulares de cuentas financieras. Lo anterior, implica que es necesario recolectar la información requerida de nuestros clientes, tal y como, el nombre, la dirección de residencia, el número de identificación tributaria (\"TIN\", por sus siglas en inglés), la fecha de nacimiento, la jurisdicción de residencia fiscal, entre otros, a través de un documento denominado auto certificación.\nEl cliente debe auto certificarse para efectos de FATCA y/o CRS en cumplimiento de la normativa aplicable en la materia para las instituciones financieras sujetas a reportar la información requerida ante la DIAN. De esta manera, las auto certificaciones son solicitadas a todos los cuentahabientes que presenten indicios de ser residentes fiscales en Estados Unidos para efectos de FATCA, y/o en alguno de los países signatarios del acuerdo CRS.\nSí, es posible que una persona sea residente fiscal de varios países, por lo que en la autocertificación se contempla que una persona pueda indicar más de un país de residencia fiscal."
+    }
+  ]
+}

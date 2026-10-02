@@ -1,0 +1,30 @@
+{
+  "id": "264b83bd0d0b407b",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/tus-pagos/tienda.html",
+  "title": "Tienda de Pagos",
+  "fetched_at": "2026-10-02T21:58:48.845213+00:00",
+  "source_hash": "0f0284b4990822da5f06d7a81792158f86480a8f240c2cc2a51400444bfe8276",
+  "sections": [
+    {
+      "heading": "Tienda de pagos",
+      "text": "Bienvenido ¿Qué quieres hacer?\nPagar\nRecargar"
+    },
+    {
+      "heading": "Conoce todo lo que puedes pagar y recargar",
+      "text": "Queremos hacer más fácil tu día a día, por eso ya puedes pagar o recargar tus servicios públicos, convenios e impuestos desde nuestra tienda de pagos sin necesidad de ser cliente BBVA. Si ya eres nuestro cliente, haz tus pagos con un solo toque desde tus canales digitales BBVA móvil y BBVA net."
+    },
+    {
+      "heading": "Antes de hacer tus pagos",
+      "text": "Ten en cuenta los siguientes puntos para mayor agilidad.\nSaber las claves necesarias de la entidad bancaria desde la que vas a realizar el pago.\nTener la referencia de tu factura o el número de pago o de cuenta.\nSi vas a hacer una recarga, ten contigo el número de celular o de suscripción que vas a recargar."
+    },
+    {
+      "heading": "Cómo funciona",
+      "text": "Nuestra tienda de pagos reúne, en un solo lugar, la mayoría de servicios públicos, impuestos y operadores del país. Lo único que tienes que hacer para pagar es: seleccionar el pago o la recarga que quieres hacer y te redireccionaremos a la pasarela de pago del comercio, operador o convenio."
+    },
+    {
+      "heading": "¿Qué quieres hacer?",
+      "text": "Ahorra tiempo y esfuerzo con nuestra tienda de pagos\nPagar una factura\nPaga tus impuestos, servicios públicos y otros convenios\nHacer una recarga\nElige tu operador celular o servicio a recargar."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "59d0ad01ff2f330a",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/oportunidades/realiza-tus-pagos.html",
+  "title": "Realiza tus pagos | Empresas",
+  "fetched_at": "2026-10-02T21:59:05.815083+00:00",
+  "source_hash": "fe7c889934d0d34f2ea13561a2c32458dbddc5bba2f42e48d78f9144699fafb8",
+  "sections": [
+    {
+      "heading": "Realiza tus pagos",
+      "text": "Cumple con tus obligaciones de forma ágil y segura"
+    },
+    {
+      "heading": "Corresponsales Bancarios",
+      "text": "Bríndale a tu cliente más alternativas de pago y financiación.\nDisminuye costos y mejora el nivel de seguridad.\nObtén un servicio que facilita la conciliación de las transacciones."
+    },
+    {
+      "heading": "In House",
+      "text": "Realiza en tus propias instalaciones recaudos, pagos y servicios transaccionales propios de una oficina bancaria.\nIncrementa la rentabilidad de los clientes.\nFortalece los lazos comerciales con tus clientes e incrementa tus oportunidades de negocio."
+    },
+    {
+      "heading": "¿Que es una firma digital?",
+      "text": "Es un mecanismo equivalente a la firma manuscrita que garantiza la integridad de un documento o transacción electrónica. Una Entidad Certificadora avala la firma, que permite realizar transacciones 100% en el mundo electrónico, con las mismas implicaciones jurídicas a las realizadas por medios físicos tradicionales."
+    },
+    {
+      "heading": "¿Qué oficinas pueden realizar la apertura de cuentas empresariales?",
+      "text": "Tenemos oficinas especializadas para atender las necesidades de tu empresa."
+    },
+    {
+      "heading": "¿Es posible timbrar recaudo con títulos de la tesorería nacional (tidis)?",
+      "text": "Para timbrar un recaudo recibimos únicamente pagos en efectivo y cheque ya que los títulos de tesorería no están habilitados para esta operación."
+    }
+  ]
+}

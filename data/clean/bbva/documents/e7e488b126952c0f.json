@@ -1,0 +1,66 @@
+{
+  "id": "e7e488b126952c0f",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones/sindicados.html",
+  "title": "Créditos sindicados | BBVA Colombia | Empresas",
+  "fetched_at": "2026-10-02T22:01:09.573093+00:00",
+  "source_hash": "7cd37ff1dbb20892969c86d9b3cb18ea029a3163aa94d1a62688effe743c992f",
+  "sections": [
+    {
+      "heading": "Préstamo Sindicados",
+      "text": "BENEFICIOS\nCrea, asesora, direcciona y estructura tus operaciones financieras"
+    },
+    {
+      "heading": "Características",
+      "text": "Entérate de toda la información de Préstamos Sindicados.\nSindicados\nDirigido a empresas que deseen crear, asesorar y estructurar operaciones sindicadas, es decir, préstamos concedidos por un grupo de entidades financieras y materializados en un único contrato.\nRespaldado por la Superintendencia Financiera de Colombia."
+    },
+    {
+      "heading": "Características",
+      "text": "Conoce las necesidades que Préstamos Sindicados cubre.\nCARACTERÍSTICAS"
+    },
+    {
+      "heading": "Acceso y financiación",
+      "text": "Accede a mercados de capitales para cubrir tus necesidades de financiación a medio y largo plazo.\nAccede a nuevas entidades financieras.\nObtén financiación individualizada a medida de las necesidades del cliente.\nAlarga el plazo en los vencimientos de tu deuda del Prestatario.\nMejora de tus activos.\nEn algunos casos, las garantías que el prestatario puede ofrecer para obtener financiación no son compartibles en bilaterales y por ello se requiere una única financiación con todas las garantías.\nVENTAJAS"
+    },
+    {
+      "heading": "Rapidez, simplicidad y sencillez",
+      "text": "Rapidez para posicionarse de cara a oportunidades de compra.\nSimplicidad administrativa. Existe la figura del Agente de la operación, que actúa como intermediario entre el prestatario y los prestamistas durante toda la vida de la operación.\nSencillez documental frente a otras alternativas de financiación que generan mayores requisitos de información contractuales.\nBase inversora compuesta por entidades financieras que generalmente ya conocen al prestatario lo que permite levantar grandes cantidades de deuda."
+    },
+    {
+      "heading": "Requisitos",
+      "text": "Conoce lo que debes hacer para tener Préstamos Sindicados.\nCLIENTES\nNo existe ninguna restricción, en cuanto a la tipología de clientes que se ven desde el departamento de Préstamos Sindicados, en la medida en que el riesgo crediticio sea aceptable para BBVA."
+    },
+    {
+      "heading": "¿Cómo contratar Préstamos Sindicados?",
+      "text": "Contáctate con nuestras oficinas y pregunta por el producto que te interesa.\nRecibirás una entrevista para evaluar el producto que necesitas en tu empresa. Te diremos los requisitos para hacer la contratación.\nEnvía vía correo o acércate a una de nuestras oficinas y entrega los documentos que necesitamos.\nVía e-mail te diremos qué necesitas para formalizar la contratación.\nDisfruta de Préstamos Sindicados de acuerdo a lo pactado con nosotros."
+    },
+    {
+      "heading": "Originación Renta Fija",
+      "text": "Unidad integrada dentro de Global Markets y Global Credit.\nEmisiones de renta fija bonos Investment Grade y Non-Investment Grade.\nEstructura según el cliente: Corporates, entidades financieras y agencias y sector público."
+    },
+    {
+      "heading": "Originación Renta Variable",
+      "text": "Realiza block trades, ampliaciones de capital, OPAs, emisiones de bonos convertibles, auto cartera y compra en bolsa de participaciones significativas.\nFacilita el acceso a los mercados de capitales vía IPO (OPV o OPS) encargándose de todas las fases del proceso.\nReinvierte el dividendo."
+    },
+    {
+      "heading": "Financiación de Infraestructura",
+      "text": "Crea y ejecuta operaciones de alto valor en tu estructuración.\nObtén financiación para infraestructuras de transporte como autopistas de peaje, aeropuertos, puertos y ferrocarriles.\nContacta con empresas nacionales e internacionales.\nVincula productos como Cuentas, Tarjetas, Cobros y Pagos de Impuestos, Nóminas y Transferencias."
+    },
+    {
+      "heading": "¿Se admite garantías del Fondo Nacional de Garantías (FNG) en las operaciones Pymes?",
+      "text": "Estas operaciones podrán ser respaldadas con garantía emitida por el fondo nacional de garantías (FNG)."
+    },
+    {
+      "heading": "¿Cuál es el nuevo formato de inscripción de empresas a Comex Net?",
+      "text": "El nuevo formato anexo el cual simplifica el diligenciamiento reduciendo información y disminuye la probabilidad de error."
+    },
+    {
+      "heading": "¿Cuál es la documentación para créditos para personas naturales con negocio?",
+      "text": "Los documentos solicitados son solicitud de crédito, fotocopia del documento de identidad, autorización para consultar cifin, declaración de renta de los últimos 2 años y estados financieros del año en curso y el anterior y soportes de ingresos."
+    },
+    {
+      "heading": "Atención al cliente",
+      "text": "Resuelve tus dudas, consultas sobre operaciones o productos y recibe la atención especializada que necesitas a través de nuestros canales de atención al cliente.\nBogotá 401 00 00\nMedellín 493 83 00\nCalí 889 20 20\nBarranquilla 350 35 00\nContactar\nLínea BBVA 01 8000 912 227\nIr a app BBVA\nHelper template to render CTA links/buttons without repeating link vs button logic. Used for app stores and secondary link.\nGeneral CTA: use <a> for plain URL, <button> for modal/CTA/JS/YouTube\nSecondary link: reuse storeButton helper (no icon)\nApp download links (Android / HarmonyOS / iOS): reuse storeButton helper to avoid repeating link vs button logic"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "534e71fb5e2e455c",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados/opciones.html",
+  "title": "Opciones - Coberturas y Derivados | Empresas",
+  "fetched_at": "2026-10-02T22:01:43.422590+00:00",
+  "source_hash": "dfded461e333c394f084f8f66a3a51d4e911e8f9f1b3dd2dccf8e5cef242be2a",
+  "sections": [
+    {
+      "heading": "¿Que es Opciones y para que sirve?",
+      "text": "Es un instrumento financiero que otorgan al comprador el derecho y al vendedor la obligación de realizar la transacción a un precio fijado en una fecha determinada\nEl comprador deberá pagar un prima al vendedor por obtener este producto."
+    },
+    {
+      "heading": "Características",
+      "text": "Conoce las principales características de Opciones.\nOpciones\nA partir de la unión de diferentes opciones podemos estructurar múltiples productos según las necesidades del cliente: Fwd plus, Fwd apalancado, Fwd participativo, Collar, Gaviota, Call spread, Put spread.\nHay dos tipos de opciones:\nOpcion call: da el derecho de comprar un activo subyacente a un precio determinado en una fecha futura.\nOpcion put: da el derecho a vender un activo subyacente a un precio determinado en una fecha futura.\nLas opciones no son modificables y le generan una prima al comprador de la opción."
+    },
+    {
+      "heading": "Beneficios",
+      "text": "Descubre las principales ventajas de Opciones\nPRINCIPALES\nEl comprador de la opción tiene el derecho de ejercer o no la opción, por lo cual no es obligatorio.\nObtener beneficio en caso de que el mercado tenga un comportamiento contrario al de la cobertura: en cuanto al comprador de la opción call, va a estar cubierto cuando el mercado este a la baja y tendrá beneficios v cuando el mercado se encuentre al alza, y en el caso de la opción put , cuando este a la baja el mercado, el comprador de la opción obtendrá mayores beneficios."
+    },
+    {
+      "heading": "Swaps",
+      "text": "IRS: Eliminar incertidumbre de las tasas de tipo de interés al intercambiar flujos de tasa variable a tasa fija. Por lo tanto desde la contratación de Swap puede saber sus flujos fijos sin depender de una variable.\nCCSW: Permite fijar por adelantado el intercambio futuro de flujos de pagos en distintas monedas"
+    },
+    {
+      "heading": "Forward",
+      "text": "No se debe hacer un desembolso inicial para contratar este producto, por lo tanto tiene un alto nivel de apalancamiento.\nPermite conocer con anticipación cual va a ser tu flujo de caja.\nSe pueden anticipar, fraccionar o prorrogar dependiendo de las condiciones de mercado."
+    },
+    {
+      "heading": "¿Necesitas enviar dinero al exterior?",
+      "text": "Realiza tus giros empresariales desde y hacia el exterior con nosotros"
+    },
+    {
+      "heading": "Atención al cliente",
+      "text": "Resuelve tus dudas, consultas sobre operaciones o productos y recibe la atención especializada que necesitas a través de nuestros canales de atención al cliente.\nBogotá 401 00 00\nMedellín 493 83 00\nCalí 889 20 20\nBarranquilla 350 35 00\nContactar\nLínea BBVA 01 8000 912 227\nIr a app BBVA"
+    }
+  ]
+}

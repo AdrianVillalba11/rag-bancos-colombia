@@ -1,0 +1,14 @@
+{
+  "id": "1eb6c9f9879d4a25",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados",
+  "title": "Preaprobados",
+  "fetched_at": "2026-10-02T22:06:06.949457+00:00",
+  "source_hash": "119a30c3dab961659e6092fc35c6f409ac240005259d815476aae12f04a0daa0",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Este visor de contenidos está asociado con la página actual. Para asociar contenido web, añadir contenido a la página del portal seleccionando Crear contenido de la página actual en el Gestor de sitios. De modo alternativo, utilizar el diálogo Editar área de contenido o la modalidad Editar valores compartidos del Visor de contenido web para seleccionar el contenido para mostrar. Obtener más información sobre los valores de contenido\ndiv id=\"layoutContainers\" class=\"wpthemeLayoutContainers wpthemeLayoutContainersHidden\" > <div class=\"wpthemeInner\"> <div class=\"wpthemeClear\"></div> </div> </div"
+    }
+  ]
+}

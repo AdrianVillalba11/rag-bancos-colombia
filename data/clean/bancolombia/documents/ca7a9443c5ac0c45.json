@@ -1,0 +1,38 @@
+{
+  "id": "ca7a9443c5ac0c45",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/documentos-legales",
+  "title": "Documentos Legales - Personas",
+  "fetched_at": "2026-10-02T22:02:54.967907+00:00",
+  "source_hash": "9edc162296f5b281e935e55ed41dc55cfe5b90df068553613bf0fdce40989b9e",
+  "sections": [
+    {
+      "heading": "Información Legal",
+      "text": "Encuentra aquí información legal de interés, relacionada con las actividades del Grupo Bancolombia."
+    },
+    {
+      "heading": "GMF e IVA",
+      "text": "Te entregamos información actualizada para que tomes tus decisiones financieras. Por eso te compartimos lo que necesitas saber sobre el Gravamen a los Movimientos Financieros e IVA."
+    },
+    {
+      "heading": "Protección de Datos",
+      "text": "Conoce la política para la administración de datos personales de nuestros clientes y usuarios."
+    },
+    {
+      "heading": "Persona con discapacidad",
+      "text": "Conoce las medidas y canales que tenemos en Bancolombia para la atención prioritaria a personas en situación de discapacidad."
+    },
+    {
+      "heading": "Reporte de Información a Centrales de Riesgo",
+      "text": "Te informamos sobre el manejo de la información de las bases de datos personales y el funcionamiento de los operadores de información."
+    },
+    {
+      "heading": "Cómo gestionamos nuestros clientes en dificultad",
+      "text": "Como parte de nuestro compromiso de ser un aliado y prestarle siempre un excelente servicio, queremos darle a conocer la gestión de conciliación de cobranza, las tarifas y gastos derivados de esta labor; así como también el tratamiento que damos a nuestros clientes en dificultades en el cumplimiento de sus obligaciones, de acuerdo con las instrucciones de la Superintendencia Financiera de Colombia."
+    },
+    {
+      "heading": "Índice de transparencia y acceso a la información - ITA",
+      "text": "El Índice de Transparencia y Acceso a la Información Pública (ITA) mide exclusivamente el grado de cumplimiento de las obligaciones de publicar la información derivadas de la Ley 1712 de 2014, Ley de Transparencia y Acceso a la Información Pública.\ndiv id=\"layoutContainers\" class=\"wpthemeLayoutContainers wpthemeLayoutContainersHidden\" > <div class=\"wpthemeInner\"> <div class=\"wpthemeClear\"></div> </div> </div"
+    }
+  ]
+}

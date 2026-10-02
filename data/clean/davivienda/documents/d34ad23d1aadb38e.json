@@ -1,0 +1,398 @@
+{
+  "id": "d34ad23d1aadb38e",
+  "bank": "davivienda",
+  "url": "https://www.davivienda.com/diccionario-financiero",
+  "title": "Diccionario financiero: definiciones y conceptos",
+  "fetched_at": "2026-10-02T21:52:13.528770+00:00",
+  "source_hash": "9504d1f632886a0cc3536f7842be69dff3b26265543adba9ce140d87217b0993",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Glosario Davivienda\nConsulte nuestro glosario y encuentre el significado de los términos financieros que aparecen en nuestros canales, productos y servicios."
+    },
+    {
+      "heading": "AAA",
+      "text": "Calificación máxima que otorgan las sociedades de rating a una emisión de renta fija. Indica una solvencia muy alta, tanto para pagar los intereses como para devolver el principal que se pidió prestado a los inversores."
+    },
+    {
+      "heading": "Acción ordinaria",
+      "text": "Referido a empresas, aquella que tiene la característica de conceder a su titular ciertos derechos de participación en la sociedad emisora, entre ellos derecho a voz y voto en la asamblea y percibir dividendos cuando esta los decreta."
+    },
+    {
+      "heading": "Administración dual",
+      "text": "Es una función del Portal Empresarial de Davivienda. Está en la “Administración de productos y servicios”, y permite a las empresas segregar las funciones y responsabilidades en dos roles diferentes dentro de ese módulo del Banco. Administrador Primario, quien configura los servicios, crea usuarios y asigna perfiles. Y Administrador Secundario, quien parametriza los perfiles de los usuarios: montos máximos, horarios, acciones permitidas y productos autorizados. El tipo de administración (simple o dual) lo determina el cliente en el momento de suscribir la “Solicitud de Servicios Portal Empresarial”."
+    },
+    {
+      "heading": "Administración Simple",
+      "text": "Es una función del Portal Empresarial de Davivienda. Está en la “Administración de productos y servicios”, y permite a las empresas concentrar en una sola persona las funciones y responsabilidades dentro de ese módulo del Banco. El usuario Administrador de la empresa puede configurar distintos tipos de restricciones en servicios, valores, productos, horarios y topes, además de las firmas autorizadas para los diferentes procesos. El cliente puede crear más de un administrador con este mismo rol."
+    },
+    {
+      "heading": "Almagán",
+      "text": "Almacén virtual de insumos agropecuarios."
+    },
+    {
+      "heading": "Alternativa de Cobro",
+      "text": "Opción que el cliente escoge para el cobro de manejo de las tarjetas débito en las cuentas de sus empleados."
+    },
+    {
+      "heading": "Amortización",
+      "text": "Reducción gradual de la deuda a través de pagos periódicos sobre el capital prestado.\nTipo de aplicación (software) que se encarga de buscar, detectar y eliminar spywares o espías en el sistema."
+    },
+    {
+      "heading": "Antivirus",
+      "text": "Aplicación (software) o grupo de aplicaciones dedicadas a la prevención, búsqueda, detección y eliminación de programas malignos en sistemas informáticos."
+    },
+    {
+      "heading": "Atributos de Producto",
+      "text": "Características inherentes de todos los productos y servicios ofrecidos por Davivienda."
+    },
+    {
+      "heading": "Abonos extra",
+      "text": "Es un pago adicional que usted realiza a un crédito, por encima de la cuota mensual acordada. Puede hacerlos para:\nReducir el plazo del crédito, manteniendo el valor de la cuota.\nReducir el valor de las cuotas.\nAbonar de manera parcial o total una o más cuotas por adelantado."
+    },
+    {
+      "heading": "Banca Corporativa",
+      "text": "Conjunto de servicios de financiamiento y otros que una institución bancaria brinda a las empresas."
+    },
+    {
+      "heading": "Banca de Fomento",
+      "text": "Institución financiera encargada de prestar asesoría técnica en los proyectos y apoyar a sectores específicos de la actividad productiva mediante operaciones crediticias o de inversión, por lo general a tasas de interés menores que las del mercado."
+    },
+    {
+      "heading": "Banco de Segundo Piso",
+      "text": "Institución financiera que no trata directamente con los usuarios de los créditos, sino que hace las colocaciones de estos a través de otras instituciones financieras."
+    },
+    {
+      "heading": "Beneficiario",
+      "text": "Persona natural o jurídica que desarrolla o proyecta actividades relacionadas con los sectores financiables por Findeter, acorde con las leyes y normas vigentes."
+    },
+    {
+      "heading": "Canal",
+      "text": "Son todos los mecanismos dispuestos por Davivienda para atender, informar, educar, transar y brindar soluciones a las necesidades y requerimientos del consumidor financiero, como:\nOficinas de servicio.\nCajeros automáticos (ATM).\nCall Center.\nTeléfono Rojo.\nPágina web.\nApp Davivienda Móvil.\nCorresponsales bancarios, entre otros."
+    },
+    {
+      "heading": "Capital a corto plazo",
+      "text": "Corresponde a las operaciones con activos y pasivos financieros cuyos términos de vencimiento son iguales o inferiores a un año; el capital a corto plazo del sector privado comprende el endeudamiento comercial externo directo."
+    },
+    {
+      "heading": "Capital a largo plazo",
+      "text": "Comprende las operaciones con activos y pasivos financieros cuyo vencimiento original es superior a un año; se desagregan en inversión directa, inversión de cartera y otros capitales."
+    },
+    {
+      "heading": "Capital de trabajo",
+      "text": "Referido a beneficiarios de carácter privado, es el recurso económico destinado a atender las necesidades de financiación requeridas para cubrir los costos y gastos operativos propios de la producción y comercialización de bienes y servicios de las empresas. Incluye, entre otros, compra de materia prima, pago de mano de obra, otros gastos de fabricación y cartera."
+    },
+    {
+      "heading": "Carta de solicitud de desembolso",
+      "text": "Formato establecido por Davivienda, que debe ser diligenciado y firmado por el representante legal de la empresa solicitante de un desembolso, en el cual se estipulan las condiciones del crédito como monto, plazo, amortización, período de gracia, tasa e instrucciones de desembolso."
+    },
+    {
+      "heading": "Centralización automática",
+      "text": "Proceso que consiste en transferir la sumatoria de los movimientos, débitos y créditos de cada una de las cuentas satélites de una empresa hacia la cuenta centralizadora."
+    },
+    {
+      "heading": "Certificado de retención en la fuente",
+      "text": "Documento emitido para soportar una declaración de renta y atender requerimientos de la Dian; puede ser impreso o digital."
+    },
+    {
+      "heading": "Cheque especial",
+      "text": "Aquel que el cliente solicita elaborar directamente a una casa impresora, con autorización y supervisión de la entidad bancaria donde el cliente tiene la cuenta corriente."
+    },
+    {
+      "heading": "Cheque estándar",
+      "text": "Aquel que Davivienda entrega a sus clientes a través de sus oficinas de servicio."
+    },
+    {
+      "heading": "Clave dinámica de token",
+      "text": "Número de 6 dígitos generado aleatoriamente por el token asignado al usuario correspondiente del cliente."
+    },
+    {
+      "heading": "Clave personal",
+      "text": "Conjunto de caracteres que permite el acceso de un usuario al Portal Empresarial. La clave es creada y definida por el usuario la primera vez que ingresa, debe ser de 6 a 8 caracteres alfanuméricos, no debe llevar símbolos ni signos, y puede ser modificada por el usuario en el momento que desee, cuantas veces quiera."
+    },
+    {
+      "heading": "Cliente",
+      "text": "Persona natural o jurídica con quien Davivienda ha establecido y mantiene vigente una relación de origen legal o contractual para la prestación de un producto o servicio en desarrollo de su objeto social."
+    },
+    {
+      "heading": "Cliente potencial",
+      "text": "Persona natural o jurídica que a través de los canales de atención dispuestos por Davivienda, se ha identificado y ha demostrado interés por conocer o adquirir productos o servicios que se ofrecen. También se entiende como cliente potencial, aquella persona que ha sido referida a través de un tercero para realizar una gestión comercial, siempre y cuando este tercero cuente con la autorización de dicha persona para utilizar su información."
+    },
+    {
+      "heading": "Cobertura",
+      "text": "Porcentaje de la obligación que se encuentra garantizado. En cada uno de los productos de garantía se determinan las coberturas disponibles."
+    },
+    {
+      "heading": "Concepto contable",
+      "text": "Código que identifica las transacciones realizadas en los productos del cliente por el sistema de Davivienda."
+    },
+    {
+      "heading": "Condiciones específicas del producto",
+      "text": "Atributos, tasas y tarifas que tienen los productos ofrecidos por Davivienda a los consumidores financieros."
+    },
+    {
+      "heading": "Conflicto de interés",
+      "text": "Diferencia que puede surgir entre los intereses propios de Davivienda y los de un consumidor financiero."
+    },
+    {
+      "heading": "Consumidor financiero",
+      "text": "Todo cliente, cliente potencial o usuario de Davivienda."
+    },
+    {
+      "heading": "Contrato de adhesión",
+      "text": "Contrato elaborado unilateralmente por Davivienda, cuyas cláusulas y condiciones no pueden ser discutidas libre y previamente por el cliente, limitándose este a expresar su aceptación o rechazo en su integridad."
+    },
+    {
+      "heading": "Cuenta centralizadora",
+      "text": "Aquella que el cliente tiene radicada en Davivienda, que le permite dispersar y recolectar fondos en línea desde y hacia las cuentas corrientes llamadas satélites."
+    },
+    {
+      "heading": "Cuenta destino",
+      "text": "Aquella en la que Davivienda acredita las sumas de dinero producto de los pagos y traslados efectuados por el cliente a través del Portal Empresarial."
+    },
+    {
+      "heading": "Cuenta origen",
+      "text": "Aquella que el cliente tiene radicada en Davivienda y con cargo a la cual se efectúan las consultas, pagos y traslados a empleados, proveedores y beneficiarios."
+    },
+    {
+      "heading": "Cuenta satélite",
+      "text": "Cuenta corriente atada mediante inscripción a la cuenta centralizadora, que funciona como pagadora, recaudadora o de cualquier otro tipo según las necesidades del cliente, y permanece con saldo cero."
+    },
+    {
+      "heading": "Debida Diligencia",
+      "text": "(De “due diligence”, en inglés) Conjunto de actividades desarrolladas por Davivienda, encaminadas a propiciar un ambiente de atención, protección y respeto a los consumidores financieros. La debida diligencia está enmarcada en una cultura de protección, generación y entrega de información adecuada y oportuna, funcionarios capacitados y consumidores satisfechos."
+    },
+    {
+      "heading": "Defensor del Consumidor Financiero",
+      "text": "Ente externo a Davivienda que actúa como un canal adicional para la recepción de quejas y solicitudes, así como mediador de los conflictos que se generen en la relación entre Davivienda y sus consumidores."
+    },
+    {
+      "heading": "Desembolsos",
+      "text": "Entrega por parte de Davivienda del valor de un préstamo."
+    },
+    {
+      "heading": "Destinación o destino",
+      "text": "Finalidad para la cual se entregan los recursos al deudor, por medio de una obligación garantizada."
+    },
+    {
+      "heading": "Deudor",
+      "text": "Persona natural o jurídica que debe cumplir una obligación garantizada y que figura como tal en los registros del Fondo Nacional de Garantías."
+    },
+    {
+      "heading": "DTF",
+      "text": "Tasa promedio ponderada de las captaciones en certificados de depósito a término (CDT) de los bancos, corporaciones financieras y compañías de financiamiento comercial. Generalmente, esta tasa se da en modalidad trimestre anticipado. Su cálculo es semanal y refleja la tasa de interés una semana atrás."
+    },
+    {
+      "heading": "Educación financiera",
+      "text": "Proceso mediante el cual una persona adquiere conocimientos y desarrolla las habilidades y destrezas necesarias para el manejo responsable de sus bienes y dinero, para el uso de los productos y servicios bancarios y financieros, y para tomar mejores decisiones financieras que le permitan incrementar su bienestar personal y familiar a largo plazo."
+    },
+    {
+      "heading": "En línea",
+      "text": "(Online) Traslado automático, en tiempo real, de los depósitos y retiros de las cuentas, de los usos y pagos de los créditos, y de los cargos autorizados sobre estos."
+    },
+    {
+      "heading": "Estado del producto",
+      "text": "Situación o condición de vigencia de un producto, en la cual se involucra la consulta de movimientos y saldos."
+    },
+    {
+      "heading": "Etapa de control",
+      "text": "Control de eventos o situaciones que puedan afectar la debida atención y protección de los consumidores financieros con el fin de disminuir la probabilidad de ocurrencia, así como la implementación de acciones de mejoras oportunas y continuas respecto de las quejas o solicitudes que se presenten."
+    },
+    {
+      "heading": "Etapa de identificación",
+      "text": "Conjunto de actividades encaminadas al establecimiento de todos los hechos o situaciones que puedan afectar la debida atención y protección de los consumidores financieros."
+    },
+    {
+      "heading": "Etapa de medición",
+      "text": "Conjunto de actividades encaminadas a medir la probabilidad de ocurrencia de eventos que afecten la debida atención y protección de los consumidores financieros y su impacto en caso de materializarse."
+    },
+    {
+      "heading": "Etapa de monitoreo",
+      "text": "Revisión constante de la efectividad de los controles que se hayan establecido para brindar la debida atención y protección de los consumidores financieros."
+    },
+    {
+      "heading": "Ficha técnica del producto",
+      "text": "Instrumento utilizado por el Banco Davivienda para el diseño o definición de un producto o servicio, que involucra aspectos como estándares de tiempos de respuesta y atención, operacionales, transaccionales, segmentos de clientes a los que van dirigidos, atributos y valores del producto o servicio, costos y tarifas, canales de comunicación con el consumidor, información a entregar, derechos y obligaciones, consecuencias del incumplimiento, manejo seguro del producto o servicio y guiones de información para los diferentes canales."
+    },
+    {
+      "heading": "Finagro",
+      "text": "Fondo para el Financiamiento del Sector Agropecuario, sociedad de economía mixta organizada como establecimiento de crédito vinculado al Ministerio de Agricultura y Desarrollo Rural, que promueve el sector rural colombiano a través de las entidades financieras, con instrumentos de financiamiento y desarrollo que estimulan la inversión en el campo."
+    },
+    {
+      "heading": "Firewall personal",
+      "text": "Término utilizado cuando la protección brindada por el firewall se limita al computador en el cual está instalado, permitiendo controlar el acceso a las aplicaciones instaladas en el equipo y previniendo notablemente ataques de programas como los “troyanos”, es decir, software dañino que penetra en el sistema para que un hacker lo controle en forma remota."
+    },
+    {
+      "heading": "FNG (Fondo Nacional de Garantías S.A.)",
+      "text": "Entidad a través de la cual el Gobierno colombiano facilita el acceso al crédito para trabajadores independientes, hogares colombianos, micro, pequeñas, medianas y grandes empresas, mediante el otorgamiento de garantías. Adicionalmente, respalda préstamos destinados a financiar la adquisición de vivienda de interés social."
+    },
+    {
+      "heading": "FRG (Fondos Regionales de Garantías)",
+      "text": "Son cada uno de los agentes comerciales del Fondo Nacional de Garantías."
+    },
+    {
+      "heading": "Garantía FNG",
+      "text": "Acto jurídico accesorio que se deriva de la obligación principal de un deudor frente al Banco, mediante el cual el FNG (Fondo Nacional de Garantías) se obliga a pagar total o parcialmente la obligación garantizada ante un eventual incumplimiento del deudor."
+    },
+    {
+      "heading": "Información",
+      "text": "Conocimiento necesario que requiere el consumidor financiero respecto de los productos y servicios ofrecidos por Davivienda, sus derechos, obligaciones, tasas, tarifas y demás condiciones que le permitan tomar decisiones adecuadas. La información que le suministre el Banco debe ser cierta, suficiente, clara y oportuna."
+    },
+    {
+      "heading": "Insumo pecuario",
+      "text": "Todo producto natural, biológico, sintético o de origen biotecnológico utilizado para promover la producción pecuaria, así como para el diagnóstico, prevención, control, tratamiento y erradicación de las enfermedades, plagas y otros agentes nocivos que afecten las especies animales o sus productos. Comprende también los alimentos y complementos alimenticios, los productos destinados al embellecimiento de los animales y otros que, utilizados en los animales o su hábitat, restauren o modifiquen las funciones orgánicas, cuiden o protejan sus condiciones de vida."
+    },
+    {
+      "heading": "Intermediario",
+      "text": "Referido a crédito Findeter, entidad autorizada para efectuar las operaciones de crédito de Findeter por medio del sistema de redescuento."
+    },
+    {
+      "heading": "Intermediario financiero",
+      "text": "Establecimiento de crédito vigilado por la Superintendencia Financiera de Colombia."
+    },
+    {
+      "heading": "Inversión",
+      "text": "Flujo de producto en un período dado, que se usa para mantener o incrementar el stock de capital de la economía. El gasto de inversión trae como consecuencia un aumento en la futura capacidad productiva de la economía. La inversión bruta es el nivel total de la inversión, mientras la neta, descuenta la depreciación del capital. Esta última denota la parte de la inversión que aumenta el stock de capital. En teoría económica, el ahorro macroeconómico es igual a la inversión."
+    },
+    {
+      "heading": "Ley Mipyme",
+      "text": "Ley que clasifica las empresas según su nivel de activos: micro, hasta 500 smmlv; pequeña, entre 501 y 5.000 smmlv;mediana, entre 5.001 y 30.000 smmlv; y grande, mayor a 30.001 smmlv."
+    },
+    {
+      "heading": "Libertad de elección",
+      "text": "En la celebración de los contratos, es decir, la facultad que tienen el consumidor financiero y Davivienda para escoger libremente sus contrapartes. La negativa en la prestación de servicios o en el ofrecimiento de productos debe fundamentarse en causas objetivas y no puede establecerse tratamiento diferente injustificado a los consumidores financieros."
+    },
+    {
+      "heading": "Medio",
+      "text": "Instrumento mediante el cual el consumidor financiero accede a los diferentes canales que ofrece Davivienda."
+    },
+    {
+      "heading": "Movimiento",
+      "text": "Todas las transacciones, débitos y créditos que afectan contablemente una cuenta."
+    },
+    {
+      "heading": "Número de cliente",
+      "text": "Número único asignado por Davivienda en el momento de crear la empresa o grupo empresarial como cliente en el Portal Empresarial."
+    },
+    {
+      "heading": "Pagaré",
+      "text": "Título valor a través del cual el deudor se obliga a pagar al Banco el valor de un crédito en las condiciones de plazo, sistema de pago y tasa de interés que se indiquen."
+    },
+    {
+      "heading": "Patrimonio autónomo",
+      "text": "Beneficiario que surge del desarrollo del negocio de fiducia. Los bienes que el fiduciante transfiere al fiduciario salen definitivamente del patrimonio de aquel y no forman parte del patrimonio de este, dando lugar a la constitución de un patrimonio autónomo únicamente para los fines del contrato, independiente también de los demás bienes adscritos a otros negocios fiduciarios. De esta forma, en el desarrollo del contrato de fiducia, se transfiere el dominio de los bienes fideicomitidos al fiduciario para el cumplimiento de un determinado fin, pero estos tampoco entran a hacer parte del patrimonio propio de la sociedad fiduciaria."
+    },
+    {
+      "heading": "Persona jurídica",
+      "text": "Sujeto de derechos y obligaciones que existe físicamente, no como individuo, sino como institución creada legalmente por una o más personas para cumplir un determinado papel."
+    },
+    {
+      "heading": "Persona natural con negocio",
+      "text": "Aquella para quien la mayoría de sus ingresos (50% + $1) provienen del ejercicio de una actividad comercial productiva o de la prestación de un servicio, con o sin establecimiento de comercio."
+    },
+    {
+      "heading": "Portal Empresarial",
+      "text": "Es la página en internet creada por Davivienda para uso del cliente empresarial, a través de la cual este puede acceder a los servicios adquiridos, transar con ellos y conocer información relacionada con estos y con la actividad general del Banco. Para su acceso, el usuario debe ingresar el tipo y número de su documento de identificación, el número de cliente asignado previamente por Davivienda, la clave dinámica del token y la clave personal."
+    },
+    {
+      "heading": "Prácticas abusivas",
+      "text": "Entre otras establecidas por la ley, son prácticas como: (i) Condicionar al consumidor financiero por parte de Davivienda para que acceda a productos o servicios, o para otorgarle otros productos o servicios que no le sean necesarios. (ii) Iniciar o renovar un servicio sin la autorización o solicitud del consumidor. (iii) Incorporar cláusulas en los contratos de adhesión que limiten los derechos de los consumidores o los deberes de las entidades vigiladas."
+    },
+    {
+      "heading": "Preguntas de validación de identidad",
+      "text": "Mecanismo que, en caso de bloqueo u olvido de la clave personal de acceso al Portal Empresarial, permite al usuario responder una o más preguntas que definió al activar el token por primera vez, con el fin de habilitar de nuevo su clave de forma segura. Este mecanismo es obligatorio cuando se realiza el primer ingreso al Portal."
+    },
+    {
+      "heading": "Prepagar",
+      "text": "Pagar total o parcialmente un crédito de manera anticipada, es decir, antes del vencimiento del plazo acordado."
+    },
+    {
+      "heading": "Primera línea",
+      "text": "Áreas y funcionarios responsables de atender al consumidor financiero, analizar y solucionar sus requerimientos en primera instancia y de cara a este, siempre que dispongan de los elementos suficientes de acuerdo con el conocimiento de los productos y procesos, las atribuciones asignadas y la información disponible en los aplicativos de Davivienda."
+    },
+    {
+      "heading": "Producto",
+      "text": "Operación legalmente autorizada que se instrumenta en un contrato celebrado con el cliente o que tiene origen en la ley."
+    },
+    {
+      "heading": "Productos autorizados al Administrador",
+      "text": "Opción que permite restringir, por parte de Davivienda, los productos que puede utilizar un usuario administrador en el Portal Empresarial. Los usuarios creados por el administrador también cuentan con la misma restricción."
+    },
+    {
+      "heading": "Productos y servicios",
+      "text": "Son las operaciones legalmente autorizadas que se instrumentan en un contrato celebrado con el cliente o que tienen origen en la ley. Se entiende por servicios aquellas actividades conexas al desarrollo de las correspondientes operaciones y que se suministran a los consumidores financieros."
+    },
+    {
+      "heading": "Queja",
+      "text": "Manifestación de inconformidad expresada por un consumidor financiero respecto de un producto o servicio adquirido, ofrecido, prestado o prometido en una entidad financiera. Dependiendo de su origen, características y nivel de complejidad, puede ser analizada y solucionada en primera, en segunda o en tercera línea."
+    },
+    {
+      "heading": "Redescuento",
+      "text": "Toda operación en virtud de la cual Findeter entrega recursos a un establecimiento de crédito o a una entidad debidamente autorizada por la ley para intermediar, con el objeto de que financie operaciones de crédito y de leasing a cambio de la cesión de garantías suficientes."
+    },
+    {
+      "heading": "SAC",
+      "text": "Sistema de Atención y Protección al Consumidor Financiero."
+    },
+    {
+      "heading": "Saldo promedio mensual",
+      "text": "Cálculo de la sumatoria de los saldos promedio de los productos escogidos por el cliente, que se utiliza como parámetro para establecer el cobro de los servicios utilizados por este."
+    },
+    {
+      "heading": "Segunda línea",
+      "text": "Áreas y funcionarios responsables de atender, gestionar y analizar las causas y soluciones a los requerimientos del consumidor financiero, que por sus características o su nivel de complejidad no pueden ser resueltos en la primera línea."
+    },
+    {
+      "heading": "Servicio",
+      "text": "Actividad conexa al desarrollo de las operaciones comerciales del Banco, que se suministra a los consumidores financieros para permitir o facilitar el manejo de sus transacciones y de los productos ofrecidos por Davivienda."
+    },
+    {
+      "heading": "Sistema de amortización",
+      "text": "Plan de pagos para cancelar una deuda en el plazo y condiciones pactados. Determina el valor de las cuotas periódicas, la periodicidad del pago y la porción de las cuotas que se destina a la amortización de capital y a los intereses."
+    },
+    {
+      "heading": "Solicitud de servicio",
+      "text": "Petición de un consumidor financiero respecto a un producto adquirido. Dependiendo de su nivel de complejidad y origen, puede ser atendida en primera, en segunda o en tercera línea."
+    },
+    {
+      "heading": "Solicitud de servicios Portal Empresarial",
+      "text": "Formato definido por Davivienda en el cual el cliente indica los servicios que desea adquirir."
+    },
+    {
+      "heading": "Solución",
+      "text": "Acción o acciones que permiten resolver oportunamente las peticiones, reclamos o quejas que presenten a Davivienda los consumidores financieros."
+    },
+    {
+      "heading": "Spread",
+      "text": "Diferencia entre el precio de demanda y el de oferta en la cotización de un instrumento, divisa o título. Adicionalmente, el término se usa para indicar la diferencia en el rendimiento entre dos títulos."
+    },
+    {
+      "heading": "Usuario",
+      "text": "Persona natural o jurídica que, sin ser cliente, utiliza los servicios de Davivienda. Se refiere también a toda persona que navegue en cualquiera de los portales y apps del Banco."
+    },
+    {
+      "heading": "Usuario Administrador",
+      "text": "Persona designada por el cliente como responsable de manejar el módulo de administración de la aplicación en el Portal Empresarial. Sus funciones son: crear los usuarios, definir sus niveles de acceso y privilegios, y asignarles roles en cuanto a tipos de transacciones (consultas, transferencias y pagos) y productos a operar, montos y horarios autorizados. Estas funciones están relacionadas con las definiciones previas de Administración Simple y Administración Dual."
+    },
+    {
+      "heading": "Usuario Apoderado",
+      "text": "Persona designada por el Usuario Administrador para aprobar las transacciones (transferencias y pagos) preparadas por los Usuarios Operadores. El cliente puede asignar más de un Usuario Apoderado para aprobar las operaciones. El Apoderado también puede realizar las funciones de un Usuario Operador."
+    },
+    {
+      "heading": "Usuario Consultor",
+      "text": "Persona designada por el Usuario Administrador con perfil para consultar los saldos y movimientos de los productos del cliente."
+    },
+    {
+      "heading": "Usuario Operador",
+      "text": "Persona designada por el Usuario Administrador para preparar las transacciones y pasarlas al siguiente nivel para que el Usuario Apoderado las apruebe. El cliente puede asignar más de un Usuario Operador para procesar las operaciones."
+    },
+    {
+      "heading": "Valores agregados",
+      "text": "Beneficios adicionales que están al servicio del consumidor financiero y que son definidos para cada producto."
+    },
+    {
+      "heading": "Valor Total Unificado (VTU)",
+      "text": "Es la proyección de los costos y beneficios que se tendrá al adquirir un producto financiero. Con esta información puede comparar las diferentes ofertas de productos."
+    }
+  ]
+}

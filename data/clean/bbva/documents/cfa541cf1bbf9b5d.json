@@ -1,0 +1,54 @@
+{
+  "id": "cfa541cf1bbf9b5d",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/informacion-practica/giros-nacionales.html",
+  "title": "Giros nacionales | Empresas",
+  "fetched_at": "2026-10-02T21:58:41.673895+00:00",
+  "source_hash": "acb567da1ab10564dc4807fed0849dfa5c2143ce9e419a81616ff90fd1d52104",
+  "sections": [
+    {
+      "heading": "Giros nacionales",
+      "text": "Con este servicio puedes realizar envío de dinero al beneficiario que desees a través de la red de oficinas BBVA."
+    },
+    {
+      "heading": "Características",
+      "text": "El giro nacional es un traslado electrónico de dinero entre Oficinas y cajeros automáticos del BBVA.\nEste servicio puede ser utilizado por clientes y no clientes BBVA, es decir, no es necesario tener productos activos con la entidad.\nEl ordenante, puede realizar el envío en cualquiera de las sucursales de BBVA nivel nacional, confirmando el número de identificación y número de celular del beneficiario, con dinero en efectivo, autorizando el cargo a una cuenta BBVA o cheque.\nLa comisión + IVA por el envío del giro nacional depende del valor del dinero enviado y esta se cobra al ordenante en su totalidad.\nEl beneficiario podrá realizar el cobro del giro nacional, en cualquier sucursal o cajero automático BBVA a nivel nacional sin ningún costo adicional, teniendo en cuenta los siguientes aspectos:\nSi el valor a cobrar es múltiplo de $20.000 y $10.000 e inferior o igual a $400.000, se podrá realizar en oficina ó cajero automático.\nSi el valor a cobrar no es múltiplo de $10.000 (Ejemplo: $52.000, $123.000, etc) y es igual ó inferior a $400.000, se podrá realizar en oficina.\nSi el valor a cobrar es superior a $400.000, se podrá realizar solo en oficina.\nUna vez creado el giro nacional, al celular del beneficiario se enviará un SMS con los datos necesarios para el cobro del giro.\nEn el cajero automático, el beneficiario elige la opción “Retiro sin tarjeta”, a continuación “Giros nacionales” e ingresa los datos de cobro suministrados en el SMS. Esta funcionalidad solo aplica para Personas naturales.\nEn oficina, presenta su documento de identificación\nConsulta las Tasas y tarifas (PDF)"
+    },
+    {
+      "heading": "Beneficios",
+      "text": "Una vez se envíe el giro, el beneficiario tendrá disponibilidad inmediata del dinero.\nSi el ordenante tiene productos activos con BBVA, la comisión por el envío del giro nacional es más económica. Consulte la comisión en el archivo de tarifas.\nEl cobro del giro nacional no tiene ningún costo adicional y lo podrá realizar en nuestra amplia red de sucursales y cajeros automáticos de BBVA a nivel nacional."
+    },
+    {
+      "heading": "¿Cómo realizar el cobro del giro nacional?",
+      "text": "Acércate a cualquiera de nuestras oficinas a nivel nacional para realizar tu giro.\nDebes confirmar el número de celular de la persona que va a recibirlo.\nAl beneficiario le llegará un mensaje de texto a su celular con la siguiente información:\nValor del giro.\nNúmero de giro.\nNúmero de PIN.\nCanal donde se puede cobrar el giro.\nLuego de esto, debe acercarse a cualquier oficina o Cajero Automático BBVA a nivel nacional para cobrarlo sin ningún costo."
+    },
+    {
+      "heading": "Giros nacionales",
+      "text": "¿Es necesario ser cliente BBVA para acceder al servicio de Giros Nacionales? ¿Cuáles son los topes máximos y mínimos para enviar un Giro Nacional? ¿En cuánto tiempo se puede realizar el pago del giro nacional cuando el envío es a otra ciudad? ¿Las personas jurídicas pueden usar el servicio de giros nacionales? ¿El giro nacional tiene fecha de vencimiento?"
+    },
+    {
+      "heading": "¿Es necesario ser cliente BBVA para acceder al servicio de Giros Nacionales?",
+      "text": "Este servicio puede ser utilizado por Clientes y no Clientes BBVA, es decir, no es necesario tener productos activos con BBVA."
+    },
+    {
+      "heading": "¿Cuáles son los topes máximos y mínimos para enviar un Giro Nacional?",
+      "text": "Monto mínimo: $ 0 (Cero)\nMonto máximo: Ilimitado"
+    },
+    {
+      "heading": "¿En cuánto tiempo se puede realizar el pago del giro nacional cuando el envío es a otra ciudad?",
+      "text": "La disponibilidad del dinero es inmediata, sin importar la ciudad destino del giro nacional"
+    },
+    {
+      "heading": "¿Las personas jurídicas pueden usar el servicio de giros nacionales?",
+      "text": "El giro nacional puede ser enviado y recibido por personas naturales y jurídicas. El cobro del giro nacional para personas jurídicas se realizará únicamente en oficina presentando la documentación requerida."
+    },
+    {
+      "heading": "¿El giro nacional tiene fecha de vencimiento?",
+      "text": "SI. La vigencia de un giro nacional es máximo de 30 días. Transcurrido ese tiempo, el dinero es devuelto al ordenante"
+    },
+    {
+      "heading": "Atención al cliente",
+      "text": "Resuelve tus dudas, consultas sobre operaciones o productos y recibe la atención especializada que necesitas a través de nuestros canales de atención al cliente.\nBogotá 401 00 00\nMedellín 493 83 00\nCalí 889 20 20\nBarranquilla 350 35 00\nContactar\nLínea BBVA 01 8000 912 227\nIr a app BBVA"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "000d1b6c18519789",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/oportunidades/crece-en-familia.html",
+  "title": "Crece en familia",
+  "fetched_at": "2026-10-02T21:58:59.878704+00:00",
+  "source_hash": "7dfb119884c6f424a460165cae9ab204124574ad8960e81ce5210e189081e41b",
+  "sections": [
+    {
+      "heading": "¿Cómo lo puedes hacer?",
+      "text": "Compra y remodela\nPiensa en el bienestar de tu familia"
+    },
+    {
+      "heading": "BBVA móvil",
+      "text": "Tu banco está ahí, en tu celular."
+    },
+    {
+      "heading": "Simulador de Crédito",
+      "text": "Consulta la proyección financiera de los productos BBVA que necesitas."
+    },
+    {
+      "heading": "¿Cómo adquirir una tarjeta?",
+      "text": "Puedes solicitar tu Tarjeta de Crédito a través de nuestra página web www.bbva.com.co; ó en la oficina BBVA más cercana, en donde uno de nuestros asesores te guiará en la solicitud de la tarjeta que más te convenga."
+    },
+    {
+      "heading": "¿Cómo puedo solicitar un préstamo?",
+      "text": "Puedes solicitar un prestamo pre aprobado a través de BBVA móvil, validando si tienes uno en la sección \"Productos para ti\" o puedes solicitar un prestamo en nuestra Red de Oficinas a nivel nacional, adjuntando los documentos requeridos y el Formulario de Vinculación debidamente diligenciado.\nUna vez evaluada la operación, el asesor de tu oficina te contactará para informarte el resultado de la solicitud."
+    },
+    {
+      "heading": "¿Cómo contratar una cuenta?",
+      "text": "Puedes abrir una Cuenta de nómina o de ahorros en línea a través de BBVA móvil. No necesitas ser cliente, unicamente debes tener tu cédula a la mano y diligenciar la información solicitada. En el caso de la cuenta de nómina debes tener el NIT de tu empleador.\nHazte cliente BBVA\nEmpieza a usar tu dinero como necesitas."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "3006ce1899f59882",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/productos/banca-personal/inversion.html",
+  "title": "Inversión Banca Personal",
+  "fetched_at": "2026-10-02T21:59:00.864255+00:00",
+  "source_hash": "cc97a1ec140b3a07d87de51231968f447755f2c52ec58d73f46a78364a964bda",
+  "sections": [
+    {
+      "heading": "Ahorra e invierte tu dinero de la mejor manera",
+      "text": "Conoce los beneficios que Inversión BBVA tiene para ti\nAhorra e invierte desde $200.000 en un fondo de inversión o desde $500.000 en un CDT.\nCuenta con cómodos plazos ajustados a tu necesidad de inversión.\nUtiliza BBVA móvil y BBVA net para administrar tus inversiones.\nObtén atractivas tasas de rentabilidad.\nDisfruta de liquidez inmediata de tu dinero en fondos de inversión.\nGarantiza tu inversión con gestión profesional, solidez y respaldo por parte de BBVA y BBVA Asset Managment."
+    },
+    {
+      "heading": "Mercado de Valores Premium",
+      "text": "Recibe asesoría profesional de BBVA Valores para incrementar la rentabilidad de tus inversiones\nCuenta con portafolios personalizados de acuerdo con tu perfil inversor.\nAccede al mercado de valores colombiano."
+    },
+    {
+      "heading": "Tarjetas de Crédito",
+      "text": "Descubre la tarjeta de crédito BBVA que más se acomoda a tus necesidades."
+    },
+    {
+      "heading": "Préstamos BBVA",
+      "text": "Tú decides la próxima aventura. Tal vez es un carro nuevo, un nuevo proyecto o tu próxima vivienda. ¡Vamos por lo que sigue!"
+    },
+    {
+      "heading": "Seguros",
+      "text": "Descubre las diferentes opciones de seguros que tenemos para cubrir cada una de tus necesidades y las de tu familia."
+    },
+    {
+      "heading": "¿Qué es un CDT?",
+      "text": "Un CDT (Certificado de Depósito a Término), es una inversión que se realiza a un plazo determinado y con el cual generas rentabilidad a una tasa de interés fija. Puedes usar estos rendimientos una vez termine el plazo pactado."
+    },
+    {
+      "heading": "¿Qué necesito para contratar un CDT?",
+      "text": "Puedes contratar un CDT Online sin costo a tráves de nuestra app BBVA móvil de forma fácil y rápida, sólo necesitas tener una cuenta BBVA activa con un monto mínimo disponible de $500.000, de la que sera débitado el valor del CDT. Tambien puedes abrir tu CDT Online desde BBVA net, sólo deberás tener actualizada tu información personal y tener el monto mínimo mencionado.\nSi deseas un CDT Tradicional en nuestra Red de Oficinas a nivel nacional, adjuntas los documentos requeridos y el Formulario de Vinculación debidamente diligenciado."
+    },
+    {
+      "heading": "¿Cuáles son los costos y comisiones de un CDT?",
+      "text": "Apertura CDT: Sin costo.\nImpuesto 4x1000 (GMF) : Aplica sólo a los rendimientos de acuerdo a lo establecido por el Gobierno Nacional."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "aff340705ebdf6b4",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/promocion/remates.html",
+  "title": "Casas en remate - Sala de Ventas",
+  "fetched_at": "2026-10-02T22:02:18.167034+00:00",
+  "source_hash": "c4e40dfae8ff67d17c12aa608f92fcafe24d203d08d4dae83683dfc85801a833",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Casas en remate\nSala de Ventas"
+    },
+    {
+      "heading": "Elige el tuyo y déjanos tus datos, nosotros te contactamos",
+      "text": "Casas\nVer (PDF)\nApartamentos\nOtros bienes"
+    },
+    {
+      "heading": "Crédito Hipotecario",
+      "text": "Adquiere vivienda nueva o usada\nPlazos desde 5 hasta 30 años*\nFinanciamos hasta el 70% del valor para vivienda No VIS (superior a 135 SMLMV).\nFinanciado hasta el 80% del valor para vivienda VIS (inferior 150 SMLMV para las poblaciones decretadas por el Gobierno Nacional o 135 SMLMV para el resto del país).\n*Aplica condiciones y restricciones\nSimula tu crédito"
+    },
+    {
+      "heading": "Leasing habitacional VIS",
+      "text": "Plazos desde 5 hasta 20 años*\nFinanciamos máximo el 90% para proyectos financiados por BBVA\nOpción de compra entre el 0% y el 30% del valor financiado"
+    },
+    {
+      "heading": "Proyectos financiados",
+      "text": "Tasa preferencial\nFinanciamos hasta el 90% leasing habitacional\nFinanciaciamos hasta el 80% VIS* y 70% NoVIS*\n*Del menor valor entre el avalúo comercial y el valor de la compraventa establecida en la promesa.\nOficina cercana"
+    },
+    {
+      "heading": "Conoce el valor de tus cuotas y en cuánto terminarías de pagarlo.",
+      "text": "Ir al simulador\nIr a los créditos de vivienda"
+    }
+  ]
+}

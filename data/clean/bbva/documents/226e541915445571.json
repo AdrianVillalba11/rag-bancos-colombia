@@ -1,0 +1,22 @@
+{
+  "id": "226e541915445571",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/servicios-digitales/net-cash/autogestion.html",
+  "title": "Autogestión - net cash | Empresas",
+  "fetched_at": "2026-10-02T22:00:39.308648+00:00",
+  "source_hash": "f187d3448e87ab91f8997e14cf4b20254e43d5ee49735408ea23761683d4d5a2",
+  "sections": [
+    {
+      "heading": "Administra tu banca electrónica desde donde estés",
+      "text": "Autogestión es la forma simple en que administras el portafolio de tus productos y servicios en línea desde BBVA net cash y sin documentos.\nIr a BBVA net cash"
+    },
+    {
+      "heading": "Configuración",
+      "text": "Recuerda configurar este servicio en “Administración y control”\nEs una funcionalidad exclusiva para usuarios administradores.\nNo disponible para clientes Institucionales públicos."
+    },
+    {
+      "heading": "Atención al cliente",
+      "text": "Si necesitas ayuda para conocer y activar esta funcionalidad, comunícate con nuestras líneas.\nBogotá 307 8071\nLínea Nacional"
+    }
+  ]
+}

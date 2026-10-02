@@ -1,0 +1,54 @@
+{
+  "id": "2878324dde950293",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/beneficios/soy-yo",
+  "title": "App soy yo",
+  "fetched_at": "2026-10-02T22:06:35.966370+00:00",
+  "source_hash": "04261e2a5abd650611295fb16d8c938dd85f4746a0ba6cf4a5dc0bb828a3b21b",
+  "sections": [
+    {
+      "heading": "Biometría facial",
+      "text": "Descubre cómo verificamos tu identidad de manera simple y segura.\nConoce los detalles para registrarte y hacer uso de esta alternativa de autenticación."
+    },
+    {
+      "heading": "Sticky",
+      "text": "data-seccion = id o clase de la seccion que pertenece\n¿Qué es Biometría facial?\nBeneficios\n¿Cómo funciona?\nElimina tus datos"
+    },
+    {
+      "heading": "¿Qué es Biometría facial?",
+      "text": "La Biometría facial es una forma de confirmar quién eres a través de los rasgos únicos de tu rostro. Al compararlos con la información de tu documento, podemos validar que eres la persona que realiza la solicitud o la transacción. Esto nos ayuda a proteger mejor tus datos y brindarte una experiencia más ágil y confiable."
+    },
+    {
+      "heading": "Protege tu información",
+      "text": "Mantenemos tus datos protegidos con altos estándares de seguridad."
+    },
+    {
+      "heading": "Mayor seguridad para tus transacciones",
+      "text": "Tu biometría facial nos permite confirmar que eres tú cuando haces operaciones que necesitan una validación adicional."
+    },
+    {
+      "heading": "Ahorra tiempo",
+      "text": "Disfruta una experiencia más rápida, sencilla y segura."
+    },
+    {
+      "heading": "Mantén el control siempre",
+      "text": "Decide cuándo eliminar tus datos de biometría facial."
+    },
+    {
+      "heading": "¿Cómo funciona?",
+      "text": "Para confirmar tu identidad, sigue estos pasos. Haz este registro solo una vez. Cuando esté listo, usaremos solo tu rostro para confirmar tu identidad cuando lo necesitemos.\nSwiper\nAcepta nuestro tratamiento de datos junto con los términos y condiciones.\nToma una foto de tu cara y sigue las indicaciones que te mostramos en la pantalla.\nToma una foto por cada lado de tu documento, según aplique. Revisa que todos los datos se vean con claridad.\nEspera nuestra confirmación de que el registro fue exitoso.\n¡Y listo! Fácil, confirmaremos tu identidad para continuar con el proceso."
+    },
+    {
+      "heading": "Elimina tus datos de biometría facial cuando quieras",
+      "text": "Si quieres eliminarlos, envíanos un mensaje desde el correo electrónico que tienes registrado en nuestro sistema a biometriafacial@bancolombia.com.co así:\nEscribe en el asunto: Eliminar Biometría facial + tu tipo y número de documento\nCuéntanos en un texto corto por qué quieres eliminarlos.\nCarga una copia de tu documento de identidad con el que hiciste el registro. Asegúrate que sea una imagen clara de ambas caras, según aplique."
+    },
+    {
+      "heading": "Ten en cuenta",
+      "text": "En dos días hábiles los eliminaremos.\nSi los eliminas y más adelante necesitamos confirmar tu identidad con biometría facial, deberás registrarla nuevamente."
+    },
+    {
+      "heading": "Conoce términos y condiciones",
+      "text": "Resuelve tus dudas sobre la biometría facial y consulta la información relacionada con su uso y tratamiento de datos."
+    }
+  ]
+}

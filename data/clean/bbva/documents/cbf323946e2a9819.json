@@ -1,0 +1,30 @@
+{
+  "id": "cbf323946e2a9819",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/tus-pagos.html",
+  "title": "Tus Pagos Empresas | Empresas",
+  "fetched_at": "2026-10-02T21:57:46.610288+00:00",
+  "source_hash": "f3891985ec732da20b1db802b183cc4932ed235c967203ac501290384fae5564",
+  "sections": [
+    {
+      "heading": "Paga por PSE",
+      "text": "Empresas - Pymes"
+    },
+    {
+      "heading": "Pago de préstamos",
+      "text": "Productos que se pueden pagar por este medio:\n-Línea comercial Empresas\n-Agrocrédito"
+    },
+    {
+      "heading": "Pago de Leasing Financiero",
+      "text": "Permite realizar el pago de préstamos o arrendamientos (Leasing) de manera rápida y sencilla."
+    },
+    {
+      "heading": "Zona pagos",
+      "text": "- Confirming\n- Línea triangular\n- Descuento de títulos"
+    },
+    {
+      "heading": "Openpay Pagos",
+      "text": "Participa por tu próximo vehículo\nSúmate a los 151 ganadores y descubre cómo ganar ahorrando con BBVA. Aplican T&C"
+    }
+  ]
+}

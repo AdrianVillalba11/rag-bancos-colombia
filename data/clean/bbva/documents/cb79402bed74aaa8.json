@@ -1,0 +1,38 @@
+{
+  "id": "cb79402bed74aaa8",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/oportunidades/ahorra-e-invierte.html",
+  "title": "Ahorra e invierte",
+  "fetched_at": "2026-10-02T21:58:11.183796+00:00",
+  "source_hash": "54c0075d2942247e1c7670c5f0b646db70a99948c25a49515aac21193c046ddc",
+  "sections": [
+    {
+      "heading": "¿Cómo lo puedes hacer?",
+      "text": "Empieza a ahorrar\nHaz crecer tus inversiones"
+    },
+    {
+      "heading": "Cuenta de Ahorro AFC",
+      "text": "Para obtener beneficios tributarios, destinando tus ahorros a comprar vivienda.\nSin monto de apertura.\nTasas de interés diferenciales que se suman a tu ahorro."
+    },
+    {
+      "heading": "Cuenta de Nómina",
+      "text": "Para recibir tu sueldo en una cuenta con más beneficios a $0:\nTransacciones gratis.\nTransferencias gratis usando Bre-B desde tu App.\nRetiros en cajeros BBVA y corresponsales bancarios.\nAbrir cuenta"
+    },
+    {
+      "heading": "Fondos de Inversión",
+      "text": "Descubre cómo invertir tu dinero para obtener la mayor rentabilidad. ¡Nosotros te asesoramos!\nAbre el tuyo"
+    },
+    {
+      "heading": "¿Cómo contratar una cuenta?",
+      "text": "Puedes abrir una Cuenta de nómina o de ahorros en línea a través de BBVA móvil. No necesitas ser cliente, unicamente debes tener tu cédula a la mano y diligenciar la información solicitada. En el caso de la cuenta de nómina debes tener el NIT de tu empleador."
+    },
+    {
+      "heading": "¿Cuáles son los requisitos para abrir una cuenta?",
+      "text": "Necesitas tener a la mano tu cédula y conocer el NIT de la empresa donde trabajas, si vas a abrir una cuenta de nómina en línea\nSólo necesitas tu cédula si quieres una cuenta de ahorros en línea\nPara las cuentas que se abren en oficinas, los requisitos varían si eres empleado o independiente."
+    },
+    {
+      "heading": "¿Qué hacer si pierdo mi Tarjeta Débito?",
+      "text": "Descarga la app BBVA Wallet si no la tienes.\nIngresa con tu usuario y contraseña\nSelecciona la tarjeta que se te perdió.\nBusca el icono apagar tarjeta.\nDesliza a la izquierda y quedará apagada al instante.\nSi deseas comunícate con la Línea BBVA, verifica tu información y solicita la reposición del plástico que podrás reclamar en la oficina que te asesoró con tu cuenta."
+    }
+  ]
+}

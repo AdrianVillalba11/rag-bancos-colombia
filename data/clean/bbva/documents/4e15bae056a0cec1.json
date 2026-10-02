@@ -1,0 +1,38 @@
+{
+  "id": "4e15bae056a0cec1",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/tus-pagos.html",
+  "title": "Tus pagos BBVA",
+  "fetched_at": "2026-10-02T21:58:30.350904+00:00",
+  "source_hash": "dce8348bdb58822093a9c1e137f4f98a53348de6abb03c38c824220a7a143b91",
+  "sections": [
+    {
+      "heading": "Tus Pagos BBVA",
+      "text": "Paga o recarga en línea y sin costo\nEl botón PSE es la forma más fácil y rápida para hacer pagos y recargas desde otros bancos a productos BBVA, ya sean tuyos o de otros. Elige la opción que necesites."
+    },
+    {
+      "heading": "Cuentas de ahorro y corrientes",
+      "text": "Transfiere y recarga dinero a cuentas BBVA."
+    },
+    {
+      "heading": "Dinero móvil",
+      "text": "Transfiere y recarga dinero solo con el número de celular del destinatario."
+    },
+    {
+      "heading": "Tarjeta de crédito",
+      "text": "Paga tarjetas de crédito BBVA que sean tuyas o de alguien más."
+    },
+    {
+      "heading": "Préstamos",
+      "text": "Paga la cuota y/o adelanta la próxima cuota de tu préstamo BBVA"
+    },
+    {
+      "heading": "Paga convenios",
+      "text": "Realiza recaudos, paga tus facturas de servicios públicos, colegios, administracione y demás."
+    },
+    {
+      "heading": "Descubre cómo protegerte de páginas web clonadas",
+      "text": "Aprende sobre páginas web clonadas para identificarlas y poder prevenirte. Así cómo, saber qué hacer en caso de que debas denunciarlas.\nParticipa por tu próximo vehículo\nSúmate a los 151 ganadores y descubre cómo ganar ahorrando con BBVA. Aplican T&C"
+    }
+  ]
+}

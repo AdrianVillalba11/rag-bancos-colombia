@@ -1,0 +1,54 @@
+{
+  "id": "d874d8a96b5a690b",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/servicios-digitales/app-bbva.html",
+  "title": "App BBVA Colombia: descarga tu banca móvil",
+  "fetched_at": "2026-10-02T21:58:47.782055+00:00",
+  "source_hash": "f8b7b904e8905a8eabbe12dbc5108d5c9afd6019ec04066d89e4fc718f2a80ea",
+  "sections": [
+    {
+      "heading": "Tu App BBVA se renovó",
+      "text": "Te acompaña como quieres: clara, rápida y siempre a tu ritmo."
+    },
+    {
+      "heading": "Descubre la nueva experiencia",
+      "text": "Accede a tus operaciones favoritas con un solo clic, encuentra todo en segundos con productos organizados por categorías y oculta tus saldos al instante con el nuevo modo discreto."
+    },
+    {
+      "heading": "Para mover tu dinero",
+      "text": "Transferencias sin costo\na cualquier banco con Bre-B"
+    },
+    {
+      "heading": "Para pagar tu tarjeta desde casa",
+      "text": "Paga tu tarjeta sin ir a una oficina y sin costo desde tu celular"
+    },
+    {
+      "heading": "Para pagar tus recibos sin filas",
+      "text": "Pago de servicios públicos al instante y sin costo adicional."
+    },
+    {
+      "heading": "Para descargar tus certificados",
+      "text": "Extractos y certificados sin costo y sin ir a una oficina"
+    },
+    {
+      "heading": "Activa tu Token Digital",
+      "text": "Configúralo desde tu app o cajero para autorizar transferencias, pagos y retiros sin tarjeta.\nConcer más"
+    },
+    {
+      "heading": "Apaga o prende tus tarjetas",
+      "text": "Contróla vlas en segundos desde tu celular si las perdiste de vista o vas a viajar."
+    },
+    {
+      "heading": "Genera tu código de seguridad",
+      "text": "Consulta un código temporal que cambia cada 5 minutos para blindar tus compras online."
+    },
+    {
+      "heading": "FAQs",
+      "text": "¿Cómo activar el Token Digital en la App BBVA? ¿Cómo apagar o prender una tarjeta desde la App BBVA? ¿Dónde puedo ver el CVV de mi tarjeta en la App BBVA? ¿Cuánto tiempo dura el CVV que aparece en la App BBVA? ¿Cómo descargar un certificado bancario desde la App BBVA? ¿Qué puedo hacer desde la App BBVA? ¿Es seguro usar la App BBVA para manejar mis tarjetas?"
+    },
+    {
+      "heading": "FAQs",
+      "text": "¿Cómo activar el Token Digital en la App BBVA?\nIngresa a la App BBVA y ve a Seguridad y privacidad > Accesos y firmas. Allí podrás activar el Token Digital siguiendo las opciones disponibles en la aplicación. El Token te permite confirmar pagos, transferencias, retiros y otras operaciones desde tu celular.\n¿Cómo apagar o prender una tarjeta desde la App BBVA?\nIngresa a la App BBVA, selecciona la tarjeta que quieres administrar y elige la opción “Apagar tarjeta”. Cuando quieras volver a usarla, selecciónala nuevamente y pulsa “Encender tarjeta”. Recibirás una confirmación en la App cuando el cambio se haya realizado.\n¿Dónde puedo ver el CVV de mi tarjeta en la App BBVA?\nIngresa a la App BBVA y selecciona tu tarjeta. Busca la opción “CVV dinámico” y sigue las indicaciones para verlo. Es un código de 3 dígitos que puedes utilizar para realizar compras por internet de forma más segura.\n¿Cuánto tiempo dura el CVV que aparece en la App BBVA?\nEl CVV dinámico que consultas en la App BBVA tiene una vigencia de 5 minutos y es de un solo uso. Si necesitas realizar una nueva compra, puedes consultar un nuevo código desde la aplicación.\n¿Cómo descargar un certificado bancario desde la App BBVA?\nIngresa a la App BBVA y selecciona la cuenta de la que necesitas el certificado. Pulsa los tres puntos, elige “Ver certificado” y selecciona el tipo de certificado que necesitas. El documento será enviado a tu correo electrónico en formato PDF.\n¿Qué puedo hacer desde la App BBVA?\nDesde la App BBVA puedes consultar tus productos, hacer transferencias, pagar facturas y tarjetas, descargar extractos y certificados, retirar dinero sin tarjeta y administrar tus tarjetas desde el celular.\n¿Es seguro usar la App BBVA para manejar mis tarjetas?\nLa App BBVA cuenta con opciones que ayudan a proteger tus operaciones y tarjetas. Puedes ingresar usando tu huella o rostro, apagar y encender tus tarjetas, consultar un CVV dinámico para compras por internet y confirmar operaciones con el Token Digital.\nHelper template to render CTA links/buttons without repeating link vs button logic. Used for app stores and secondary link.\nGeneral CTA: use <a> for plain URL, <button> for modal/CTA/JS/YouTube\nDescarga la App BBVA\nSecondary link: reuse storeButton helper (no icon)\nApp download links (Android / HarmonyOS / iOS): reuse storeButton helper to avoid repeating link vs button logic"
+    }
+  ]
+}

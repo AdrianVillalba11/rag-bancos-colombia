@@ -1,0 +1,46 @@
+{
+  "id": "f4011f43226a39ef",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/servicios-digitales/app-empresas.html",
+  "title": "App Empresas | Empresas",
+  "fetched_at": "2026-10-02T21:57:44.766061+00:00",
+  "source_hash": "123873b01434170313a64eaf88ebc6ca802287c26f1a58f9ac17b78fcdc54b59",
+  "sections": [
+    {
+      "heading": "¡Al alcance de tu bolsillo! Así estarás de cerca a tu empresa",
+      "text": "Mantén siempre el control de tu empresa desde tu celular, sin tener que acercarte a una oficina."
+    },
+    {
+      "heading": "Mis ventas",
+      "text": "La opción para monitorear las ventas de tu negocio a través de tu celular."
+    },
+    {
+      "heading": "Pagos y transferencias fáciles",
+      "text": "Realiza los pagos de servicios públicos de tu empresa o haz transferencias 100% digitales a otros bancos e inmediatas a Cuentas BBVA."
+    },
+    {
+      "heading": "Contrata productos",
+      "text": "Así como lo ves, desde tu App BBVA puedes contratar otros productos que puedan ayudarte a cumplir tus proyectos."
+    },
+    {
+      "heading": "Token digital",
+      "text": "Lleva tu negocio con seguridad, ya que confirmarás tu identidad con un código que llegará a tu celular."
+    },
+    {
+      "heading": "¿Ya descargaste tu App BBVA Empresas?",
+      "text": "Ahora aprende a cómo hacerla segura, activando tu Token digital.\nQuiero hacerlo"
+    },
+    {
+      "heading": "¿Sabías que puedes gestionar tus operaciones bancarias en línea de forma rápida y segura? Aprende a utilizar nuestras plataformas digitales con nuestros tutoriales paso a paso.",
+      "text": "Ver Tutoriales - App Empresas\nExplora todas las funciones y beneficios"
+    },
+    {
+      "heading": "Conoce todo lo que puedes hacer desde tu App BBVA Empresas",
+      "text": "Consultar ventas\nRealizar pagos\nRegistro y token digital\nConsulta el estado de tus ventas desde la App BBVA Empresas.\n¿Cómo realizo mis pagos desde la App BBVA Empresas?\n¿Cómo me registro y activo mi token digital desde la App BBVA Empresas?"
+    },
+    {
+      "heading": "La Cuenta Digital BBVA, para los emprendedores que les gusta vivir sin complicaciones y con beneficios como:",
+      "text": "Recibe ventas por transferencia desde cualquier banco o celular con $0 Costo y olvídate de las billeteras digitales.\nRecibe pagos generando tu propio código QR desde la App BBVA. Fácil, rápido y seguro."
+    }
+  ]
+}

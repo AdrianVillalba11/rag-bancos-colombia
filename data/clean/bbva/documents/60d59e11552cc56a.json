@@ -1,0 +1,46 @@
+{
+  "id": "60d59e11552cc56a",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/servicios-digitales/cajeros.html",
+  "title": "Cajeros BBVA",
+  "fetched_at": "2026-10-02T21:59:21.127051+00:00",
+  "source_hash": "88d99a17abbc0f9908e1a7eca6b09f5ba673c9463bc9050a93c5592b5df0c512",
+  "sections": [
+    {
+      "heading": "Tenemos 2 tipos de cajeros",
+      "text": "Cajero Multifuncional: Donde puedes retirar efectivo, realizar consignaciones a cuentas de ahorro o corriente BBVA y pagar tus tarjetas y créditos.\nCajero Automático: Donde podrás retirar efectivo con tu tarjeta o con la opción retiro sin tarjeta en tu App BBVA."
+    },
+    {
+      "heading": "¿Que puedo hacer en un cajero multifuncional?",
+      "text": "Retirar con o sin tarjeta\nConsignar en efectivo a cuentas BBVA\nPagar tu Tarjeta de Crédito BBVA\nPagar tu Crédito de Consumo - Libre inversión - Vehículo - Hipotecario - Leasing.\nGiros Nacionales"
+    },
+    {
+      "heading": "Conoce cómo usar el Cajero Multifuncional",
+      "text": "Consignaciones en efectivo\nPagar tu tarjeta BBVA\nPagar tus créditos BBVA\nRetiro sin tarjeta"
+    },
+    {
+      "heading": "¿Cómo hacer consignaciones a cuentas BBVA?",
+      "text": "Selecciona “Depósito en efectivo\"\nSelecciona la cuenta destino del depósitoc Puedes consignar a cuentas de ahorro, corriente o dinero móvil.\nDigita los 9 números de la cuenta a la que quieres depositar.\nSelecciona “Continuar”\nIngresa el dinero que quieras depositar (Máximo 99 billetes por transacción (no insertar billetes con grapas, cintas, rotos, deteriorados, doblados o manchados).\nConfirma la cantidad ingresada y selecciona “Continuar”.\nConfirma los datos de la operación.\nRecibe el comprobante ¡y listo!"
+    },
+    {
+      "heading": "¿Cómo pago mi tarjeta de crédito BBVA?",
+      "text": "Selecciona “Pago de Tarjeta de Crédito”.\nIngresa el número de la tarjeta que vas a pagar.\nEspera a que el sistema valide la información.\nVerifica que los datos sean correctos.\nIngresa el dinero que deseas pagar (Máximo 99 billetes por transacción (no insertar billetes con grapas, cintas, rotos, deteriorados, doblados o manchados).\nConfirma la cantidad ingresada y selecciona “Confirmar”."
+    },
+    {
+      "heading": "¿Cómo pagar tus créditos BBVA?",
+      "text": "Selecciona “Pagar un Crédito”.\nIngresa los 20 números del crédito\nRectifica los datos del titular del crédito.\nIngresa el dinero a consignar en el crédito (Máximo 99 billetes por transacción (no insertar billetes con grapas, cintas, rotos, deteriorados, doblados o manchados).\nImprime el comprobante !y listo!"
+    },
+    {
+      "heading": "¿Cómo retirar sin tarjeta con la App BBVA?",
+      "text": "Descarga tu App BBVA desde tu celular a través de Google Play o App Store.\nSelecciona el lugar donde quieres retirar, si en un cajero o en un corresponsal bancario.\nIngresa tu número de Tarjeta Débito o Crédito BBVA y tu clave de cajero automático - Crea tu usuario y contraseña\nAcércate al cajero o al corresponsal bancario y selecciona la opción: \"Retiro/Avance sin Tarjeta\" Ingresa tu número de cédula y el valor que quieres retirar, el mismo que seleccionaste en tu celular. ¡Y listo!\nDescarga la App BBVA"
+    },
+    {
+      "heading": "Estos son los montos que puedes retirar:",
+      "text": "Puedes retirar hasta 4'200.000 diarios. Para retirar este monto, primero debes retirar 2'100.000 con la opción retiro sin tarjeta desde tu App BBVA, y luego retirar 2'100.000 con tu tarjeta débito."
+    },
+    {
+      "heading": "Conce más",
+      "text": "Ubicación\nConsulta la ubicación de los Cajeros en la App BBVA, selecciona “Puntos de atención” en el inicio sin necesidad de ingresar y allí los podrás localizar\nConoce más sobre App BBVA.\nHazte cliente BBVA\nEmpieza a usar tu dinero como necesitas."
+    }
+  ]
+}

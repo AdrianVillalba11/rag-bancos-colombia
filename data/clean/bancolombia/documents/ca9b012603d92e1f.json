@@ -1,0 +1,26 @@
+{
+  "id": "ca9b012603d92e1f",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/beneficios",
+  "title": "Beneficios de Bancolombia",
+  "fetched_at": "2026-10-02T22:02:38.470644+00:00",
+  "source_hash": "b28265acdc761a8a34ddacfd633fe0284b73172141f4e50f05da5904b2b558e7",
+  "sections": [
+    {
+      "heading": "¡Aprovecha estos beneficios!",
+      "text": "Conoce las ventajas de ser cliente Bancolombia: concursos y sorteos, redención de Puntos Colombia y exclusivas ofertas en tiendas."
+    },
+    {
+      "heading": "Ofertas",
+      "text": "Precios más bajos, facilidades de pago, bonos de descuentos y mucho más."
+    },
+    {
+      "heading": "Biometría facial",
+      "text": "Confirma tu identidad de forma simple y segura. Conoce más en esta página."
+    },
+    {
+      "heading": "Puntos Colombia",
+      "text": "Conoce cómo empezar a acumular puntos y cuáles son los beneficios.\nCONOCER PUNTOS COLOMBIA"
+    }
+  ]
+}

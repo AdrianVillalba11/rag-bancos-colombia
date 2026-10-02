@@ -1,0 +1,50 @@
+{
+  "id": "a9f633e9c3b51974",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/landing/asesores-vivienda.html",
+  "title": "Asesores Vivienda",
+  "fetched_at": "2026-10-02T21:58:58.772344+00:00",
+  "source_hash": "fa2463265f2735d2ba49a03196a5b6ff3cebfc3622f4fce2c33290cebe370920",
+  "sections": [
+    {
+      "heading": "Esta es tu entrada directa al simulador de vivienda",
+      "text": "Si eres gestor, prescriptor o aliado, este es tu acceso exclusivo.\nGuárdalo y úsalo siempre que lo necesites."
+    },
+    {
+      "heading": "Para que puedas ingresar en un solo paso",
+      "text": "Cuéntanos quién eres y selecciona tu opción. Este acceso te lleva directo al simulador sin pasar por buscadores ni enlaces de pauta."
+    },
+    {
+      "heading": "Soy Gestor de la RED",
+      "text": "Si eres asesor comercial de la Red de Oficinas, ingresa al simulador de Crédito de Vivienda\nIr al simulador"
+    },
+    {
+      "heading": "Soy Gestor de la CSF",
+      "text": "Si eres asesor comercial de la Comercializadora de Servicios Financieros, ingresa al simulador de Crédito de Vivienda."
+    },
+    {
+      "heading": "Soy Gestor de Constructoras Aliadas",
+      "text": "Si eres asesor comercial aliado, ingresa al simulador de Crédito de Vivienda aquí."
+    },
+    {
+      "heading": "Soy Prescriptor BBVA",
+      "text": "Si eres prescriptor, ingresa al simulador de Crédito de Vivienda aquí."
+    },
+    {
+      "heading": "Este espacio es solo para ti",
+      "text": "Para que tu ingreso quede identificado como asistido y el cliente tenga unaexperiencia más fluida desde el principio."
+    },
+    {
+      "heading": "¿Necesitas ayuda?",
+      "text": "Estamos cerca ante cualquier duda.\nContacta a tu canal interno o escribe al equipo comercial"
+    },
+    {
+      "heading": "FAQs",
+      "text": "¿Quieres saber más?\n¿Qué pasa si uso el botón equivocado? ¿Puedo compartir este enlace con el cliente? ¿En qué se diferencia este acceso? ¿Qué pasa si uso este enlace desde un celular? ¿Este ingreso deja trazabilidad?"
+    },
+    {
+      "heading": "FAQs",
+      "text": "¿Qué pasa si uso el botón equivocado?\nTranquilo. Solo vuelve y elige el que te corresponde.\n¿Puedo compartir este enlace con el cliente?\nNo. Este ingreso es solo para uso comercial y aliados.\n¿En qué se diferencia este acceso?\nTe lleva directo y nos ayuda a saber que vienes desde un canal asistido.\n¿Qué pasa si uso este enlace desde un celular?\nFunciona perfecto. Solo asegúrate de tener tu acceso activo\n¿Este ingreso deja trazabilidad?\nSí. Sabremos que llegaste como parte del equipo BBVA."
+    }
+  ]
+}

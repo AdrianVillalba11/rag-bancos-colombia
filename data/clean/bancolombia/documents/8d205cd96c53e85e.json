@@ -1,0 +1,58 @@
+{
+  "id": "8d205cd96c53e85e",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/cuentas/pensionados",
+  "title": "Cuenta para pensionados Bancolombia",
+  "fetched_at": "2026-10-02T22:06:13.175626+00:00",
+  "source_hash": "0d73c63fc6e07bda8c1d8ab5c82ad5b5c46f1e3b22945e3c8928e12a108589a9",
+  "sections": [
+    {
+      "heading": "Cuenta pensión",
+      "text": "Olvídate de ir a una sucursal para recibir tu plata. El pago de tu pensión llega a tu cuenta para que lo uses cuando quieras, ábrela ahora en la app."
+    },
+    {
+      "heading": "Para ahorro o uso",
+      "text": "Ten la tranquilidad que tu plata estará en tu cuenta para que pagues, saques o transfieras."
+    },
+    {
+      "heading": "Uso exclusivo para pensión",
+      "text": "Esta cuenta no permite débitos automáticos y tampoco recibe giros o remesas."
+    },
+    {
+      "heading": "Depósito automático",
+      "text": "El pago de tu pensión se abona de forma directa, sin necesidad de hacer trámites adicionales.\nshield"
+    },
+    {
+      "heading": "Protección de ahorro",
+      "text": "Cuentas con Fogafín, un seguro del gobierno que protege tu plata."
+    },
+    {
+      "heading": "Cómo abrir tu cuenta",
+      "text": "Alista tu cédula, celular con cámara, nombre y NIT de quien te paga la pensión para comenzar."
+    },
+    {
+      "heading": "Inicia sesión con tus datos",
+      "text": "En la app busca \"Trámites y solicitudes\", elige \"Abrir cuentas\" y sigue los pasos."
+    },
+    {
+      "heading": "Pide tu tarjeta a domicilio",
+      "text": "Selecciona \"Obtén tu tarjeta débito\", elige \"Envío nacional\" y listo, sin costo."
+    },
+    {
+      "heading": "También tienes una tarjeta virtual lista para usar",
+      "text": "Créala en la app al abrir tu cuenta, se activa de inmediato y queda lista para compras físicas o por internet."
+    },
+    {
+      "heading": "Tasas y tarifas",
+      "text": "chart-analytics Tasa de rendimiento | 0,05% efectivo anualcash-contribution Cuota de manejo | $0, siempreatm-money Retiros en cajeros automáticos | Ilimitados y a $0, siempre\nLos intereses se abonan cada día y los ves reflejados cuando retiras, consignas, o al final del mes. La retención sobre esos intereses es del 7%. Tu cuenta puede quedar exenta del 4×1000 hasta cierto monto: 350 UVT si no tienes otra cuenta exenta, o 41 UVT si ya tienes otra cuenta de pensión exenta. Si eres pensionado, puedes tener ambas: una cuenta de pensión exenta hasta 41 UVT y una cuenta de ahorros exenta hasta 350 UVT.\nConocer tarifario\nDocumentos"
+    },
+    {
+      "heading": "5 recomendaciones para proteger tus datos bancarios",
+      "text": "Aprende a reconocer riesgos y cuida tu información cuando hagas transacciones."
+    },
+    {
+      "heading": "Protección de claves",
+      "text": "Descubre cómo cuidar tus datos para usar tus productos con más tranquilidad."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "b14b2ee5fd1dec02",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-preferencial",
+  "title": "Cuenta de ahorro preferencial",
+  "fetched_at": "2026-10-02T22:04:57.534176+00:00",
+  "source_hash": "f318bf6730013756e038174c9a1b124e42a65468b9f53d22a8cc4780893f9015",
+  "sections": [
+    {
+      "heading": "Cuenta preferencial",
+      "text": "Más beneficios para el dinero que ahorras. Disfruta tasas preferenciales y respaldo automático para cubrir tus sobregiros."
+    },
+    {
+      "heading": "Mayor ganancia",
+      "text": "Entre más plata tengas en tu cuenta, mayor será el rendimiento que recibas."
+    },
+    {
+      "heading": "Retiros gratis",
+      "text": "En corresponsales, cajeros y oficinas del todo el país.\nshield"
+    },
+    {
+      "heading": "Protección Fogafín",
+      "text": "Tus ahorros cuentan con el respaldo del seguro de depósitos Fogafín."
+    },
+    {
+      "heading": "Débito automático",
+      "text": "Deja programados tus pagos y evita estar pendiente de las fechas de vencimiento."
+    },
+    {
+      "heading": "Cubrimiento automático del sobregiro",
+      "text": "Si te falta plata, cubre el sobregiro con tu cupo de Crediágil."
+    },
+    {
+      "heading": "Tasas y tarifas",
+      "text": "Consulta las tasas vigentes de tu producto preferencial. Ten presente que la rentabilidad de tu cuenta depende del saldo que mantengas.\nMonto | Rentabilidad efectiva anual\n$1 - $1.000.000 | 0,10%$1.000.001 - $10.000.000 | 0,50%$10.000.001 - $50.000.000 | 1,20%$50.000.001 - $100.000.000 | 1,50%$100.000.001 - $500.000.000 | 1,75%$500.000.001 - $1.000.000.000 | 2,00%$1.000.000.001 - En adelante | 2,25%\nTasas vigentes desde el 1 de octubre de 2020. La rentabilidad efectiva anual es el interés o ganancia que podrías recibir en un año. Los intereses se liquidan diariamente y se reflejan cuando realizas un retiro o consignación en la cuenta o al finalizar el mes si no realizaste movimientos. Sobre los intereses generados se aplica una retención en la fuente del 7%. Si cumples los requisitos establecidos por la ley, la cuenta puede estar exenta del impuesto 4x1000."
+    },
+    {
+      "heading": "Aprovecha tu cuenta con la Tarjeta Débito Preferencial",
+      "text": "Pídela sin costo adicional para comprar en comercios físicos y digitales dentro y fuera del país.\nDocumentos"
+    },
+    {
+      "heading": "Si te gustó este producto, estos te van a interesar",
+      "text": "building"
+    },
+    {
+      "heading": "Ahorro programado",
+      "text": "Ahorra y avanza hacia los subsidios para comprar tu vivienda\ncards"
+    },
+    {
+      "heading": "Tarjetas débito",
+      "text": "Descubre todo lo que puedes hacer con tu tarjeta física o virtual."
+    }
+  ]
+}

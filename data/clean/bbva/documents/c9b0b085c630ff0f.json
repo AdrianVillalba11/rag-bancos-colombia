@@ -1,0 +1,30 @@
+{
+  "id": "c9b0b085c630ff0f",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/promocion/cesantias.html",
+  "title": "Empieza tu año con mayor liquidez | Empresas",
+  "fetched_at": "2026-10-02T21:58:36.335618+00:00",
+  "source_hash": "e179f9e8de5699d54208ca46c2f3b37df651e8c0b425385d1688118a3ee5f496",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Empieza tu año con mayor liquidez&nbsp;&nbsp;&nbsp;&nbsp;\nEn BBVA tenemos un crédito diseñado para que pagues las cesantías de tus empleados, y comiences este nuevo año con mayor liquidez."
+    },
+    {
+      "heading": "Cesantías",
+      "text": "¿Quieres que un asesor se comunique contigo?\nLlena los siguientes campos de tu empresa y personales para poderte brindar toda la información:"
+    },
+    {
+      "heading": "Servicios bancarios para empresas | BBVA Colombia",
+      "text": "Descubre los servicios bancarios para empresas que te ofrecemos en BBVA y realiza todas las operaciones de servicios de recaudo y pagos."
+    },
+    {
+      "heading": "Cuentas Corrientes Empresariales",
+      "text": "Administra el dinero de tu empresa con las Cuentas Corrientes de BBVA diseñadas para tus necesidades."
+    },
+    {
+      "heading": "Inversion y Rentabilidad",
+      "text": "Ahorra e invierte con BBVA y rentabiliza el dinero de tu empresa."
+    }
+  ]
+}

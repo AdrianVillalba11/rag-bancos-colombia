@@ -1,0 +1,30 @@
+{
+  "id": "8810d39ad281e41e",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/promocion/cyberdays.html",
+  "title": "Cyberdays",
+  "fetched_at": "2026-10-02T22:00:21.017891+00:00",
+  "source_hash": "09818bf2f8ed199c1c8afa300dbae6908cdc72988eaf4a641dd26bc374a79d7e",
+  "sections": [
+    {
+      "heading": "Vigencia",
+      "text": "Valido entre el 15 de octubre y 15 de noviembre de 2018"
+    },
+    {
+      "heading": "Pretemporada Cyberdays",
+      "text": "Cumple tu meta en compras con tus tarjetas de crédito BBVA Entre el 15 de octubre y el 15 de noviembre de 2018\ny recibe 0% en la tasa de interés en los cyberdays (19,20 y 23 de noviembre) por compras de máximo 3 millones hasta en 12 cuotas."
+    },
+    {
+      "heading": "Mercadolibre",
+      "text": "Haz tus compras en mercadolibre.com con tus tarjetas de crédito BBVA, difiérelas de 2 a 12 cuotas y disfruta 0% de interés."
+    },
+    {
+      "heading": "Pago con puntos",
+      "text": "Con Pago con puntos BBVA puedes pagar tus compras en comercios aliados con los puntos que tienes acumulados"
+    },
+    {
+      "heading": "Beneficios BBVA",
+      "text": "Descubre los beneficios de ser cliente de tarjetas crédito, débito y BBVA wallet"
+    }
+  ]
+}

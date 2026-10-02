@@ -1,0 +1,54 @@
+{
+  "id": "ca55f062b77b6ace",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/productos/cuentas/corriente.html",
+  "title": "Cuentas Corrientes",
+  "fetched_at": "2026-10-02T22:02:08.540072+00:00",
+  "source_hash": "2f2a47bfcd2bc3ab6a4ca87ce8dee80d75c01c5f74ab37acea903d7bc01edf43",
+  "sections": [
+    {
+      "heading": "Administra tu dinero a través de consignaciones y retiros con giro de cheques o uso de la tarjeta débito",
+      "text": "Accede a los beneficios que la Cuenta Corriente BBVA ofrece\nRealiza consultas y transacciones a través de BBVA net y la App BBVA.\nManeja tus recursos a través del giro de cheques.\nPaga en cheques a nivel nacional en cualquier oficina de BBVA.\nRefleja toda la información relacionada con cada uno de los movimientos de la cuenta durante el mes a través de un extracto mensual.\nRecibe consignaciones nacionales por medio de efectivo y/o cheque.\nObtén el servicio de traslado de recursos entre sus propias cuentas o a terceros, remesas negociadas, y giros nacionales.\nHaz retiros en ATM con token a través de la App BBVA sin costo."
+    },
+    {
+      "heading": "Cuenta Digital",
+      "text": "Para manejar tu dinero desde tu celular mientras estudias o emprendes.\nTransacciones gratis\nTransferencias a costo $0 usando Bre-B a cualquier banco\nAbrir cuenta"
+    },
+    {
+      "heading": "Cuenta de Ahorros",
+      "text": "Realiza todo tipo de operaciones de acuerdo a la Cuenta de Ahorro elegida"
+    },
+    {
+      "heading": "Cuenta de Nómina",
+      "text": "Para recibir tu sueldo en una cuenta con más beneficios a $0:\nTransferencias gratis usando Bre-B desde tu App.\nRetiros en cajeros BBVA y corresponsales bancarios.\n¡Transferencias Inmediatas evolucionó a Bre-B!\nRegistra tus llaves en Bre-B y recibe plata al instante sin necesidad de aceptar la transacción."
+    },
+    {
+      "heading": "¿Cómo contratar una cuenta?",
+      "text": "Puedes abrir una Cuenta de nómina o de ahorros en línea a través de BBVA móvil. No necesitas ser cliente, unicamente debes tener tu cédula a la mano y diligenciar la información solicitada. En el caso de la cuenta de nómina debes tener el NIT de tu empleador."
+    },
+    {
+      "heading": "¿Cuáles son los requisitos para abrir una cuenta?",
+      "text": "Necesitas tener a la mano tu cédula y conocer el NIT de la empresa donde trabajas, si vas a abrir una cuenta de nómina en línea\nSólo necesitas tu cédula si quieres una cuenta de ahorros en línea\nPara las cuentas que se abren en oficinas, los requisitos varían si eres empleado o independiente."
+    },
+    {
+      "heading": "¿Cómo y dónde retirar dinero en efectivo con Dinero móvil?",
+      "text": "Acércate a cualquiera de nuestros Cajeros Automáticos o Puntos de Corresponsalía Bancaria de BBVA y realiza el siguiente procedimiento:\nIngresa a BBVA móvil.\nEn el menú principal elije la opción “Dinero móvil”.\nEn el menú de la parte inferior selecciona \" Retiro Sin tarjeta\".\nElije entre las opciones de “Retiro en Cajero” o “Retiro en Corresponsal Bancario”.\nIngresa el monto a retirar y dé clic en la opción “Generar token”."
+    },
+    {
+      "heading": "4 x mil cuáles son los topes y cuándo se cobra",
+      "text": "Cada persona tiene derecho a una sola cuenta excenta del 4*1000. Esta cuenta estará exenta hasta $12.708.000 MENSUALES, si el superas este límite se cobrará el 4 por mil por la diferencia, es decir si en el mes se retiró 10 MM de pesos no se cobra, pero si retiro 13 MM entonces a los 13 MM restamos el tope 12.708.000 y la diferencia que es de 292.000. sobre este valor se calcula el impuesto así: 292.000 * 4 = 1.168.000 y lugo 1.168.000/1000= 1.168 (Este último será el valor cobrado de 4 por mil)."
+    },
+    {
+      "heading": "¿Qué hacer si pierdo mi Tarjeta Débito?",
+      "text": "Descarga la app BBVA Wallet si no la tienes.\nIngresa con tu usuario y contraseña\nSelecciona la tarjeta que se te perdió.\nBusca el icono apagar tarjeta.\nDesliza a la izquierda y quedará apagada al instante.\nSi deseas comunícate con la Línea BBVA, verifica tu información y solicita la reposición del plástico que podrás reclamar en la oficina que te asesoró con tu cuenta."
+    },
+    {
+      "heading": "¿Tiene algún cobro realizar retiros por ventanilla en oficinas BBVA?",
+      "text": "Sí, retirar por ventanilla en nuestras oficinas tiene un costo de $12.000. Puedes consultar más información en el tarifario"
+    },
+    {
+      "heading": "¿ Cómo personalizar los montos de compras, retiros y otros en nuestros canales?",
+      "text": "El chat está listo para guiarte paso a paso para que aprendas a personalizar tus canales"
+    }
+  ]
+}

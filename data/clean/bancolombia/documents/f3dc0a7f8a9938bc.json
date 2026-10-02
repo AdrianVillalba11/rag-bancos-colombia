@@ -1,0 +1,34 @@
+{
+  "id": "f3dc0a7f8a9938bc",
+  "bank": "bancolombia",
+  "url": "https://www.bancolombia.com/personas/necesidades/mas-beneficios/ofertas",
+  "title": "Ofertas Bancolombia",
+  "fetched_at": "2026-10-02T22:05:48.928097+00:00",
+  "source_hash": "8ccf970b0950acf13027e1e77392d96ea6fba317b4f5f93bfecac9d1766fb2c6",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Solo eliminar\nEliminar desde acá"
+    },
+    {
+      "heading": "Ofertas Bancolombia",
+      "text": "Ver filtros"
+    },
+    {
+      "heading": "Filtros",
+      "text": "Ordenar por\nOrden alfabético\nPróximo a vencer"
+    },
+    {
+      "heading": "Categorías",
+      "text": "Seleccionar"
+    },
+    {
+      "heading": "Medios de pagos",
+      "text": "Remover filtro\n¿Buscas algo mas? encuentra más beneficios para ti"
+    },
+    {
+      "heading": "Inscríbete al programa",
+      "text": "Estás a pocos segundos de acceder a todos los beneficios que te ofrece Puntos Colombia.\ndiv id=\"layoutContainers\" class=\"wpthemeLayoutContainers wpthemeLayoutContainersHidden\" > <div class=\"wpthemeInner\"> <div class=\"wpthemeClear\"></div> </div> </div"
+    }
+  ]
+}

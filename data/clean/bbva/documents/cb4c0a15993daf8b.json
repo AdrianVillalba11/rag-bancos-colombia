@@ -1,0 +1,14 @@
+{
+  "id": "cb4c0a15993daf8b",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/investor-relations/debt.html",
+  "title": "Emisiones",
+  "fetched_at": "2026-10-02T22:01:07.106269+00:00",
+  "source_hash": "9baed19298931f7a3f2825800bcac436bd2570b4ac161bac5a96e2ab344bbad9",
+  "sections": [
+    {
+      "heading": "Debt Investors",
+      "text": "Find out information about our current debt programs.\nDate issued | Maturity | Principal | Coupon | ISIN Code | T&C19/09/2011 | 19/09/2026 | 156,000 | IPC + 4.70% | COB13CB00197 | More information19/02/2013 | 19/02/2028 | 165,000 | IPC + 3.89% | COB13CB00221 | More information26/11/2014 | 26/11/2029 | 90,000 | IPC + 4.38% | COB13CB00247 | More information26/11/2014 | 26/11/2034 | 160,000 | IPC + 4.50% | COB13CB00239 | More information"
+    }
+  ]
+}

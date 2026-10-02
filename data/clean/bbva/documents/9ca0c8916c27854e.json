@@ -1,0 +1,34 @@
+{
+  "id": "9ca0c8916c27854e",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/informacion-practica.html",
+  "title": "Información práctica",
+  "fetched_at": "2026-10-02T21:58:01.870566+00:00",
+  "source_hash": "6734d016f173a3dabb6ef85f1b45f51ba67038074b64a352aaa8db051b2f9049",
+  "sections": [
+    {
+      "heading": "Información Práctica",
+      "text": "Descubre más acerca de información para usar en tu día a día.\nEn BBVA queremos ayudarte a resolver tus necesidades."
+    },
+    {
+      "heading": "Formatos Comercio Exterior",
+      "text": "Encuentra los formatos necesarios para las operaciones de comercio exterior."
+    },
+    {
+      "heading": "Giros Nacionales",
+      "text": "Realiza el envío de dinero a través de nuestra red de oficinas BBVA."
+    },
+    {
+      "heading": "¿Cuáles son los topes máximos y mínimos para enviar un Giro Nacional?",
+      "text": "Monto mínimo: $ 0 (Cero)\nMonto máximo: Ilimitado"
+    },
+    {
+      "heading": "¿El giro nacional tiene fecha de vencimiento?",
+      "text": "SI. La vigencia de un giro nacional es máximo de 30 días. Transcurrido ese tiempo, el dinero es devuelto al ordenante"
+    },
+    {
+      "heading": "¿En cuánto tiempo se puede realizar el pago del giro nacional cuando el envío es a otra ciudad?",
+      "text": "La disponibilidad del dinero es inmediata, sin importar la ciudad destino del giro nacional"
+    }
+  ]
+}

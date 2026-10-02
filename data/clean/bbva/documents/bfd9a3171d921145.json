@@ -1,0 +1,38 @@
+{
+  "id": "bfd9a3171d921145",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/personas/productos/banca-personal/cuentas.html",
+  "title": "Cuentas Banca Personal",
+  "fetched_at": "2026-10-02T21:58:44.930940+00:00",
+  "source_hash": "6d17fa60a66865fb1521d277ba7cc7463dd7527ae89143e409db882808e29e7f",
+  "sections": [
+    {
+      "heading": "En BBVA queremos que disfrutes de nuestros productos",
+      "text": "Descubre los beneficios y posibilidades de las Cuentas Bancarias Banca Personal\nConoce nuestro portafolio de productos personalizados dirigido a nuestros clientes exclusivos de Banca Personal.\nAdministra tu dinero a través de consignaciones, retiros totales o parciales, giro de cheques o transacciones online.\nRealiza todo tipo de operaciones desde la comodidad de tu casa.\nEncuentra soluciones financieras diseñadas para tu beneficio.\nControla tus recursos con tu tarjeta débito."
+    },
+    {
+      "heading": "Portafolio Premium",
+      "text": "Le ofrecemos un portafolio con condiciones preferenciales únicas que le facilitan el ahorro, la inversión y la rentabilidad de su dinero."
+    },
+    {
+      "heading": "Cuentas Premium",
+      "text": "Administra tu dinero con los privilegios que te da una cuenta preferencial."
+    },
+    {
+      "heading": "Ahorro e Inversión Premium",
+      "text": "Gestiona tu capital con nuestras alternativas de ahorro e inversión Premium."
+    },
+    {
+      "heading": "¿Cómo contratar una cuenta?",
+      "text": "Puedes abrir una Cuenta de nómina o de ahorros en línea a través de BBVA móvil. No necesitas ser cliente, unicamente debes tener tu cédula a la mano y diligenciar la información solicitada. En el caso de la cuenta de nómina debes tener el NIT de tu empleador."
+    },
+    {
+      "heading": "¿Cuáles son los requisitos para abrir una cuenta?",
+      "text": "Necesitas tener a la mano tu cédula y conocer el NIT de la empresa donde trabajas, si vas a abrir una cuenta de nómina en línea\nSólo necesitas tu cédula si quieres una cuenta de ahorros en línea\nPara las cuentas que se abren en oficinas, los requisitos varían si eres empleado o independiente."
+    },
+    {
+      "heading": "¿Cuáles son los canales para la Atención al Cliente?",
+      "text": "A través de nuestra app BBVA móvil.\nNuestra red de oficinas BBVA.\nDefensoría del Consumidor Financiero. Tel: 343 83 85 / Fax: 343 83 87 en Bogotá. Correo electrónico defensoria.bbvacolombia@bbva.com.co\nLínea BBVA\nBogotá 401 00 00\nBarranquilla 350 35 00\nCali 889 20 20\nMedellín 493 83 00\nBucaramanga 630 40 00\nResto del país 01 8000 912 227"
+    }
+  ]
+}

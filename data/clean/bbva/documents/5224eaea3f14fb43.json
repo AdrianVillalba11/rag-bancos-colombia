@@ -1,0 +1,38 @@
+{
+  "id": "5224eaea3f14fb43",
+  "bank": "bbva",
+  "url": "https://www.bbva.com.co/empresas/oportunidades/agiliza-tus-operaciones.html",
+  "title": "Agiliza tus operaciones | Empresas",
+  "fetched_at": "2026-10-02T21:57:40.762365+00:00",
+  "source_hash": "b46bdf459c6c5a8e83899f152b7a576acfae1196733d650637c75e6d75767688",
+  "sections": [
+    {
+      "heading": "Agiliza tus operaciones",
+      "text": "Controla ingresos y gestiona tus recaudos"
+    },
+    {
+      "heading": "CDT",
+      "text": "Ahorra e invierte en tu empresa de forma segura con nuestros CDT."
+    },
+    {
+      "heading": "Factoring",
+      "text": "Haz frente a las necesidades financieras y desarrolla los proyectos de tu empresa."
+    },
+    {
+      "heading": "¿Qué oficinas pueden realizar la apertura de cuentas empresariales?",
+      "text": "Tenemos oficinas especializadas para atender las necesidades de tu empresa."
+    },
+    {
+      "heading": "¿Por el ingreso de divisas, el beneficiario del giro debe firmar algún documento?",
+      "text": "Debe firmar el formulario de declaración de cambio por servicios, transferencias y otros conceptos, el cuál contiene la información correspondiente a la operación cambiaria."
+    },
+    {
+      "heading": "¿Es posible timbrar recaudo con títulos de la tesorería nacional (tidis)?",
+      "text": "Para timbrar un recaudo recibimos únicamente pagos en efectivo y cheque ya que los títulos de tesorería no están habilitados para esta operación."
+    },
+    {
+      "heading": "¿Quién es ACH Colombia?",
+      "text": "ACH Colombia es una compañía que provee servicios tecnológicos para mejorar su calidad de vida. ACH Colombia es vigilada por la superintendencia financiera y sus accionistas son las principales entidades financieras del país, lo que le significa el respaldo del sector financiero colombiano. Dentro de los servicios de ACH Colombia están las transferencias interbancarias ACH, el operador de información de seguridad social SOI y el botón de pagos PSE."
+    }
+  ]
+}
