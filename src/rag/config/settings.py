@@ -63,8 +63,8 @@ class Settings(BaseSettings):
 
     # Scraping
     scrape_banks: list[str] = ["bbva", "bancolombia", "davivienda"]
-    scrape_max_pages_per_bank: int = Field(150, ge=1)
-    scrape_max_depth: int = Field(3, ge=0)
+    scrape_max_pages_per_bank: int = Field(250, ge=1)
+    scrape_max_depth: int = Field(5, ge=0)
     scrape_delay_seconds: float = Field(1.0, ge=0)
     scrape_timeout_seconds: float = Field(20.0, gt=0)
     scrape_max_retries: int = Field(3, ge=0)
