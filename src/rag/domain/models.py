@@ -111,6 +111,8 @@ class RetrievedChunk:
     chunk: Chunk
     score: float
     source: RetrievalSource = RetrievalSource.VECTOR
+    #: Similitud coseno con la pregunta, si el chunk salió de la búsqueda vectorial (0 a 1)
+    similarity: float | None = None
 
 
 @dataclass(frozen=True)

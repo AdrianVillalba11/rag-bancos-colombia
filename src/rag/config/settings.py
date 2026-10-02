@@ -6,9 +6,10 @@ Todos los parámetros se leen de variables de entorno (o de un archivo `.env`).
 
 from functools import lru_cache
 from pathlib import Path
+from typing import Annotated
 
 from pydantic import Field, computed_field, field_validator, model_validator
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -30,12 +31,18 @@ class Settings(BaseSettings):
 
     # Embeddings y reranker
     embedding_model: str = "bge-m3"
+    embedding_batch_size: int = Field(16, ge=1)
+    embedding_timeout_seconds: float = Field(120.0, gt=0)
     reranker_enabled: bool = True
     reranker_model: str = "BAAI/bge-reranker-v2-m3"
+    reranker_device: str = "cpu"  # "cpu" o "cuda"
+    reranker_max_length: int = Field(512, ge=64)
 
     # Recuperación
     hybrid_search_enabled: bool = True
     retrieval_top_k: int = Field(20, ge=1)
+    # Cuántos candidatos (de los recuperados) puntúa el reranker; en CPU cada uno cuesta ~0,5 s
+    rerank_candidates: int = Field(10, ge=1)
     rerank_top_n: int = Field(5, ge=1)
     rrf_k: int = Field(60, ge=1)
     min_relevance_score: float = Field(0.15, ge=0.0, le=1.0)
@@ -62,7 +69,8 @@ class Settings(BaseSettings):
     rate_limit_per_minute: int = Field(30, ge=1)
 
     # Scraping
-    scrape_banks: list[str] = ["bbva", "bancolombia", "davivienda"]
+    # NoDecode: la lista llega separada por comas (BANCO1,BANCO2), no como JSON
+    scrape_banks: Annotated[list[str], NoDecode] = ["bbva", "bancolombia", "davivienda"]
     scrape_max_pages_per_bank: int = Field(250, ge=1)
     scrape_max_depth: int = Field(5, ge=0)
     scrape_delay_seconds: float = Field(1.0, ge=0)
@@ -81,8 +89,10 @@ class Settings(BaseSettings):
     def _check_consistency(self) -> "Settings":
         if self.chunk_overlap >= self.chunk_size:
             raise ValueError("CHUNK_OVERLAP debe ser menor que CHUNK_SIZE")
-        if self.rerank_top_n > self.retrieval_top_k:
-            raise ValueError("RERANK_TOP_N no puede superar RETRIEVAL_TOP_K")
+        if self.rerank_top_n > self.rerank_candidates:
+            raise ValueError("RERANK_TOP_N no puede superar RERANK_CANDIDATES")
+        if self.rerank_candidates > self.retrieval_top_k:
+            raise ValueError("RERANK_CANDIDATES no puede superar RETRIEVAL_TOP_K")
         return self
 
     @computed_field  # type: ignore[prop-decorator]

@@ -52,3 +52,10 @@ def test_jerarquia_y_codigos_de_errores():
     assert RobotsDisallowedError.retryable is False
     assert LLMUnavailableError.retryable is True
     assert LLMUnavailableError("sin servicio").code == "llm_unavailable"
+
+
+def test_la_lista_de_bancos_se_lee_separada_por_comas(monkeypatch):
+    from rag.config import Settings
+
+    monkeypatch.setenv("SCRAPE_BANKS", "BBVA, bancolombia")
+    assert Settings().scrape_banks == ["bbva", "bancolombia"]
