@@ -1,0 +1,6 @@
+# Normaliza los saltos de línea a LF (necesario para scripts dentro de contenedores Linux)
+* text=auto eol=lf
+*.sh text eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
