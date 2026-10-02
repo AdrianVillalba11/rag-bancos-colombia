@@ -204,11 +204,11 @@ def clean_corpus(
         doc = _drop_lines(doc, ruido)
         texto = doc.text
         if len(texto) < min_chars:
-            logger.info("Página sin contenido propio descartada", extra={"url": doc.url})
+            logger.debug("Página sin contenido propio descartada", extra={"url": doc.url})
             continue
         huella = content_hash(_fingerprint(texto))
         if huella in vistos:
-            logger.info("Página duplicada descartada", extra={"url": doc.url})
+            logger.debug("Página duplicada descartada", extra={"url": doc.url})
             continue
         vistos.add(huella)
         resultado.append(doc)

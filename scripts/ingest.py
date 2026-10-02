@@ -1,9 +1,10 @@
-"""Ejecuta la ingesta: (scraping opcional) -> limpieza -> chunking.
+"""Ejecuta la ingesta: (scraping opcional) -> limpieza -> chunking -> indexación.
 
-Uso:
-    python scripts/ingest.py                 # procesa los datos crudos ya descargados
-    python scripts/ingest.py --scrape        # descarga primero y luego procesa
-    python scripts/ingest.py --banks bbva    # un banco concreto
+Uso (dentro de Docker):
+    docker compose run --rm ingest                        # procesa e indexa los datos crudos
+    docker compose run --rm ingest python scripts/ingest.py --scrape      # descarga primero
+    docker compose run --rm ingest python scripts/ingest.py --banks bbva  # un banco
+    docker compose run --rm ingest python scripts/ingest.py --no-index    # sin indexar
 """
 
 import argparse
@@ -13,6 +14,7 @@ import sys
 from rag.config import get_settings
 from rag.infra.logging import configure_logging
 from rag.ingestion.pipeline import IngestionPipeline
+from rag.retrieval.indexer import build_indexer
 
 logger = logging.getLogger("ingest")
 
@@ -25,12 +27,16 @@ def main() -> int:
     parser.add_argument(
         "--scrape", action="store_true", help="Descarga las páginas antes de procesar"
     )
+    parser.add_argument(
+        "--no-index", action="store_true", help="Limpia y genera chunks sin indexar en ChromaDB"
+    )
     args = parser.parse_args()
 
     settings = get_settings()
     configure_logging(settings.log_level, settings.log_json)
     bancos = args.banks or settings.scrape_banks
-    pipeline = IngestionPipeline(settings)
+    indexer = None if args.no_index else build_indexer(settings)
+    pipeline = IngestionPipeline(settings, indexer=indexer)
 
     if args.scrape:
         pipeline.scrape(bancos)
