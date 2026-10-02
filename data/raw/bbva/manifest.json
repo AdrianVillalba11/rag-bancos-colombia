@@ -1,0 +1,2005 @@
+{
+  "bank": "bbva",
+  "pages": [
+    {
+      "url": "https://www.bbva.com.co/",
+      "file": "d8f893d8ba5438b5.html.gz",
+      "sha256": "34d1b0f78b2c009f316d56f9a36355c9482fa85e6fc346f62eea9a143368520b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:36.658259+00:00",
+      "bytes_compressed": 61392
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas.html",
+      "file": "2f8e22291bc44951.html.gz",
+      "sha256": "0923aed459aee3750f84366c9fe406f827c503f6a3f7cfa5e164d1d8264632d9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:37.602502+00:00",
+      "bytes_compressed": 55697
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/hazte-cliente.html",
+      "file": "67c91b460395e53d.html.gz",
+      "sha256": "18ca3079e43ed6f2869e7e87274e2fc2b022f53fd68b8465f7aeea633bda7d4f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:38.757612+00:00",
+      "bytes_compressed": 49277
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/lineas-de-atencion.html",
+      "file": "b5e6689d7608e40f.html.gz",
+      "sha256": "d73c0c2f4ace0d5199044ceeeb4ad18c6e2ed1ed31651b6850e8d9dcd74585d7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:39.748386+00:00",
+      "bytes_compressed": 49764
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/oportunidades/agiliza-tus-operaciones.html",
+      "file": "7378b674429b1cc7.html.gz",
+      "sha256": "b46bdf459c6c5a8e83899f152b7a576acfae1196733d650637c75e6d75767688",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:40.762365+00:00",
+      "bytes_compressed": 45966
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/oportunidades/fortalece-tu-empresa.html",
+      "file": "4110f10414910751.html.gz",
+      "sha256": "e3ef1c974f3182ee6f0168925bf3ec873bfd736e0defa8abc998be6d192acd20",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:34.398521+00:00",
+      "bytes_compressed": 46317
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/oportunidades/globaliza-tu-empresa.html",
+      "file": "3d8b3d46d3c26d3e.html.gz",
+      "sha256": "e333f7fe421cc046165709aa4985143731ce915569f25cad5c13c26e31f76ac3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:49.868175+00:00",
+      "bytes_compressed": 46179
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/oportunidades/realiza-tus-pagos.html",
+      "file": "83e4953985bca88d.html.gz",
+      "sha256": "fe7c889934d0d34f2ea13561a2c32458dbddc5bba2f42e48d78f9144699fafb8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:05.815083+00:00",
+      "bytes_compressed": 45592
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/oportunidades/recibe-asesoria-especializada.html",
+      "file": "56b6f6aff01f7e2c.html.gz",
+      "sha256": "99ab22debf4d062e7133ec936c695fcd175de225419a6af84d24cbf7a7a299b7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:22.304567+00:00",
+      "bytes_compressed": 45810
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/oportunidades/tramites-diarios.html",
+      "file": "8a7408b3b5426a98.html.gz",
+      "sha256": "7573af7f335940980e25f35bb18cc0b1c05c26856d636f374eca2b3ac6c83a0d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:36.445376+00:00",
+      "bytes_compressed": 45495
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas.html",
+      "file": "7677b187e8a154bb.html.gz",
+      "sha256": "c353549c4fc340220a8d0b66918aa6618a37f5fb0c7982f5aace60fd7781a86b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:41.704250+00:00",
+      "bytes_compressed": 56551
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/adelanto-de-ventas.html",
+      "file": "0ffd2e8fb25d54e0.html.gz",
+      "sha256": "2939de2090a5b8553d8bd40a5a850033697cea5468aebd66691d84abf6da102a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:35.334148+00:00",
+      "bytes_compressed": 52418
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/cobro-al-toque.html",
+      "file": "96955718bedc81ae.html.gz",
+      "sha256": "5d1f89247a84de1fac40caea39252d3c3ec7bc46980f7d6784ed0eac8bfa7d4c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:50.763589+00:00",
+      "bytes_compressed": 53044
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/datafono-movil.html",
+      "file": "0544f17fb8f48394.html.gz",
+      "sha256": "7c8369ef8eb1febf16b82e2d1757ba9e568cffd326490d13f37dc9e2a346a9e9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:06.790440+00:00",
+      "bytes_compressed": 48547
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/datafono.html",
+      "file": "05b328c72962f170.html.gz",
+      "sha256": "32a79d61b20114a41103b06d78b5ea976f091e49886f1e36f34ded0cf7fdb549",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:23.290153+00:00",
+      "bytes_compressed": 59253
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/envia-y-recibre-pagos-con-codigo-qr-bbva.html",
+      "file": "2e0cb8823f5aade1.html.gz",
+      "sha256": "03ca2571323a9c5940e1f0c901854500e9d974ba97fde3c268a995cffa89e647",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:40.213183+00:00",
+      "bytes_compressed": 52139
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/link-de-cobro.html",
+      "file": "70d1139c3b8efd1a.html.gz",
+      "sha256": "c099d8369abab6b5b10b1c3a7f635e7215a83fbf21c8dc3eaf508d7afb5fe6e2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:51.734446+00:00",
+      "bytes_compressed": 53929
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/pasarela-de-pagos.html",
+      "file": "681bd93ab275bb46.html.gz",
+      "sha256": "46fa8097303d42e7de94a330596341165ca9dab8ec85d6e7a84c517b0e2bea4a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:04.091653+00:00",
+      "bytes_compressed": 50756
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/aumenta-tus-ventas/taquilla.html",
+      "file": "929d1136dbd1eab8.html.gz",
+      "sha256": "0c94bf8c759cbe705f7e7054ecf26a65eab65e93121cab7f4a9193e56b0d1884",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:12.969056+00:00",
+      "bytes_compressed": 41692
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones.html",
+      "file": "b0c0dd1db22c8e44.html.gz",
+      "sha256": "58d1c82982d0d38b1a966fed9adab41fd4dfd9cd3e76c026e95a9a830e3f7769",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:22.941454+00:00",
+      "bytes_compressed": 47136
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones/corporate-finance.html",
+      "file": "0f32f81a48c80403.html.gz",
+      "sha256": "ee065bd46aa7296de5ee29f6236a8b1c923a042ddf56175e0bf7a40bb8642f65",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:38.352653+00:00",
+      "bytes_compressed": 52045
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones/financiacion-infraestructura.html",
+      "file": "ebf7dd88aabf1884.html.gz",
+      "sha256": "7cc30707fa3f72e484412d604af67eab0e7b1af99ed4a9b97be5506953aa2304",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:46.669243+00:00",
+      "bytes_compressed": 52143
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones/originacion-renta-fija.html",
+      "file": "20b6083616d23002.html.gz",
+      "sha256": "a6e0af6a193c272d92f57faf89decd411e9a986459e690ce80b022972e0b4ddd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:55.695657+00:00",
+      "bytes_compressed": 54748
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones/originacion-renta-variable.html",
+      "file": "0c23768220cc13f4.html.gz",
+      "sha256": "bc32fea86afd183ca12b3b5de92e3f34c028f0d8f0a6a9e531c8ce213fc8396d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:02.637977+00:00",
+      "bytes_compressed": 54179
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/banca-inversion-empresas-corporaciones/sindicados.html",
+      "file": "61b4356f02b6b71d.html.gz",
+      "sha256": "7cd37ff1dbb20892969c86d9b3cb18ea029a3163aa94d1a62688effe743c992f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:09.573093+00:00",
+      "bytes_compressed": 52057
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/bbva-spark.html",
+      "file": "23070d51b068b207.html.gz",
+      "sha256": "76a22ee52393e80146239aeac8fa12963a10b29135788f42011280202be80699",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:17.323213+00:00",
+      "bytes_compressed": 58730
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados.html",
+      "file": "77ec80939ecac090.html.gz",
+      "sha256": "da9fe3ffc0a3b3766ae35812989e1d21afe60d9ba69aeecae3893081cf0c5978",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:26.492055+00:00",
+      "bytes_compressed": 46948
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados/forward.html",
+      "file": "a7fd67f30ea8fb62.html.gz",
+      "sha256": "649ca68d6f8fde153ecb4599455055b2d39ed0c5804fb8372e0f4a378e4fc501",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:34.869811+00:00",
+      "bytes_compressed": 46642
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados/opciones.html",
+      "file": "32865073db6eb933.html.gz",
+      "sha256": "dfded461e333c394f084f8f66a3a51d4e911e8f9f1b3dd2dccf8e5cef242be2a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:43.422590+00:00",
+      "bytes_compressed": 46749
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/coberturas-y-derivados/swaps.html",
+      "file": "5b49e56083b22337.html.gz",
+      "sha256": "bb891bcedfc163df7d3e6cfc26cbc6de06264206ff67d16e65942c160e41470a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:52.236129+00:00",
+      "bytes_compressed": 46619
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/comex.html",
+      "file": "fee6bb3084a4a6af.html.gz",
+      "sha256": "1e65c79ee7003360a8537b107efb0bc1de7ae42a60342094f1e5886bdf5dfef8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:58.875796+00:00",
+      "bytes_compressed": 57960
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/comex/avales-garantia-stand-by.html",
+      "file": "d77c5a7cb0a17699.html.gz",
+      "sha256": "acf577d1bea658ef9ada36c57e9ecd6a2b4df4401f8106cfa10d7c22656c6e13",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:04.923053+00:00",
+      "bytes_compressed": 57226
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/comex/bancoldex.html",
+      "file": "af593c445dabcd50.html.gz",
+      "sha256": "d4f20633135f2a4797df5d0294c7502afd6f1dbc0c66d6a98545a781fab11465",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:09.865846+00:00",
+      "bytes_compressed": 54626
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/comex/capital-de-trabajo.html",
+      "file": "bc8231c924699bee.html.gz",
+      "sha256": "b320ceca3d5eb998988ca32e33278348a36efddb950babcd55a01970421004cd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:14.694595+00:00",
+      "bytes_compressed": 54969
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/comex/cartas-credito.html",
+      "file": "898ad9e4c506ab1b.html.gz",
+      "sha256": "55e3dd0bb1c86780cbfae8bbbc0f1183ec92687c3622a4ef5b5445e0483cba4d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:18.699282+00:00",
+      "bytes_compressed": 57045
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/productos/comex/cobranzas-exportaciones-importaciones.html",
+      "file": "2424bf3974af8c5f.html.gz",
+      "sha256": "622862f9c28f52bfed2d0c7cce04759baf1ca311062d4b1415e8dea97f6d6fce",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:23.303600+00:00",
+      "bytes_compressed": 55734
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/apoyo-al-empleo.html",
+      "file": "f9bbe00fbb173d78.html.gz",
+      "sha256": "7f8678973d48e781e2521252fa4eb25fd8cc8abeb3cbf366c124cefbad45229a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:42.737673+00:00",
+      "bytes_compressed": 21872
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/cesantias.html",
+      "file": "0beb0f40cc247d1a.html.gz",
+      "sha256": "e179f9e8de5699d54208ca46c2f3b37df651e8c0b425385d1688118a3ee5f496",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:36.335618+00:00",
+      "bytes_compressed": 20369
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/devolucion-por-facturacion.html",
+      "file": "ba15e17714017184.html.gz",
+      "sha256": "2f758800cba27aafb97c9e5da3deb02dd7eb51e1831fe915dd25499e40647617",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:51.856315+00:00",
+      "bytes_compressed": 43224
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/ferias-agro.html",
+      "file": "9d99e5707dc37b79.html.gz",
+      "sha256": "f9bf0871722b358d8618edec7418480031a355113bfe5bf892477daaa367583e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:07.762176+00:00",
+      "bytes_compressed": 19277
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/fidelidad-bbva.html",
+      "file": "c248c59700b1b1d6.html.gz",
+      "sha256": "11a88077867a2f2344b904144e5e47a1acef723c1e186aa6fbfb316dd0d26d8d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:24.323647+00:00",
+      "bytes_compressed": 43943
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/horarios.html",
+      "file": "ef8f05f601de1e97.html.gz",
+      "sha256": "e882aa0f67ccccb06b42edd1b28a10eee47c752991e497c16d998cae1a85bbeb",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:40.373607+00:00",
+      "bytes_compressed": 41008
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/pago-de-impuestos.html",
+      "file": "1c73b08fada258ee.html.gz",
+      "sha256": "e3009a3086e18a5af2496eb886747fa16649321f4a5e5fae956d1b45e7a2c117",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:52.712226+00:00",
+      "bytes_compressed": 41884
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/periodo-de-gracia.html",
+      "file": "1bf5188425959375.html.gz",
+      "sha256": "334fa4f32e5d5805f733c36b61ab1f321881ac9d608a82711860b977c20e99f2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:04.965211+00:00",
+      "bytes_compressed": 43057
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/puntos-adelanto-de-ventas.html",
+      "file": "527ed76e3f88f764.html.gz",
+      "sha256": "9dfb5f99c47e5d31ff751e94a08a0f09f5550ba016f5b47d3b763ae9ad10479e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:13.873648+00:00",
+      "bytes_compressed": 44231
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/promocion/tarjeta-de-credito-comercial-puntos-bbva.html",
+      "file": "17583c2dc97d998e.html.gz",
+      "sha256": "b5a533e67b4b53939fdc25d1ec23c4efc3761d366ad70cd3f113c19d2d94d8ac",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:24.130379+00:00",
+      "bytes_compressed": 25632
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales.html",
+      "file": "2e2343e82d7b3e1c.html.gz",
+      "sha256": "20c7cffdc0fcd6069029f9833d6a9acf6ab698e5922235b3e6565710852f6ff8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:43.714146+00:00",
+      "bytes_compressed": 48596
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/app-empresas.html",
+      "file": "bcd319b977e13d2d.html.gz",
+      "sha256": "123873b01434170313a64eaf88ebc6ca802287c26f1a58f9ac17b78fcdc54b59",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:44.766061+00:00",
+      "bytes_compressed": 46969
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/credito-virtual.html",
+      "file": "640d8717da450ab7.html.gz",
+      "sha256": "b28a830f05ded51c743f62bd24157faccacc2f93bfcb75136b14abbe150d832f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:37.314477+00:00",
+      "bytes_compressed": 48720
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/credito-virtual/simulador.html",
+      "file": "8ecf26e72b9218b6.html.gz",
+      "sha256": "61f20e5ac62438462bc707214c385048021a3ed03d918099d6a7106fab535bc3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:52.856504+00:00",
+      "bytes_compressed": 41514
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/divisas.html",
+      "file": "6a32123a95682d87.html.gz",
+      "sha256": "f55e205ab197796f6c5810a8b24c24ac24fb26edd97d8310a8015b00a6bc7b74",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:08.989282+00:00",
+      "bytes_compressed": 51072
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/divisas/simulador-giros.html",
+      "file": "3d3f22883a0a34b3.html.gz",
+      "sha256": "8db39725e739294d5f8294db810883a12e853d82e7176738d795885201d6ed05",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:25.294295+00:00",
+      "bytes_compressed": 41482
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/divisas/simulador-reintegro.html",
+      "file": "34f8867b932e5335.html.gz",
+      "sha256": "87943c250382906da5b12ff92fae2981d87237733d9c41a125089b7eaab3dcdd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:41.373287+00:00",
+      "bytes_compressed": 41629
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/factura-electronica.html",
+      "file": "02f0a3b8bfa9e3c9.html.gz",
+      "sha256": "674d707340287a74a0b296a0a64691667ac7ac72632cc5f0edb844a6a0539af0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:53.791623+00:00",
+      "bytes_compressed": 45690
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/factura-electronica/formulario-registro.html",
+      "file": "179937c2d6112621.html.gz",
+      "sha256": "2d0e90b5217e4a23f0278ab71cf23cc90bb4b2ad8f837f27042967027081869b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:05.946831+00:00",
+      "bytes_compressed": 41367
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/inversion-online.html",
+      "file": "5e8d411334990d3f.html.gz",
+      "sha256": "fa07d418e5bf9e64da9761b4284af94020b345bf17d9b2a6c9f896500ed4b3b7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:14.889650+00:00",
+      "bytes_compressed": 57105
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/net-cash.html",
+      "file": "36f67c333bcde5d6.html.gz",
+      "sha256": "c16725dc42eb185ef1fece826ecfbac7ac6de234510637db274a3322bf197bb1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:24.826515+00:00",
+      "bytes_compressed": 51996
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/net-cash/autogestion.html",
+      "file": "6abfae8f31e8d643.html.gz",
+      "sha256": "f187d3448e87ab91f8997e14cf4b20254e43d5ee49735408ea23761683d4d5a2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:39.308648+00:00",
+      "bytes_compressed": 42912
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/servicios-digitales/simuladores.html",
+      "file": "d5665469aae7f20f.html.gz",
+      "sha256": "0fa2fd28536fb1989fca3f6fec1f27b6baac0c5cad382c98ddad375506bcb7b1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:47.815769+00:00",
+      "bytes_compressed": 48523
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/sostenibilidad.html",
+      "file": "e210617942ff7b67.html.gz",
+      "sha256": "5e3ab224c3591557037dcf62c88cb552ecec7593ea27d97bad72753646a3bf70",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:45.722009+00:00",
+      "bytes_compressed": 50848
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/tus-pagos.html",
+      "file": "ff314c40ecee1048.html.gz",
+      "sha256": "f3891985ec732da20b1db802b183cc4932ed235c967203ac501290384fae5564",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:46.610288+00:00",
+      "bytes_compressed": 43066
+    },
+    {
+      "url": "https://www.bbva.com.co/empresas/tus-pagos/transacciones-pse.html",
+      "file": "32e5635e59a7df28.html.gz",
+      "sha256": "7c3727df7d6d3bf44ab6a3cc2803abfa3c4ab4fa348d8485891d7dbc6fc26af9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:47.598155+00:00",
+      "bytes_compressed": 41974
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista.html",
+      "file": "2807061f54ceb14f.html.gz",
+      "sha256": "0060a2bb13fb351075b8730a3f4667d74e03e37ab76a60cbb6402c9b7b3bd0df",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:48.740222+00:00",
+      "bytes_compressed": 62710
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/acciones.html",
+      "file": "170d1992b7551c64.html.gz",
+      "sha256": "7b9505cf234d21beee7454d938a9e16fd136b89596f0f14fa91c5e9953b42532",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:49.756366+00:00",
+      "bytes_compressed": 53911
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/agenda-eventos.html",
+      "file": "c982aa306610d74f.html.gz",
+      "sha256": "957da74988a91cd75cd291ef4a8c05805d8ee5b2ff722be42c39961a6a16acd5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:38.327058+00:00",
+      "bytes_compressed": 51594
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/agenda-eventos/entrega-de-resultados.html",
+      "file": "5650e47eba2d29c2.html.gz",
+      "sha256": "79ded96e49c0b67bdc56fdc3340bcfd94f1f72840f98032a4d12beb63c871745",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:53.852858+00:00",
+      "bytes_compressed": 48937
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/emisiones.html",
+      "file": "518e9d7f2f0e1e8b.html.gz",
+      "sha256": "d8cac759a53d439eaf9f7365834a5edfeb7b6474cad0b8d82a7cd67fc0710b60",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:10.857769+00:00",
+      "bytes_compressed": 47204
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo.html",
+      "file": "10d77704ac22fbb9.html.gz",
+      "sha256": "32bd2ff2dc5f91b40ddd8ca6121be4b12343059cecdeca82e45587d5a6044288",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:26.343481+00:00",
+      "bytes_compressed": 51533
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/administradores.html",
+      "file": "8026b4f769262a98.html.gz",
+      "sha256": "71bcb179f2d4ccc7c67f776c7db4a6766e36c14cbaff874a36d12b591b149fc9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:42.386394+00:00",
+      "bytes_compressed": 53747
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/asamblea-accionistas.html",
+      "file": "5e41aec31a3f1e36.html.gz",
+      "sha256": "a57de4501ac82b8672a6e0539ea335060c70b439c5b3bcce4f7efc53635df3d1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:54.751089+00:00",
+      "bytes_compressed": 55772
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/codigo-de-conducta.html",
+      "file": "a8d142a5b36aa236.html.gz",
+      "sha256": "7afc7fc8d25bbaf840f9086b8caea2cb22194fe2ee2ecae1c69ee86f7e3fa3df",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:06.877643+00:00",
+      "bytes_compressed": 46944
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/codigo.html",
+      "file": "3e3b7c628727bf71.html.gz",
+      "sha256": "8216e013d05dcce05d354e89c26ca353f4d8746849adf1ae33d5a5e53bbb505f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:16.796006+00:00",
+      "bytes_compressed": 45832
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/comite-de-apoyo.html",
+      "file": "7488556e90bd07c7.html.gz",
+      "sha256": "8820926c8a5bec356930d8d6c135192dc42df6022564e73c93a1d726a4a16b9c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:26.827293+00:00",
+      "bytes_compressed": 47338
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/encuesta-codigo-pais.html",
+      "file": "de8848ddad4ef6f9.html.gz",
+      "sha256": "84787f07dedda624e017a6d05802ab9b42b40967f984d208cc46e0a8b50b4bb7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:41.218453+00:00",
+      "bytes_compressed": 47106
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/estatutos-sociales.html",
+      "file": "f61da95f6207fe15.html.gz",
+      "sha256": "5d3f5203039706a9c7b1c5713a159786a26931969dc5f1211c6a48561fb9f4ec",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:49.841583+00:00",
+      "bytes_compressed": 46619
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/estructura-empresarial.html",
+      "file": "515c8321ffba7178.html.gz",
+      "sha256": "fa9c8d7b32ee408f3207d2191db47381e9478174ecb066360f301858392e8f85",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:57.705901+00:00",
+      "bytes_compressed": 45692
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/junta-directiva.html",
+      "file": "e4c5739e588e9b51.html.gz",
+      "sha256": "322a03b3a4df73b9c6829d3d7ded82ff1e159405324be314f9c211d414376434",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:04.495917+00:00",
+      "bytes_compressed": 47978
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/gobierno-corporativo/organigrama.html",
+      "file": "c7af7201d173b783.html.gz",
+      "sha256": "4e6130b68c121180f705b4a34caf9ea6c1b822967b929fe75000e548cbacc4e6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:11.339471+00:00",
+      "bytes_compressed": 45368
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/informacion-financiera.html",
+      "file": "22cd8af6e85e5279.html.gz",
+      "sha256": "9a337bc48c1adddd46ad151395de47d46b6a8a28e71b58e41407044555f39d45",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:19.426523+00:00",
+      "bytes_compressed": 51710
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/informacion-relevante.html",
+      "file": "5816c33752c2afce.html.gz",
+      "sha256": "862b474cb2050185517baeefff4301898efc9c0beb4a54043764cacae3100e8b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:29.450521+00:00",
+      "bytes_compressed": 85746
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/oficina-accionistas.html",
+      "file": "273796fe1fb61bdb.html.gz",
+      "sha256": "9e148d026048014a19bda3b1c8647d6765fa6578e56c92d4ceb2b6b0ed40de23",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:36.825983+00:00",
+      "bytes_compressed": 49582
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/otros-datos-de-interes.html",
+      "file": "7eab09f17ce9a073.html.gz",
+      "sha256": "7d6672fa8dbcb6d424becf5df7fadb330a5b9cc7a2da883182b008e51c60168a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:45.553262+00:00",
+      "bytes_compressed": 63324
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/ratings-agencias.html",
+      "file": "79c7b7321322e497.html.gz",
+      "sha256": "20d918fc4f4ffd91198041f9a4c0335c0f308a60b10a651bbc991a0abdccea30",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:54.173197+00:00",
+      "bytes_compressed": 47146
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/atencion-al-inversionista/responsabilidad-corporativa.html",
+      "file": "ab17a86123ee1b71.html.gz",
+      "sha256": "0707cd57abf0f5d3455f6c16501e79e7f088e5f9ae8d3d2d4c04992b4e115ac9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:00.877174+00:00",
+      "bytes_compressed": 46306
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/aviso-legal.html",
+      "file": "4bcd89fea4a55a5a.html.gz",
+      "sha256": "cc6b7f0bda572acb955cb381ae7d4f345193fc567a66df6c4b9d501b29bcc661",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:50.720143+00:00",
+      "bytes_compressed": 45699
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/ayuda-urgente.html",
+      "file": "8576bd5ff5116ab7.html.gz",
+      "sha256": "59b1378fa71d126d05f9a00f414cc6f1d6c8bea98e8314ff885bc198c3d1ceda",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:51.606086+00:00",
+      "bytes_compressed": 50037
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/bbva-contigo.html",
+      "file": "5de8f7f23c434017.html.gz",
+      "sha256": "4c8ecd5c946f1543afe7ade7fec5d4e29c94885bb556d94c0660341d29d9017d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:52.726584+00:00",
+      "bytes_compressed": 51001
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/bbva-se-transforma.html",
+      "file": "98f999d22f15108b.html.gz",
+      "sha256": "3b4539a76867840562fc3a467f5101eb3baccb358cd5db5530cbcbeeabbe6345",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:53.909788+00:00",
+      "bytes_compressed": 46908
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog.html",
+      "file": "6e5d61d6c48815db.html.gz",
+      "sha256": "3610047080b9f8b31b6cb8e18775e1b34ce96ed131dfe0f650f6f87353d872fe",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:54.819690+00:00",
+      "bytes_compressed": 52745
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera.html",
+      "file": "37bac83dd047d3f6.html.gz",
+      "sha256": "232b31d0499fee9fd44a272c8282f2c0fd0ecd2a8f844e7dbb1a7ccb49f5fa16",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:55.722292+00:00",
+      "bytes_compressed": 51390
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas.html",
+      "file": "1b82b87a296c7ac8.html.gz",
+      "sha256": "28f7dc473662a61d4503dfe027d7bda4f80a06fee27b6c4fdac1df904836cf0f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:39.375537+00:00",
+      "bytes_compressed": 50715
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/4xmil.html",
+      "file": "b146e3bc81f5dde3.html.gz",
+      "sha256": "c305bdf22a0b5a96d9001b3f231bbf7c5fdf8c0c2072449cf17c0a368fb3a5be",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:55.993134+00:00",
+      "bytes_compressed": 57329
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/abrir-cuenta-ahorros.html",
+      "file": "ac38f0f22c1c4524.html.gz",
+      "sha256": "1f800ef23edf54882fd2eca4c0fcef544c4f658f38cbffe3377d8d1491c58448",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:11.017849+00:00",
+      "bytes_compressed": 60948
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/abrir-cuenta-pensional.html",
+      "file": "b9921384b27b1fa1.html.gz",
+      "sha256": "43bd58f4fff24d26c57ec985c3b76f06371553659b86be45ecb499cbc7c358ee",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:27.326029+00:00",
+      "bytes_compressed": 60373
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/activar-adelanto-nomina.html",
+      "file": "84c2d927b403e0ee.html.gz",
+      "sha256": "5d7baf85001e081ed8d522d6c72d5e030ed14278b4a75b4559466249ae6256ae",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:44.502175+00:00",
+      "bytes_compressed": 57512
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/ahorrar-dolares-desde-colombia.html",
+      "file": "59d83afbf1a28580.html.gz",
+      "sha256": "08e23eed48f85df67d4150d066b3e30746bbb4c94b5fd862eeccdde884fd963f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:55.683612+00:00",
+      "bytes_compressed": 60090
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/ahorro-programado.html",
+      "file": "9c1a7fea8e688280.html.gz",
+      "sha256": "5a667686c4f828c7e71989f135b4e6526f21049ff0411116dc52779622aaa3d4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:07.886059+00:00",
+      "bytes_compressed": 59103
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/aprovechar-cuenta-blackfriday.html",
+      "file": "731010e2aaf66e54.html.gz",
+      "sha256": "e9073d43124d6599f74c8b3af20a343e070eed1245e485dfffcec7eb205cd6e5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:18.441680+00:00",
+      "bytes_compressed": 56620
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/beneficios-pensionados.html",
+      "file": "9143d0566ba50b34.html.gz",
+      "sha256": "c225dbed5b4cd86de7892d275ca7310a5c63e4a273ba30224cf493429a1de875",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:28.274475+00:00",
+      "bytes_compressed": 56011
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/billetera-virtual.html",
+      "file": "5b8e9c2507c48e90.html.gz",
+      "sha256": "7dab380cc7e3252799717cda3d9b597b61d7e1b52398ea264e03c83818650106",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:42.615018+00:00",
+      "bytes_compressed": 55664
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/calculo-interes.html",
+      "file": "72aef53a4aab34d2.html.gz",
+      "sha256": "2595930579e12e22e795e0eab20048ce7559cf9008140eb1a930ba771d2cb284",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:51.834180+00:00",
+      "bytes_compressed": 54343
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/caracteristicas-del-emprendimiento.html",
+      "file": "19d00461d8bfd953.html.gz",
+      "sha256": "2e96bcd4733fcfe7d6ab6c644f6df7800ee61378bf31060ee32f4bc908686dbc",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:57.798577+00:00",
+      "bytes_compressed": 57206
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/como-ahorrar-dinero.html",
+      "file": "c1e9752ff39c09bb.html.gz",
+      "sha256": "c475c00ee2cdc27a2126f79f44f0bc6ce77fee851da03f0f1a6263f27c526498",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:05.999056+00:00",
+      "bytes_compressed": 57077
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/como-funciona-los-pagos-con-llaves.html",
+      "file": "0a6edee3d6bebf34.html.gz",
+      "sha256": "9b233add771889a75c4cb9c47bed7ec1f546008032a4a395c81a7d212f262961",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:12.704888+00:00",
+      "bytes_compressed": 54907
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/como-funcionan-las-transferencias.html",
+      "file": "733f9884e3972edf.html.gz",
+      "sha256": "f9f8b60a3ccc3a5f1a0d23c3ab5675ca80bc08950031e58382f7fbf40ddf2fff",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:21.340864+00:00",
+      "bytes_compressed": 57080
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/como-funcionan-los-puntos-bbva.html",
+      "file": "c1bc2ac07e73b374.html.gz",
+      "sha256": "3ef9bd71c8bae042e9bffd32424159adf919317bd6b28b9b5962d75b088d7175",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:31.136607+00:00",
+      "bytes_compressed": 62062
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/como-pagar-con-codigo-qr.html",
+      "file": "b03175537d0763f0.html.gz",
+      "sha256": "13187db09da1f18acdef49e897597f28906e3092d1447008a1142c5678864435",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:38.404383+00:00",
+      "bytes_compressed": 54706
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/como-recibir-dinero.html",
+      "file": "c4324b6b3938f079.html.gz",
+      "sha256": "be666ddd308a1e2c2924caf50e90a2e3fe38668255fd730a0dec95c49ac650f4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:48.372338+00:00",
+      "bytes_compressed": 57690
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/como-usar-tarjeta-debito.html",
+      "file": "81b23364a1ef37c0.html.gz",
+      "sha256": "0a22b9ec734fa72d8758e25cc34b855edef5405b8dae6580fa83aee3f6749321",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:55.503991+00:00",
+      "bytes_compressed": 55674
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/comprobante-deposito-retiro.html",
+      "file": "29fc35a808a691f9.html.gz",
+      "sha256": "9603fe4a7e802cb6c90cae2488c6cd594241ff366cb593c1c8fd830c6e590da4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:02.351441+00:00",
+      "bytes_compressed": 52701
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/corresponsales-bancarios-d1.html",
+      "file": "b0768c3f5722e3d2.html.gz",
+      "sha256": "cadf461ec0768bbb549cfa99fbf6b63a80bf3fb66d2fa882e7ca0ad2cf2bee48",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:07.261169+00:00",
+      "bytes_compressed": 55148
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/cuando-hacer-un-adelanto-de-nomina.html",
+      "file": "6ad0b84374dcf9c5.html.gz",
+      "sha256": "1f81ed944af9e41521739dba5b6bdac6a6b48aaabd237269dba970fd4d093371",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:11.699356+00:00",
+      "bytes_compressed": 48630
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/cuanto-demora-una-transferencia.html",
+      "file": "0a89ff40717076ff.html.gz",
+      "sha256": "a0a833e604fa5ffe966af7a85f667792dac6c1f4310e8d6aee6cb318944b03c6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:15.549649+00:00",
+      "bytes_compressed": 55837
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/cuanto-se-puede-retirar-de-un-cajero-en-colombia.html",
+      "file": "ff581784f5af76c7.html.gz",
+      "sha256": "c779f0e5f58af2517fae3146a9b97fcad955d3ddc4acb396dfb5dc1d2aaec6c7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:20.952418+00:00",
+      "bytes_compressed": 54818
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/blog/educacion-financiera/cuentas/cuenta-en-dolares-desde-colombia.html",
+      "file": "86cea333894590e4.html.gz",
+      "sha256": "061427478fbafe09fd8a9144650aae35efb707135f773612b252e0a190df497f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:25.567486+00:00",
+      "bytes_compressed": 56839
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/empresas-del-grupo.html",
+      "file": "95e5555835a4ae97.html.gz",
+      "sha256": "17360c08667f1ecdf4fd7da1aebfb7d2eaecc0e3a12a0940bec2cc573c32af1b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:56.768833+00:00",
+      "bytes_compressed": 46853
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/fogafin.html",
+      "file": "bfb684f3bc6f7489.html.gz",
+      "sha256": "5c1211fd52187d269a73ee4dc023bb45e47b5363f0412698e7c3f0a9a1115e3d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:57.751257+00:00",
+      "bytes_compressed": 47349
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/formularios.html",
+      "file": "719e17a7faa96f13.html.gz",
+      "sha256": "9e6dda15292a728fb8439ae7649c995482575b2abcb3a9ba13c63af0e5b6b8a1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:58.601200+00:00",
+      "bytes_compressed": 46506
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/hazte-cliente.html",
+      "file": "7b9244f2469114c8.html.gz",
+      "sha256": "6bdc678669f72d9701162452f76e01e91a41a798dea888129ab79f6b1db9b8d8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:57:59.692723+00:00",
+      "bytes_compressed": 56317
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/historia.html",
+      "file": "b07649eb7f7ef6b1.html.gz",
+      "sha256": "3ecdc1da439b57ff3759deb1c49bf2b1d4d45b88f20f2b185d6b57ebc4cbcab7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:00.695307+00:00",
+      "bytes_compressed": 52043
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/informacion-practica.html",
+      "file": "f2b1d39a54419805.html.gz",
+      "sha256": "6734d016f173a3dabb6ef85f1b45f51ba67038074b64a352aaa8db051b2f9049",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:01.870566+00:00",
+      "bytes_compressed": 46884
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/informacion-practica/formatos-comercio-exterior.html",
+      "file": "c275c3ecfada1e9f.html.gz",
+      "sha256": "2f5787968f38f5504b751a17c6c0dc063e86c8d05fa860ef9b42b49da7186215",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:03.959741+00:00",
+      "bytes_compressed": 43896
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/informacion-practica/giros-nacionales.html",
+      "file": "d1bd726a1179142f.html.gz",
+      "sha256": "acb567da1ab10564dc4807fed0849dfa5c2143ce9e419a81616ff90fd1d52104",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:41.673895+00:00",
+      "bytes_compressed": 46126
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/informacion-practica/modificacion-operaciones-tramitadas.html",
+      "file": "2b4705c6efc94565.html.gz",
+      "sha256": "d8632ace9f965ea3230131957225581d8b182936c01ae657cd32f0ede2000d19",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:57.607715+00:00",
+      "bytes_compressed": 43661
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/informacion-practica/operaciones-iniciales.html",
+      "file": "4b8496d4d6be7fe2.html.gz",
+      "sha256": "4f64876886d8d1764257d31b3c653c6ce4e5aa6857fdf1437b962cdefe18bdcf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:13.579353+00:00",
+      "bytes_compressed": 44127
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/informacion-practica/pago-de-impuestos.html",
+      "file": "5e9d23658b92908f.html.gz",
+      "sha256": "43287f9fd08ef2e5b3e34eae0b5fcd570accc31b42c61e86c2c95f30e23c0b0d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:29.278801+00:00",
+      "bytes_compressed": 46964
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/informacion-practica/tasas-y-tarifas.html",
+      "file": "65cdf8816cb13c69.html.gz",
+      "sha256": "1a82576b924819538b181ada09a97291b9350f2d7c3696568e193d94c7733e4c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:44.599866+00:00",
+      "bytes_compressed": 64700
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations.html",
+      "file": "98cef5182a516dac.html.gz",
+      "sha256": "a1b9a789565d4d217094a0ef6205edef11a5d6a36a09ffb49fd23cf1434868c2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:04.190951+00:00",
+      "bytes_compressed": 56038
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/agenda.html",
+      "file": "626a5ec71db3f807.html.gz",
+      "sha256": "42731fb16a18dffbe039583354aed7326eb1385c6a0d8a56204dd219d9cf396f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:05.130989+00:00",
+      "bytes_compressed": 51870
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance.html",
+      "file": "ae46fa30d9563f89.html.gz",
+      "sha256": "85f41a6d9ca3d37fbb1ba2cba0aa66a4475902692aa4cf29e8f2b3adac91438a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:42.098649+00:00",
+      "bytes_compressed": 51350
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/assembly-of-shareholders.html",
+      "file": "391d43c3119c8e3f.html.gz",
+      "sha256": "f3385cbcfc89b4e39456e96d65400684e25a421bef883f36281feb2902d648a5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:57.766737+00:00",
+      "bytes_compressed": 51376
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/board-of-directors.html",
+      "file": "8c9af879fce82d32.html.gz",
+      "sha256": "ba8e4777cfb08985c667068fe7edc333081b4a423afeb2b41e0b7c534eff89cb",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:13.756684+00:00",
+      "bytes_compressed": 47348
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/code.html",
+      "file": "5e42bb92e5f7bf6a.html.gz",
+      "sha256": "f90eeded4e0ce1b495d51b2043dfa72e0f4167a3a0d122b3b5fb3ac93a72c1a1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:29.478289+00:00",
+      "bytes_compressed": 45616
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/committees-of-the-board-of-directors.html",
+      "file": "c685961f03a1bd6d.html.gz",
+      "sha256": "4c7da67b028915156e4144f09059362c930c8f9c24609a81c73129afe4067f71",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:45.710947+00:00",
+      "bytes_compressed": 46803
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/corporate-bylaws.html",
+      "file": "0c457a02c250e281.html.gz",
+      "sha256": "87843d44b698a7add2598e1c214aad748326b21b6a6fa93482649dd3141d236a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:56.673745+00:00",
+      "bytes_compressed": 46571
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/internal-standards-of-conduct.html",
+      "file": "e01e533ccf9145ff.html.gz",
+      "sha256": "f80f528a35b52559a9b8f445a36eabf6aaa855093f17220901d272cebcb413d2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:08.858806+00:00",
+      "bytes_compressed": 46007
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/legal-representatives.html",
+      "file": "24dca5d79fa3f0b2.html.gz",
+      "sha256": "2a7c099e2e46ad4dc22a86fac5f3ef00ca977ff34002a3f550397cf6191582fd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:19.489498+00:00",
+      "bytes_compressed": 51521
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/organigram.html",
+      "file": "bb3889777ba5b272.html.gz",
+      "sha256": "a0769c4b0758e1728c7cf58abfc36df1fc430aa41bd98746bb133a9518339d40",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:29.410911+00:00",
+      "bytes_compressed": 45394
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/structure.html",
+      "file": "5fa76c844ca5ebd8.html.gz",
+      "sha256": "8a5af22acb8e7c9e834ffea7edea0b2372aac5cccfdeee01db7fe15e3167883a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:43.760455+00:00",
+      "bytes_compressed": 45574
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-governance/survey.html",
+      "file": "ca9eea6903f22535.html.gz",
+      "sha256": "00173150f8ce4b72f5eeff6307bf6e142fd916f193f29daca74eabee23572e9b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:53.428281+00:00",
+      "bytes_compressed": 46550
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/corporate-responsability.html",
+      "file": "df0383990b699b8a.html.gz",
+      "sha256": "872670a57424bd3a6dc9a461b37dbc32bb587f46084a2e141f5ad63f21c2d42e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:59.815032+00:00",
+      "bytes_compressed": 46264
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/debt.html",
+      "file": "dd9d460be4300360.html.gz",
+      "sha256": "9baed19298931f7a3f2825800bcac436bd2570b4ac161bac5a96e2ab344bbad9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:07.106269+00:00",
+      "bytes_compressed": 45641
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/financials.html",
+      "file": "aaafa49fae2ecdf3.html.gz",
+      "sha256": "725f765aa639e3f46433ed3f25acf91d0a88a7100138ebe530e9b7d40252e098",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:14.378554+00:00",
+      "bytes_compressed": 51636
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/other-information-of-interest.html",
+      "file": "08b3faf52f70d2a3.html.gz",
+      "sha256": "396a0996f0eef5020dbc3ac9f36f7a03ea28787dd4648f0bd4740d25159693db",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:23.378274+00:00",
+      "bytes_compressed": 62426
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/ratings.html",
+      "file": "23af69d973cbbf62.html.gz",
+      "sha256": "9a49bf6cf1dce9255acc6571134d053e3d9b0bf0f81add523da7f155394c69ff",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:32.524572+00:00",
+      "bytes_compressed": 45676
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/significant-events.html",
+      "file": "33f9228d078606b8.html.gz",
+      "sha256": "96ee7d0ae9a5f2e42dbf9773c4893349f80912bb823f0af3ef5b675891ac8b00",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:40.045979+00:00",
+      "bytes_compressed": 82951
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/stakeholders-contact.html",
+      "file": "5377af3f807b732e.html.gz",
+      "sha256": "d8ebf77b2165142842c1f68ba2bca3ea5191099a38398b521415863b49c621f1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:49.922270+00:00",
+      "bytes_compressed": 45588
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/investor-relations/the-share.html",
+      "file": "88b77b0c94ccb6b6.html.gz",
+      "sha256": "f5108f416c03f4753042c99cf41c02763def587355073474e474bff34b90954d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:56.625909+00:00",
+      "bytes_compressed": 49792
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/landing/30-aniversario.html",
+      "file": "197bf9a1155565a3.html.gz",
+      "sha256": "8056de851bff32faa42bfff8f8cefb0efd70e800e2870a54c767bf3351aa5fd7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:06.133610+00:00",
+      "bytes_compressed": 50554
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/landing/asesores-vehiculo.html",
+      "file": "f9022d300c85071a.html.gz",
+      "sha256": "aeb82f91ae7c241c6e8a58e32bfb2b831bb9b5eb46255aab633a4abe6a8203f8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:43.235135+00:00",
+      "bytes_compressed": 22015
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/landing/asesores-vivienda.html",
+      "file": "15e44b757b1dcd70.html.gz",
+      "sha256": "fa2463265f2735d2ba49a03196a5b6ff3cebfc3622f4fce2c33290cebe370920",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:58.772344+00:00",
+      "bytes_compressed": 22321
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/landing/formulario-cuenta-digital.html",
+      "file": "2722b52f0b7f2a46.html.gz",
+      "sha256": "7eb3757a8e66802ab62e10b59394ce29ba38ae2ed7b8382f038dfe6fc5126236",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:14.725199+00:00",
+      "bytes_compressed": 18741
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/landing/formulario-cuenta-nomina.html",
+      "file": "6072c8f19d9e6500.html.gz",
+      "sha256": "56a4ad5e9e0eb07e263af28dfd2f2abf4bcfb0abf0c8316b35b60a03e404b4c9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:30.560953+00:00",
+      "bytes_compressed": 19117
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/landing/formulario-cuenta-pensional.html",
+      "file": "119cab38acc708b8.html.gz",
+      "sha256": "40bf70d0f61a8a24b1cc6d78f4f27bb8fc0e06d9d71d44e3d3bce4222a541a7a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:46.653648+00:00",
+      "bytes_compressed": 19141
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/landing/pasaje-cali-mio.html",
+      "file": "7d4c34052febe7a4.html.gz",
+      "sha256": "b4511165601f78026e7679b69a070b062b1900abefff3f75b54dbf0d1b3db2fd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:57.731649+00:00",
+      "bytes_compressed": 18724
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/licitacion-seguros.html",
+      "file": "2f4113d55f3fb90a.html.gz",
+      "sha256": "31d68bf3549a79447ba914eca0992d0f2109659b5f1ab2f22f022f393dbadfdb",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:07.128378+00:00",
+      "bytes_compressed": 56378
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/lineas-de-atencion.html",
+      "file": "08dedc5e6602eb4f.html.gz",
+      "sha256": "7c98756cf580cbdd868f7e42d5e3f7a28bc76255211d52d8e59a37a8e8d6cf96",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:08.073742+00:00",
+      "bytes_compressed": 49316
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/oficinas.html",
+      "file": "d7a4df70cf0421f5.html.gz",
+      "sha256": "0c88022519ff297e83a58ace10bd3828af4b0b4b11f081c4b3102abe613e3bb4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:09.098575+00:00",
+      "bytes_compressed": 57674
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/olvido.html",
+      "file": "4b8f0d0a9901f497.html.gz",
+      "sha256": "001c34a2d526b249c34eb41f51e92c89b807f6d3f5bcb18b7072db55eecd988e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:10.209377+00:00",
+      "bytes_compressed": 44213
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/oportunidades/ahorra-e-invierte.html",
+      "file": "dd2388eb7a6411f2.html.gz",
+      "sha256": "54c0075d2942247e1c7670c5f0b646db70a99948c25a49515aac21193c046ddc",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:11.183796+00:00",
+      "bytes_compressed": 50610
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/oportunidades/consolida-tu-patrimonio.html",
+      "file": "14ee98ee5d539b83.html.gz",
+      "sha256": "4122954527f44965221c1faf6d56d7b9f3d75b64a927e4023c942923638f44f4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:43.868043+00:00",
+      "bytes_compressed": 50270
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/oportunidades/crece-en-familia.html",
+      "file": "1d8d3121f14bcbd3.html.gz",
+      "sha256": "7dfb119884c6f424a460165cae9ab204124574ad8960e81ce5210e189081e41b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:59.878704+00:00",
+      "bytes_compressed": 50457
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/oportunidades/cumple-tus-suenos.html",
+      "file": "0b39abaf06dec1e3.html.gz",
+      "sha256": "905b6f78b3927fdf44f74e2c4b7409aa117c0cf719381d4cc761b60902162112",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:15.766721+00:00",
+      "bytes_compressed": 51883
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/oportunidades/tu-dia-a-dia.html",
+      "file": "e388d604dd5afe12.html.gz",
+      "sha256": "c873b406ed6065ccc84e613d7e9bef32b91f34dc30b8cf0f37feb2dfeeac2c15",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:31.439977+00:00",
+      "bytes_compressed": 51623
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/politicas-de-cobranzas.html",
+      "file": "eca17fba3bad1aa2.html.gz",
+      "sha256": "85cd58fe4bc5be0993d7dfa8c4c6bc827d493da0e8d612b858b218607ab7896c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:12.367850+00:00",
+      "bytes_compressed": 56626
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/politicas.html",
+      "file": "3328ccc971a65fc6.html.gz",
+      "sha256": "b5eebb86f4ebd7159fe75abc4e86bf0bee96c78142dae73546030bdb41984f07",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:13.121837+00:00",
+      "bytes_compressed": 46526
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/banca-personal.html",
+      "file": "50e537d43e948e34.html.gz",
+      "sha256": "fb9063ca7691655b8f210330a7aed5eebb7caf78a302cc624112466af63e3b6a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:16.164017+00:00",
+      "bytes_compressed": 1875
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/banca-personal/cuentas.html",
+      "file": "fbaf12a422d28f11.html.gz",
+      "sha256": "6d17fa60a66865fb1521d277ba7cc7463dd7527ae89143e409db882808e29e7f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:44.930940+00:00",
+      "bytes_compressed": 57707
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/banca-personal/inversion.html",
+      "file": "6f6a15b43bdc7b4f.html.gz",
+      "sha256": "cc97a1ec140b3a07d87de51231968f447755f2c52ec58d73f46a78364a964bda",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:00.864255+00:00",
+      "bytes_compressed": 56836
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/banca-personal/prestamos.html",
+      "file": "8a9d6167ae96ecc2.html.gz",
+      "sha256": "b46a5cb5dd2d0be1e8c45ae8649ef6fe6fa2d1258a854e94765cd52c9d6d1885",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:16.948608+00:00",
+      "bytes_compressed": 50917
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/banca-personal/seguros.html",
+      "file": "725f04ab92fd3969.html.gz",
+      "sha256": "95d0c6a6768d2c9f81b44612fcd9cc067e707ab60dfc716bec986511c4ace501",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:32.456218+00:00",
+      "bytes_compressed": 50243
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/banca-personal/tarjetas.html",
+      "file": "feea71f041c89f16.html.gz",
+      "sha256": "2303e527085bd6307bf8762b78c44d021884127579f0e4671f4a1c45193d02c3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:47.683356+00:00",
+      "bytes_compressed": 51969
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/banca-privada.html",
+      "file": "50e4b071ddb8172d.html.gz",
+      "sha256": "ec2e896a26b613cc0cee1c9ab9a9dba9f6b79317e4c321705d6c15a6f74224b7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:01.688959+00:00",
+      "bytes_compressed": 52077
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas.html",
+      "file": "73bd64c8c8179a3b.html.gz",
+      "sha256": "35aa77c7fcfacaf225993a0c3a0fe570d6ff5dd0f57e98058e42dd9bfd9ca45d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:09.867322+00:00",
+      "bytes_compressed": 70598
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro.html",
+      "file": "6260ab4e3588c9d1.html.gz",
+      "sha256": "ca03a27690cd9946d0f589604e07d863151c376405e5f9f83d931ee282f93775",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:19.678118+00:00",
+      "bytes_compressed": 61978
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/afc.html",
+      "file": "e050d819179e33ff.html.gz",
+      "sha256": "8a9df64c538d8f84eca2b11a3ca6b911c5e207f1bb21559166b6fe8bdb771dba",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:29.504196+00:00",
+      "bytes_compressed": 63552
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/blue-kids.html",
+      "file": "fce2702c0577ced2.html.gz",
+      "sha256": "8f07bfabbc4e14b16443fc7c16bfe575a96ac16f7c20fed5f7363ac1bd271ef3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:43.969160+00:00",
+      "bytes_compressed": 60626
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/blue.html",
+      "file": "73cbb782581f30e2.html.gz",
+      "sha256": "59c3077e6b0e881db56a46bb0a08b4e28184df37860c5b5bd9154a656fabc8b0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:53.643902+00:00",
+      "bytes_compressed": 61415
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/diario.html",
+      "file": "da61cff0ef0c85f4.html.gz",
+      "sha256": "ac023fbd83682c3620a85b182062aada08e0bcabec89f0b6b67ca35afadce8e3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:01.352552+00:00",
+      "bytes_compressed": 58626
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/digital.html",
+      "file": "a48cea9a47b5b149.html.gz",
+      "sha256": "91e5e26a1edc8e5ef7f522407f61c0df2860d141644f2a11670c787237e9eeed",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:07.305806+00:00",
+      "bytes_compressed": 69334
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/fijo.html",
+      "file": "0b5e4028be5234f8.html.gz",
+      "sha256": "09386546f259f01eb84398b77ec683e4c814d58f1f2492dcebbfaf257d409d97",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:16.014439+00:00",
+      "bytes_compressed": 61455
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/hogar.html",
+      "file": "903ee9efeed1bb91.html.gz",
+      "sha256": "c4d4b4d1eee85f3a9e2520265ccaa546e758fb4c48d33adfcf92ad043fd4e36a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:25.234466+00:00",
+      "bytes_compressed": 60071
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/meta.html",
+      "file": "b9a6eb13a8985eb5.html.gz",
+      "sha256": "4cc9481c85f3b76ce0bf279cadc2b6fa9c5d9c1480cc65ed43015ad1250036d2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:32.780043+00:00",
+      "bytes_compressed": 60784
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/mi-proyecto.html",
+      "file": "166660eea57faaf5.html.gz",
+      "sha256": "2eb0fe0978e86c083f8eae4abbe35c94f39b1ddbd50b1ae42c516917d4c1b6f7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:41.706526+00:00",
+      "bytes_compressed": 60256
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/nomina.html",
+      "file": "51ce025674bdbcfe.html.gz",
+      "sha256": "6ca438932f4e549faf952d314316e1746d5930e6d0eec65af616022a1528f60c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:50.014379+00:00",
+      "bytes_compressed": 70611
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/pensionados.html",
+      "file": "f77a00e9c69c4567.html.gz",
+      "sha256": "56a2556caea99a6b2456bbfa90b5c489b6ef0d54d17919cca41f77ce01636696",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:56.848647+00:00",
+      "bytes_compressed": 71266
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/ahorro/simulador.html",
+      "file": "a095d8a1cd9026d6.html.gz",
+      "sha256": "0b3d72a0bbc7a47ff627c6157beffddcca9d1e9abf8f22f8b618fb53ff73a021",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:03.666125+00:00",
+      "bytes_compressed": 45236
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/corriente.html",
+      "file": "ff8bbf20e3e0657c.html.gz",
+      "sha256": "2f2a47bfcd2bc3ab6a4ca87ce8dee80d75c01c5f74ab37acea903d7bc01edf43",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:08.540072+00:00",
+      "bytes_compressed": 54250
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/corriente/con-intereses.html",
+      "file": "efd83019e85bddb1.html.gz",
+      "sha256": "8146eb35462b257c5f223f405e4ea29faa326516104cfdd7577c1df0482dd288",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:13.419659+00:00",
+      "bytes_compressed": 60249
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/corriente/tradicional.html",
+      "file": "c731b93ad1a13a0c.html.gz",
+      "sha256": "efbed88eece18df36870320d74b91572cab10b9aabd3ce5a9f0bef6adf8812b0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:16.521723+00:00",
+      "bytes_compressed": 59689
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/corriente/tradicional/simulador.html",
+      "file": "c955451e16755b25.html.gz",
+      "sha256": "ce2c26a7bbc2c64445f70d24dfd13b9488176990b320c702959feb3b9d2c91be",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:21.994392+00:00",
+      "bytes_compressed": 45294
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/productos/cuentas/dinero-movil.html",
+      "file": "962ec39ec3e9cab1.html.gz",
+      "sha256": "aa4733fa2ca0f9d968a0fdb3e84dbc65d75477890fae868eb6616c0b578c20b9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:27.093701+00:00",
+      "bytes_compressed": 59087
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/activa-tu-lado-ganador.html",
+      "file": "d788b75d5cf29114.html.gz",
+      "sha256": "d37f3e5693bd5b918c7e24c8e3708bd3d6d04ed688011eb9569264d0ed882c9d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:16.394589+00:00",
+      "bytes_compressed": 45814
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/actividad-madres-bbva.html",
+      "file": "69a8915f4dd752a5.html.gz",
+      "sha256": "60d7c5e1a630473c71e3891e02d184df5bd0157b3ff3cdb9cdcf9361b6e3c9ed",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:45.838603+00:00",
+      "bytes_compressed": 20558
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/bbva-paga-tu-deuda.html",
+      "file": "d53eb85433fceb5e.html.gz",
+      "sha256": "45b4f7e69a12daa67225869deb0ae5911bf61d55020da716192c082ec04fff84",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:01.859352+00:00",
+      "bytes_compressed": 45623
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/blue-days-bbva.html",
+      "file": "71d35f8bf8280606.html.gz",
+      "sha256": "35b1b4ab43b077b4f945164230abdb39559e814b6344ee7533f2ccb8ac049c71",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:17.748617+00:00",
+      "bytes_compressed": 32129
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/blue-weekend.html",
+      "file": "eb44ebb09951d3eb.html.gz",
+      "sha256": "cf05adccf43547b313336f7fef0bbdbcd331f7a01f9236542c933580f4c89006",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:33.462783+00:00",
+      "bytes_compressed": 54478
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/certificado-de-deuda.html",
+      "file": "e5cb830697f0591d.html.gz",
+      "sha256": "18e35d6f939ae08a371b197750523ed13e08840aa53b7cd4a5c5ef6e1b75357b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:48.582338+00:00",
+      "bytes_compressed": 48944
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/compra-y-gana-un-ipad.html",
+      "file": "034ac50ed84d078b.html.gz",
+      "sha256": "e43f014871c590456bc99821a874f21ca1a0d5e887830fcc7d2ddf5d1ad679c3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:02.077982+00:00",
+      "bytes_compressed": 45964
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/coronavirus.html",
+      "file": "216a2aeaeefe7ae8.html.gz",
+      "sha256": "73940fede90143c1c71931e595c3f4fc704f4fb23cabf8e777c007c46311787d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:10.971618+00:00",
+      "bytes_compressed": 28484
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/cyberdays.html",
+      "file": "be17ce844a3ece19.html.gz",
+      "sha256": "09818bf2f8ed199c1c8afa300dbae6908cdc72988eaf4a641dd26bc374a79d7e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:21.017891+00:00",
+      "bytes_compressed": 20964
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/dia-de-la-madre.html",
+      "file": "66a588fee7293672.html.gz",
+      "sha256": "ff62b54c48726b79852be65165f69b61eae4712bdceb29b3ca09d13a0800b147",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:38.029864+00:00",
+      "bytes_compressed": 59585
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/dia-del-padre.html",
+      "file": "da62904d47d13fe8.html.gz",
+      "sha256": "52b8e2ee6f5f35402c845903518ea3765a8589737d3d4681d2216c691c708429",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:46.386658+00:00",
+      "bytes_compressed": 50426
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/donacion.html",
+      "file": "a0272aa66e2460de.html.gz",
+      "sha256": "a0048ceda765c284b82712e15e59445e3c3b83778e44ae101802df18c4796edf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:54.919444+00:00",
+      "bytes_compressed": 19338
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/duplica-tus-puntos.html",
+      "file": "fad01578dccee842.html.gz",
+      "sha256": "3ad650c9cc71fc38d2fd88052333a039bfd859f2bdc933192c17dd9202d0337f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:01.544074+00:00",
+      "bytes_compressed": 45634
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/enrolamiento.html",
+      "file": "66cf4e5a26a71858.html.gz",
+      "sha256": "6b1f1ae732fc7a0be9c379ad9b2d45f98982d589e03475a6aadf0d6d9153f93c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:09.251874+00:00",
+      "bytes_compressed": 45638
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/feria.html",
+      "file": "b88aefe515f06974.html.gz",
+      "sha256": "606f017e52cfcf1e431622919ef0326eedab0e22f35bd52a190ae7b6222badd6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:16.799625+00:00",
+      "bytes_compressed": 25205
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/gana-ahorrando.html",
+      "file": "44245ea330b592ad.html.gz",
+      "sha256": "9e96b60ec01dd4696a4f164734880e4c47380831bc6f2eff84cc9f8cdcd37dc1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:25.345206+00:00",
+      "bytes_compressed": 32717
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/lifemiles.html",
+      "file": "4356c705fed78dbb.html.gz",
+      "sha256": "186aaabfb3c7f08a1d1b3359f2fa932b889d64748e8b6ecdf47f4235f2e15a02",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:34.610049+00:00",
+      "bytes_compressed": 24236
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/llaves-bbva.html",
+      "file": "4c42433949c73a0c.html.gz",
+      "sha256": "79faa88a1760c3599063e91e7a58019a87f8ce37070e2282466c247161c68e01",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:42.511922+00:00",
+      "bytes_compressed": 28440
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/mejor-banco-de-colombia.html",
+      "file": "1191cff854617303.html.gz",
+      "sha256": "9a9296e884944137a9202958f1bc05d72569164e540d4750e5eae661ed46e8e2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:51.482654+00:00",
+      "bytes_compressed": 20391
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/mejor-categoria-de-tarjeta.html",
+      "file": "c41153818d41809c.html.gz",
+      "sha256": "81e365413dde7eb3648a87f50e1aea755775113b3bb83895aa30e4bd09fb5e0a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:01:58.132656+00:00",
+      "bytes_compressed": 18880
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/navidad.html",
+      "file": "3de5b76c3e62d8f6.html.gz",
+      "sha256": "ae69bd0f8fc81ddbd100cbd2bf0f8c428ada30402dc461e469e6e9e600d687d4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:04.233471+00:00",
+      "bytes_compressed": 19630
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/recorre-el-mundo.html",
+      "file": "0105df4e6c1e86c4.html.gz",
+      "sha256": "73ba1cc8757195ff13eda481388340f318f537912832e48603ec4c4ae08aaa00",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:08.685054+00:00",
+      "bytes_compressed": 46080
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/recursos.html",
+      "file": "5d1dacdfcd686353.html.gz",
+      "sha256": "5ca8a25abdf363510259df4ff4502e36921afd7f8fbef2c42b8f87969756cd51",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:14.341588+00:00",
+      "bytes_compressed": 27806
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/remates.html",
+      "file": "d99c7b8142275874.html.gz",
+      "sha256": "c4e40dfae8ff67d17c12aa608f92fcafe24d203d08d4dae83683dfc85801a833",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:18.167034+00:00",
+      "bytes_compressed": 22274
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/promocion/reto-transaccional.html",
+      "file": "6f4cd5f8c1f70079.html.gz",
+      "sha256": "f9b7127a8d1df0c6c2e3838164dd516d83ccb829914a56aa3842a16d42582f0f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:23.061395+00:00",
+      "bytes_compressed": 45824
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/recomendaciones-de-seguridad.html",
+      "file": "da2e10ffff3fb848.html.gz",
+      "sha256": "7c909f84972dc121df70d4621e38371d706cec6f0526d2e04c10eedbad932cb7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:17.253652+00:00",
+      "bytes_compressed": 55846
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/reglamento-de-productos.html",
+      "file": "362ba1141df52903.html.gz",
+      "sha256": "bf264c00d818dfc0c8f55a17a360b475b188452494f11e7ad4632a3187e58334",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:18.322335+00:00",
+      "bytes_compressed": 47960
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/reglamentos-externos.html",
+      "file": "0da95a6a8cac0666.html.gz",
+      "sha256": "b929ae450f31a8332dc49615d0db00e52d1ccedde4d5bd727c7cbfb42f608a8e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:19.327794+00:00",
+      "bytes_compressed": 47394
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/resoluciones.html",
+      "file": "83bb858cd9ca73a7.html.gz",
+      "sha256": "08807ec8d199c0777729c1e44e73d8b2f8e9297d968453d952e5113f260b265d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:20.335973+00:00",
+      "bytes_compressed": 44849
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/sala-de-prensa.html",
+      "file": "6cc96b49533174ed.html.gz",
+      "sha256": "1c5d121f01fd6f6ae8608b08998a894e8eca13daa56d85ba9eba559db08cd761",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:21.385401+00:00",
+      "bytes_compressed": 51112
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicio-al-consumidor-financiero.html",
+      "file": "c168df5b1a0987b0.html.gz",
+      "sha256": "72a6892f27b5007d7bf7fcbe07b07c23ca0250c087f37b282a78625353d999ab",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:22.248409+00:00",
+      "bytes_compressed": 46689
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicio-al-consumidor-financiero/aspectos-generales-atencion-y-reclamos.html",
+      "file": "3d5b8996de683ac4.html.gz",
+      "sha256": "abb0bcd7ecdc637d4cc340629ab04bf9d64cdfa27ce25d087b31154fe80d8f59",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:23.239927+00:00",
+      "bytes_compressed": 47935
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicio-al-consumidor-financiero/atencion-preferencial-clientes.html",
+      "file": "5ccfd23d09bb831d.html.gz",
+      "sha256": "a205e45fa42b2b2936c6b035f1cf33cb812f5e6e1fac5679179c071a42836a54",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:47.164069+00:00",
+      "bytes_compressed": 45795
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicio-al-consumidor-financiero/defensoria-al-consumidor-financiero.html",
+      "file": "03d866996c4e5e9d.html.gz",
+      "sha256": "85f4881fc3208a121b37fff2942a71e7f8d495162610319d7f04075586154962",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:02.742038+00:00",
+      "bytes_compressed": 53452
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicio-al-consumidor-financiero/derechos-y-practicas.html",
+      "file": "25b4a5311e55a7ce.html.gz",
+      "sha256": "94d3087f0863974cf1d22e9a71b3a38bee3602c2aad01a335ff64a4bc56b39a6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:18.759657+00:00",
+      "bytes_compressed": 46897
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicio-al-consumidor-financiero/otras-instancias-para-atencion-al-consumidor.html",
+      "file": "d04581a501974212.html.gz",
+      "sha256": "a3ee1af901327c1993752964834fc522ad60013f119362a79ceeae0c093eab18",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:34.362022+00:00",
+      "bytes_compressed": 46171
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicio-al-consumidor-financiero/quejas-actividades-autorreguladas.html",
+      "file": "28f5841d8e9fa8cf.html.gz",
+      "sha256": "c2e1e0790f1bc3e3f43235383af8852418838d0fcd1d0debb85369beb5a13ee4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:49.733959+00:00",
+      "bytes_compressed": 45626
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales.html",
+      "file": "eef9e192e182da8c.html.gz",
+      "sha256": "366b1b8029de38b7e9907fc0df21639058915990b9d0ab403938e45a467d5d48",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:24.310663+00:00",
+      "bytes_compressed": 56839
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/adelanto-de-nomina.html",
+      "file": "4134b127f298f535.html.gz",
+      "sha256": "a1615cddd9b7eb277fdb39f033a6a204ad20e27962360c00912475826f56671e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:25.325092+00:00",
+      "bytes_compressed": 49540
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/app-bbva.html",
+      "file": "00d68edb2a40c1b5.html.gz",
+      "sha256": "f8b7b904e8905a8eabbe12dbc5108d5c9afd6019ec04066d89e4fc718f2a80ea",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:47.782055+00:00",
+      "bytes_compressed": 51829
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/bre-b.html",
+      "file": "7c785a47230dac5f.html.gz",
+      "sha256": "4f0aad71a002d48a56102c53de0880e0e0076a20e370b72376d7c26954dbbc80",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:03.690133+00:00",
+      "bytes_compressed": 65765
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/cajeros.html",
+      "file": "1682852f3cc99003.html.gz",
+      "sha256": "88d99a17abbc0f9908e1a7eca6b09f5ba673c9463bc9050a93c5592b5df0c512",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:21.127051+00:00",
+      "bytes_compressed": 55173
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/net.html",
+      "file": "47539e6994fa36cd.html.gz",
+      "sha256": "97a3666603ad97db5a209b095bf6e70c3512a84e8590fccf69ff9e79f53fb462",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:35.365651+00:00",
+      "bytes_compressed": 58786
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/nfc.html",
+      "file": "108928178c6be981.html.gz",
+      "sha256": "aa2b9a27df642f70792eaae0fe2c974afefdbca0dcf9e25a3f39527b353d2a85",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:50.718865+00:00",
+      "bytes_compressed": 50401
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/preaprobado.html",
+      "file": "02da545c91d19cf2.html.gz",
+      "sha256": "3a930f92bbc54ff432007c4fd086cdfc08988f2cea99f62315a1a283c0fac637",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:02.858168+00:00",
+      "bytes_compressed": 53745
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/simuladores.html",
+      "file": "cbbfccb0608b2d8f.html.gz",
+      "sha256": "cee7f83bf4e6a3f813bad2a51d2aa95c87282f01ce314ebf996553ac1d58f288",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:11.806104+00:00",
+      "bytes_compressed": 56939
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-digitales/wallet.html",
+      "file": "18f6619c3cd49a71.html.gz",
+      "sha256": "f70561babbace2c857705498d1c7ad515d087c218119aa14c994ac05a771b36a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:00:22.670760+00:00",
+      "bytes_compressed": 46815
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-tradicionales.html",
+      "file": "d8153268f1219f68.html.gz",
+      "sha256": "5a21f2c3fd2aa8fb6b8d911f7af9b69298e97850d7c971964cbdf66d65573d26",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:26.382512+00:00",
+      "bytes_compressed": 44048
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/servicios-tradicionales/corresponsales-bancarios.html",
+      "file": "7345e1209865c23a.html.gz",
+      "sha256": "96bb443bfa5cdeb1f73e182794bba1be761f663f87870f75dea13ad2db7eea04",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:27.235220+00:00",
+      "bytes_compressed": 53818
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/sitemap.html",
+      "file": "7aca86971f950253.html.gz",
+      "sha256": "5c7f19deab7b62787e5b1fbc010c22323b8dc641eddc8bbd9a6ec11b7b20b884",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:28.326404+00:00",
+      "bytes_compressed": 50061
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/sostenibilidad.html",
+      "file": "0fb4ccf17f90d68f.html.gz",
+      "sha256": "732dc977257fe154da06eef68f22032220e80f9967f36a7b706bf0c3ec2a5873",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:29.336144+00:00",
+      "bytes_compressed": 51937
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/tus-pagos.html",
+      "file": "f5e20c7590ab5ab3.html.gz",
+      "sha256": "dce8348bdb58822093a9c1e137f4f98a53348de6abb03c38c824220a7a143b91",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:30.350904+00:00",
+      "bytes_compressed": 49243
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/tus-pagos/pago-prestamos-pse.html",
+      "file": "151202d65d777b5f.html.gz",
+      "sha256": "655206c2e1de5224c0b23ed4a084625bbf6dab5247a7bfdedee65ce23827a69d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:31.243257+00:00",
+      "bytes_compressed": 45441
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/tus-pagos/tienda.html",
+      "file": "e0b675d743e760a9.html.gz",
+      "sha256": "0f0284b4990822da5f06d7a81792158f86480a8f240c2cc2a51400444bfe8276",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:48.845213+00:00",
+      "bytes_compressed": 47856
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/tus-pagos/transacciones-pse.html",
+      "file": "f370e4c03f6c31e3.html.gz",
+      "sha256": "3d57ddf03c70aaf29a372debf363fffc80d922e108feda082ae6bfc0e5e40822",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:04.714408+00:00",
+      "bytes_compressed": 46690
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/tus-pagos/transacciones.html",
+      "file": "c1c5a8e5e78580f6.html.gz",
+      "sha256": "db65b38f2b7527d79ab7ca8be7c086481ec16024819f889ec1cb264f14a0c421",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:59:21.212576+00:00",
+      "bytes_compressed": 47187
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/valores.html",
+      "file": "950c899cbed48851.html.gz",
+      "sha256": "93a1cad6ff9f82a71f0717ebb66cd012e6dba7ade3174c5b16f9b85a775ebb95",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:32.567235+00:00",
+      "bytes_compressed": 56667
+    },
+    {
+      "url": "https://www.bbva.com.co/personas/valores/fondo-money-market.html",
+      "file": "bc6ae509fee29230.html.gz",
+      "sha256": "7a01325acc36eceb061dfe0f59466d707cecf52e9e42feadc547054c4fd9ca46",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:58:33.340751+00:00",
+      "bytes_compressed": 59418
+    }
+  ]
+}

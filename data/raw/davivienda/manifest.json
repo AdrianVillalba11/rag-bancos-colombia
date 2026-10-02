@@ -1,0 +1,597 @@
+{
+  "bank": "davivienda",
+  "pages": [
+    {
+      "url": "http://www.davivienda.com/",
+      "file": "0c9e9b4587b28a24.html.gz",
+      "sha256": "1ad6b55768165f1f79cdc576ee35df9c3a91d364f8d0fd71f5ed43cf0564f523",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:28.035696+00:00",
+      "bytes_compressed": 66091
+    },
+    {
+      "url": "https://www.davivienda.com/",
+      "file": "08c3e508e7ae7991.html.gz",
+      "sha256": "7067173bdbf27ce84a3096874a44f76b9c9fe85d8de71c5ec8c7ba07602b1b68",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:10.044575+00:00",
+      "bytes_compressed": 66094
+    },
+    {
+      "url": "https://www.davivienda.com/accesibilidad-inclusion",
+      "file": "f16dd24b03d27425.html.gz",
+      "sha256": "0f2e1e6bfb03c2388fb51aced9b5c4c089a1de6903de7f9ca2ac1bd695425c2c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:17.048544+00:00",
+      "bytes_compressed": 58517
+    },
+    {
+      "url": "https://www.davivienda.com/cuenta-para-partidos-politicos",
+      "file": "1de1f0e7f9f1ab49.html.gz",
+      "sha256": "abc7b9eacf800502fe7b73b811aef4601f8511a3cc083e47f7e4fb0770be8153",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:18.165361+00:00",
+      "bytes_compressed": 55803
+    },
+    {
+      "url": "https://www.davivienda.com/daviarena",
+      "file": "5c00b7f06bad32fb.html.gz",
+      "sha256": "a62d37927a48d7bcb65df3bd5d24d6a569e4ce31436313a56f3fa4c58ca3176a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:51.215259+00:00",
+      "bytes_compressed": 52790
+    },
+    {
+      "url": "https://www.davivienda.com/davibank-scotiabank-colpatria",
+      "file": "e1066cd6c7711a29.html.gz",
+      "sha256": "c561ae19292987efe91ed379775ab1a25a59ac4954a1f98c6037e5df9854079e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:12.211962+00:00",
+      "bytes_compressed": 55328
+    },
+    {
+      "url": "https://www.davivienda.com/defensor-del-consumidor",
+      "file": "ce0ae646d5ac4d0a.html.gz",
+      "sha256": "b412df59b1cf3e867599bf7bb97df9f809f8dff5d9b148f8f3030c9a2a604fcf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:19.384053+00:00",
+      "bytes_compressed": 61790
+    },
+    {
+      "url": "https://www.davivienda.com/diccionario-financiero",
+      "file": "d0e8a7e8ffde2473.html.gz",
+      "sha256": "9504d1f632886a0cc3536f7842be69dff3b26265543adba9ce140d87217b0993",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:13.528770+00:00",
+      "bytes_compressed": 61380
+    },
+    {
+      "url": "https://www.davivienda.com/grupo-bolivar",
+      "file": "18f989f698ea0c89.html.gz",
+      "sha256": "378a990bc2acc7154eddcf814a4399aa2550060c4752fc96ccc7d3b5deef98fd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:11.311798+00:00",
+      "bytes_compressed": 52202
+    },
+    {
+      "url": "https://www.davivienda.com/informacion-legal",
+      "file": "f2390feed331319f.html.gz",
+      "sha256": "93ebceedf6a94f5b167f244fa828a250b2518840bf83b28bc5e14d3a7776ef9b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:20.911568+00:00",
+      "bytes_compressed": 56497
+    },
+    {
+      "url": "https://www.davivienda.com/personas/app-davivienda",
+      "file": "aae1f1cd07091f15.html.gz",
+      "sha256": "376b3c71259f01ac92755e53275712cc0275a85ff3065ae1f9ded612c509271f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:06.159472+00:00",
+      "bytes_compressed": 65852
+    },
+    {
+      "url": "https://www.davivienda.com/personas/app-davivienda/bre-b",
+      "file": "c22706264ff613e9.html.gz",
+      "sha256": "4405f609b68d0246be81babcf2352801f2ff8f7d474d3ae7e79052366d63ae14",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:20.933064+00:00",
+      "bytes_compressed": 64745
+    },
+    {
+      "url": "https://www.davivienda.com/personas/app-davivienda/mi-negocio-adquirencia",
+      "file": "de7d91b199e01458.html.gz",
+      "sha256": "1001afe32ba51f814f11085365f0a92611676ca37a965d22f940c67b28a37695",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:49.963961+00:00",
+      "bytes_compressed": 60491
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias",
+      "file": "c0c8d7291978287f.html.gz",
+      "sha256": "b06e1152cfb3124a8b21654507367ba38d8ab0eb9939c1ecda5d43f24f7ab04b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:58.811897+00:00",
+      "bytes_compressed": 60412
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/asistencia-360",
+      "file": "0f648693169de42f.html.gz",
+      "sha256": "f4829358c80a8e5f28d6684a105be0c0a097d1c15b645899ff0ca48e0ce8d11a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:52.989122+00:00",
+      "bytes_compressed": 60499
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/asistencia-hogar",
+      "file": "daff1bec4bd9ab14.html.gz",
+      "sha256": "78e1063fd0dd26d99c261febd170d390fb033d7d3a2e997e34985af731c9df7a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:56.121646+00:00",
+      "bytes_compressed": 61022
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/asistencia-joven-plus",
+      "file": "0dfd7118c4a03572.html.gz",
+      "sha256": "8a60fd9a1dbd81e3d71b661ed3f0b0e5938d4314fc3499693ab60b1504a484cc",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:53.894888+00:00",
+      "bytes_compressed": 59689
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/asistencia-joven-pro-360",
+      "file": "043e00705ef6e10a.html.gz",
+      "sha256": "6e9e6cbd71c38379cb0c7e9ca4cdff1f3eb4ee99d1c44ef44864ebb56e343f8e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:54.971590+00:00",
+      "bytes_compressed": 58186
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/asistencia-mascotas",
+      "file": "a10f11c6d751494a.html.gz",
+      "sha256": "a3a2ec3e2bd11c4209b2ddcf1adbfd60c892d4dec4daeac11c960fb51d95ba63",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:57.953914+00:00",
+      "bytes_compressed": 62107
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/asistencia-movilidad",
+      "file": "89816ef354a13e83.html.gz",
+      "sha256": "5fcddf9f65417d0b2be7cfb506bc73ae2b529e4cfd0ca35d4cc58c3638d886ad",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:57.047450+00:00",
+      "bytes_compressed": 62246
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/multiasistencia",
+      "file": "479d12eedf62e538.html.gz",
+      "sha256": "87a08c9b96dc6589d4fb72a65bc7163f4c327c03c80297610e235e63204efcfa",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:27.009860+00:00",
+      "bytes_compressed": 58635
+    },
+    {
+      "url": "https://www.davivienda.com/personas/asistencias/multiasistencias-plus",
+      "file": "92a4ef5ada7316f9.html.gz",
+      "sha256": "0b49fd5709dbb0bcae3cba5de367de6e51392d76d84fa4d08ad3277778755750",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:52.082811+00:00",
+      "bytes_compressed": 58468
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cajeros-automaticos",
+      "file": "a2e35f926527a108.html.gz",
+      "sha256": "90b27aa025972fcdec933c914ce3a9f7917695ef92ca4cb16eab10b482b29460",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:03.342707+00:00",
+      "bytes_compressed": 61353
+    },
+    {
+      "url": "https://www.davivienda.com/personas/campanas-comunicaciones",
+      "file": "6b6f5fe829518184.html.gz",
+      "sha256": "255d0b0a60c71874e3b00a412a63a732dbe75ff358cb72ba55eaa1e7fe9a37b6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:22.649253+00:00",
+      "bytes_compressed": 76095
+    },
+    {
+      "url": "https://www.davivienda.com/personas/canales-oficiales",
+      "file": "bfcf5d3a51952905.html.gz",
+      "sha256": "7b7415ec67ceb8f92d800af850a0f260a7364f00cb00966d1ba8fb871102116d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:08.268619+00:00",
+      "bytes_compressed": 66061
+    },
+    {
+      "url": "https://www.davivienda.com/personas/centro-de-recaudo-y-pago",
+      "file": "c32cdf30415b1a63.html.gz",
+      "sha256": "390391d5c13ecc6b171f772de570a101acfd3c95d8d2440264dc8807c341ef78",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:05.043315+00:00",
+      "bytes_compressed": 54459
+    },
+    {
+      "url": "https://www.davivienda.com/personas/colombianos-en-el-exterior",
+      "file": "62b91156fbd52cf9.html.gz",
+      "sha256": "2bf65509f81c455c79ef306761fe5f0862d4c3ed334e92dd335d84041bc9ccef",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:59.903238+00:00",
+      "bytes_compressed": 59258
+    },
+    {
+      "url": "https://www.davivienda.com/personas/comprar-con-qr",
+      "file": "c91b08e93193e06d.html.gz",
+      "sha256": "b1c3ce1b777f531a59f8ecc361ef31aeec92da0677481a85d51b161273d76b8d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:48.875439+00:00",
+      "bytes_compressed": 56729
+    },
+    {
+      "url": "https://www.davivienda.com/personas/corresponsales-bancarios",
+      "file": "ac9a5b6c0aa315c1.html.gz",
+      "sha256": "61ae89cae42cc3a1873b7cb1332d2e324a1fd1e00d12a2368251550e2f0d1e12",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:01.969805+00:00",
+      "bytes_compressed": 55891
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos",
+      "file": "bee00bb77d17743e.html.gz",
+      "sha256": "3a0aadff9a3a9df041b4fa15b45d512c0eef876edbc1744a71b10fa900d1b368",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:28.938393+00:00",
+      "bytes_compressed": 78685
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos/compra-de-cartera",
+      "file": "3bb165feb9c6453f.html.gz",
+      "sha256": "75fb41074cc88e28306dbfa743ed8671137de3ea177e74ce244c1182e5d758b2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:27.628987+00:00",
+      "bytes_compressed": 54501
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos/credito-de-consumo",
+      "file": "e449a187c9e9f926.html.gz",
+      "sha256": "e8c4057143cd267462ded893cf40b39eb3efb397e16540d1e8ba6484dccc0a21",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:26.615905+00:00",
+      "bytes_compressed": 56657
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos/credito-de-vehiculo",
+      "file": "8d277d19b6eb9bdf.html.gz",
+      "sha256": "b70fa596bf1d17e750afe369222c489e49e5ae395a57565dae6317e0abfc5db2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:24.622168+00:00",
+      "bytes_compressed": 55576
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos/credito-de-vivienda-inmuebles",
+      "file": "1214c61a86933b79.html.gz",
+      "sha256": "52cc89bd77d375b4e54c392bdd1ddae63d352eb62f468467917c84d55e10632e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:23.832981+00:00",
+      "bytes_compressed": 58863
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos/credito-educativo",
+      "file": "f0b3eb0ca2993ec9.html.gz",
+      "sha256": "db85a9a4d275c93afe0b98a12401d82ac9927b16edfbccf9b33771c2e56956fa",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:25.648015+00:00",
+      "bytes_compressed": 54750
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos/portafolio-banca-personal",
+      "file": "a0e46bab76594a02.html.gz",
+      "sha256": "5ede711cd52856944d7da31bf1ad8f6f0bc6e299ed0139a1476b87be36460dec",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:30.051006+00:00",
+      "bytes_compressed": 64258
+    },
+    {
+      "url": "https://www.davivienda.com/personas/creditos/támites-para-creditos-y-leasing",
+      "file": "d9cb92a12cc51645.html.gz",
+      "sha256": "72b80f24b1c450ec70a3a1fb829359f12f7ce8aece1eaa977e77dfbdeccad979",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:30.621482+00:00",
+      "bytes_compressed": 56319
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas",
+      "file": "517f5a486fee75ea.html.gz",
+      "sha256": "08dc542308176ad080d3009434728674820e592bb791a2bf981456ce4207e2a9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:19.235248+00:00",
+      "bytes_compressed": 60752
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/adelanto-de-nomina",
+      "file": "69d3fe7e35ea0803.html.gz",
+      "sha256": "e1abd2c7d840ff67c930539a369b9b6a616dfdb5a84125574d516160db1e3ea1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:22.835203+00:00",
+      "bytes_compressed": 61819
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/adelanto-pension",
+      "file": "515004e5b0c2449a.html.gz",
+      "sha256": "830c1277db1ce8ec0faaf4d445c2afc8350fa543b291b98a4133f2d9dc996b33",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:22.065494+00:00",
+      "bytes_compressed": 61940
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/afc",
+      "file": "78afbcd48fa03cff.html.gz",
+      "sha256": "e0f6053d0739bedc1cc10bbe65217658d0f2f23ea9c48a0e59a4a1589b0c0657",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:17.281008+00:00",
+      "bytes_compressed": 60618
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/cuenta-corriente-sin-sobregiro",
+      "file": "a3a4d40e377b27bf.html.gz",
+      "sha256": "f768d7a18eeb010805e62e989255627deacb4c448c0a9c81fb959852436b84b0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:18.548328+00:00",
+      "bytes_compressed": 60821
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/cuenta-de-ahorro",
+      "file": "97fbccaa52c91333.html.gz",
+      "sha256": "1f7ad8344b8f09e8b21e7785b56bf4bb0802a25f5edfa59acb05e27f1b575fa2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:13.052308+00:00",
+      "bytes_compressed": 66357
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/cuenta-de-nomina",
+      "file": "81ffc09ded13e234.html.gz",
+      "sha256": "e015e403aa8f9e07c158e50b12a6d2f419c1fe30826737ee88a9e37d0cc5b144",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:11.950557+00:00",
+      "bytes_compressed": 64272
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/cuenta-internacional",
+      "file": "c87f95f02e57c218.html.gz",
+      "sha256": "9895c96390bc5c0c9061e4179656a600ec206d9c228b2ee88f996e9afe2b398b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:14.943432+00:00",
+      "bytes_compressed": 59672
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/cuenta-pensional",
+      "file": "833d86aefa4b3bcd.html.gz",
+      "sha256": "30113b2a585a29c8c6d997c97aaffb71efdf7b3f70dcda77794f5d1b7734ed2f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:14.158169+00:00",
+      "bytes_compressed": 65215
+    },
+    {
+      "url": "https://www.davivienda.com/personas/cuentas/cuenta-rentable",
+      "file": "1df4427659b471b4.html.gz",
+      "sha256": "659d1c21c416cd721254e8c2f6a1026046807f2b7a9d077445fb9d4f44f77f5e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:16.406522+00:00",
+      "bytes_compressed": 63081
+    },
+    {
+      "url": "https://www.davivienda.com/personas/informacion-institucional",
+      "file": "0ffbb91815fd4884.html.gz",
+      "sha256": "fe988295a6cbce14f70e539fc7a92761907cb31f467bc2bc37ada66886ea5b69",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:00.923442+00:00",
+      "bytes_compressed": 55649
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones",
+      "file": "587b0674c76037e9.html.gz",
+      "sha256": "69b60eb796a9db47908cbdb02b9c591f049de22e3a3b34374cb950874eea0557",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:39.767264+00:00",
+      "bytes_compressed": 57325
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones/cdat",
+      "file": "e41bcdec163114ae.html.gz",
+      "sha256": "db69aececdbf785206170d1ff7a49a4ae81839b7cb463f832dde7d5ab777dc41",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:33.228209+00:00",
+      "bytes_compressed": 59370
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones/cdt",
+      "file": "c6f58e13ae9fc37f.html.gz",
+      "sha256": "dee80cf1d1535469f3b1bd4aae85a3758d5f3a40863765cfc0d59b34eed9611b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:32.445960+00:00",
+      "bytes_compressed": 70178
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones/dafuturo",
+      "file": "ec5fab63dd511d50.html.gz",
+      "sha256": "67752bfb26a33ab93321f385089b470576875d4102183042b3aebc12a42603f3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:35.306739+00:00",
+      "bytes_compressed": 71719
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones/fondos-de-inversion-colectiva",
+      "file": "bf9eae32cc74425a.html.gz",
+      "sha256": "01845dcb43b29d8755da0b896e27158e86d7232afea877932e476cf7129fc948",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:34.227178+00:00",
+      "bytes_compressed": 64482
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones/intermediacion-financiera",
+      "file": "24bd40f320b78a1e.html.gz",
+      "sha256": "e521133cca46aade9fa5c6a4d3b6656d05025258d9d8124b9536eca9ae244a16",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:36.149542+00:00",
+      "bytes_compressed": 53756
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones/inversion-por-objetivos",
+      "file": "f23cc5d331db2a81.html.gz",
+      "sha256": "91c14afbacae7efb5b5d981ded8411cac62aeddbeb321529959767452cfe9bdd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:38.574244+00:00",
+      "bytes_compressed": 63532
+    },
+    {
+      "url": "https://www.davivienda.com/personas/inversiones/inversiones-internacionales",
+      "file": "9dd9cf406892202a.html.gz",
+      "sha256": "e881caca7b39fb494237c328f59231a24ebbcc9d62ad1f051b392d7c25e8376b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:37.030278+00:00",
+      "bytes_compressed": 54328
+    },
+    {
+      "url": "https://www.davivienda.com/personas/oficinas-de-servicios",
+      "file": "3fc708f74b46a771.html.gz",
+      "sha256": "5cc1fe65ec368b9ff5a27ac991a3ba1ddaca44a0edf5b62e4358dcd19d1fa495",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:04.333408+00:00",
+      "bytes_compressed": 60459
+    },
+    {
+      "url": "https://www.davivienda.com/personas/preguntas-frecuentes",
+      "file": "dac15a3bcd3bd541.html.gz",
+      "sha256": "e277515a47fbd1c61813a3218fc2ffdc93c40946a8c15877798b7c71c688f566",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:14.156290+00:00",
+      "bytes_compressed": 50702
+    },
+    {
+      "url": "https://www.davivienda.com/personas/pse",
+      "file": "fa74ab01f3e0a2d9.html.gz",
+      "sha256": "9cc1f308205cfee73913e3e8e4d18ee29328d7098af72259fb80f064908eb5e5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:10.772193+00:00",
+      "bytes_compressed": 52598
+    },
+    {
+      "url": "https://www.davivienda.com/personas/seguros",
+      "file": "37e85e38f12df917.html.gz",
+      "sha256": "8c6b22dc9252871485f43638328c9b5bb3167ae5d7b871c60c6486b994a1bdd4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:44.467053+00:00",
+      "bytes_compressed": 64608
+    },
+    {
+      "url": "https://www.davivienda.com/personas/seguros/seguro-de-vehiculos-y-hogar",
+      "file": "c68959907b0e58fe.html.gz",
+      "sha256": "7ed8e6fd41583f542a95d48d0581c85171ffe32be64aa54a89b7ecaaabffa3d5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:42.459829+00:00",
+      "bytes_compressed": 55928
+    },
+    {
+      "url": "https://www.davivienda.com/personas/seguros/seguro-de-vida-y-salud",
+      "file": "60369f5e8acca445.html.gz",
+      "sha256": "a5c00f112ce3668d5e97cd1bfca1de693f99e37533c8046acde72662f08c21d8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:41.477034+00:00",
+      "bytes_compressed": 55943
+    },
+    {
+      "url": "https://www.davivienda.com/personas/seguros/seguros-de-bienes-y-finanzas",
+      "file": "c3e132647354d055.html.gz",
+      "sha256": "3310e982097f317d75f5cd5ff280aa62c76e98d0695262583f663bea63634990",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:43.528919+00:00",
+      "bytes_compressed": 56003
+    },
+    {
+      "url": "https://www.davivienda.com/personas/seguros/seguros-de-creditos",
+      "file": "a40cfecd3c6fadd6.html.gz",
+      "sha256": "60af5529c11ca6b107ff839ba14fe64bfa89a638c0afeb663e61acfbbfd28ae7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:40.509318+00:00",
+      "bytes_compressed": 56103
+    },
+    {
+      "url": "https://www.davivienda.com/personas/tarjetas-de-credito",
+      "file": "92ca68ba1673d9d8.html.gz",
+      "sha256": "97d49a0830c1b51278dc1883ed5bfa03f016710ac8d9bb544de9f8f694fb2d69",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:46.198655+00:00",
+      "bytes_compressed": 68124
+    },
+    {
+      "url": "https://www.davivienda.com/personas/tarjetas-debito",
+      "file": "9aa03766940f2c21.html.gz",
+      "sha256": "ef8ffd03f870b75b3dd8f28593472009582ab4f9166d9738589c44149a2ecb51",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:46.695747+00:00",
+      "bytes_compressed": 54808
+    },
+    {
+      "url": "https://www.davivienda.com/personas/telefono-rojo",
+      "file": "5311a9112a456e1a.html.gz",
+      "sha256": "706884a8343439a8ec1085b1a2a858ecd14f8f995ec9aab09370b06f86d7132e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:07.004700+00:00",
+      "bytes_compressed": 57707
+    },
+    {
+      "url": "https://www.davivienda.com/personas/vender-con-llaves-y-qr",
+      "file": "ba1963eee8d6aac1.html.gz",
+      "sha256": "42120c35174b649c35d019415cfa4b0df6ad6017547a9a3b154d358da118136c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:51:47.795738+00:00",
+      "bytes_compressed": 57483
+    },
+    {
+      "url": "https://www.davivienda.com/politica-de-tratamiento-de-datos",
+      "file": "16a93104dda48338.html.gz",
+      "sha256": "ac104273f5bba62c44dbb6c5c5023481e5e421c17ca765123c6d93a1fe5c1ef1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:25.178244+00:00",
+      "bytes_compressed": 64007
+    },
+    {
+      "url": "https://www.davivienda.com/pqrs-quejas-y-reclamos",
+      "file": "1670bdc5b74a6cc4.html.gz",
+      "sha256": "4afee00119b2aff3454e12e12f185f387979bbb9e8d0cc5023e56ce59f000be3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:25.832004+00:00",
+      "bytes_compressed": 51508
+    },
+    {
+      "url": "https://www.davivienda.com/proveedores-y-aliados",
+      "file": "cfe60823c62bdb28.html.gz",
+      "sha256": "13c95224aa4230ddb4c83547b2de7cac80e2df600534cb0a0796425ec92844d1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:09.135549+00:00",
+      "bytes_compressed": 52519
+    },
+    {
+      "url": "https://www.davivienda.com/simuladores",
+      "file": "214751a5f1f5e86f.html.gz",
+      "sha256": "f196e5a513da9560a6e1cf9309310075a61bcade164a38ff6736a45c9511344f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:15.199522+00:00",
+      "bytes_compressed": 57216
+    },
+    {
+      "url": "https://www.davivienda.com/sobre-nosotros",
+      "file": "39869d828af3ccfc.html.gz",
+      "sha256": "82be17b58638b94ec1c5319cd6802ec82783c46f98b1e4bb2e3ce208102edf55",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:10.527271+00:00",
+      "bytes_compressed": 56528
+    },
+    {
+      "url": "https://www.davivienda.com/tasas-y-tarifas",
+      "file": "ab5696db8ba2a855.html.gz",
+      "sha256": "6845ee187f0e648b1b7100b525111d3d6e400f9da45b5fcb48d53122cb61ce6f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T21:52:21.457220+00:00",
+      "bytes_compressed": 53557
+    }
+  ]
+}

@@ -1,0 +1,2005 @@
+{
+  "bank": "bancolombia",
+  "pages": [
+    {
+      "url": "https://www.bancolombia.com/personas",
+      "file": "f0489d947f9f55ff.html.gz",
+      "sha256": "e5f6ce2505f8ce6b1fa92e7eaf31dad45acf7efdd81d9fcbff28fb4ecf2cd9ff",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:29.722317+00:00",
+      "bytes_compressed": 31246
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/a-la-mano/deposito-a-la-mano",
+      "file": "de1ba8254ece5aab.html.gz",
+      "sha256": "55ae0b250716448d6380723c4a7bad5325571bd57e58fce4e5cfdc4c0b39d792",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:30.631513+00:00",
+      "bytes_compressed": 47842
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/alternativas-financieras",
+      "file": "d57e21fc8f407585.html.gz",
+      "sha256": "fe23f05b4d4fc1a1620777efd16d78296f4bb886710bd4b1c2b0f792c6400410",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:31.636714+00:00",
+      "bytes_compressed": 31249
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/alternativas-financieras/negociar-deuda",
+      "file": "3b56571240c970db.html.gz",
+      "sha256": "5bb5b528224ed050eeaf6d95f11251303953bfb2d2cd50f604d8da129e98a431",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:26.636259+00:00",
+      "bytes_compressed": 37809
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/alternativas-financieras/negociar-deuda/documentos-legales",
+      "file": "edb0c284d0e7674a.html.gz",
+      "sha256": "821f6a5a1645e03bc2319737ce71a5179268c1513f75b60ea7a251e8e173ce7d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:49.041149+00:00",
+      "bytes_compressed": 54511
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/app-bancolombia",
+      "file": "49edebd8c95f039a.html.gz",
+      "sha256": "d98aa98fe4e376490583e886bb265477c682d672a5cdec9ef57f35670bf00ec6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:32.424112+00:00",
+      "bytes_compressed": 11239
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/app-bancolombia/categorias/bolsillos",
+      "file": "cd71f4623f68a016.html.gz",
+      "sha256": "b789ecc59ff5cf841b78526d0926e0da48db81776fceedf15f183e6f84a010f1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:27.655355+00:00",
+      "bytes_compressed": 10562
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/app-bancolombia/categorias/gestionar-dia-a-dia",
+      "file": "50bcaf57e20f7dc5.html.gz",
+      "sha256": "c546e52c758b6f23f538894d553c69f7bddeb57a348f8a9ecd39908ea4b8df0b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:50.015896+00:00",
+      "bytes_compressed": 11340
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/app-bancolombia/categorias/gestionar-dia-a-dia/gastos",
+      "file": "04c790c9f73ddcb5.html.gz",
+      "sha256": "834b81983f2361fc84ee5db2eb71683f8de14d7964bd3d370ef1f0da18417981",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:07.909916+00:00",
+      "bytes_compressed": 11404
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/app-bancolombia/tramites-solicitudes/inversion-virtual",
+      "file": "08c0aea34a72a43f.html.gz",
+      "sha256": "edda8250950b02ee2836973e9252438eacc58987a4ad5af1b38660765c719e34",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:23.368693+00:00",
+      "bytes_compressed": 10548
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/aprende-mas-sobre-ahorro/como-definir-mis-metas-de-ahorro",
+      "file": "7250454a2f1cbe2e.html.gz",
+      "sha256": "f3d2c07592ea022adbcb75b3ada0cf42197eb723ac7ef868f902212726ee1972",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:33.631860+00:00",
+      "bytes_compressed": 31250
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/aprende-mas-sobre-ahorro/como-hacer-rendir-la-plata-sin-sacrificio",
+      "file": "7913adbc6e68bf77.html.gz",
+      "sha256": "e7b326d10c7b84eeee61f8ce9f00d65f4c48cd64e6897999ae742b92be9cc69e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:28.741673+00:00",
+      "bytes_compressed": 30694
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/aprende-mas-sobre-ahorro/como-identifico-mis-gastos-y-cuanto-ahorrar",
+      "file": "a54a2eccc008fd47.html.gz",
+      "sha256": "45643ca941c0b6505c4a8b41028f05e06486641ff32af1582dbbcf456f4e8065",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:51.195947+00:00",
+      "bytes_compressed": 30694
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/aprende-mas-sobre-ahorro/como-identifico-que-es-gusto-que-es-necesidad",
+      "file": "6c4fc2e4ebea59e4.html.gz",
+      "sha256": "cb00932d21448268440de08ca06945eb213de815c0274feedd01d19d56350498",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:09.201652+00:00",
+      "bytes_compressed": 30694
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/aprende-mas-sobre-ahorro/cual-es-la-diferencia-entre-ahorrar-e-invertir",
+      "file": "c57bea15d6d28ab2.html.gz",
+      "sha256": "5cf90aad8082342092fa670063b539677a74308328198d2167ca5db5d5488d9a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:24.502964+00:00",
+      "bytes_compressed": 30694
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/aprende-mas-sobre-clave-dinamica",
+      "file": "1a0c0029bc0c4e8d.html.gz",
+      "sha256": "eab8cc024a06c03f324ee78e4852e83ce726fe0b70491ccdf35e7c69839b0cda",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:37.983437+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/aprende-mas-sobre-clave-dinamica/como-usar-tu-clave-dinamica-en-sucursal-virtual-personas",
+      "file": "36e9af9550f8d228.html.gz",
+      "sha256": "d579bcd1677f441cce459580838cb20a9750b41af635f66d2c2468b6168a512f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:51.854981+00:00",
+      "bytes_compressed": 30694
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/ahorrar/importancia/mitos-sobre-el-ahorro",
+      "file": "563e4bc8d0736d3e.html.gz",
+      "sha256": "4899535f06f875e26e569b7e97f7489d082cf5bde62361604a352984a8a30206",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:05.997848+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/ahorrar/importancia/tan-facil-como-jugar",
+      "file": "43891a0da6c40b27.html.gz",
+      "sha256": "9639feb7af2b9933bf9f3bf0e1dff80163be73913553afd9f62af568c75f7350",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:19.274573+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/ahorrar/planea-simula-ahorro",
+      "file": "17f4105dfdc5f063.html.gz",
+      "sha256": "b74c0438321c851641f95b1d0c4fd8e73f7a55267e92c30390896d3ec49042e7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:29.970465+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/ahorrar/planea-simula-ahorro/planea-ahorro",
+      "file": "6d4879a7bf437983.html.gz",
+      "sha256": "d66e04f67ada208a48a56c49ab5e95c94e53cada8ea9cf0be514cf389ddc7418",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:40.173122+00:00",
+      "bytes_compressed": 30693
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/armar-presupuesto/hacer-presupuesto",
+      "file": "aa091401323e2716.html.gz",
+      "sha256": "41e7499175828e06c7b46f681931d903ed6769b8a988c563c7456ae39bead80c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:52.688888+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/armar-presupuesto/hacer-presupuesto/primeros-pasos",
+      "file": "f7fb143de75ff49e.html.gz",
+      "sha256": "535cec04e05e3ea2966bc4a1053a44f391db554b718b70c6e211bbd5dfbf2c29",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:02.454003+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/asegurar-bienestar",
+      "file": "847279076ec4130e.html.gz",
+      "sha256": "1f33f1b46a1521cc5a57dea70f5fb1c903e57bbeb136c8362a10c5de6836ca16",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:09.983242+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/aula-virtual-formacion-bancolombia",
+      "file": "a4f3b2a149af5ce1.html.gz",
+      "sha256": "45195a4324e5ee5ba919201122dce72fafd1c4705aeecd7108aa2b54c5bed070",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:19.021281+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-credito",
+      "file": "0412103eedf677b4.html.gz",
+      "sha256": "5816b46808eae653742d3125735aa5823cb42795d5cd5a60c8e25f35e2f41137",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:26.958351+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-creditoBBVA",
+      "file": "97c3d2f34dbc9934.html.gz",
+      "sha256": "d749beac003d586e5c19b1b1620543805a9607a8db7bd67c7edcbda701e30894",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:35.080986+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-una-tarjeta-cred",
+      "file": "5d116cda3ee7eb79.html.gz",
+      "sha256": "4265e64711673663e12a5e1aff34e6ea444a1e286eb949d20c2d81521d62c702",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:43.388664+00:00",
+      "bytes_compressed": 31172
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/aprender-es-facil/como-manejar-dinero/invertir",
+      "file": "759ad7b3e8b270f0.html.gz",
+      "sha256": "1b58117303a4e8d823a00c568df83bc9c37be44ba7d7ad01dbce83533842255f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:50.066562+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/arrendamiento/vehiculo",
+      "file": "196f51356133cf50.html.gz",
+      "sha256": "7295de52f366c5e4f2c18e90bfc120d6d6321d28fae783596ccab62f72dddaa9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:34.487354+00:00",
+      "bytes_compressed": 23986
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/arrendamiento/vivienda",
+      "file": "41a06d5ba1eb7e6d.html.gz",
+      "sha256": "951da153ef2417746000dcc8b00e28b088446ca9b19d8a6204d3f21a4e089124",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:29.564839+00:00",
+      "bytes_compressed": 29351
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/axa",
+      "file": "76379e54c947b00a.html.gz",
+      "sha256": "2378991493c349ff3ff7b3b19748c31a68e4b6ade95e17b497e5b40543ed821a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:35.934538+00:00",
+      "bytes_compressed": 31249
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos",
+      "file": "4b58ba744d296562.html.gz",
+      "sha256": "2184489634b99dfea80aee82de7bc468022939203c6ad21395294442406d6905",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:36.508206+00:00",
+      "bytes_compressed": 25854
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/agro/mercados-de-corazon",
+      "file": "4d9a1050741e0bba.html.gz",
+      "sha256": "a793e096ac2b1136e80a4d54d21afb99b66584c014e0469b5e98984423a040c1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:30.883981+00:00",
+      "bytes_compressed": 25004
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/colombianos-en-el-exterior",
+      "file": "f7777603cdf6f93a.html.gz",
+      "sha256": "489a5c4e4143eed0f3c52afc565abe8be5a2120eb79f10405d6c9327e35fe5c2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:52.017525+00:00",
+      "bytes_compressed": 28546
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/colombianos-en-el-exterior/aliados-construccion",
+      "file": "90206329ddccaff2.html.gz",
+      "sha256": "abd480b0c48bcb1a18ac2c3a1c9322b424534696c458df5a1a3142182dd66bcb",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:09.985907+00:00",
+      "bytes_compressed": 30488
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/familia",
+      "file": "600d20605467b1cc.html.gz",
+      "sha256": "dada1fb4c5af0ee26efbe14fb359c9517f553a2530113bb76a34569505f1a88c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:25.297609+00:00",
+      "bytes_compressed": 27423
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/independientes",
+      "file": "6283c672dbf65244.html.gz",
+      "sha256": "2ac5cd3ddc73cbdc031fdbd02f79ded1d4e1b1b392827b5734d6420495a34b03",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:38.699125+00:00",
+      "bytes_compressed": 27407
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/jovenes",
+      "file": "1f947c2f94c847a0.html.gz",
+      "sha256": "d52b3864fcc1031293f42736d4e649eb5af9b7e8d427c544814ecd2754ac0177",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:52.774306+00:00",
+      "bytes_compressed": 28960
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/ninos",
+      "file": "5410d1a82b9cee79.html.gz",
+      "sha256": "256938bfa6d9278568fcbfa52c8f62925a6df11dc2842a3d98b0d8259db0d9a1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:06.890384+00:00",
+      "bytes_compressed": 25468
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/ninos/calculadora",
+      "file": "397067f0bcef1eab.html.gz",
+      "sha256": "ba15517ee75f4400fb4b5e5b6cb068d4c47887b77b154275e20cf6a8d5071588",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:19.672068+00:00",
+      "bytes_compressed": 13944
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banco-para-todos/preferencial",
+      "file": "035781201c7b8409.html.gz",
+      "sha256": "6db9a8a8b268d44f3074c7dd1e3c33b0666a26ccceb135bfe6fb707dcf84a233",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:30.950355+00:00",
+      "bytes_compressed": 42434
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/banconautas",
+      "file": "35b138f8588b01eb.html.gz",
+      "sha256": "843d072a9760339281926131ce90943f4f27a1673c7d75c15163113bd049656e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:37.528876+00:00",
+      "bytes_compressed": 15324
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios",
+      "file": "0f1a88d464b70ef2.html.gz",
+      "sha256": "b28265acdc761a8a34ddacfd633fe0284b73172141f4e50f05da5904b2b558e7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:38.470644+00:00",
+      "bytes_compressed": 24571
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/amazon-prime-visa",
+      "file": "bee5178fe0f59e8f.html.gz",
+      "sha256": "f6f59a5d6abb3accf1e6e8a586c886257f8e53668ae89e599a1403e60d8a941f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:32.466750+00:00",
+      "bytes_compressed": 34209
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/balones",
+      "file": "9644d0de52bdf6a7.html.gz",
+      "sha256": "48e188f2a6d1cba36551dbac76d3e56defc53089140341a6211299d23bd57c94",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:53.240946+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/campana-un-mismo-latido",
+      "file": "a08537df44bbbb65.html.gz",
+      "sha256": "60cf6afbd1fff21c9f5349440f0aaeaf4b7c6e18eccbcf7d9c27aff02ed42adf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:11.181842+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/futbol",
+      "file": "1fec615c50dc6d29.html.gz",
+      "sha256": "e7467f3442becfb138b12c65eaf25f727f1dda948e66aeb40f9ba488c650c700",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:26.475396+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/futbol/campamento",
+      "file": "4dfdfcd0bfa9f7a6.html.gz",
+      "sha256": "4539b61570b3d0b28def7fbb5ed79e36f1c6a8e16d0fb6b85bf8f4ec04f7d498",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:39.987833+00:00",
+      "bytes_compressed": 27828
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/futbol/concurso-imparables",
+      "file": "2edea93f941b8f12.html.gz",
+      "sha256": "f0f64b7ca524c34a0a191ba7899c65d3b0c1294a9bb8fe6004ecd39dbfd42e72",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:54.537377+00:00",
+      "bytes_compressed": 29048
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/ganar",
+      "file": "ddb3eabcddcf5059.html.gz",
+      "sha256": "988443d0357d925d973cf77c88d2bdc11ec0444b77241df7bd41d0830ee99e79",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:08.222106+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/ganar/ganas-de-vivir",
+      "file": "0b59a2cf0b2445e1.html.gz",
+      "sha256": "85d8e4fca1deb623953170909d31078f7e16115e9f47e77cf0b742e591b2f71b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:20.952956+00:00",
+      "bytes_compressed": 30693
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/navidad",
+      "file": "8a44d431b807d50f.html.gz",
+      "sha256": "d6b47af6b363d6dcd9d50af6ab9b5bbe03b8658c1c73bcb36b7d46d4ea5e9d04",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:31.932517+00:00",
+      "bytes_compressed": 30694
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/ofertas",
+      "file": "b3e23a520ea0319c.html.gz",
+      "sha256": "1eb035628719b57e73d455c9fa039a80599be96d1c088325f1ecac25a89a04d4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:43.975222+00:00",
+      "bytes_compressed": 24541
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/ofertas/detalle",
+      "file": "ba15da139f8b6622.html.gz",
+      "sha256": "b20b520c23841b78b81cbbe53a168992497744207afa6100702b6f07e26ed4b7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:53.478951+00:00",
+      "bytes_compressed": 23219
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/ofertas/usarapps",
+      "file": "c194fc232101cb10.html.gz",
+      "sha256": "03dbdc096a629fd9b4c938e25826314495ba4e54a7524b20f4dfd4c6ef0bd91b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:03.260686+00:00",
+      "bytes_compressed": 19130
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/puntos-colombia",
+      "file": "9e874374d00df63a.html.gz",
+      "sha256": "a540a9593bb05f076c95a050d0808da37eaf0910baab348c423a0299c54553fd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:10.986087+00:00",
+      "bytes_compressed": 40601
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/reconocimientos",
+      "file": "2520286e59402cd6.html.gz",
+      "sha256": "b15727110f8d893eba6def7053bcfcfc56b52b68a12cd8b9540508e4fec524e7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:19.776324+00:00",
+      "bytes_compressed": 17634
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/retos-y-recompensas",
+      "file": "42bbe82bb328b590.html.gz",
+      "sha256": "494300c29284757b7c939c9ff0a738c1ee59e743a84e445738ad32997e68013f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:28.076874+00:00",
+      "bytes_compressed": 31176
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/soy-yo",
+      "file": "889461247718b4a8.html.gz",
+      "sha256": "04261e2a5abd650611295fb16d8c938dd85f4746a0ba6cf4a5dc0bb828a3b21b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:35.966370+00:00",
+      "bytes_compressed": 31730
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/beneficios/tarjetas-navidad",
+      "file": "83c25d769c86116c.html.gz",
+      "sha256": "7fa0aebdf655ac9da83e7c3243f577a858c6ae9f9de57cfef76992877a084478",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:44.044879+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/bolsillos",
+      "file": "761c8876494138ef.html.gz",
+      "sha256": "e36db618991641b47c6b8627002841ed63cfbde136c019552c8733a247dcaf02",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:39.969670+00:00",
+      "bytes_compressed": 28371
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/calculadora-kids",
+      "file": "bd708ca04b14b9f0.html.gz",
+      "sha256": "6c9b9289e7472ae1ba7e9305ca0f82797cf3e77bf5baa21b7fcec053acf73fe4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:40.470613+00:00",
+      "bytes_compressed": 11760
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/claro-nuevo",
+      "file": "5f253d4eb393331b.html.gz",
+      "sha256": "9201861b0927c5c29887850ce96867d2474d19596e96c15e375081c58eea454c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:41.865140+00:00",
+      "bytes_compressed": 31249
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/colombianos-en-la-copa",
+      "file": "7cefd0b1d4320064.html.gz",
+      "sha256": "3b73fc9c3f2b0c112d0232b48d933dc49773c7ee6b0f7f3ae00f027583f21bbc",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:42.853215+00:00",
+      "bytes_compressed": 31248
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/comprar-y-vender-casa/asegurar",
+      "file": "b791b24c29423dbf.html.gz",
+      "sha256": "e40fefa9e5ab785e997ca9716967e6e3b269b9986f6735d5c8aa341749dc7b66",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:43.459498+00:00",
+      "bytes_compressed": 11251
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/comprar-y-vender-casa/comparador-prestamos-para-vivienda",
+      "file": "d54b0c319d79b180.html.gz",
+      "sha256": "69429bc394b631f8c0c1136a2918fa25bf3edcb84c79e77cd353453fed0e0d43",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:32.753421+00:00",
+      "bytes_compressed": 24027
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/condiciones-de-uso",
+      "file": "82036356dc1308b8.html.gz",
+      "sha256": "e85e00b681194ba630bd32ad9908be885a2f9cbb961ffd2d3e8eb3c36ecb7fd9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:44.448769+00:00",
+      "bytes_compressed": 18925
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/consumidor-financiero",
+      "file": "88addcc8f4c9e392.html.gz",
+      "sha256": "541f33c13f1e75ced5e1a5021b61ef8ad7d26aa1ce27be9d8405d5f4fc0d8ffd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:45.418878+00:00",
+      "bytes_compressed": 39339
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/contactanos",
+      "file": "361b65ccec514482.html.gz",
+      "sha256": "25b97aaca661d84b3011e3658b00e7ce825e1b3dba2215c69ec2370ad997ff79",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:46.459808+00:00",
+      "bytes_compressed": 24123
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/contactanos/...",
+      "file": "d166f8a346a27032.html.gz",
+      "sha256": "5f386b16627e34779e087e31c6f9256bd7e43ba6450568612f42d36a40dc8f20",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:33.867874+00:00",
+      "bytes_compressed": 24174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/contactanos/bancolombia",
+      "file": "f4498216161de9d3.html.gz",
+      "sha256": "b3eaaed55c09df4c55c38a9cb4cd058258d86175246fe15122be1752cc15a6e5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:53.988542+00:00",
+      "bytes_compressed": 27669
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/contactanos/bancolombiav",
+      "file": "b4ddde33f33bd449.html.gz",
+      "sha256": "9853f7471a485985710e97830658f1a56c9c29b6ba4c201c4e0035db70869190",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:11.990299+00:00",
+      "bytes_compressed": 11145
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/credito-vivienda",
+      "file": "6f172b65af488721.html.gz",
+      "sha256": "5dc1d1ce73f65649888db4eeabe100d3d9ae0a7e8e5637ca98b5abd3b556fd2c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:47.892407+00:00",
+      "bytes_compressed": 31248
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos",
+      "file": "7e8a83201d963063.html.gz",
+      "sha256": "6333b8f4138283ac895f0b8eadb2afe85067c7a9ee2dc7ab16bfe96672364ab9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:48.552215+00:00",
+      "bytes_compressed": 30739
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo",
+      "file": "74f7ea85486e78b6.html.gz",
+      "sha256": "cf4cb316e657d34b237aa169de9b4dcfc2051d36ae446ea2903d967ae7f261d1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:34.776183+00:00",
+      "bytes_compressed": 27287
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/ampliacion-de-plazo",
+      "file": "392181c62291c6e3.html.gz",
+      "sha256": "8868062eabb279c5d20d4cea38fa414a86e525de3cfcb1c716e89397b9da8074",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:55.337776+00:00",
+      "bytes_compressed": 24960
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/compra-cartera",
+      "file": "5b4362989c481874.html.gz",
+      "sha256": "b182622a53d7e78d16682c4ab6d9a3ad921269ab4275f244f6c01d24fbb66d69",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:13.522346+00:00",
+      "bytes_compressed": 31499
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/crediagil-credito-rotativo",
+      "file": "40005783221626d9.html.gz",
+      "sha256": "0600035ed07fc8d9da1c29a2c55ce0f975c4716aeb69b9c697e15cdd3cf95cfa",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:28.277936+00:00",
+      "bytes_compressed": 29396
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/credito-con-pignoracion-pensiones",
+      "file": "69c7d0be04b8e46e.html.gz",
+      "sha256": "94bdddceade0df427626d66792d547716f74fdd7106bea4e43bbef055227d6ab",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:40.929760+00:00",
+      "bytes_compressed": 28946
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/credito-libre-inversion",
+      "file": "fb7d4e44b1641394.html.gz",
+      "sha256": "86340425c5fb6f9a4942f33c68261cbc559a4ff7b4c0f73cda6b668568e5b818",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:54.834169+00:00",
+      "bytes_compressed": 47705
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/credito-medio-pago",
+      "file": "c769acc037857c1e.html.gz",
+      "sha256": "ac64434c75e67e2f7ed46bd54ebae472a707c8702703f742e8cfd6018332beb0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:09.073846+00:00",
+      "bytes_compressed": 32399
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/credito-productivo",
+      "file": "33401c30936e8f97.html.gz",
+      "sha256": "99c97c728ce19efbd88aa6f6b3a2da420bfdfa33a372299037bebc3344c25a5f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:22.158963+00:00",
+      "bytes_compressed": 27392
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/libranza-para-empleados",
+      "file": "a4eb4711362286c9.html.gz",
+      "sha256": "7ea2d8c1814742f38a46d380b6c6c538f7401879a369e827156a315fdd9aa506",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:33.057986+00:00",
+      "bytes_compressed": 29630
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/libranza-para-pensionados-fopep",
+      "file": "4eb762da540539a3.html.gz",
+      "sha256": "36cc99960f7b2f41d36bb7b77de087c840c7e93accf0b00a4b17b52f09d227e0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:45.055632+00:00",
+      "bytes_compressed": 34911
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/consumo/libranza-para-pensionados-proteccion",
+      "file": "fa5234c377f30728.html.gz",
+      "sha256": "3ddd42fc9f44c6df71b02429dee756e970901f99761a7690830be393fc0628d5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:54.710591+00:00",
+      "bytes_compressed": 33988
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/locales-y-otros",
+      "file": "52c277936c66a530.html.gz",
+      "sha256": "312faf6f23de2dacfea489f56eaf5ca337222543a49a117d794a9d45b648be9a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:11.961457+00:00",
+      "bytes_compressed": 24253
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/locales-y-otros/credito-hipotecario-para-compra-de-locales-y-otros",
+      "file": "c37f2a5577f0c767.html.gz",
+      "sha256": "0128fec78cf013aec4209a0ecb0447c083e29dddc164889f34d1a868e03a055b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:20.800028+00:00",
+      "bytes_compressed": 33055
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/locales-y-otros/leasing-inmobiliario",
+      "file": "e5e790ea7a5179f6.html.gz",
+      "sha256": "b6928bcb69795f64fbb9c5bd091273f8781520cfa18ea458dac53d9e0ec57048",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:28.888719+00:00",
+      "bytes_compressed": 29554
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/negocios",
+      "file": "84548535a07bc39f.html.gz",
+      "sha256": "728d33f18d262657ee6318c9c230aa82a58675f22a2680e61254aebaf9550b0f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:37.073477+00:00",
+      "bytes_compressed": 26385
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/negocios/agrofacil",
+      "file": "45f12c6aec6a91d1.html.gz",
+      "sha256": "cda43c48eab6336a934537f72f1f4ace90aae47e7f5327c0fe23f1c8dac67b74",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:45.157170+00:00",
+      "bytes_compressed": 29079
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/creditos/negocios/bancoldex",
+      "file": "119e3d0f82e6b3da.html.gz",
+      "sha256": "63bf909ddc86adffc6f657ea2086f7396756f405f7b3025ef2bcda61bd259568",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:51.219014+00:00",
+      "bytes_compressed": 27955
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas",
+      "file": "177bfec9c9ea223f.html.gz",
+      "sha256": "d2ee02d92afed8c7adb69f147a7ca076dabd38a1c8093a985e4a50b8764abee0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:50.694036+00:00",
+      "bytes_compressed": 21183
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente",
+      "file": "0d8d59028daf943f.html.gz",
+      "sha256": "11290d9ac6b867a8fdca6e1fbc544a1f4dac33067c81197298ffd2604815f97c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:36.348223+00:00",
+      "bytes_compressed": 35199
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/banconautas",
+      "file": "381fefe5ec3e234f.html.gz",
+      "sha256": "18740195fa310445b347d7abb4d5d53ec8ea5a080e2ea75279b6f7d00f28a2bf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:56.293581+00:00",
+      "bytes_compressed": 26242
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-ahorros",
+      "file": "7de54efb0233429a.html.gz",
+      "sha256": "89180b63d592076410100e2391dd42ab0e162b45d6a1b7ad0f742ac8acbcaee1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:14.327918+00:00",
+      "bytes_compressed": 35198
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-corriente",
+      "file": "e68e786f553657f6.html.gz",
+      "sha256": "a30781a9b2b29a21dbfb49cba2380df8627096e5fe7ee7ce2af7847903c92ccf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:29.099711+00:00",
+      "bytes_compressed": 22123
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-para-campanas-politicas",
+      "file": "9de868c850ff5261.html.gz",
+      "sha256": "975b76b9d8b81b75b72404e608ddc80c77e5fd5ee15af1f307255579bb2eccd1",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:43.009613+00:00",
+      "bytes_compressed": 25227
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-preferencial",
+      "file": "9be8deaab3867919.html.gz",
+      "sha256": "f318bf6730013756e038174c9a1b124e42a65468b9f53d22a8cc4780893f9015",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:57.534176+00:00",
+      "bytes_compressed": 24019
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/bre-b/gana-con-bre-b/llaves-bre-b",
+      "file": "d869aaedce3a0ba1.html.gz",
+      "sha256": "8b7cddbf514cc9a7534ed434e5023787c56365fc9c4d1b6672b5a6938ef0d126",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:11.263011+00:00",
+      "bytes_compressed": 76969
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/cuenta-del-mar",
+      "file": "fd321fce60760142.html.gz",
+      "sha256": "fca3911f150f211048852b2ea063fbfd1307a59300d7dee3bbe08b66b51d202b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:23.023817+00:00",
+      "bytes_compressed": 39402
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/desde-el-exterior",
+      "file": "8609fcc5b2f0844d.html.gz",
+      "sha256": "174b9483d008fca20f19c75adbf718f59716be94afa6eda1f325d769feef948e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:34.030438+00:00",
+      "bytes_compressed": 28029
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/desde-el-exterior/cuenta-colombianos-en-el-exterior",
+      "file": "a3d097a0acda30e2.html.gz",
+      "sha256": "dc23a8d5fa2eb0a6f623f2e327343e30538d82f13c35dfbe81f7fa68134b0376",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:47.176917+00:00",
+      "bytes_compressed": 28180
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/desde-el-exterior/cuenta-pension-colombianos-en-el-exterior",
+      "file": "bc35ecd05d964c73.html.gz",
+      "sha256": "7c6267d5e2260fca6ad60968f8c6d8b672ed42d61c17829c1b7d9c90e887b03e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:55.765192+00:00",
+      "bytes_compressed": 28059
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/en-el-exterior",
+      "file": "4552ec573e6d3723.html.gz",
+      "sha256": "7461b8f30024279923d2386b14823e9b64e670149fa340132e0a6dd80dfe4458",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:05.504923+00:00",
+      "bytes_compressed": 27535
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/pensionados",
+      "file": "634bf010c0895367.html.gz",
+      "sha256": "0d73c63fc6e07bda8c1d8ab5c82ad5b5c46f1e3b22945e3c8928e12a108589a9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:13.175626+00:00",
+      "bytes_compressed": 26813
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/pensionados/cuenta-pension",
+      "file": "baaeb59772c5235d.html.gz",
+      "sha256": "04229415b4b8cb0540fbc1e2b7a1050db4ebeeb6644dcf722870325f0f426dbf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:22.008707+00:00",
+      "bytes_compressed": 26813
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/vivienda",
+      "file": "3b727f210391c4a4.html.gz",
+      "sha256": "851e60f9545bdeecfae2d822dd255eaca4b13706722687deacb9bf7ae547ae42",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:30.121337+00:00",
+      "bytes_compressed": 24368
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/vivienda/cuenta-afc",
+      "file": "d1059a52133bf56d.html.gz",
+      "sha256": "67e20a15a64c1c4aabacb8a475fd5d848a85777aab00ac235162bba8b50899d4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:38.138191+00:00",
+      "bytes_compressed": 24368
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/vivienda/cuenta-afc/cta-afc-vivienda",
+      "file": "decc91fc545bc6fc.html.gz",
+      "sha256": "23571b1c88050844847c1fa29b4c34301038961cdf3da0db0cc5edbb4e3019b5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:46.118213+00:00",
+      "bytes_compressed": 23810
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cuentas/vivienda/cuenta-de-ahorro-programado",
+      "file": "9834afa07580515c.html.gz",
+      "sha256": "b75ebe1824274b83f8219eaa95c21489b17270e4836a3b0c329f37d690fa69bf",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:52.515201+00:00",
+      "bytes_compressed": 25445
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/cupo-preaprobados",
+      "file": "94883b180df092ea.html.gz",
+      "sha256": "76fb3ff040ea6065448125cb749ecbad1769b4b7c8ee08ab8464b448c27c4bda",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:51.318437+00:00",
+      "bytes_compressed": 4543
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/defensor-financiero",
+      "file": "61fc859cbe804df6.html.gz",
+      "sha256": "6c4ff966db1c4bf49835b9b5c5415c6721c0392b9a68ae2b2424642ffae07e57",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:52.232595+00:00",
+      "bytes_compressed": 50473
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/dejanos-llamarte",
+      "file": "8a8f2dc54d1ac298.html.gz",
+      "sha256": "0e9c8109b12edb83c9f518d8accc875d7ca3ce08d8c48f798019d5eac45098d0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:53.413100+00:00",
+      "bytes_compressed": 31248
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/del-banco-a-las-calles/credito-creo",
+      "file": "de1118de85895879.html.gz",
+      "sha256": "ea8c1314f82bd671ec76c6a85aefc07face3a03385b01aa27065275bf0f2aba5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:54.001819+00:00",
+      "bytes_compressed": 27098
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales",
+      "file": "981b0ca9510489e5.html.gz",
+      "sha256": "9edc162296f5b281e935e55ed41dc55cfe5b90df068553613bf0fdce40989b9e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:54.967907+00:00",
+      "bytes_compressed": 16082
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/gmf-iva",
+      "file": "d421457ade63ee7b.html.gz",
+      "sha256": "39ae3c8e2bbf5af88cb830e0a0a30eb02cf7873030e3f442179e16a08ed534d2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:36.963507+00:00",
+      "bytes_compressed": 15553
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/normas-facta",
+      "file": "637df8288eb869ad.html.gz",
+      "sha256": "668ac7d979c6d2a8055342e4b492d7b884c15e866368198af08161116ed857a6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:56.969115+00:00",
+      "bytes_compressed": 13271
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/operadores-informacion-financiera",
+      "file": "311d00717ab590cf.html.gz",
+      "sha256": "d1663a094272326b5f988782065187d16136ece2587c927791400a26d2bfa7a5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:15.015979+00:00",
+      "bytes_compressed": 19339
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/personas-con-discapacidad",
+      "file": "13db63193b4141c7.html.gz",
+      "sha256": "e82fd25845c6a7fef0a3f99a0bb8ed79377110bfa1ee474750ff505309557c5a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:30.007014+00:00",
+      "bytes_compressed": 47305
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/proteccion-datos",
+      "file": "5d0f6a6240270ddf.html.gz",
+      "sha256": "02f75c9f0ba37d1499a24ad04b72ea35c1ac340369a84470c008864b47a2452d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:43.320127+00:00",
+      "bytes_compressed": 16082
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/proteccion-datos/bancolombia-sa",
+      "file": "7ba04f5d9634a2a6.html.gz",
+      "sha256": "f57c8b22a152a6b0a9e08814e56e98cdfd8c77f95d381d4ca39022ce8b6f78a3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:57.860127+00:00",
+      "bytes_compressed": 32697
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/resolucion-sic",
+      "file": "89d5838fdf477f41.html.gz",
+      "sha256": "bb621976474d6213fcdc71332b27b4c11f759ecc82696b1930ac6b15de8a64fb",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:11.683888+00:00",
+      "bytes_compressed": 15298
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/documentos-legales/transparencia-acceso-informacion",
+      "file": "a311263b74c5d82c.html.gz",
+      "sha256": "8bbf56b41182a67bc27b82c3ddb6672a40bfaaf8d887c0ea88f6eb605b2c1940",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:23.810920+00:00",
+      "bytes_compressed": 32565
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/encuesta",
+      "file": "c00c0f9306966ac2.html.gz",
+      "sha256": "d2bf043923e0b061754dbc2a97e055a4b42bbcf0e5bf5445a484c54970ae3964",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:56.352651+00:00",
+      "bytes_compressed": 31249
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/entendiendo-las-finanzas-personales",
+      "file": "73695e7b8e940341.html.gz",
+      "sha256": "62eece01f31bb3ca358a48d4c05b9ff46b8a14a82003916768ab6d2343b5826b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:57.344287+00:00",
+      "bytes_compressed": 30768
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/asamblea-accionistas",
+      "file": "9415aa697f0cef30.html.gz",
+      "sha256": "910504b7a5c52ba6b476f54886e583a1d55e23b589d90ec931faba84d2296fb6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:58.318163+00:00",
+      "bytes_compressed": 30768
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/curso-facebook",
+      "file": "413222a3cb4b8c72.html.gz",
+      "sha256": "dca8d87157ede179451343593867d4afe3dbee84b4ff552cf8418681ac29b722",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:37.969364+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/experiencia-preferencial",
+      "file": "b3217b6c113450da.html.gz",
+      "sha256": "32fb0a065709f8621f3788f3dc9ecbc51f5136ad97863372976dd640f389efdd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:58.226138+00:00",
+      "bytes_compressed": 31175
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/foro-met-summit",
+      "file": "6eaf87f949934969.html.gz",
+      "sha256": "380add78ab3a71419d4c47dbc1574c293fb3a09e152b2fa53e39bf80c099eeae",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:16.107670+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/generacion-consciente-2020-2021",
+      "file": "99cd415ca27c144f.html.gz",
+      "sha256": "0d336a662bfa66ae1af0190101216974a8de62087038dc44f6df71d166035d06",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:30.791122+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/mentores-bancolombia",
+      "file": "5b410ffd02cecafe.html.gz",
+      "sha256": "89b649c91aa941b13b2fd27440f5e515a60ae89de22d76f818274db190aa5d29",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:44.561958+00:00",
+      "bytes_compressed": 31175
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/perspectivas-economicas",
+      "file": "caf8800ec8f3b058.html.gz",
+      "sha256": "b825e0d15e5df5595cc5760047eb06e6237e386b42d7a853e2a1362e04a87745",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:59.118303+00:00",
+      "bytes_compressed": 31175
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/perspectivas-inversion",
+      "file": "1de38c80c450ac3e.html.gz",
+      "sha256": "f71288d44f9ecf4fcd1d8ef3ec6a399f6b712c0017f17caa2b090301678e8b6c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:12.824242+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/sostenibilidad",
+      "file": "9b269d3492692dcd.html.gz",
+      "sha256": "153680fe5298974ea933055aa10f597f722ada749b558360db9d1e2866c4ac27",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:24.928718+00:00",
+      "bytes_compressed": 30692
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/webinar-diferencia-entre-ahorro-e-inversion",
+      "file": "db5d197b5d73535a.html.gz",
+      "sha256": "a65bcb9e2d7cfae4f06f1cc8f5b637af37c7c4f1fe623e3419d2ce957775f583",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:35.114115+00:00",
+      "bytes_compressed": 31175
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/webinar-formas-de-hacer-rendir-el-dinero",
+      "file": "b83d69c7725ecdd8.html.gz",
+      "sha256": "17827d8bff4f72ee6e9437717d360a9d3ebe411a044eb4c2a778d5e4f92d81fb",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:47.633591+00:00",
+      "bytes_compressed": 31176
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/eventos/webinar-seguridad-digital",
+      "file": "0fde66b8c7c63963.html.gz",
+      "sha256": "d1a34090e0cdd89fc1c7f5fe7748c081db4dfa9b7b7b91176d2bc84873e3891d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:56.641357+00:00",
+      "bytes_compressed": 31172
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/fatca-crs",
+      "file": "c5e7d8c09a82affc.html.gz",
+      "sha256": "ca9d98995223a2f782a7c70c909a2a05433a30c3f76a4b09d7352b14deed19f9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:02:59.042048+00:00",
+      "bytes_compressed": 36891
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/fua",
+      "file": "09370c948ee85cdb.html.gz",
+      "sha256": "1b66646793c8bde2f272ad63e3da0113343d858a237b3995fc966e51870c8210",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:00.426768+00:00",
+      "bytes_compressed": 31250
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/gestor-tarifarios-nuevo",
+      "file": "c8212591d7333de3.html.gz",
+      "sha256": "dc41e9985fc592e667821a6ffb57a37c2911d6595ba476047b964cd67e998574",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:01.302449+00:00",
+      "bytes_compressed": 22894
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/giros",
+      "file": "3f8c40515efbdc8e.html.gz",
+      "sha256": "9cd7363dc8cb89631cb92f51eeb4a92a0e4036d5606ebcea3a369d43023401da",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:02.248518+00:00",
+      "bytes_compressed": 17118
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/giros/abono-automatico",
+      "file": "5a960336bc901229.html.gz",
+      "sha256": "2b0169f531d176ee4db30b144b5a4528e75556f9eddd5f139a82685ad9472f69",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:39.697907+00:00",
+      "bytes_compressed": 17043
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/giros/internacionales",
+      "file": "708da9dc8945a187.html.gz",
+      "sha256": "4a5f5c9876e63692010991aa4be97fd9e82caf542dd4e2a34c433d067c639e95",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:59.234249+00:00",
+      "bytes_compressed": 17013
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/giros/internacionales/desde-el-exterior",
+      "file": "bbeaae09b11aea1b.html.gz",
+      "sha256": "8a717d492917e478d52e3e276244c94de1922bb82267cefe52a1e4423461c4c2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:17.715922+00:00",
+      "bytes_compressed": 25892
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/giros/internacionales/hacia-el-exterior",
+      "file": "8904b99e49cd4709.html.gz",
+      "sha256": "833312fef9f44443e4f609803918e0c39fe134be1b59218e8d5e785927e342c2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:32.203207+00:00",
+      "bytes_compressed": 17020
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/giros/internacionales/remesas",
+      "file": "6cf0921c73dd3532.html.gz",
+      "sha256": "e3ea683b1cecff42909083974dad52c48a073a028619fb86446fe6433768255e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:46.293991+00:00",
+      "bytes_compressed": 26421
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/glosario",
+      "file": "92c9986a69248d24.html.gz",
+      "sha256": "77258d1cdfa8a982a852b2c60271ebb68e8efaee3623c8738952c979208a3626",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:03.503877+00:00",
+      "bytes_compressed": 31248
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/iniciar-llamada-online",
+      "file": "5f7b9e4c5d130399.html.gz",
+      "sha256": "562b282e1f847b97296c67eac86b846875f9c40e94d0a2e88bf2cb7055aa5f94",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:04.363308+00:00",
+      "bytes_compressed": 31250
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/lifemiles",
+      "file": "b11a17649def6a75.html.gz",
+      "sha256": "7fcf32fef0a51a9956f92f93414f59710eb99eb66d834e29e99f879c04a5e4be",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:05.424926+00:00",
+      "bytes_compressed": 31250
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/llamanos",
+      "file": "df85107cd265acdb.html.gz",
+      "sha256": "4221d24bdc43469176aa2a85ec6cd9ac2164d26f0986bb20d115696c7c8d5731",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:06.477620+00:00",
+      "bytes_compressed": 31249
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/login",
+      "file": "f32dc3f8271d4cac.html.gz",
+      "sha256": "a6d62e98bff6d48c122d22dd28204cdaa905f23059b0e9227e57453e81b596ad",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:07.048781+00:00",
+      "bytes_compressed": 31389
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/mapa-sitio-personas",
+      "file": "934788765eff7ac7.html.gz",
+      "sha256": "8cf442e02dd6018e556653371f6c08728acc5360c904c89bee14ee6f5fafcc95",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:08.427183+00:00",
+      "bytes_compressed": 31248
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/movilidad",
+      "file": "690963d06441256f.html.gz",
+      "sha256": "2375cda9e8ae4852ef342ec1c8a4843f39778a1f8901c4dbcaf392ea70849b0c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:09.149731+00:00",
+      "bytes_compressed": 27719
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/movilidad-electrica-colombia-muverang",
+      "file": "2db2bfea1cf30f00.html.gz",
+      "sha256": "597a974b6bc44f65729bfcae6a884f5c5e81d59c2b3c4f8f8f9804e257fbfcbd",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:10.428895+00:00",
+      "bytes_compressed": 24997
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/movilidad/asegurar",
+      "file": "b072adfefad3bed8.html.gz",
+      "sha256": "95c2165356000f451d7e866594ec2d29d7e08b3cf4f0a05c4a3b27a1ab201716",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:40.014832+00:00",
+      "bytes_compressed": 11111
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/movilidad/comparador-prestamos-para-vehiculo",
+      "file": "32759a19ac5ec40f.html.gz",
+      "sha256": "5921575d7c97277482c6834219f00e4ef69b639de27dfe31fb74dd5f6fa44c49",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:00.018848+00:00",
+      "bytes_compressed": 24107
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/colombianos-exterior",
+      "file": "9d69d0072e983aff.html.gz",
+      "sha256": "a931ca428d7bda15106fd03a82eeb2931c94568638ec0f0035df89b118c5ba4c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:11.019332+00:00",
+      "bytes_compressed": 18207
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/colombianos-exterior/consumidor-financiero",
+      "file": "0dc5db7c3731be88.html.gz",
+      "sha256": "4d580aaa062aaa4354f4eb772a3a2a3cc2b34657fbb1d4fe763b49f61096d9e8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:40.975304+00:00",
+      "bytes_compressed": 18200
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/colombianos-exterior/documentos-legales",
+      "file": "0b5c6474c78913d0.html.gz",
+      "sha256": "6520875a3e46c409cd2db1cdafad4a8cc30778ea2a98d055dad9a438870f5d15",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:01.222158+00:00",
+      "bytes_compressed": 18192
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/colombianos-exterior/pension-gobierno-norteamericano",
+      "file": "d34c113607e369bc.html.gz",
+      "sha256": "45507da8b918d0ce4803766877cc028a15b3f4ffdb51180f4935cbe01be2adf7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:18.050928+00:00",
+      "bytes_compressed": 15829
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/colombianos-exterior/protege-tu-familia",
+      "file": "469911fa2b02d565.html.gz",
+      "sha256": "4f6b2632cdba1ab828f81d7166e16b4b700f414b42667c52d85a529a7515a238",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:32.588461+00:00",
+      "bytes_compressed": 18204
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/documentos",
+      "file": "3935385823365cf5.html.gz",
+      "sha256": "22132945c73eaa6d74e6135c8db2942e82fe7cb3a4f8a648ea5db12136d53305",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:46.550363+00:00",
+      "bytes_compressed": 15695
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/documentos/certificaciones",
+      "file": "89efd895d25d24b1.html.gz",
+      "sha256": "dc2c740f1ba5cf95ff2cea7dcd2de978b57d47bbb0554877a52d9b9823426045",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:00.824656+00:00",
+      "bytes_compressed": 15766
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/documentos/certificaciones-bancariasPuedes",
+      "file": "50eb926df0f3623b.html.gz",
+      "sha256": "f44d50e27d7c8b4ceddf1de81045074ab88ae2896025a074060d1954da4d593c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:13.577351+00:00",
+      "bytes_compressed": 15786
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/jovenes-bancolombia",
+      "file": "89c3a22207f48b0d.html.gz",
+      "sha256": "e109874ec900c1d2f75a0c5215715476ee82a06f6e3ab7ed1a7a7f6a37f05f4a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:25.768538+00:00",
+      "bytes_compressed": 15452
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/jovenes-bancolombia/en-el-colegio",
+      "file": "1bff7986f21827da.html.gz",
+      "sha256": "caceb75432c9f90c3652f777f3186f5c5dbd44c70b51748539505ae22885672a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:35.814360+00:00",
+      "bytes_compressed": 15524
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/mas-beneficios/ofertas",
+      "file": "41899283db95e39a.html.gz",
+      "sha256": "8ccf970b0950acf13027e1e77392d96ea6fba317b4f5f93bfecac9d1766fb2c6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:48.928097+00:00",
+      "bytes_compressed": 18261
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/mas-beneficios/ofertas/usarapps",
+      "file": "1ba27e887b37fba0.html.gz",
+      "sha256": "f90d939c4c43be1b4989f1ff7439c16d56e127503c26fc0f9d609ae975ddad75",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:57.902889+00:00",
+      "bytes_compressed": 18319
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/modelo-atencion-preferencial/portafolios-de-productos-y-solucion",
+      "file": "46e7910f0e8e4c01.html.gz",
+      "sha256": "9ea4f0f7db252c019534fe3650f0774cf7c95d2cb566d3c8073084f66b5716cb",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:05.937901+00:00",
+      "bytes_compressed": 16981
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/ninos-bancolombia/cuando-cumples-14",
+      "file": "b690162d1662ceb9.html.gz",
+      "sha256": "efeceb71c8c6aba26221f97f1233961961a021f60e105958c8adc11d00b1c239",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:14.244339+00:00",
+      "bytes_compressed": 14409
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/planea-retiro",
+      "file": "6f4ef03feba49e9a.html.gz",
+      "sha256": "5972f838b01229c1eef0dce92a7d6eaa16de6917b99634bf3ada93be5be5b490",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:22.857597+00:00",
+      "bytes_compressed": 19934
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/vacaciones",
+      "file": "b74abb9766a64eaf.html.gz",
+      "sha256": "d1c35902379cc997291228a0fe16e5e467fe397690a37aa8044d0dbc800cdce7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:31.566556+00:00",
+      "bytes_compressed": 20465
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/necesidades/vacaciones/mercados-de-corazon",
+      "file": "37f682be66df0cd0.html.gz",
+      "sha256": "f67c74bd3e6df4669278a4aaf75a5ea1969a3f4a46f107c7bee0679e317ed02c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:39.285719+00:00",
+      "bytes_compressed": 24969
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/fisico/cajero-multifuncional",
+      "file": "eb387560e1adbd66.html.gz",
+      "sha256": "5dbd4822a5857a5223a2b904c594fdb77adc96fb30d1d009c66c11f81adc1c3c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:12.436341+00:00",
+      "bytes_compressed": 31250
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/fisico/corresponsal-bancario",
+      "file": "b9ee46ada5ce0cbc.html.gz",
+      "sha256": "a7f0705393f2b8afb6fc71e3124761313df7a5c1beb59da92cb5ead89a3adf92",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:42.557824+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/fisico/corresponsal-bancario/src/sass/main.sass",
+      "file": "a1b9efa833b8bf06.html.gz",
+      "sha256": "ea82f38b6a1a2ab3eb3b5c4cce9a411e5db1c5ec59508b464dfccfd57b473923",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:02.514123+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/movil/billetera-movil/comercios-habilitados",
+      "file": "bc957ecd5ef73dd1.html.gz",
+      "sha256": "255b01ec35683a81e0fa80b4777b6e3aad074aa2704dc1f6516251c28840df20",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:19.425423+00:00",
+      "bytes_compressed": 30693
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/telefonico",
+      "file": "f147abbbeb52621c.html.gz",
+      "sha256": "1ca77df1bca250ab76e4c41b75581a6094f780295cb87e6b3714985ad4b5c0c6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:34.140261+00:00",
+      "bytes_compressed": 31173
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/telefonico/fiduciaria-bancolombia",
+      "file": "7c50092246bc7e4c.html.gz",
+      "sha256": "886c86579a1f6200b5982dc32fbc05dcba89865b75922ebda0e4f5958b885e15",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:48.002883+00:00",
+      "bytes_compressed": 31175
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/telefonico/inversiones-bancolombia",
+      "file": "511cf577a5e6427c.html.gz",
+      "sha256": "802dddb146e51b855b5d39a0f30c87f41656af9aae6fd9a07dd200fdcd8ba9a6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:02.323236+00:00",
+      "bytes_compressed": 31174
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/telefonico/leasing-bancolombia-clientes",
+      "file": "deec95a2dd6d6a59.html.gz",
+      "sha256": "a21a678be7b391024a7cb4610e258c1cde5a61da75ffdd3af1ad88d5f0498d7c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:15.100173+00:00",
+      "bytes_compressed": 31172
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/canales-servicio/telefonico/valores-bancolombia",
+      "file": "37c359d105ee8156.html.gz",
+      "sha256": "65dd6ebe18d2ffcafdd09cbb7d1678c710dbf0f825c3b45a32ba09d6d394362d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:27.174106+00:00",
+      "bytes_compressed": 31172
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/compra-venta",
+      "file": "fe2a779a823d5bd3.html.gz",
+      "sha256": "bf71df5df7bc9e39765937a39e53cbc8730f4bf1aba61dc02198f2afc49bb3b2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:36.780627+00:00",
+      "bytes_compressed": 17149
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/compra-venta-dolares-efectivo",
+      "file": "20c35f632ae089fc.html.gz",
+      "sha256": "c63fded3f91532c8caac3706deac6e6a305c82c0439434ca0fb7f56b7be9c11a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:49.474875+00:00",
+      "bytes_compressed": 18369
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/creditos/consumo/libre-inversion/referido-credito-libre-inversion",
+      "file": "e0f2924e1935c285.html.gz",
+      "sha256": "54fc9c669d65a78212c3ec1e2a714a8a12d3ae5e1a0604ad1d1037c2030f5fe4",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:58.645361+00:00",
+      "bytes_compressed": 14012
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados",
+      "file": "7150d2bb8c838229.html.gz",
+      "sha256": "119a30c3dab961659e6092fc35c6f409ac240005259d815476aae12f04a0daa0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:06.949457+00:00",
+      "bytes_compressed": 13779
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/creditos/preaprobados/crediagil",
+      "file": "412c1fb3b0f72910.html.gz",
+      "sha256": "94af904bae2a583c5c6d751460683d1123a152bc8912722967a718d69f78e6c8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:14.883826+00:00",
+      "bytes_compressed": 17372
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/cuentas/ahorro/transaccional/ahorro-a-la",
+      "file": "16bf321728ca9982.html.gz",
+      "sha256": "07e4f260ed1ba36f21a10f49642132eae412b29b20cd2554863d47ec4b5598a8",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:23.770009+00:00",
+      "bytes_compressed": 13074
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/cuentas/ahorro/transaccional/ahorro-a-la-mano",
+      "file": "b51655bfc7b0236d.html.gz",
+      "sha256": "59f91e514194702d25658dd5e63d593677874cbc451ef1e7b57eccca13fe665a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:31.915892+00:00",
+      "bytes_compressed": 13084
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/cuentas/ahorro/transaccional/landing-cuenta-ahorros",
+      "file": "30e94aee43834e0e.html.gz",
+      "sha256": "b4a748b9a97b2344e4e675050d12cf466a0c7f163103efe36220916e89675df3",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:39.810636+00:00",
+      "bytes_compressed": 13097
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/productos-servicios/inversiones/cdts/deposito-plazos-dolares-euros/sucursal-panama",
+      "file": "8f7264d39aad2024.html.gz",
+      "sha256": "768924f35251c3528108b34e4214524e6d67a1fb220ebb59f31ea3c5fe487262",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:47.264222+00:00",
+      "bytes_compressed": 17104
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/script-claro",
+      "file": "9011788e10c1c803.html.gz",
+      "sha256": "b5fd152a0986e3b4bc152cd08d24db84d4f3bd195ed2da04dcef2485e76c3de9",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:13.472643+00:00",
+      "bytes_compressed": 31248
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros",
+      "file": "e95c35131b988beb.html.gz",
+      "sha256": "e223b98fbf4d86d8d124314d57b46424eb1030acb72f72a64c84453e4ba01842",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:14.257527+00:00",
+      "bytes_compressed": 37625
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/asistencias",
+      "file": "989c3fab4a93a26f.html.gz",
+      "sha256": "d408b993e7f13d2daca4218cc69b2914ccadbf4d27afafaa5e625667d5f5bd47",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:43.035759+00:00",
+      "bytes_compressed": 26281
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/asistencias/plan-de-asistencias-igs",
+      "file": "6fd9df63f2d56fc2.html.gz",
+      "sha256": "53c6a9a1ce31c232d1b64206ff2346bd463b8a663d9f089f0b2ae09833c265ce",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:03.024794+00:00",
+      "bytes_compressed": 29993
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores",
+      "file": "fab05f79c468e167.html.gz",
+      "sha256": "c637cff72357ca9c0af3c4f4b7b4401f53b583532e7c39210f343fdb5c544b37",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:20.281698+00:00",
+      "bytes_compressed": 28491
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/a-la-mano/seguros",
+      "file": "9c5952dad264936b.html.gz",
+      "sha256": "b123298d26c89d069c95e32dc6d736ea449a9e9b1fe5cf0f8e14eb1f1a556ae6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:34.781367+00:00",
+      "bytes_compressed": 40307
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/plan-vida-mas",
+      "file": "3af3d2026696bcd1.html.gz",
+      "sha256": "5b5c769a9e8e4dde84db7014dae63c6dfb1f49c76aef4764aecd3e2ffedc3567",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:48.795848+00:00",
+      "bytes_compressed": 32013
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/seguro-de-vida-deudor-hipotecario",
+      "file": "a7ac937d5251e98e.html.gz",
+      "sha256": "9b06dd77a79c7dbf15716781cdf784ebc3961dbbd0c20902e24f6559d2985d87",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:03.213713+00:00",
+      "bytes_compressed": 36912
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/seguro-de-vida-deudor-leasing-habitacional",
+      "file": "e6c9771a1005aba3.html.gz",
+      "sha256": "0201709cae3c13e8123090e1bb4f03e5ab6d27c81aca651841cdfe2784e3664d",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:15.800835+00:00",
+      "bytes_compressed": 37064
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/seguro-incendio-terremoto-deudores-hipotecarios",
+      "file": "57aad525aa78c786.html.gz",
+      "sha256": "1d4f2679110f8a8378ef39cdcd278fdc0d9bd757c6a794c36cc200359eb1f0d6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:28.008606+00:00",
+      "bytes_compressed": 37630
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/seguro-incendio-terremoto-leasing-habitacional",
+      "file": "493e390effa19f02.html.gz",
+      "sha256": "7c106d7da6e030b7107c6f5baf549a1d32ca13c80b334b71ffbb94b7445b36ac",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:37.806695+00:00",
+      "bytes_compressed": 37294
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/seguro-todo-riesgo-en-construccion",
+      "file": "03114abe44103496.html.gz",
+      "sha256": "fbc57317b2136e8138ce8b38b4d423e3c540500744a2fdd69620bff60aa6998a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:50.995814+00:00",
+      "bytes_compressed": 35952
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/deudores/seguro-vida-para-credito-consumo-microcredito",
+      "file": "ea6107ec48051d73.html.gz",
+      "sha256": "705e420e1e2a464973632c0899998ede54442f7f4b76ebad8b4673382e78e695",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:59.628064+00:00",
+      "bytes_compressed": 41535
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/empleados-e-independientes",
+      "file": "9f42a0b77cbf0fbd.html.gz",
+      "sha256": "f0486cce6bc65bae846d29bd305d3353cc9919c9c6c5d9081df7e36801756279",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:07.916523+00:00",
+      "bytes_compressed": 27273
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/empleados-e-independientes/credito-productivo",
+      "file": "5641cda4dbd294f8.html.gz",
+      "sha256": "1901dd5a58605d80961ae12393bee5be77fbaf987165449ec2508f99c4435f47",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:17.327251+00:00",
+      "bytes_compressed": 42975
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/empleados-e-independientes/empleado-protegido-credito-hipotecario",
+      "file": "2aac674b3771c102.html.gz",
+      "sha256": "281ba9da9412310fec7031b7c084d6c5e3be6de2a843ebaa8c56d70aed494f6b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:25.124809+00:00",
+      "bytes_compressed": 36451
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/empleados-e-independientes/empleado-protegido-credito-libranza",
+      "file": "ed325abb4ca2604b.html.gz",
+      "sha256": "90eb7bb57ece22da11ad3b9707f12b8f49fc2e231df743f56bf29350f6228b5e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:32.966111+00:00",
+      "bytes_compressed": 34185
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/empleados-e-independientes/empleado-protegido-credito-libre-inversion",
+      "file": "c68be5feb2d4d622.html.gz",
+      "sha256": "303ab947c63af534a4c164dce9a8db185927da1b01cdc5cb50c5ee1f46c9c646",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:41.176260+00:00",
+      "bytes_compressed": 35335
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/seguros/empleados-e-independientes/empleado-protegido-integral-tarjeta-credito",
+      "file": "2bea2facd1756a8b.html.gz",
+      "sha256": "39f954207ef5969f9d5edfcb36b2d3832966f4ed9d85b178508233a91f73a019",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:47.958630+00:00",
+      "bytes_compressed": 35686
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/solicitud-de-productos",
+      "file": "fb7b7104d8e7fcec.html.gz",
+      "sha256": "d43396e307b3cf2fa3aa139f3f887ca75d1b8da5e008d2595ba8267084969d87",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:14.955425+00:00",
+      "bytes_compressed": 27507
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/solicitud-de-productos-version-2019/tarjeta-oficial-seleccion-colombia",
+      "file": "c8db55ec296ac92d.html.gz",
+      "sha256": "46e8a837aba3429ae05e99c7d2e05d32381a50f9613f8e35014f6df250ad40ba",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:16.493240+00:00",
+      "bytes_compressed": 31251
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/solicitud-de-productos-version-2019/tarjeta-visa-infinite",
+      "file": "65726dddb6f80dc5.html.gz",
+      "sha256": "e7f23894525acf6bbae789901e0e16f51c06aab6dae40339cc94d93f064d3070",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:44.570074+00:00",
+      "bytes_compressed": 31857
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/solicitud-documentos",
+      "file": "cf8a4634568ea767.html.gz",
+      "sha256": "1b4a88b9deb55ca6d9a5b2a0e153caf52a16fac0e0120dc250c31366c16f621e",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:16.992054+00:00",
+      "bytes_compressed": 25520
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/solicitud-documentos/certificaciones-bancarias",
+      "file": "093726dfbb2affa0.html.gz",
+      "sha256": "e64848056c500351dbb1ad5c05c5ce94f474ead6334c9a3dcd68637d0fb5bef6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:44.958092+00:00",
+      "bytes_compressed": 20159
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/solicitud-documentos/estudio-credito",
+      "file": "f0cbbc50aa772cd6.html.gz",
+      "sha256": "820d996fd25ed4d6b3de7e977844807d76db67505ae431a32a9c80fd3e950076",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:04.026717+00:00",
+      "bytes_compressed": 25500
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tabot-whatsapp",
+      "file": "66008953dc27277b.html.gz",
+      "sha256": "e4b4ab2a9618fbbebf5dcbf6ede1f2c28feff9b1b5b217426d4b5b227607c8c5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:17.991164+00:00",
+      "bytes_compressed": 22651
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarifario",
+      "file": "4dc4e88d26365e60.html.gz",
+      "sha256": "24fef0947fe4eeb63168c210b2e374e6ac40a4ff67597697c1e503db1de69dfa",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:18.977412+00:00",
+      "bytes_compressed": 25308
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarifario/cuentas",
+      "file": "35628427b12ace30.html.gz",
+      "sha256": "e0f01be7f840593a0fe340ab24bc68e5665f494ac7094846397caeef4dda59c6",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:46.130977+00:00",
+      "bytes_compressed": 36962
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-credito",
+      "file": "bc90bbfbba2563d2.html.gz",
+      "sha256": "c8a86241135cb7f23c485b91847353066c95abf65a2c1495873d1455bdb18826",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:20.947070+00:00",
+      "bytes_compressed": 36447
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito",
+      "file": "48230d95c1dfb82c.html.gz",
+      "sha256": "53b5e14a162ee338cad198788beb638cc0b4ae32ff9baab510f0aae004a31c95",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:22.074696+00:00",
+      "bytes_compressed": 36460
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express",
+      "file": "dc6a5ab98da42ec6.html.gz",
+      "sha256": "db7d24666a807b0f7fe1a72fad3fecb597cc1e4d3df5a8cf18a8c15c5295c074",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:47.626069+00:00",
+      "bytes_compressed": 33304
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/blue",
+      "file": "9f0ac0b787824958.html.gz",
+      "sha256": "0e55182418686f30153477230015f277f2ab1462772472ab65e2227190553988",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:06.358050+00:00",
+      "bytes_compressed": 30510
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/gold",
+      "file": "8698cbf52926c268.html.gz",
+      "sha256": "f2a978a2f330d9fff5027f0006bcd11ddb946bcc2b87c0bd57dccb85f5460e4b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:21.975840+00:00",
+      "bytes_compressed": 31266
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/green",
+      "file": "13c3161bd21528ad.html.gz",
+      "sha256": "30ca59c3a80ffba695d625cc4de253d1a9973b8b6fa87f5e0b14eb90f8609f75",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:36.400661+00:00",
+      "bytes_compressed": 31256
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/libre",
+      "file": "5af26d4672fdd4d5.html.gz",
+      "sha256": "b88ba683c20592e54aafa6cf6665dfedeb8a48525a41b376e27d1097713f855f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:50.001278+00:00",
+      "bytes_compressed": 28118
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/platinum",
+      "file": "7625beac1a23ffdf.html.gz",
+      "sha256": "b4bce451c6a030aa7cd5461a3678bba9b351a6b7e939818e362c60c85ce691f7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:04.437831+00:00",
+      "bytes_compressed": 32669
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/platinum-metal",
+      "file": "6633aa5a774d3c22.html.gz",
+      "sha256": "77bc0afa14bbca5f7ae2f3ff1a85d5fca894db2126c6c262f388aadf681e4d1b",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:17.419290+00:00",
+      "bytes_compressed": 32755
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/american-express/platinum-metal/filtro-amex",
+      "file": "6b41ffd8870f1c32.html.gz",
+      "sha256": "4057d0e5039fc74eced30d27ec07c469655afd4db7ad6c455d09ce7f6079657a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:29.300085+00:00",
+      "bytes_compressed": 33358
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/amex-blue-green",
+      "file": "ab8a903dc65320d8.html.gz",
+      "sha256": "1b64a2a744b24ecedcc3062fc162a2f8a2e503dbcf8fa625d755cf0ccc8bd11c",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:39.629734+00:00",
+      "bytes_compressed": 32717
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/ampliacion-de-plazo",
+      "file": "8d941c0a19a86646.html.gz",
+      "sha256": "12a840a4d2802ec9b1acaf3768f5902773611858cf7e3084b05e2fc8b5a1aa04",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:51.929001+00:00",
+      "bytes_compressed": 25554
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/buffeate-gaming",
+      "file": "178417b479a0d6c9.html.gz",
+      "sha256": "0eee38bb3f993868ea2ce550173080900c52e82234b25be5f393befc33c09b49",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:00.634266+00:00",
+      "bytes_compressed": 16792
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/comparador",
+      "file": "355a7e11ce17287d.html.gz",
+      "sha256": "3f47fbe8220b98188ba2bddc0a6e5c935ea13a32b9093187ecbe895b67e42467",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:09.134524+00:00",
+      "bytes_compressed": 21534
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard",
+      "file": "0aab8825577e3e3d.html.gz",
+      "sha256": "5a3546205d930ff1494871a97359df391be4e121f7cc17648c9b6b7eaac2d4e2",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:18.433937+00:00",
+      "bytes_compressed": 32698
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/EssoClasica",
+      "file": "df3bd9b815eb1c42.html.gz",
+      "sha256": "da3346b5fefefc7a0902b07fb6f82415f5ab32e51dd0472f6ff0a977d9edef4f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:26.469826+00:00",
+      "bytes_compressed": 27715
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/black",
+      "file": "63634e9c567589c4.html.gz",
+      "sha256": "bde639fb944cb9fa1703fdcd8ddc84661676a6d00ccb77d96e585a79c86504ca",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:34.115092+00:00",
+      "bytes_compressed": 33860
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/clasica",
+      "file": "61eb9066caac86fa.html.gz",
+      "sha256": "c1acf248db859708b973c81d90de5f702094f2e76538da60a948128442d8f6e0",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:42.309367+00:00",
+      "bytes_compressed": 32556
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-de-credito/mastercard/e-card",
+      "file": "30f130cf083176a3.html.gz",
+      "sha256": "6a1ea06d2e7369a74a25fe2669c00ed2b62d7fe406cadd9bb560df838f0035c5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:06:49.320797+00:00",
+      "bytes_compressed": 29415
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito",
+      "file": "495c051a5959deac.html.gz",
+      "sha256": "639a9957eaf5a622ae744e65577ab0080405e669bc68101f121ad7d0e2620343",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:23.219181+00:00",
+      "bytes_compressed": 33033
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito/activar",
+      "file": "1d2cc56f1a6d8ace.html.gz",
+      "sha256": "3592ac71e2ab8ae57fb2445e61aeccf18be25a0f052697a660092b04e1f94591",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:48.455685+00:00",
+      "bytes_compressed": 33493
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito/amparada",
+      "file": "0804ff4ffe22ddff.html.gz",
+      "sha256": "f7a8a51657ad6e7d833a756841eb7a42de39649ea6e5b9964150152ba078220f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:07.634216+00:00",
+      "bytes_compressed": 32930
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito/banconautas",
+      "file": "b322860859ed3591.html.gz",
+      "sha256": "a33b99f206e07452712191687552055a4d9534c60f669810db70e7f072ed0960",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:22.863094+00:00",
+      "bytes_compressed": 33493
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito/black",
+      "file": "b71ba7bc07fb908e.html.gz",
+      "sha256": "ed0077b8725124dee073e6f5eb6cb0370349615bcd3f05658b2209ae80bb56fc",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:37.152837+00:00",
+      "bytes_compressed": 32931
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito/clasica",
+      "file": "c95b4412c0281b11.html.gz",
+      "sha256": "418d58c6d1142e374c2e8525e598be7a3d1bee9de3d15cb22c7cb867d48e6d13",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:04:51.017464+00:00",
+      "bytes_compressed": 32908
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito/preferencial",
+      "file": "885fcf6a126a1a3f.html.gz",
+      "sha256": "a7d562c13440885605bea31de3991f23a44bc8a94966914b1bb0f9cbfce57ca5",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:05.499328+00:00",
+      "bytes_compressed": 32907
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tarjetas-debito/transporte",
+      "file": "06639d2985b7c308.html.gz",
+      "sha256": "0979023de909a256a4c45c08973a26da4c1282fa75ddef696993f5b909360d0a",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:05:18.424663+00:00",
+      "bytes_compressed": 33495
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/tramites-digitales",
+      "file": "3bf833c6ce40dde2.html.gz",
+      "sha256": "cbcebd606a05c51e680e8792d495209fcc2d85f9f25f883d319c3b7b79daa0b7",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:23.980953+00:00",
+      "bytes_compressed": 31249
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/usados-bancolombia",
+      "file": "2f3d91ac8ee87a1d.html.gz",
+      "sha256": "fe56be23b5d4c2ac9941c438c31415a59deb7916f9af0379f20b1fcc3fec0e1f",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:24.518458+00:00",
+      "bytes_compressed": 28175
+    },
+    {
+      "url": "https://www.bancolombia.com/personas/vivienda",
+      "file": "96c71b79db55a106.html.gz",
+      "sha256": "2a9af3594d404333c5e127aca3358fb42c12964c56cf8cb3b0b1f0b86e3f5f47",
+      "status_code": 200,
+      "fetched_at": "2026-10-02T22:03:25.706096+00:00",
+      "bytes_compressed": 35868
+    }
+  ]
+}
