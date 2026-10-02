@@ -11,11 +11,8 @@ import logging
 import sys
 
 from rag.config import get_settings
-from rag.domain.errors import RagError
-from rag.infra.http import HttpFetcher
 from rag.infra.logging import configure_logging
-from rag.ingestion.scrapers import ScraperFactory
-from rag.ingestion.storage import RawStore
+from rag.ingestion.pipeline import IngestionPipeline
 
 logger = logging.getLogger("scrape")
 
@@ -34,30 +31,9 @@ def main() -> int:
     configure_logging(settings.log_level, settings.log_json)
 
     bancos = args.banks or settings.scrape_banks
-    store = RawStore(settings.raw_dir)
-    fetcher = HttpFetcher(
-        user_agent=settings.scrape_user_agent,
-        timeout=settings.scrape_timeout_seconds,
-        max_retries=settings.scrape_max_retries,
-        delay=settings.scrape_delay_seconds,
-    )
+    resultados = IngestionPipeline(settings).scrape(bancos)
 
-    fallidos: list[str] = []
-    try:
-        for banco in bancos:
-            try:
-                scraper = ScraperFactory.create(banco, fetcher, settings)
-                total = store.save_all(banco, scraper.scrape())
-                logger.info("Banco guardado", extra={"bank": banco, "pages": total})
-            except RagError as exc:
-                # Un banco que falla no detiene a los demás
-                logger.error(
-                    "Banco omitido", extra={"bank": banco, "code": exc.code, "error": str(exc)}
-                )
-                fallidos.append(banco)
-    finally:
-        fetcher.close()
-
+    fallidos = [banco for banco, error in resultados.items() if error]
     if fallidos:
         logger.warning("Scraping terminado con bancos fallidos", extra={"banks": fallidos})
     return 1 if len(fallidos) == len(bancos) else 0
