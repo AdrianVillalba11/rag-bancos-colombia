@@ -109,6 +109,31 @@ class IngestionPipeline:
         )  # fmt: skip
         return reporte
 
+    def index_from_clean(self, banks: Sequence[str]) -> list[BankReport]:
+        """Indexa los chunks ya generados (data/clean) sin volver a limpiar ni a scrapear.
+
+        Es lo que usa el arranque con Docker: los datos limpios van en el repositorio, así que
+        basta con vectorizarlos.
+        """
+        if self._indexer is None:
+            raise IngestionError("No hay indexador configurado")
+        reportes: list[BankReport] = []
+        for banco in banks:
+            chunks = self._clean.load_chunks(banco)
+            if not chunks:
+                reportes.append(BankReport(banco, error=f"No hay chunks limpios para {banco!r}"))
+                continue
+            try:
+                self._indexer(banco, chunks)
+                reportes.append(BankReport(banco, chunks=len(chunks)))
+            except RagError as exc:
+                logger.error(
+                    "Banco omitido en la indexación",
+                    extra={"bank": banco, "code": exc.code, "error": str(exc)},
+                )
+                reportes.append(BankReport(banco, error=str(exc)))
+        return reportes
+
     def process(self, banks: Sequence[str]) -> list[BankReport]:
         reportes: list[BankReport] = []
         for banco in banks:

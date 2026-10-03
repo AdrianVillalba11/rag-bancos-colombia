@@ -1,5 +1,11 @@
 name: rag-bancos
 
+# Construcción compartida por los servicios que usan la imagen de la aplicación
+x-app-build: &app-build
+  context: .
+  args:
+    TORCH_INDEX: ${TORCH_INDEX:-https://download.pytorch.org/whl/cpu}
+
 services:
   ollama:
     image: ollama/ollama:0.35.1
@@ -58,12 +64,53 @@ services:
       timeout: 3s
       retries: 12
 
+  # Indexa en ChromaDB los chunks de data/clean la primera vez (si el índice está vacío)
+  bootstrap:
+    build: *app-build
+    image: rag-bancos-app:latest
+    container_name: rag-bancos-bootstrap
+    restart: "no"
+    env_file: .env
+    command: ["python", "scripts/ingest.py", "--index-only", "--if-empty"]
+    depends_on:
+      chroma:
+        condition: service_healthy
+      ollama-init:
+        condition: service_completed_successfully
+    volumes:
+      - ./data:/app/data:ro
+
+  # API y interfaz web: http://localhost:${APP_PORT:-8080}
+  app:
+    build: *app-build
+    image: rag-bancos-app:latest
+    container_name: rag-bancos-app
+    restart: unless-stopped
+    env_file: .env
+    command: ["uvicorn", "rag.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "${APP_PORT:-8080}:8000"
+    depends_on:
+      chroma:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+      bootstrap:
+        condition: service_completed_successfully
+    volumes:
+      - hf_cache:/models/huggingface
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:8000/api/health', timeout=5)"]
+      interval: 30s
+      timeout: 8s
+      retries: 5
+      start_period: 120s
+
   # Herramientas de línea de comandos (ingesta, informes): docker compose run --rm ingest
   ingest:
-    build:
-      context: .
-      args:
-        TORCH_INDEX: ${TORCH_INDEX:-https://download.pytorch.org/whl/cpu}
+    build: *app-build
     image: rag-bancos-app:latest
     container_name: rag-bancos-ingest
     profiles: ["tools"]

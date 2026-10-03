@@ -16,5 +16,7 @@ x-gpu: &gpu
 services:
   ollama:
     <<: *gpu
+  app:
+    <<: *gpu
   ingest:
     <<: *gpu
