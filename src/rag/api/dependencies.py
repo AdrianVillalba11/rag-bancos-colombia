@@ -9,8 +9,11 @@ import logging
 from functools import lru_cache
 
 from rag.config import Settings, get_settings
+from rag.conversation.memory import ConversationMemory
+from rag.conversation.repository import PostgresConversationRepository
 from rag.generation.llm import LLMFactory
 from rag.generation.rag_service import RagService
+from rag.infra.db import create_pool
 from rag.retrieval.hybrid import HybridRetriever
 from rag.retrieval.indexer import build_embedder, build_vector_store
 from rag.retrieval.lexical import Bm25Index
@@ -36,6 +39,21 @@ def build_rag_service(settings: Settings) -> RagService:
     )
     reranker = RerankerFactory.create(settings)
     return RagService(retriever, reranker, LLMFactory.create(settings), settings)
+
+
+def build_conversation_repository(settings: Settings) -> PostgresConversationRepository:
+    """Crea el repositorio, abre el pool y garantiza el esquema."""
+    repositorio = PostgresConversationRepository(
+        create_pool(settings), max_retries=settings.llm_max_retries
+    )
+    repositorio.open()
+    return repositorio
+
+
+def build_memory(
+    repositorio: PostgresConversationRepository, settings: Settings
+) -> ConversationMemory:
+    return ConversationMemory(repositorio, settings.history_max_messages)
 
 
 @lru_cache
