@@ -75,6 +75,11 @@ class Settings(BaseSettings):
     max_question_length: int = Field(1000, ge=1)
     rate_limit_per_minute: int = Field(30, ge=1)
 
+    # Analítica
+    analytics_manual_search_minutes: float = Field(4.0, ge=0)
+    # Si se define, /api/analytics exige este valor en la cabecera X-Analytics-Token
+    analytics_token: str = ""
+
     # Scraping
     # NoDecode: la lista llega separada por comas (BANCO1,BANCO2), no como JSON
     scrape_banks: Annotated[list[str], NoDecode] = ["bbva", "bancolombia", "davivienda"]
