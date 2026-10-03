@@ -149,8 +149,12 @@ class StoredMessage:
     created_at: datetime
     bank_filter: str | None = None
     latency_ms: int | None = None
+    retrieval_ms: int | None = None
+    rerank_ms: int | None = None
+    generation_ms: int | None = None
     top_score: float | None = None
     answered: bool | None = None
+    rewritten_query: str | None = None
     citations: tuple[Citation, ...] = ()
     feedback: int | None = None  # 1 = útil, -1 = no útil
 

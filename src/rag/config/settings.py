@@ -67,6 +67,8 @@ class Settings(BaseSettings):
     postgres_db: str = "rag"
     postgres_host: str = "postgres"
     postgres_port: int = 5432
+    postgres_pool_size: int = Field(5, ge=1)
+    postgres_connect_timeout_seconds: float = Field(5.0, gt=0)
 
     # Historial conversacional
     history_max_messages: int = Field(6, ge=0)
