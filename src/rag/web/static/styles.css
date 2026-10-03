@@ -39,6 +39,9 @@
 
 * { box-sizing: border-box; }
 
+/* Los componentes con display propio no deben ignorar el atributo hidden */
+[hidden] { display: none !important; }
+
 html, body { height: 100%; }
 
 body {
@@ -162,6 +165,7 @@ select {
 }
 .btn:disabled { opacity: 0.55; cursor: not-allowed; }
 .btn-primary { background: var(--accent); color: var(--accent-text); }
+.link-btn { text-decoration: none; display: inline-flex; align-items: center; }
 .btn-ghost { background: transparent; color: var(--text); border-color: var(--border); }
 .btn-ghost:hover:not(:disabled) { background: var(--surface-2); }
 

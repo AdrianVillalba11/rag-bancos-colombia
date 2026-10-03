@@ -1,0 +1,84 @@
+.dash-body { height: auto; min-height: 100%; }
+.dash { max-width: 1180px; margin: 0 auto; padding: 0 16px 40px; }
+
+.dash-top {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap; padding: 20px 0 14px; border-bottom: 1px solid var(--border);
+}
+.dash-top h1 { font-size: 24px; margin: 4px 0 2px; }
+.back { color: var(--accent); text-decoration: none; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+
+.token-form {
+  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  margin-top: 16px; padding: 14px; background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--radius);
+}
+.token-form input {
+  background: var(--bg); color: var(--text); border: 1px solid var(--border);
+  border-radius: 10px; padding: 9px 12px; font: inherit;
+}
+
+/* Indicadores */
+.kpis {
+  display: grid; gap: 12px; margin: 18px 0;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+.kpi {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow);
+}
+.kpi .value { font-size: 28px; font-weight: 700; line-height: 1.15; }
+.kpi .label { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.kpi .hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+/* Tarjetas */
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); min-width: 0;
+}
+.card.wide { grid-column: 1 / -1; }
+.card h2 { margin: 0 0 12px; font-size: 15px; }
+.card h3 { margin: 14px 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.card p { margin: 4px 0; }
+.empty-note { color: var(--muted); font-size: 14px; }
+
+/* Barras horizontales */
+.bars { display: flex; flex-direction: column; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: minmax(90px, 38%) 1fr auto; gap: 10px; align-items: center; font-size: 14px; }
+.bar-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar-track { height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--accent); border-radius: 999px; }
+.bar-fill.warn { background: #d98a1f; }
+.bar-num { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+
+/* Columnas por día */
+.cols { display: flex; align-items: flex-end; gap: 8px; height: 120px; padding-top: 8px; }
+.col { flex: 1; min-width: 18px; max-width: 64px; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
+.col-fill { width: 100%; background: var(--accent); border-radius: 6px 6px 0 0; min-height: 3px; }
+.col-n { font-size: 12px; color: var(--muted); }
+.col-d { font-size: 11px; color: var(--muted); }
+
+/* Listas */
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.list li { display: flex; gap: 8px; align-items: baseline; }
+.list a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
+.list a:hover { text-decoration: underline; }
+.pill {
+  flex: none; min-width: 28px; text-align: center; padding: 0 8px;
+  border-radius: 999px; background: var(--surface-2); font-size: 12px; font-weight: 600;
+}
+.pill.bad { background: var(--danger-soft); color: var(--danger); }
+.pill.warn { background: #f7e8cf; color: #7a4b00; }
+@media (prefers-color-scheme: dark) { .pill.warn { background: #3a2c10; color: #f0c674; } }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; }
+.stat .v { font-size: 20px; font-weight: 700; }
+.stat .l { font-size: 12px; color: var(--muted); }
+.foot { color: var(--muted); font-size: 12px; margin-top: 18px; }
+
+@media (max-width: 800px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .bar-row { grid-template-columns: minmax(80px, 44%) 1fr auto; }
+}

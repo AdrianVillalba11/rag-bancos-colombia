@@ -15,7 +15,7 @@ from fastapi.staticfiles import StaticFiles
 from rag import __version__
 from rag.api.dependencies import AppState, build_app_state
 from rag.api.errors import register_error_handlers
-from rag.api.routes import chat, health
+from rag.api.routes import analytics, chat, health
 from rag.config import get_settings
 from rag.infra.logging import configure_logging
 
@@ -63,6 +63,7 @@ def create_app(state: AppState | None = None) -> FastAPI:
     register_error_handlers(app)
     app.include_router(chat.router)
     app.include_router(health.router)
+    app.include_router(analytics.router)
     app.mount("/static", StaticFiles(directory=WEB_DIR / "static"), name="static")
 
     @app.middleware("http")
@@ -78,6 +79,10 @@ def create_app(state: AppState | None = None) -> FastAPI:
     @app.get("/", include_in_schema=False)
     def index() -> FileResponse:
         return FileResponse(WEB_DIR / "templates" / "index.html")
+
+    @app.get("/analytics", include_in_schema=False)
+    def analytics_page() -> FileResponse:
+        return FileResponse(WEB_DIR / "templates" / "analytics.html")
 
     return app
 

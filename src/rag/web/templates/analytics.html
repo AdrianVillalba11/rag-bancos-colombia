@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analítica · Asistente de bancos colombianos</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="/static/analytics.css">
+</head>
+<body class="dash-body">
+  <div class="dash">
+    <header class="dash-top">
+      <div>
+        <a class="back" href="/">← Volver al chat</a>
+        <h1>Analítica del asistente</h1>
+        <p class="subtitle">Métricas de uso, calidad e impacto calculadas sobre el histórico de conversaciones</p>
+      </div>
+      <div class="controls">
+        <label class="field">
+          <span>Periodo</span>
+          <select id="period" aria-label="Periodo">
+            <option value="">Todo el histórico</option>
+            <option value="1">Último día</option>
+            <option value="7">Últimos 7 días</option>
+            <option value="30">Últimos 30 días</option>
+          </select>
+        </label>
+        <button id="refresh" class="btn btn-ghost" type="button">Actualizar</button>
+      </div>
+    </header>
+
+    <form id="token-form" class="token-form" hidden>
+      <label for="token">Este panel está protegido. Ingresa el token de analítica:</label>
+      <input id="token" type="password" autocomplete="off">
+      <button class="btn btn-primary" type="submit">Entrar</button>
+    </form>
+
+    <div id="status" class="notice" role="status" hidden></div>
+
+    <main id="content" hidden>
+      <section class="kpis" id="kpis" aria-label="Valores de impacto"></section>
+
+      <div class="grid">
+        <section class="card" id="volume"><h2>1. Volumen de uso</h2><div class="body"></div></section>
+        <section class="card" id="topics"><h2>2. Temas consultados</h2><div class="body"></div></section>
+        <section class="card wide" id="frequent"><h2>2. Preguntas frecuentes y términos</h2><div class="body"></div></section>
+        <section class="card" id="latency"><h2>3. Latencia</h2><div class="body"></div></section>
+        <section class="card" id="sources"><h2>5. Bancos y fuentes más citadas</h2><div class="body"></div></section>
+        <section class="card wide" id="gaps"><h2>4. Huecos de conocimiento</h2><div class="body"></div></section>
+        <section class="card" id="feedback"><h2>6. Feedback de usuarios</h2><div class="body"></div></section>
+        <section class="card" id="conversations"><h2>7. Perfil de las conversaciones</h2><div class="body"></div></section>
+      </div>
+      <p id="assumptions" class="foot"></p>
+    </main>
+  </div>
+  <script src="/static/analytics.js" defer></script>
+</body>
+</html>

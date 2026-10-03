@@ -52,9 +52,13 @@ class RepoFalso:
     def get_session(self, session_id):
         return [
             StoredMessage(
-                id=f["id"], session_id=session_id, role=f["role"], content=f["content"],
+                id=f["id"],
+                session_id=session_id,
+                role=f["role"],
+                content=f["content"],
                 created_at=__import__("datetime").datetime(2026, 1, 1),
-                citations=f.get("citations", ()), feedback=self.feedback.get(f["id"]),
+                citations=f.get("citations", ()),
+                feedback=self.feedback.get(f["id"]),
                 answered=f.get("answered"),
             )
             for f in self.filas
@@ -71,6 +75,10 @@ class RepoFalso:
             fecha = __import__("datetime").datetime(2026, 1, 1)
             resumenes.append(SessionSummary(sid, titulo, fecha, len(propios)))
         return resumenes
+
+    def iter_messages(self):
+        for sid in dict.fromkeys(f["session_id"] for f in self.filas):
+            yield from self.get_session(sid)
 
     def set_feedback(self, message_id, value):
         if message_id not in {f["id"] for f in self.filas if f["role"] == Role.ASSISTANT}:
@@ -298,3 +306,43 @@ def test_los_errores_no_controlados_no_filtran_detalles(entorno):
 
 def test_el_mensaje_de_no_informacion_es_el_del_dominio():
     assert "No encontré" in prompts.NO_INFO
+
+
+# --- Analítica --------------------------------------------------------------------------------
+def test_analitica_calcula_el_informe_sobre_el_historico(entorno):
+    cliente, *_ = entorno
+    cliente.post(
+        "/api/chat", json={"message": "¿Qué es una cuenta de ahorros?", "session_id": SESION}
+    )
+    r = cliente.get("/api/analytics")
+    assert r.status_code == 200
+    informe = r.json()
+    for bloque in ("overview", "volume", "topics", "latency", "knowledge_gaps", "sources",
+                   "feedback", "conversations"):  # fmt: skip
+        assert bloque in informe
+    assert informe["overview"]["questions"] == 1 and informe["overview"]["conversations"] == 1
+
+
+def test_analitica_valida_el_parametro_de_dias(entorno):
+    cliente, *_ = entorno
+    assert cliente.get("/api/analytics", params={"days": 7}).status_code == 200
+    assert cliente.get("/api/analytics", params={"days": 0}).status_code == 422
+
+
+def test_analitica_exige_token_cuando_esta_configurado(entorno):
+    cliente, _, _, estado = entorno
+    estado.settings.analytics_token = "secreto-123"
+    assert cliente.get("/api/analytics/protected").json() == {"protected": True}
+    sin_token = cliente.get("/api/analytics")
+    assert sin_token.status_code == 401 and sin_token.json()["error"]["code"] == "unauthorized"
+    assert cliente.get("/api/analytics", headers={"X-Analytics-Token": "mal"}).status_code == 401
+    ok = cliente.get("/api/analytics", headers={"X-Analytics-Token": "secreto-123"})
+    assert ok.status_code == 200
+
+
+def test_el_dashboard_se_sirve_y_no_usa_innerhtml(entorno):
+    cliente, *_ = entorno
+    pagina = cliente.get("/analytics")
+    assert pagina.status_code == 200 and "Analítica del asistente" in pagina.text
+    assert ".innerHTML" not in cliente.get("/static/analytics.js").text
+    assert cliente.get("/static/analytics.css").status_code == 200
