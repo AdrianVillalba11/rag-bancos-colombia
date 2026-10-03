@@ -247,3 +247,24 @@ def test_el_streaming_emite_tokens_y_luego_el_resultado_final():
     eventos = list(svc.stream_answer("pregunta"))
     assert "".join(e.token for e in eventos if e.token) == "Hola mundo"
     assert eventos[-1].final is not None and eventos[-1].final.text == "Hola mundo"
+
+
+def test_la_reescritura_respeta_el_banco_seleccionado_sobre_el_historial():
+    historial = [Message(Role.USER, "tarjetas de Bancolombia"), Message(Role.ASSISTANT, "ok")]
+    pregunta = "¿y este banco qué cuentas tiene?"
+    msgs = prompts.build_rewrite_messages(pregunta, historial, "Davivienda")
+    assert "específicamente sobre Davivienda" in msgs[-1].content
+    sin_banco = prompts.build_rewrite_messages("¿y eso?", historial)
+    assert "específicamente" not in sin_banco[-1].content
+
+
+def test_el_servicio_pasa_el_banco_a_la_reescritura():
+    class LLMEspia(LLMFalso):
+        def generate(self, messages, *, max_tokens=None, temperature=None):
+            self.visto = messages[-1].content
+            return "Pregunta reescrita"
+
+    llm = LLMEspia()
+    svc, _ = servicio(RELEVANTES, llm)
+    svc.answer("¿y este banco?", [Message(Role.USER, "hola")], bank="davivienda")
+    assert "específicamente sobre Davivienda" in llm.visto

@@ -8,6 +8,13 @@ from datetime import UTC, datetime
 from enum import StrEnum
 from typing import Any
 
+#: Nombre legible de cada banco soportado
+BANK_NAMES = {
+    "bbva": "BBVA Colombia",
+    "bancolombia": "Bancolombia",
+    "davivienda": "Davivienda",
+}
+
 
 def utcnow() -> datetime:
     return datetime.now(UTC)
@@ -136,6 +143,16 @@ class Message:
     role: Role
     content: str
     created_at: datetime = field(default_factory=utcnow)
+
+
+@dataclass(frozen=True)
+class SessionSummary:
+    """Resumen de una conversación para listarla en el historial."""
+
+    session_id: str
+    title: str  # primera pregunta del usuario
+    last_activity_at: datetime
+    messages: int
 
 
 @dataclass(frozen=True)

@@ -87,14 +87,25 @@ def build_answer_messages(
     return mensajes
 
 
-def build_rewrite_messages(question: str, history: Sequence[Message]) -> list[Message]:
+def build_rewrite_messages(
+    question: str, history: Sequence[Message], bank_name: str | None = None
+) -> list[Message]:
     lineas = [
         f"{'Usuario' if m.role == Role.USER else 'Asistente'}: {sanitize(m.content)[:500]}"
         for m in history
         if m.role in (Role.USER, Role.ASSISTANT)
     ]
+    banco = (
+        f'El usuario consulta específicamente sobre {bank_name}: si la pregunta dice "este '
+        f'banco" o no nombra ninguno, se refiere a {bank_name}, aunque el historial mencione '
+        "otros bancos.\n\n"
+        if bank_name
+        else ""
+    )
     contenido = (
-        "Historial:\n" + "\n".join(lineas) + f"\n\nÚltima pregunta: {sanitize(question)}\n"
-        "Pregunta reescrita:"
+        banco
+        + "Historial:\n"
+        + "\n".join(lineas)
+        + f"\n\nÚltima pregunta: {sanitize(question)}\nPregunta reescrita:"
     )
     return [Message(Role.SYSTEM, REWRITE_SYSTEM), Message(Role.USER, contenido)]

@@ -16,12 +16,14 @@ from rag.config import Settings
 from rag.domain.errors import LLMResponseError, LLMUnavailableError, RagError, RerankerError
 from rag.domain.interfaces import LLMClient, Reranker
 from rag.domain.models import (
+    BANK_NAMES,
     AnswerMetrics,
     Citation,
     Message,
     RagAnswer,
     RetrievalSource,
     RetrievedChunk,
+    Role,
     StreamEvent,
 )
 from rag.generation import prompts
@@ -67,7 +69,7 @@ class RagService:
         inicio = time.perf_counter()
         history = list(history)[-self._settings.history_max_messages :] if history else []
 
-        consulta = self._rewrite(question, history)
+        consulta = self._rewrite(question, history, bank)
         t0 = time.perf_counter()
         candidatos = self._retriever.retrieve(consulta, bank)
         retrieval_ms = _ms(t0)
@@ -138,14 +140,23 @@ class RagService:
             )
         )
 
+    def warmup(self) -> None:
+        """Precarga los modelos (embeddings, reranker y LLM) con una consulta de calentamiento."""
+        candidatos = self._retriever.retrieve("calentamiento")
+        if candidatos:
+            self._rerank("calentamiento", candidatos[:2])
+        self._llm.generate([Message(Role.USER, "Responde: ok")], max_tokens=2, temperature=0.0)
+
     # --- Pasos --------------------------------------------------------------------------------
-    def _rewrite(self, question: str, history: Sequence[Message]) -> str:
+    def _rewrite(self, question: str, history: Sequence[Message], bank: str | None) -> str:
         """Reescribe preguntas de seguimiento; ante cualquier fallo usa la pregunta original."""
         if not history or not self._settings.query_rewriting_enabled:
             return question
         try:
             reescrita = self._llm.generate(
-                prompts.build_rewrite_messages(question, history), max_tokens=120, temperature=0.0
+                prompts.build_rewrite_messages(question, history, BANK_NAMES.get(bank or "")),
+                max_tokens=120,
+                temperature=0.0,
             )
         except RagError as exc:
             logger.warning("No se pudo reescribir la pregunta", extra={"error": str(exc)})
