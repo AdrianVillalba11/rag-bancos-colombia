@@ -166,3 +166,21 @@ class AnswerMetrics:
     top_score: float | None = None
     answered: bool = True
     rewritten_query: str | None = None
+
+
+@dataclass(frozen=True)
+class RagAnswer:
+    """Resultado completo de responder una pregunta."""
+
+    text: str
+    citations: tuple[Citation, ...]
+    metrics: AnswerMetrics
+    chunks: tuple[RetrievedChunk, ...] = ()
+
+
+@dataclass(frozen=True)
+class StreamEvent:
+    """Evento de una respuesta en streaming: un fragmento de texto o el resultado final."""
+
+    token: str | None = None
+    final: RagAnswer | None = None

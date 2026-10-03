@@ -4,7 +4,8 @@ FROM python:3.12-slim AS base
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
-    HF_HOME=/models/huggingface
+    HF_HOME=/models/huggingface \
+    ANONYMIZED_TELEMETRY=False
 
 WORKDIR /app
 

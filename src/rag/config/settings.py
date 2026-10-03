@@ -28,6 +28,9 @@ class Settings(BaseSettings):
     llm_temperature: float = Field(0.2, ge=0.0, le=2.0)
     llm_timeout_seconds: float = Field(120.0, gt=0)
     llm_max_retries: int = Field(3, ge=0)
+    llm_keep_alive: str = "10m"  # cuánto tiempo mantiene Ollama el modelo cargado en memoria
+    llm_max_answer_tokens: int = Field(700, ge=32)
+    query_rewriting_enabled: bool = True
 
     # Embeddings y reranker
     embedding_model: str = "bge-m3"
@@ -46,6 +49,8 @@ class Settings(BaseSettings):
     rerank_top_n: int = Field(5, ge=1)
     rrf_k: int = Field(60, ge=1)
     min_relevance_score: float = Field(0.15, ge=0.0, le=1.0)
+    # Umbral equivalente cuando no hay reranker y solo se dispone de la similitud coseno
+    min_vector_similarity: float = Field(0.45, ge=0.0, le=1.0)
 
     # Chunking
     chunk_size: int = Field(800, ge=100)

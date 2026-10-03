@@ -79,7 +79,13 @@ class LLMClient(ABC):
     """Estrategia de generación de texto."""
 
     @abstractmethod
-    def generate(self, messages: Sequence[Message]) -> str: ...
+    def generate(
+        self,
+        messages: Sequence[Message],
+        *,
+        max_tokens: int | None = None,
+        temperature: float | None = None,
+    ) -> str: ...
 
     @abstractmethod
     def stream(self, messages: Sequence[Message]) -> Iterator[str]:
