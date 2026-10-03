@@ -42,6 +42,22 @@ services:
       timeout: 3s
       retries: 12
 
+  postgres:
+    image: postgres:16
+    container_name: rag-bancos-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-rag}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Define POSTGRES_PASSWORD en .env}
+      POSTGRES_DB: ${POSTGRES_DB:-rag}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
   # Herramientas de línea de comandos (ingesta, informes): docker compose run --rm ingest
   ingest:
     build:
@@ -57,6 +73,8 @@ services:
         condition: service_healthy
       ollama-init:
         condition: service_completed_successfully
+      postgres:
+        condition: service_healthy
     volumes:
       - ./data:/app/data
       - hf_cache:/models/huggingface
@@ -78,6 +96,8 @@ services:
     depends_on:
       chroma:
         condition: service_healthy
+      postgres:
+        condition: service_healthy
     volumes:
       - ./tests:/app/tests
       - ./src:/app/src
@@ -85,4 +105,5 @@ services:
 volumes:
   ollama_models:
   chroma_data:
+  postgres_data:
   hf_cache:
