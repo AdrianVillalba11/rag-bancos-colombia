@@ -102,3 +102,21 @@ def test_iter_messages_recorre_el_historico_y_list_sessions_lo_refleja(repo, ses
 def test_el_esquema_es_idempotente(repo):
     repo.open()  # reabrir no falla ni duplica nada
     assert repo.ping()
+
+
+def test_resume_las_sesiones_solicitadas_con_titulo_y_conteo(repo, sesion):
+    otra = f"test-{uuid.uuid4().hex[:12]}"
+    try:
+        repo.add_user_message(sesion, "primera pregunta", None)
+        repo.add_assistant_message(sesion, "respuesta", METRICAS, ())
+        repo.add_user_message(sesion, "segunda pregunta", None)
+        repo.add_user_message(otra, "pregunta ajena", None)
+
+        resumenes = repo.summarize_sessions([sesion])
+        assert [r.session_id for r in resumenes] == [sesion]  # no incluye la ajena
+        assert resumenes[0].title == "primera pregunta" and resumenes[0].messages == 3
+        assert repo.summarize_sessions([]) == []
+        assert repo.summarize_sessions(["sesion-que-no-existe"]) == []
+    finally:
+        with repo._pool.connection() as conn:
+            conn.execute("DELETE FROM conversations WHERE session_id = %s", (otra,))

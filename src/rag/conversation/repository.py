@@ -13,7 +13,14 @@ from psycopg_pool import ConnectionPool
 from rag.conversation.schema import SCHEMA_LOCK_ID, SCHEMA_STATEMENTS
 from rag.domain.errors import ConversationRepositoryError, SessionNotFoundError
 from rag.domain.interfaces import ConversationRepository
-from rag.domain.models import AnswerMetrics, Citation, Message, Role, StoredMessage
+from rag.domain.models import (
+    AnswerMetrics,
+    Citation,
+    Message,
+    Role,
+    SessionSummary,
+    StoredMessage,
+)
 from rag.infra.retry import retry
 
 logger = logging.getLogger(__name__)
@@ -208,6 +215,25 @@ class PostgresConversationRepository(ConversationRepository):
             return [f[0] for f in filas]
 
         return self._ejecutar("No se pudo listar las sesiones", op)
+
+    def summarize_sessions(self, session_ids: Sequence[str]) -> list[SessionSummary]:
+        if not session_ids:
+            return []
+
+        def op() -> list[SessionSummary]:
+            with self._pool.connection() as conn:
+                filas = conn.execute(
+                    "SELECT c.session_id, c.last_activity_at, "
+                    "  COALESCE((SELECT m.content FROM messages m WHERE m.session_id = "
+                    "    c.session_id AND m.role = 'user' ORDER BY m.id LIMIT 1), '') AS title, "
+                    "  (SELECT count(*) FROM messages m WHERE m.session_id = c.session_id) AS n "
+                    "FROM conversations c WHERE c.session_id = ANY(%s) "
+                    "ORDER BY c.last_activity_at DESC",
+                    (list(session_ids),),
+                ).fetchall()
+            return [SessionSummary(s, t, a, int(n)) for s, a, t, n in filas]
+
+        return self._ejecutar("No se pudo resumir las sesiones", op)
 
     def iter_messages(self) -> Iterator[StoredMessage]:
         """Recorre todo el histórico en orden cronológico, sin cargarlo completo en memoria."""

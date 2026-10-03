@@ -17,6 +17,7 @@ from rag.domain.models import (
     Message,
     RawPage,
     RetrievedChunk,
+    SessionSummary,
     StoredMessage,
 )
 
@@ -119,6 +120,10 @@ class ConversationRepository(ABC):
 
     @abstractmethod
     def list_sessions(self, limit: int = 50) -> list[str]: ...
+
+    @abstractmethod
+    def summarize_sessions(self, session_ids: Sequence[str]) -> list[SessionSummary]:
+        """Resumen de las sesiones indicadas, de la más reciente a la más antigua."""
 
     @abstractmethod
     def set_feedback(self, message_id: int, value: int) -> None: ...
