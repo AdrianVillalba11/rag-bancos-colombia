@@ -10,6 +10,7 @@ from rag.domain.errors import VectorStoreError
 from rag.domain.interfaces import VectorStore
 from rag.domain.models import Chunk, RetrievalSource, RetrievedChunk
 from rag.infra.retry import retry
+from rag.infra.timeouts import call_with_timeout
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +38,7 @@ class ChromaVectorStore(VectorStore):
         collection: str,
         *,
         max_retries: int = 3,
+        timeout: float = 30.0,
         client: Any = None,
     ) -> None:
         if client is None:
@@ -48,6 +50,7 @@ class ChromaVectorStore(VectorStore):
             )
         self._client = client
         self._name = collection
+        self._timeout = timeout
         self._collection_cached: Any = None
         self._reintentar = retry(
             max_retries=max_retries, base_delay=1.0, retry_on=(VectorStoreError,)
@@ -71,7 +74,7 @@ class ChromaVectorStore(VectorStore):
 
         def intento() -> T:
             try:
-                return operacion()
+                return call_with_timeout(operacion, self._timeout, descripcion)
             except VectorStoreError:
                 raise
             except Exception as exc:

@@ -45,6 +45,7 @@ def build_vector_store(settings: Settings) -> ChromaVectorStore:
         settings.chroma_port,
         settings.chroma_collection,
         max_retries=settings.llm_max_retries,
+        timeout=settings.chroma_timeout_seconds,
     )
 
 
