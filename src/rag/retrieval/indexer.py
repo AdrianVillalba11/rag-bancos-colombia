@@ -7,6 +7,7 @@ import logging
 from rag.config import Settings
 from rag.domain.interfaces import Embedder, VectorStore
 from rag.domain.models import Chunk
+from rag.retrieval.embedding_cache import EmbeddingCache
 from rag.retrieval.embeddings import OllamaEmbedder
 from rag.retrieval.vector_store import ChromaVectorStore
 
@@ -16,17 +17,28 @@ logger = logging.getLogger(__name__)
 class ChunkIndexer:
     """Reemplaza el contenido indexado de un banco por sus chunks actuales (idempotente)."""
 
-    def __init__(self, embedder: Embedder, store: VectorStore) -> None:
+    def __init__(
+        self, embedder: Embedder, store: VectorStore, cache: EmbeddingCache | None = None
+    ) -> None:
         self._embedder = embedder
         self._store = store
+        self._cache = cache
 
     def __call__(self, bank: str, chunks: list[Chunk]) -> None:
         if not chunks:
             return
-        vectores = self._embedder.embed_documents([c.embedding_text for c in chunks])
+        vectores = self._cache.load(bank, chunks) if self._cache else None
+        reutilizados = vectores is not None
+        if vectores is None:
+            vectores = self._embedder.embed_documents([c.embedding_text for c in chunks])
+            if self._cache:
+                self._cache.save(bank, chunks, vectores)
         self._store.delete_bank(bank)
         self._store.upsert(chunks, vectores)
-        logger.info("Banco indexado", extra={"bank": bank, "chunks": len(chunks)})
+        logger.info(
+            "Banco indexado",
+            extra={"bank": bank, "chunks": len(chunks), "embeddings_en_cache": reutilizados},
+        )
 
 
 def build_embedder(settings: Settings) -> OllamaEmbedder:
@@ -50,4 +62,5 @@ def build_vector_store(settings: Settings) -> ChromaVectorStore:
 
 
 def build_indexer(settings: Settings) -> ChunkIndexer:
-    return ChunkIndexer(build_embedder(settings), build_vector_store(settings))
+    cache = EmbeddingCache(settings.clean_dir, settings.embedding_model)
+    return ChunkIndexer(build_embedder(settings), build_vector_store(settings), cache)
