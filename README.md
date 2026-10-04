@@ -9,6 +9,9 @@ de conversaciones y un módulo de analítica de uso.
 Todo corre **dentro de Docker con un solo comando** y con herramientas **gratuitas y de código
 abierto** (modelos locales, sin APIs de pago).
 
+> Además de lo que exige el enunciado, el proyecto incluye los tres bonus y varias mejoras adicionales,
+> cada una con su límite real indicado: ver [Bonus y mejoras implementadas](#bonus-y-mejoras-implementadas).
+
 ## Contenido
 
 1. [Requisitos previos](#requisitos-previos)
@@ -24,8 +27,9 @@ abierto** (modelos locales, sin APIs de pago).
 11. [Pruebas y calidad](#pruebas-y-calidad)
 12. [Rendimiento medido](#rendimiento-medido)
 13. [Decisiones y supuestos](#decisiones-y-supuestos)
-14. [Limitaciones conocidas](#limitaciones-conocidas)
-15. [Mejoras futuras](#mejoras-futuras)
+14. [Bonus y mejoras implementadas](#bonus-y-mejoras-implementadas)
+15. [Limitaciones conocidas](#limitaciones-conocidas)
+16. [Mejoras futuras](#mejoras-futuras)
 
 ## Requisitos previos
 
@@ -383,8 +387,92 @@ Notas:
   (`título — encabezado`) antepuesto al embedding.
 - **Ollama dentro de Docker** (no en el host), como exige el enunciado.
 - **Sin cuentas de usuario:** el historial se asocia a un ID de sesión que guarda el navegador.
-- **Ambigüedades del enunciado:** donde algo no estaba definido (métricas concretas, N por defecto,
-  alcance del scraping) se eligió un valor razonable y se dejó configurable.
+- **Ambigüedades del enunciado:** se resuelven con los supuestos explícitos de la tabla siguiente.
+
+### Supuestos ante las ambigüedades del enunciado
+
+El enunciado deja varios puntos abiertos y pide documentar el supuesto en cada caso. Estos son los
+que se asumieron:
+
+| Qué dice el enunciado | Supuesto adoptado | Dónde se refleja |
+|---|---|---|
+| "Usuarios **internos**" consultan el sitio | No hay autenticación de usuarios: el historial se asocia a un ID de sesión que guarda el navegador y que actúa como credencial. La analítica puede protegerse con un token opcional. | [Limitaciones](#limitaciones-conocidas), `ANALYTICS_TOKEN` |
+| Scrapear bbva.com.co ("puede ser de otro banco") | Se usan **los tres bancos** (incluido BBVA) para ampliar la cobertura, con un tope de 250 páginas por banco para que el scraping dure minutos y no horas. | `SCRAPE_BANKS`, `SCRAPE_MAX_PAGES_PER_BANK` |
+| "Información publicada en su sitio web" | Solo se indexa el contenido presente en el HTML y permitido por `robots.txt`. No se ejecuta JavaScript y no se descargan PDF (los `robots.txt` de Bancolombia y Davivienda los excluyen). | [Limitaciones](#limitaciones-conocidas) |
+| Almacenar datos "crudos y limpios en local" | **Crudos:** el HTML descargado, comprimido y con un manifiesto. **Limpios:** documentos en JSON legible y los chunks en JSONL. Ambos se versionan para poder revisarlos sin Docker. | `data/raw`, `data/clean` |
+| BD vectorial "de tu elección" | ChromaDB autoalojada. El índice no se versiona: se regenera en el primer arranque a partir de embeddings precalculados. | [Arquitectura](#arquitectura) |
+| "N mensajes anteriores (N configurable)" | **N cuenta mensajes** (del usuario y del asistente), no turnos: por defecto 6, es decir, 3 turnos. Con 0 se desactiva la memoria. | `HISTORY_MAX_MESSAGES` |
+| Historial "de acuerdo a un ID" | El ID de sesión (8 a 64 caracteres alfanuméricos, `-` o `_`) lo crea el sistema si el cliente no envía uno, y se valida de forma estricta. | `POST /api/chat` |
+| "Valores de impacto" (no se definen) | Se definieron cuatro: **tasa de resolución**, **satisfacción** (👍 sobre las respuestas valoradas), **latencia media** y **tiempo ahorrado estimado**. Este último parte de un supuesto, 4 minutos de búsqueda manual por consulta resuelta, que se indica como estimación y no como medición. | [Analítica](#analítica-del-histórico), `ANALYTICS_MANUAL_SEARCH_MINUTES` |
+| Cuándo debe responder el asistente | Si ningún fragmento supera un umbral de relevancia (`MIN_RELEVANCE_SCORE`, 0,15), responde que no tiene la información en vez de inventarla. El umbral se fijó con pruebas manuales, no con una evaluación sistemática. | [Limitaciones](#limitaciones-conocidas) |
+| "Un solo comando" con Docker | `docker compose up -d`, tras copiar una plantilla de `.env` (perfil CPU o GPU). La primera vez descarga imágenes y modelos. | [Puesta en marcha](#puesta-en-marcha) |
+| "Herramientas sin costo preferidas" | Todo es de código abierto y se ejecuta en local; no se usa ninguna API de pago. Por eso los modelos corren en la máquina y el rendimiento depende de su hardware. | [Stack](#stack-tecnológico), [Rendimiento](#rendimiento-medido) |
+| Idioma | Se asumió que los usuarios consultan en español: la interfaz, los prompts y la documentación están en español. | `src/rag/generation/prompts.py` |
+
+## Bonus y mejoras implementadas
+
+Además de lo que exige el enunciado, esto es lo que se implementó. **Cada punto indica en la misma
+línea su límite real**; el detalle de cada uno está en las secciones enlazadas.
+
+### Bonus del enunciado
+
+| Bonus | Qué se hizo | Límite |
+|---|---|---|
+| **Reranker** | `bge-reranker-v2-m3` (cross-encoder) reordena los candidatos antes de pasarlos al LLM; es intercambiable y se puede desactivar ([patrones](#patrones-de-diseño)). | En CPU cuesta 4–5 s con 5 candidatos. Su beneficio se comprobó con ejemplos, no con una evaluación sistemática. |
+| **Manejo de errores** | Reintentos con *backoff*, timeouts explícitos, excepciones de dominio, degradación elegante (reranker, reescritura y modelo) y `/api/health` ([detalle](#seguridad-y-manejo-de-errores)). | Cubierto con pruebas automáticas y casos reales puntuales; no se simularon todas las combinaciones de caídas. |
+| **Configuración externalizada** | N, modelo, tamaño de chunk, umbrales, límites y más, en `.env`, con validación al arrancar y dos perfiles ([configuración](#configuración)). | Los valores por defecto se eligieron con pruebas manuales. |
+
+### Mejoras adicionales
+
+**Calidad de las respuestas**
+
+| Mejora | Límite |
+|---|---|
+| **Búsqueda híbrida** (vectorial + BM25 con RRF): encuentra siglas y cifras como "4x1000" o "CDT" que los embeddings pueden confundir. | Su ventaja sobre la búsqueda solo vectorial se vio en ejemplos; no se midió con *hit-rate* ni MRR. |
+| **Reescritura de preguntas de seguimiento** con el historial, respetando el banco elegido. | Suma una llamada al LLM (más latencia); si falla, se usa la pregunta original. |
+| **Guardrail**: si no hay contexto relevante, responde que no tiene la información en vez de inventarla. | El umbral (0,15) se fijó con pruebas manuales, no con una evaluación sistemática. |
+| **Citas numeradas** con las fuentes enlazadas. | Se muestran las fuentes que el modelo citó con `[n]`; el modelo puede equivocarse al citar. Si no cita ninguna, se muestran las 3 más relevantes. |
+| **Limpieza en dos etapas** y **chunking por estructura**. | En Davivienda el chunking cae a división por tamaño, porque sus encabezados visibles no usan `<h2>`. |
+
+**Experiencia de uso**
+
+| Mejora | Límite |
+|---|---|
+| **Respuesta en streaming**. | Si el navegador se cierra a mitad de una respuesta, esa respuesta no se guarda. |
+| **Panel de historial de conversaciones**. | Es por navegador: no se recupera desde otro dispositivo, porque no hay cuentas de usuario. |
+| **Filtro por banco**, 👍/👎 por respuesta, modo oscuro y diseño móvil. | — |
+| **Dashboard de analítica** con 7 métricas y valores de impacto ([detalle](#analítica-del-histórico)). | Los temas se clasifican por reglas de palabras clave, no con un modelo; el tiempo ahorrado es una estimación con un supuesto de 4 min por consulta. |
+
+**Scraping**
+
+| Mejora | Límite |
+|---|---|
+| **Tres bancos** en lugar de uno. | BBVA devolvió 403 a algunos clientes y no se ejecuta JavaScript, así que parte del contenido dinámico no está. |
+| **Intérprete propio de `robots.txt`** con comodines, lectura de sitemaps, deduplicación y ritmo cortés. | Si un sitio rechaza el acceso (401/403), el scraper se detiene y no intenta evadirlo. |
+
+**Seguridad y robustez**
+
+| Mejora | Límite |
+|---|---|
+| **Defensa contra *prompt injection***. | Se probó con una página envenenada y un intento de *jailbreak*; reduce el riesgo, no lo elimina. |
+| **Rate limiting**, tope de respuestas simultáneas y de tamaño de petición, validación estricta y **CSP**. | El limitador está en memoria: sirve para un solo proceso. |
+| **Privacidad del historial**: no existe un listado global de conversaciones. | Sin login, el ID de sesión actúa como credencial. |
+
+**Operación**
+
+| Mejora | Límite |
+|---|---|
+| **Perfiles CPU y GPU** elegibles con una plantilla de `.env`. | Cada respuesta tarda de 3 a 9 s con GPU y de 1 a 1,5 min en CPU. El primer arranque completo en CPU se midió en ≈15 min. |
+| **Indexación automática** en el primer arranque y **caché de embeddings** versionada (de ~28 min a menos de 1 min en CPU). | La caché solo se usa si coinciden el modelo y el texto de cada chunk; si no, se recalcula. |
+| **Precarga de modelos** y *healthchecks* de todos los servicios. | — |
+
+**Ingeniería**
+
+| Mejora | Límite |
+|---|---|
+| **194 pruebas** (unitarias y de integración con ChromaDB y PostgreSQL reales) y análisis estático. | No hay integración continua; las pruebas de integración solo corren dentro de Docker. |
+| **6 patrones de diseño** (el enunciado pide 3) ([detalle](#patrones-de-diseño)). | — |
+| **Herramientas por línea de comandos**: búsqueda, chat, informe de analítica y datos de demostración. | Los datos de demostración usan preguntas escritas por nosotros, no por usuarios reales. |
 
 ## Limitaciones conocidas
 
