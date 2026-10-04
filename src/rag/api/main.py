@@ -9,7 +9,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, Request, Response
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 from rag import __version__
@@ -65,6 +65,19 @@ def create_app(state: AppState | None = None) -> FastAPI:
     app.include_router(health.router)
     app.include_router(analytics.router)
     app.mount("/static", StaticFiles(directory=WEB_DIR / "static"), name="static")
+
+    @app.middleware("http")
+    async def limitar_tamano(
+        request: Request, call_next: Callable[[Request], Awaitable[Response]]
+    ) -> Response:
+        declarado = request.headers.get("content-length", "")
+        maximo = request.app.state.rag.settings.max_request_bytes
+        if declarado.isdigit() and int(declarado) > maximo:
+            return JSONResponse(
+                {"error": {"code": "payload_too_large", "message": "Solicitud demasiado grande"}},
+                status_code=413,
+            )
+        return await call_next(request)
 
     @app.middleware("http")
     async def cabeceras_de_seguridad(

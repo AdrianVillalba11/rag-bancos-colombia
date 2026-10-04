@@ -4,11 +4,14 @@ from __future__ import annotations
 
 import json
 import logging
+import math
+import threading
 from collections.abc import Iterator
 from typing import Any
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request
 from fastapi.responses import JSONResponse, StreamingResponse
+from starlette.background import BackgroundTask
 
 from rag.api.dependencies import AppState, get_state
 from rag.api.errors import public_error
@@ -25,7 +28,7 @@ from rag.api.schemas import (
     resolve_bank,
 )
 from rag.conversation.memory import new_session_id, validate_session_id
-from rag.domain.errors import InputValidationError
+from rag.domain.errors import InputValidationError, RateLimitExceededError, ServiceBusyError
 from rag.domain.models import BANK_NAMES, Citation
 
 logger = logging.getLogger(__name__)
@@ -51,19 +54,58 @@ def config(state: AppState = Depends(get_state)) -> ConfigOut:
     )
 
 
+def _comprobar_limite(state: AppState, request: Request) -> None:
+    espera = state.limiter.hit(state.client_key(request))  # type: ignore[union-attr]
+    if espera > 0:
+        raise RateLimitExceededError(
+            f"Demasiadas solicitudes. Inténtalo de nuevo en {math.ceil(espera)} s.",
+            retry_after=espera,
+        )
+
+
+class _Cupo:
+    """Cupo de respuestas simultáneas que se libera una sola vez, pase lo que pase."""
+
+    def __init__(self, semaforo: Any) -> None:
+        if not semaforo.acquire(blocking=False):
+            raise ServiceBusyError(
+                "El asistente está atendiendo muchas consultas. Inténtalo en unos segundos."
+            )
+        self._semaforo = semaforo
+        self._liberado = False
+        self._candado = threading.Lock()
+
+    def liberar(self) -> None:
+        with self._candado:
+            if not self._liberado:
+                self._liberado = True
+                self._semaforo.release()
+
+
 @router.post("/chat", response_model=None)
-def chat(req: ChatRequest, state: AppState = Depends(get_state)) -> Any:
+def chat(req: ChatRequest, request: Request, state: AppState = Depends(get_state)) -> Any:
+    _comprobar_limite(state, request)
     pregunta = clean_question(req.message, state.settings)
     banco = resolve_bank(req.bank, state.settings)
     sesion = validate_session_id(req.session_id) if req.session_id else new_session_id()
 
-    # El historial se lee antes de guardar la pregunta actual para no duplicarla en el contexto
-    historial = state.memory.history(sesion)
-    state.memory.record_question(sesion, pregunta, banco)
+    cupo = _Cupo(state.chat_slots)
+    try:
+        # El historial se lee antes de guardar la pregunta actual para no duplicarla en el contexto
+        historial = state.memory.history(sesion)
+        state.memory.record_question(sesion, pregunta, banco)
+    except BaseException:
+        cupo.liberar()
+        raise
 
     if not req.stream:
-        final = state.service.answer(pregunta, historial, banco)
-        mensaje_id = state.memory.record_answer(sesion, final.text, final.metrics, final.citations)
+        try:
+            final = state.service.answer(pregunta, historial, banco)
+            mensaje_id = state.memory.record_answer(
+                sesion, final.text, final.metrics, final.citations
+            )
+        finally:
+            cupo.liberar()
         return ChatResponse(
             session_id=sesion,
             message_id=mensaje_id,
@@ -74,6 +116,12 @@ def chat(req: ChatRequest, state: AppState = Depends(get_state)) -> Any:
         )
 
     def eventos() -> Iterator[str]:
+        try:
+            yield from _flujo()
+        finally:
+            cupo.liberar()
+
+    def _flujo() -> Iterator[str]:
         yield _sse("meta", {"session_id": sesion})
         try:
             for evento in state.service.stream_answer(pregunta, historial, banco):
@@ -100,6 +148,7 @@ def chat(req: ChatRequest, state: AppState = Depends(get_state)) -> Any:
         eventos(),
         media_type="text/event-stream",
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        background=BackgroundTask(cupo.liberar),  # red de seguridad si el cliente se desconecta
     )
 
 
@@ -147,7 +196,8 @@ def session_messages(session_id: str, state: AppState = Depends(get_state)) -> l
 
 @router.post("/messages/{message_id}/feedback")
 def feedback(
-    message_id: int, req: FeedbackRequest, state: AppState = Depends(get_state)
+    message_id: int, req: FeedbackRequest, request: Request, state: AppState = Depends(get_state)
 ) -> JSONResponse:
+    _comprobar_limite(state, request)
     state.repository.set_feedback(message_id, req.value)
     return JSONResponse({"ok": True})

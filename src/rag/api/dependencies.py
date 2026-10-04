@@ -8,6 +8,7 @@ from __future__ import annotations
 import logging
 import threading
 from dataclasses import dataclass, field
+from typing import Any
 
 from fastapi import Request
 
@@ -18,6 +19,7 @@ from rag.domain.interfaces import LLMClient, VectorStore
 from rag.generation.llm import LLMFactory
 from rag.generation.rag_service import RagService
 from rag.infra.db import create_pool
+from rag.infra.ratelimit import SlidingWindowRateLimiter
 from rag.retrieval.hybrid import HybridRetriever
 from rag.retrieval.indexer import build_embedder, build_vector_store
 from rag.retrieval.lexical import Bm25Index
@@ -37,6 +39,24 @@ class AppState:
     store: VectorStore
     llm: LLMClient
     warm: threading.Event = field(default_factory=threading.Event)
+    #: Límite de peticiones por cliente y cupo de respuestas simultáneas (se crean desde la
+    #: configuración si no se inyectan)
+    limiter: SlidingWindowRateLimiter | None = None
+    chat_slots: Any = None
+
+    def __post_init__(self) -> None:
+        if self.limiter is None:
+            self.limiter = SlidingWindowRateLimiter(self.settings.rate_limit_per_minute)
+        if self.chat_slots is None:
+            self.chat_slots = threading.BoundedSemaphore(self.settings.max_concurrent_chats)
+
+    def client_key(self, request: Request) -> str:
+        """Identifica al cliente para el límite de peticiones."""
+        if self.settings.trust_proxy_headers:
+            reenviado = request.headers.get("x-forwarded-for", "")
+            if reenviado:
+                return reenviado.split(",")[0].strip()
+        return request.client.host if request.client else "desconocido"
 
 
 def _build_rag(settings: Settings) -> tuple[RagService, VectorStore, LLMClient]:
