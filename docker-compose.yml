@@ -11,6 +11,12 @@ services:
     image: ollama/ollama:0.35.1
     container_name: rag-bancos-ollama
     restart: unless-stopped
+    environment:
+      # Una sola petición a la vez por modelo: el uso de memoria es predecible (la caché de
+      # contexto crece con cada petición en paralelo) y los dos modelos permanecen cargados
+      OLLAMA_NUM_PARALLEL: "1"
+      OLLAMA_MAX_LOADED_MODELS: "2"
+      OLLAMA_KEEP_ALIVE: "30m"
     volumes:
       - ollama_models:/root/.ollama
     healthcheck:
@@ -148,6 +154,8 @@ services:
     volumes:
       - ./tests:/app/tests
       - ./src:/app/src
+      - ./.env.example:/app/.env.example:ro
+      - ./.env.gpu.example:/app/.env.gpu.example:ro
 
 volumes:
   ollama_models:

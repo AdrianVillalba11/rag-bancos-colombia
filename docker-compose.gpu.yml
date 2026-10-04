@@ -1,9 +1,6 @@
 # Activa la GPU NVIDIA (Ollama y reranker). Requiere NVIDIA Container Toolkit o Docker Desktop
-# con WSL2. En .env:
-#   COMPOSE_PATH_SEPARATOR=,
-#   COMPOSE_FILE=docker-compose.yml,docker-compose.gpu.yml
-#   TORCH_INDEX=https://download.pytorch.org/whl/cu126
-#   RERANKER_DEVICE=cuda
+# con WSL2. No se usa a mano: el perfil GPU (`cp .env.gpu.example .env`) ya configura
+# COMPOSE_FILE, TORCH_INDEX y RERANKER_DEVICE para activarlo.
 x-gpu: &gpu
   deploy:
     resources:
