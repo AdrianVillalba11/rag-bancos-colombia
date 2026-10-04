@@ -39,8 +39,9 @@ abierto** (modelos locales, sin APIs de pago).
 | **Git** | Para clonar el repositorio. |
 
 No hace falta instalar Python, Ollama ni ninguna base de datos en tu máquina: todo está en los
-contenedores. La **primera ejecución descarga** las imágenes y los modelos (`llama3`, `bge-m3` y
-`bge-reranker-v2-m3`), por lo que necesita conexión a internet y tarda varios minutos.
+contenedores. La **primera ejecución descarga** las imágenes y los modelos (el de lenguaje del perfil
+elegido, `bge-m3` y `bge-reranker-v2-m3`), por lo que necesita conexión a internet y tarda varios
+minutos.
 
 ## Puesta en marcha
 
@@ -77,7 +78,7 @@ Eso es todo. Al ejecutar el paso 3 ocurre, en orden:
 Sigue el progreso con `docker compose logs -f` y comprueba el estado con
 `docker compose ps`. Cuando `app` figure como `healthy`, abre:
 
-- **Chat:** <http://localhost:8080>
+- **Chat:** <http://localhost:8080> (o el puerto que definas en `APP_PORT`)
 - **Analítica:** <http://localhost:8080/analytics>
 - **Salud:** <http://localhost:8080/api/health>
 
@@ -175,7 +176,7 @@ docker compose run --rm tests
                          │    │  ④ guardrail de relevancia                                     │
                          │    │  ⑤ generación en streaming ──► citas                           │
                          │    ▼                                                                │
-                         │  chroma (vectores)   ollama (llama3 + bge-m3)   postgres (historial)│
+                         │  chroma (vectores)   ollama (LLM + bge-m3)       postgres (historial)│
                          │                                                                     │
                          │  bootstrap: indexa data/clean en Chroma la primera vez              │
                          └─────────────────────────────────────────────────────────────────────┘
@@ -193,16 +194,16 @@ docker compose run --rm tests
 3. **Reranker** (`bge-reranker-v2-m3`): puntúa pregunta y fragmento juntos y deja los 5 mejores.
 4. **Guardrail:** si la relevancia máxima queda bajo el umbral, no se consulta al modelo y se
    responde que no hay información.
-5. **Generación** con `llama3`: el prompt obliga a responder solo con el contexto y a citar con `[n]`.
+5. **Generación** con el modelo del perfil (`llama3` o `llama3.2:3b`): el prompt obliga a responder solo con el contexto y a citar con `[n]`.
    Las fuentes mostradas son las que el modelo realmente citó.
 6. Se guarda cada turno en Postgres con sus métricas (latencia por etapa, relevancia, fuentes).
 
 ### Estructura del repositorio
 
 ```text
-├── docker-compose.yml, docker-compose.gpu.yml, Dockerfile, .env.example
+├── docker-compose.yml, docker-compose.gpu.yml, Dockerfile, .env.example, .env.gpu.example
 ├── data/raw/<banco>/      páginas descargadas (HTML comprimido + manifest)
-├── data/clean/<banco>/    documentos limpios (JSON) y chunks (JSONL)
+├── data/clean/<banco>/    documentos limpios (JSON), chunks (JSONL) y embeddings (.npz)
 ├── scripts/               ingest, scrape, search, chat, analytics_report, seed_demo
 ├── src/rag/
 │   ├── config/            Settings (pydantic-settings, Singleton)
@@ -253,12 +254,12 @@ abstracciones y no de implementaciones concretas.
 | Historial | **PostgreSQL** | Datos relacionales (conversaciones, mensajes, citas), concurrencia real y consultas analíticas. |
 | Scraping | `httpx` + BeautifulSoup/lxml | Los sitios son HTML estático o con contenido en el HTML; evita la complejidad de un navegador. |
 | Orquestación | Docker Compose | Un solo comando; servicios aislados y reproducibles. |
-| Calidad | pytest, ruff | 177 pruebas; análisis estático. |
+| Calidad | pytest, ruff | 194 pruebas; análisis estático. |
 
 ## Configuración
 
-Toda la configuración está externalizada en `.env` (plantilla en [.env.example](.env.example)). Las
-más relevantes:
+Toda la configuración está externalizada en `.env`, con dos plantillas: [.env.example](.env.example)
+(perfil CPU) y [.env.gpu.example](.env.gpu.example) (perfil GPU). Las más relevantes:
 
 | Variable | Por defecto | Descripción |
 |---|---|---|
@@ -346,11 +347,11 @@ nuevos, imagen construida sin caché).
 
 | Medición | Perfil GPU (`llama3`) | Perfil CPU (`llama3.2:3b`) |
 |---|---|---|
-| Construcción de la imagen (sin caché) | 3–7 min | 3–7 min |
+| Construcción de la imagen (sin caché) | no medida desde cero (la imagen CUDA es mayor) | 3–7 min |
 | Descarga de modelos (primera vez) | 8–11 min (≈6 GB) | ≈7 min (≈3,2 GB) |
 | Indexación inicial con la caché de embeddings | ≈40 s | < 1 min |
 | *Referencia: indexar sin la caché de embeddings* | ≈3 min | **≈28 min** |
-| Calentamiento de modelos al arrancar | 1–2 min | ≈5 min |
+| Calentamiento de modelos al arrancar | 1–4 min (observado) | ≈5 min |
 | **`docker compose up -d` completo, desde cero** | — | **≈15 min** |
 | Respuesta de una pregunta, en caliente | **3–9 s** | **60–90 s** |
 | Reranker | 0,3 s (20 candidatos) | 4–5 s (5 candidatos) |
@@ -391,6 +392,14 @@ Notas:
   por segundo. Con GPU el reranker tarda ~0,3 s y una respuesta unos 3–9 s. Para equipos modestos
   conviene un modelo menor (`LLM_MODEL=llama3.2:3b`) y `RERANK_CANDIDATES=5`.
 - **Primera ejecución pesada:** descarga las imágenes y los modelos (3–8 GB según el perfil).
+- **GPU de 8 GB y varias copias del reranker:** con la app activa ya hay ~6,6 GB de VRAM en uso. Si
+  se lanza a la vez otro proceso que cargue su propio reranker (por ejemplo, un script auxiliar),
+  la VRAM se agota, Windows pasa a usar la RAM del sistema como memoria de vídeo y todo se vuelve muy
+  lento; en un equipo con poca RAM libre llegó a colgar el motor de Docker. Conviene detener la app
+  antes de ejecutar herramientas que usen el reranker.
+- **Sin evaluación sistemática de la recuperación:** la elección de la búsqueda híbrida y del reranker
+  se justificó con ejemplos concretos y con mediciones de latencia, no con métricas como *hit-rate* o
+  MRR sobre un conjunto de preguntas de referencia (ver mejoras futuras).
 - **Perfil CPU y memoria:** con `llama3` 8B en CPU se necesitan ~9 GB solo para los modelos; con
   menos de ~12 GB para Docker la carga de modelos se vuelve inviable. Por eso el perfil CPU usa el
   modelo de 3B.
@@ -419,9 +428,11 @@ Notas:
 ## Mejoras futuras
 
 - **Actualización programada** del scraping (re-scraping incremental con detección de cambios).
-- **Evaluación automática continua** (conjunto de preguntas de oro, *hit-rate* y MRR) para comparar
-  configuraciones (híbrida y reranker activados o no, `llama3` frente a otros modelos) e integrarla en
-  CI.
+- **Evaluación sistemática de la recuperación:** generar preguntas sintéticas a partir de los chunks
+  (con el propio LLM, pidiendo parafrasear y descartando las que copian el texto), usar la página de
+  origen como respuesta correcta y medir *hit-rate@k* y MRR para la búsqueda vectorial, la híbrida y
+  con o sin reranker; compararla con otros modelos de lenguaje e integrarla en CI. Se deja fuera de
+  esta entrega por tiempo y por la carga que supone en una GPU de 8 GB.
 - **Autenticación y cuentas de usuario**, con historial entre dispositivos.
 - **Rate limiting distribuido** con Redis y observabilidad (métricas Prometheus, trazas).
 - **Clasificación de temas con el LLM** y detección automática de huecos de contenido.
