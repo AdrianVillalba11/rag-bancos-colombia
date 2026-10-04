@@ -30,6 +30,22 @@ class UnknownBankError(InputValidationError):
 class RateLimitExceededError(RagError):
     code = "rate_limit_exceeded"
 
+    def __init__(self, message: str = "", *, retry_after: float = 1.0) -> None:
+        super().__init__(message)
+        #: Segundos tras los cuales conviene reintentar
+        self.retry_after = retry_after
+
+
+class ServiceBusyError(RagError):
+    """Se alcanzó el máximo de respuestas simultáneas que el sistema puede atender."""
+
+    code = "service_busy"
+    retryable = True
+
+    def __init__(self, message: str = "", *, retry_after: float = 5.0) -> None:
+        super().__init__(message)
+        self.retry_after = retry_after
+
 
 # --- Ingesta ----------------------------------------------------------------------------------
 class ScrapingError(RagError):

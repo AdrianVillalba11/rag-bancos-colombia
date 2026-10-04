@@ -60,6 +60,7 @@ class Settings(BaseSettings):
     chroma_host: str = "chroma"
     chroma_port: int = 8000
     chroma_collection: str = "bancos"
+    chroma_timeout_seconds: float = Field(30.0, gt=0)
 
     # PostgreSQL
     postgres_user: str = "rag"
@@ -69,11 +70,16 @@ class Settings(BaseSettings):
     postgres_port: int = 5432
     postgres_pool_size: int = Field(5, ge=1)
     postgres_connect_timeout_seconds: float = Field(5.0, gt=0)
+    postgres_statement_timeout_ms: int = Field(30_000, ge=1000)
 
     # Historial conversacional
     history_max_messages: int = Field(6, ge=0)
     max_question_length: int = Field(1000, ge=1)
     rate_limit_per_minute: int = Field(30, ge=1)
+    max_concurrent_chats: int = Field(4, ge=1)
+    max_request_bytes: int = Field(65_536, ge=1024)
+    # Solo activar detrás de un proxy de confianza: la cabecera X-Forwarded-For es falsificable
+    trust_proxy_headers: bool = False
 
     # Analítica
     analytics_manual_search_minutes: float = Field(4.0, ge=0)

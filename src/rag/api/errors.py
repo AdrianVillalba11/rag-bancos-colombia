@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import math
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
@@ -16,6 +17,7 @@ _STATUS = {
     "invalid_input": 422,
     "unknown_bank": 422,
     "rate_limit_exceeded": 429,
+    "service_busy": 503,
     "session_not_found": 404,
     "llm_unavailable": 503,
     "llm_response_error": 502,
@@ -26,7 +28,13 @@ _STATUS = {
     "operation_timeout": 504,
 }
 # Errores cuyo mensaje es seguro mostrar tal cual (los redactamos nosotros)
-_MENSAJE_PROPIO = {"invalid_input", "unknown_bank", "rate_limit_exceeded", "session_not_found"}
+_MENSAJE_PROPIO = {
+    "invalid_input",
+    "unknown_bank",
+    "rate_limit_exceeded",
+    "session_not_found",
+    "service_busy",
+}
 GENERICO_503 = (
     "El servicio no está disponible en este momento. Inténtalo de nuevo en unos instantes."
 )
@@ -49,7 +57,13 @@ def register_error_handlers(app: FastAPI) -> None:
         estado, codigo, mensaje = public_error(exc)
         nivel = logging.WARNING if estado < 500 else logging.ERROR
         logger.log(nivel, "Error de dominio", extra={"code": codigo, "error": str(exc)})
-        return JSONResponse({"error": {"code": codigo, "message": mensaje}}, status_code=estado)
+        cabeceras = {}
+        espera = getattr(exc, "retry_after", None)
+        if espera is not None:
+            cabeceras["Retry-After"] = str(max(1, math.ceil(espera)))
+        return JSONResponse(
+            {"error": {"code": codigo, "message": mensaje}}, status_code=estado, headers=cabeceras
+        )
 
     @app.exception_handler(RequestValidationError)
     async def _validacion(request: Request, exc: RequestValidationError) -> JSONResponse:
